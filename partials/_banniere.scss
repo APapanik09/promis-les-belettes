@@ -1,11 +1,17 @@
 @use 'colors';
+@use'fonts';
+
 .banniere{
 width:100%;
 height: 100%;
 background-color:colors.$orangeFonce;
-
+&__lienPromis{
+    font-family: dosis;
+    text-align: center;
+}
 }
 
 a{
-    color: black;    
+    color:colors.$bleuFoncer;    
+    font-family: "dosis";
     }
