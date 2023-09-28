@@ -1,1 +1,12 @@
 @use 'colors';
+*{box-sizing: border-box;}
+
+body{
+display: flex;
+}
+.navbar{
+justify-content: space-between;
+&__logo{
+    background-color: #000;
+}
+}
