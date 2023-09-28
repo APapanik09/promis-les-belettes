@@ -1,3 +1,4 @@
+/* Font*/
 @font-face {
   font-family: sunday;
   src: url("/fonts/Sunday Best ttf.ttf");
@@ -19,7 +20,7 @@
   font-family: dosis;
   text-align: center;
 }
-
+/* Style page à propos*/
 a {
   color: #223843;
   font-family: "dosis";
