@@ -26,11 +26,17 @@ a {
 }
 
 .hero-a-propos {
-  width: 100%;
+  width: 100vw;
   height: 30vh;
-  background-color: aqua;
+  background-color: #F4E6EF;
 }
 .hero-a-propos .titre-a-propos {
   text-align: center;
-  margin: 50px;
+  margin-top: 35px;
+  font-family: sunday;
+  font-size: 50px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
 }/*# sourceMappingURL=style.css.map */
