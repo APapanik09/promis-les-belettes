@@ -23,4 +23,14 @@
 a {
   color: #223843;
   font-family: "dosis";
+}
+
+.hero-a-propos {
+  width: 100%;
+  height: 30vh;
+  background-color: aqua;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  margin: 50px;
 }/*# sourceMappingURL=style.css.map */
