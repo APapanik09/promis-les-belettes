@@ -4,8 +4,12 @@
 body{
 display: flex;
 }
+.container{
+    width: 100%;
+    background-color:$bleuFoncer;
+}
 .navbar{
-justify-content: space-between;
+justify-content: center;
 &__logo{
     background-color: #000;
 }
