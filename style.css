@@ -81,6 +81,18 @@ a {
   padding-top: 50px;
 }
 
+.valeurs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.valeurs.excellence {
+  color: #223843;
+}
+.valeurs.text {
+  padding-top: 0px;
+}
+
 body {
   display: flex;
 }

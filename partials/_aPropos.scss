@@ -58,3 +58,15 @@
     font-style: bold;
     padding-top: 50px;
 }
+
+.valeurs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    &.excellence {
+        color: colors.$bleuFoncer;
+    }
+    &.text {
+        padding-top: 0px;
+    }
+}
