@@ -121,6 +121,10 @@ a {
   display: flex;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
   background-color: #223843;
   color: white;
@@ -130,5 +134,62 @@ a {
 }
 
 .hero {
+  padding: 30px;
   background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+.btn-0 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-1 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-2 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-3 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-4 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-5 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-6 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
 }/*# sourceMappingURL=style.css.map */
