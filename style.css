@@ -93,10 +93,30 @@ a {
   padding-top: 0px;
 }
 
-body {
+section {
   display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #223843;
 }
 
-.barreNavigation {
-  background-color: #000;
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff;
+}
+.navbar-nav .nav-item {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
