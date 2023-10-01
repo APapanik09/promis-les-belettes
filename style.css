@@ -1,4 +1,3 @@
-/* Font*/
 @font-face {
   font-family: sunday;
   src: url("/fonts/Sunday Best ttf.ttf");
@@ -12,15 +11,15 @@
   src: url("/fonts/Dosis-VariableFont_wght.ttf");
 }
 .banniere {
-  width: 100%;
-  height: 100%;
+  position: relative;
+  width: 100vw;
   background-color: #FC9478;
 }
 .banniere__lienPromis {
   font-family: dosis;
   text-align: center;
 }
-/* Style page à propos*/
+
 a {
   color: #223843;
   font-family: "dosis";
@@ -28,16 +27,41 @@ a {
 
 .hero-a-propos {
   width: 100vw;
+  margin: 0 auto;
   height: 30vh;
+  position: relative;
+  padding: 59px;
   background-color: #F4E6EF;
 }
 .hero-a-propos .titre-a-propos {
   text-align: center;
-  margin-top: 35px;
   font-family: sunday;
   font-size: 50px;
+  padding: 10px;
 }
 .hero-a-propos .texte-hero-a-propos {
   font-size: 20px;
   font-family: dosis;
+  padding: 10px;
+}
+
+.paragraphe-a-propos {
+  font-family: dosis;
+  width: 100%;
+  padding: 40px;
+  background-color: palevioletred;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 30px;
+}
+
+body {
+  display: flex;
+}
+
+.barreNavigation {
+  background-color: #000;
 }/*# sourceMappingURL=style.css.map */
