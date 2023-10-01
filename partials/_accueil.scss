@@ -1,0 +1,26 @@
+@use 'colors';
+@use 'fonts';
+
+
+// HERO
+%btn{
+    background-color: colors.$bleuFoncer;
+   color: white;
+ 
+   border-radius: 10px;
+   padding: 20px;
+margin:3px;
+   
+   }
+ .hero{
+    background-color: colors.$rosepale;
+  
+}
+
+
+@for $index from 0 through 6 {
+    .btn-#{$index} {
+        @extend %btn;
+    }
+  }
+  
