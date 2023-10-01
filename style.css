@@ -43,19 +43,42 @@ a {
   font-size: 20px;
   font-family: dosis;
   padding: 10px;
+  font-weight: 300;
 }
 
 .paragraphe-a-propos {
   font-family: dosis;
   width: 100%;
   padding: 40px;
-  background-color: palevioletred;
 }
 
 .tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
   padding: 30px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+}
+
+.liste-a-puce :hover {
+  font-size: 22px;
+  color: #FC9478;
+  font-family: dosis;
+}
+
+.mission {
+  font-family: dosis;
+  font-style: bold;
+  padding-top: 30px;
+}
+.mission.text {
+  font-size: 16px;
+}
+
+.vision {
+  font-style: bold;
+  padding-top: 50px;
 }
 
 body {

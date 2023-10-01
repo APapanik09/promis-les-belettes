@@ -18,6 +18,7 @@
         font-size: 20px;
         font-family: dosis;
         padding: 10px;
+        font-weight: 300;
     }
 }
 
@@ -25,11 +26,35 @@
     font-family: dosis;
     width: 100%;
     padding: 40px;
-    background-color: palevioletred;
 }
 
 .tout-sous-meme-toi {
     font-size: 20px;
     font-family: dosis;
     padding: 30px;
+    &.liste-a-puce {
+        font-size: 22px;
+    }
+}
+
+.liste-a-puce {
+    & :hover {
+        font-size: 22px;
+        color: colors.$orangeFonce;
+        font-family: dosis;
+    }
+}
+
+.mission {
+    font-family: dosis;
+    font-style: bold;
+    padding-top: 30px;
+    &.text {
+        font-size: 16px;
+    }
+}
+
+.vision {
+    font-style: bold;
+    padding-top: 50px;
 }
