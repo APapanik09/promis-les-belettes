@@ -1,0 +1,12 @@
+
+@use 'colors';
+@use 'fonts';
+
+@mixin card {
+    background-color: colors.$bleuFoncer;
+margin: 20px;
+   height: 20%;
+
+
+  }
+  

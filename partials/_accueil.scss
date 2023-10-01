@@ -1,5 +1,7 @@
 @use 'colors';
 @use 'fonts';
+@use 'mixins';
+
 *{
     box-sizing: border-box;
 }
@@ -44,4 +46,10 @@ margin:3px;
         height: 91.2px;
     }
   }
+  @for $index from 0 through 6 {
+    .card-#{$index} {
+        @include mixins.card;
+    }
+  }
+  
   
