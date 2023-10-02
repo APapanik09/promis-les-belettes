@@ -25,6 +25,13 @@ a {
   font-family: "dosis";
 }
 
+.vision, .mission {
+  font-family: dosis;
+  font-style: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -55,7 +62,8 @@ a {
 .tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
-  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .tout-sous-meme-toi.liste-a-puce {
   font-size: 22px;
@@ -67,23 +75,13 @@ a {
   font-family: dosis;
 }
 
-.mission {
-  font-family: dosis;
-  font-style: bold;
-  padding-top: 30px;
-}
 .mission.text {
-  font-size: 16px;
-}
-
-.vision {
-  font-style: bold;
-  padding-top: 50px;
+  font-size: 20px;
 }
 
 .valeurs {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 .valeurs.excellence {
