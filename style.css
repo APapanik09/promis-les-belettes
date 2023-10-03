@@ -47,7 +47,6 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 2%;
-  border-radius: 10px;
 }
 
 /* extend de style des paragraphe*/
@@ -114,6 +113,7 @@ ul {
 }
 
 .excellence {
+  padding-top: 2%;
   color: #223843;
   font-family: dosis;
 }
@@ -122,18 +122,43 @@ ul {
 }
 
 .respect {
-  font-family: dm-sans;
+  padding-top: 2%;
+  font-family: dosis;
 }
 .respect__text {
   font-family: dm-sans;
 }
 
 .engagement {
-  padding-top: 1%;
+  padding-top: 2%;
   font-family: dm-sans;
 }
 .engagement__text {
   font-family: dm-sans;
+}
+
+.inclusion {
+  padding-bottom: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  padding-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
 }
 
 .barreNav {
