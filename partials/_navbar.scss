@@ -1,11 +1,32 @@
 @use 'colors';
+@use 'fonts';
 
 
-body{
-display: flex;
+
+.barreNav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: colors.$bleuFoncer;
 }
+.container{
+    display: flex;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+  &-nav{
+    display: flex;
 
-.barreNavigation{
+    .nav-link{
 
-background-color: #000;
+        justify-content: space-between;
+        color: colors.$blanc;
+    }
+    .nav-item{
+        display: flex;
+    }
+  }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: sunday;
   src: url("/fonts/Sunday Best ttf.ttf");
@@ -25,12 +26,43 @@ a {
   font-family: "dosis";
 }
 
+p {
+  padding-bottom: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/* extend de style des paragraphe*/
+.vision, .mission {
+  font-family: dosis;
+  font-style: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
   height: 30vh;
   position: relative;
-  padding: 59px;
+  padding: 2%;
   background-color: #F4E6EF;
 }
 .hero-a-propos .titre-a-propos {
@@ -47,56 +79,232 @@ a {
 }
 
 .paragraphe-a-propos {
-  font-family: dosis;
+  font-family: sunday;
   width: 100%;
-  padding: 40px;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
-  padding: 30px;
+  padding-top: 2%;
+  padding-bottom: 10px;
 }
 .tout-sous-meme-toi.liste-a-puce {
   font-size: 22px;
 }
 
-.liste-a-puce :hover {
-  font-size: 22px;
-  color: #FC9478;
-  font-family: dosis;
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
 }
 
-.mission {
-  font-family: dosis;
-  font-style: bold;
-  padding-top: 30px;
-}
 .mission.text {
-  font-size: 16px;
-}
-
-.vision {
-  font-style: bold;
-  padding-top: 50px;
+  font-size: 20px;
 }
 
 .valeurs {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 0 auto;
-}
-.valeurs.excellence {
-  color: #223843;
-}
-.valeurs.text {
-  padding-top: 0px;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
 }
 
-body {
+.excellence {
+  padding-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  padding-top: 2%;
+  font-family: dosis;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  padding-top: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  padding-bottom: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  padding-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.barreNav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #223843;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff;
+}
+.navbar-nav .nav-item {
   display: flex;
 }
 
-.barreNavigation {
-  background-color: #000;
+* {
+  box-sizing: border-box;
+}
+
+.btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
+  background-color: #223843;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 3px;
+}
+
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+.btn-0 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-1 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-2 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-3 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-4 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-5 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.btn-6 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 91.2px;
+}
+
+.card-0 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-1 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-2 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-3 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-4 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-5 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.card-6 {
+  background-color: #223843;
+  padding: 10px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+footer {
+  background-color: #FC9478;
+  font-family: "dosis";
 }/*# sourceMappingURL=style.css.map */

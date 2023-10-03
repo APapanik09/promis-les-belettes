@@ -1,0 +1,63 @@
+@use 'colors';
+@use 'fonts';
+@use 'mixins';
+
+*{
+    box-sizing: border-box;
+}
+
+// HERO
+%btn{
+    background-color: colors.$bleuFoncer;
+   color: white;
+ 
+   border-radius: 10px;
+   padding: 20px;
+margin:3px;
+   
+   }
+ .hero{
+    padding: 30px;
+    background-color: colors.$rosepale;
+    &__titre{
+        font-family: sunday;
+      
+        text-align: center;
+        line-height: 1.7;
+    }
+  &__question{
+    font-family: dosis;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__option{
+    font-family: dosis;
+
+    text-align: center;
+  }
+}
+
+
+@for $index from 0 through 6 {
+    .btn-#{$index} {
+        @extend %btn;
+        margin: 10px;
+        font-family: dm-sans;
+        height: 91.2px;
+    }
+  }
+  @for $index from 0 through 6 {
+    .card-#{$index} {
+        @include mixins.card;
+    }
+  }
+
+
+  .swiper-slide {
+    width: auto;
+    display: flex;
+    position: relative;
+  
+    justify-content: center;
+  }
+  

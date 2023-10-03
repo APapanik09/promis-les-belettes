@@ -1,12 +1,41 @@
 @use 'fonts';
 @use 'colors';
 @use 'banniere';
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
+}
+
+.enveloppe {
+    background-color: white;
+    width: 75vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+
+/* extend de style des paragraphe*/
+
+%titre-texte-paragraphe {
+    font-family: dosis;
+    font-style: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .hero-a-propos {
     width: 100vw;
     margin: 0 auto;
     height: 30vh;
     position: relative;
-    padding: 59px;
+    padding: 2%;
     background-color: colors.$rosepale;
     .titre-a-propos {
         text-align: center;
@@ -23,51 +52,93 @@
 }
 
 .paragraphe-a-propos {
-    font-family: dosis;
+    font-family: sunday;
     width: 100%;
-    padding: 40px;
+    text-align: center;
+    padding-top: 5%;
 }
 
 .tout-sous-meme-toi {
     font-size: 20px;
     font-family: dosis;
-    padding: 30px;
+    padding-top: 2%;
+    padding-bottom: 10px;
     &.liste-a-puce {
         font-size: 22px;
     }
 }
 
-.liste-a-puce {
-    & :hover {
-        font-size: 22px;
-        color: colors.$orangeFonce;
-        font-family: dosis;
-    }
+ul {
+    /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+    margin-left: 2%;
 }
 
 .mission {
-    font-family: dosis;
-    font-style: bold;
-    padding-top: 30px;
+    @extend %titre-texte-paragraphe;
     &.text {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
 .vision {
-    font-style: bold;
-    padding-top: 50px;
+    @extend %titre-texte-paragraphe;
 }
 
 .valeurs {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    &.excellence {
-        color: colors.$bleuFoncer;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: dosis;
+    font-weight: 700;
+}
+
+.excellence {
+    padding-top: 2%;
+    color: colors.$bleuFoncer;
+    font-family: dosis;
+    &__text {
+        font-family: dm-sans;
     }
-    &.text {
-        padding-top: 0px;
+}
+
+.respect {
+    padding-top: 2%;
+    font-family: dosis;
+    &__text {
+        font-family: dm-sans;
     }
-    background-color:;
+    <<<<<<< HEAD background-color:;
+    =======
+}
+
+.engagement {
+    padding-top: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.inclusion {
+    padding-bottom: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.innovation {
+    padding-top: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.servicesLangues {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: dosis;
+    font-weight: 700;
 }

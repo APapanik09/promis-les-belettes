@@ -4,6 +4,7 @@
     position: relative;
     width: 100vw;
     background-color: colors.$orangeFonce;
+  
     &__lienPromis {
         font-family: dosis;
         text-align: center;
@@ -13,4 +14,7 @@
 a {
     color: colors.$bleuFoncer;
     font-family: "dosis";
+}
+p{
+    padding-bottom: none;
 }
