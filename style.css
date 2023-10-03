@@ -25,6 +25,25 @@ a {
   font-family: "dosis";
 }
 
+p {
+  padding-bottom: none;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* extend de style des paragraphe*/
 .vision, .mission {
   font-family: dosis;
   font-style: bold;
@@ -42,7 +61,7 @@ a {
   margin: 0 auto;
   height: 30vh;
   position: relative;
-  padding: 59px;
+  padding: 70px;
   background-color: #F4E6EF;
 }
 .hero-a-propos .titre-a-propos {
@@ -59,9 +78,10 @@ a {
 }
 
 .paragraphe-a-propos {
-  font-family: dosis;
+  font-family: sunday;
   width: 100%;
-  padding: 40px;
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .tout-sous-meme-toi {
@@ -72,12 +92,11 @@ a {
 }
 .tout-sous-meme-toi.liste-a-puce {
   font-size: 22px;
+  padding-top: 4%;
 }
 
-.liste-a-puce :hover {
-  font-size: 22px;
-  color: #FC9478;
-  font-family: dosis;
+ul {
+  margin-left: 2%;
 }
 
 .mission.text {

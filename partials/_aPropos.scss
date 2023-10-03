@@ -1,6 +1,22 @@
 @use 'fonts';
 @use 'colors';
 @use 'banniere';
+
+body{
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
+
+}
+.enveloppe{
+    background-color: white;
+    width: 75vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* extend de style des paragraphe*/
 %titre-texte-paragraphe{
     font-family: dosis;
     font-style: bold;
@@ -16,7 +32,7 @@
     margin: 0 auto;
     height: 30vh;
     position: relative;
-    padding: 59px;
+    padding: 70px;
     background-color: colors.$rosepale;
     .titre-a-propos {
         text-align: center;
@@ -33,8 +49,11 @@
 }
 
 .paragraphe-a-propos {
-    font-family: dosis;
+    font-family: sunday;
     width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  
    
 }
 
@@ -43,18 +62,17 @@
     font-family: dosis;
     padding-top: 10px;
     padding-bottom: 10px;
+    
     &.liste-a-puce {
         font-size: 22px;
+        padding-top: 4%;
     }
+}
+ul{
+    margin-left: 2%;
 }
 
-.liste-a-puce {
-    & :hover {
-        font-size: 22px;
-        color: colors.$orangeFonce;
-        font-family: dosis;
-    }
-}
+
 
 .mission {
     @extend %titre-texte-paragraphe;
