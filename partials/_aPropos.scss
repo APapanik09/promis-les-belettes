@@ -1,6 +1,24 @@
 @use 'fonts';
 @use 'colors';
 @use 'banniere';
+*{box-sizing: border-box;}
+body{
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
+    
+
+}
+.enveloppe{
+    background-color: white;
+    width: 75vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+/* extend de style des paragraphe*/
 %titre-texte-paragraphe{
     font-family: dosis;
     font-style: bold;
@@ -8,15 +26,15 @@
     padding-bottom: 10px;
 }
 %texte-valeur{
-    padding-top: -20px;
-    padding-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .hero-a-propos {
     width: 100vw;
     margin: 0 auto;
     height: 30vh;
     position: relative;
-    padding: 59px;
+   padding: 2%;
     background-color: colors.$rosepale;
     .titre-a-propos {
         text-align: center;
@@ -33,28 +51,31 @@
 }
 
 .paragraphe-a-propos {
-    font-family: dosis;
+    font-family: sunday;
     width: 100%;
+    text-align: center;
+    padding-top: 5%;
+  
+  
    
 }
 
 .tout-sous-meme-toi {
     font-size: 20px;
     font-family: dosis;
-    padding-top: 10px;
+    padding-top: 2%;
     padding-bottom: 10px;
+    
     &.liste-a-puce {
         font-size: 22px;
+       
     }
+}
+ul{
+    /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+    margin-left: 2%;
 }
 
-.liste-a-puce {
-    & :hover {
-        font-size: 22px;
-        color: colors.$orangeFonce;
-        font-family: dosis;
-    }
-}
 
 .mission {
     @extend %titre-texte-paragraphe;
@@ -70,26 +91,26 @@
 }
 
 .valeurs {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    margin: 0 auto;
+    font-family: dm-sans;
+    padding-top: 6%;
+   padding-bottom: 5%;
+   text-align: center;
     
        
-    &.excellence {
-        color: colors.$bleuFoncer;
-    }
-    
+   
     
     
 }
+.excellence {
+    color: colors.$bleuFoncer;
+    font-family: dm-sans;
+}
+
 .rexpect{
     &.text {
         @extend %texte-valeur;
         }
 }
 .engagement{
-    &.text {
-        @extend %texte-valeur;
-        }
-
+padding-top: 1%;
 }

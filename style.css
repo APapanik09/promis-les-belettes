@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: sunday;
   src: url("/fonts/Sunday Best ttf.ttf");
@@ -25,6 +26,30 @@ a {
   font-family: "dosis";
 }
 
+p {
+  padding-bottom: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/* extend de style des paragraphe*/
 .vision, .mission {
   font-family: dosis;
   font-style: bold;
@@ -32,9 +57,9 @@ a {
   padding-bottom: 10px;
 }
 
-.engagement.text, .rexpect.text {
-  padding-top: -20px;
-  padding-bottom: 30px;
+.rexpect.text {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .hero-a-propos {
@@ -42,7 +67,7 @@ a {
   margin: 0 auto;
   height: 30vh;
   position: relative;
-  padding: 59px;
+  padding: 2%;
   background-color: #F4E6EF;
 }
 .hero-a-propos .titre-a-propos {
@@ -59,25 +84,25 @@ a {
 }
 
 .paragraphe-a-propos {
-  font-family: dosis;
+  font-family: sunday;
   width: 100%;
-  padding: 40px;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
-  padding-top: 10px;
+  padding-top: 2%;
   padding-bottom: 10px;
 }
 .tout-sous-meme-toi.liste-a-puce {
   font-size: 22px;
 }
 
-.liste-a-puce :hover {
-  font-size: 22px;
-  color: #FC9478;
-  font-family: dosis;
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
 }
 
 .mission.text {
@@ -85,12 +110,19 @@ a {
 }
 
 .valeurs {
-  padding-top: 40px;
-  padding-bottom: 10px;
-  margin: 0 auto;
+  font-family: dm-sans;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  text-align: center;
 }
-.valeurs.excellence {
+
+.excellence {
   color: #223843;
+  font-family: dm-sans;
+}
+
+.engagement {
+  padding-top: 1%;
 }
 
 .barreNav {
