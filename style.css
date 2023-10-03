@@ -272,6 +272,13 @@ ul {
   padding: 10px;
 }
 
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
 footer {
   background-color: #FC9478;
   font-family: "dosis";
