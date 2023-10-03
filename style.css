@@ -57,11 +57,6 @@ body {
   padding-bottom: 10px;
 }
 
-.respect.text {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -110,19 +105,33 @@ ul {
 }
 
 .valeurs {
-  font-family: dm-sans;
   padding-top: 6%;
   padding-bottom: 5%;
   text-align: center;
+  font-family: dosis;
 }
 
 .excellence {
   color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  font-family: dosis;
+}
+.respect__text {
   font-family: dm-sans;
 }
 
 .engagement {
   padding-top: 1%;
+  font-family: dosis;
+}
+.engagement__text {
+  font-family: dm-sans;
 }
 
 .barreNav {
