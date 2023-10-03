@@ -109,6 +109,7 @@ ul {
   padding-bottom: 5%;
   text-align: center;
   font-family: dosis;
+  font-weight: 700;
 }
 
 .excellence {
@@ -120,7 +121,7 @@ ul {
 }
 
 .respect {
-  font-family: dosis;
+  font-family: dm-sans;
 }
 .respect__text {
   font-family: dm-sans;
@@ -128,7 +129,7 @@ ul {
 
 .engagement {
   padding-top: 1%;
-  font-family: dosis;
+  font-family: dm-sans;
 }
 .engagement__text {
   font-family: dm-sans;
