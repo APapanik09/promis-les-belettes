@@ -14,7 +14,7 @@
 .banniere {
   position: relative;
   width: 100vw;
-  background-color: #FC9478;
+  background-color: #fc9478;
 }
 .banniere__lienPromis {
   font-family: dosis;
@@ -36,7 +36,7 @@ p {
 
 body {
   /* couleur de fond*/
-  background-color: #FFCFB4;
+  background-color: #ffcfb4;
 }
 
 .enveloppe {
@@ -50,7 +50,8 @@ body {
 }
 
 /* extend de style des paragraphe*/
-.vision, .mission {
+.vision,
+.mission {
   font-family: dosis;
   font-style: bold;
   padding-top: 20px;
@@ -63,7 +64,7 @@ body {
   height: 30vh;
   position: relative;
   padding: 2%;
-  background-color: #F4E6EF;
+  background-color: #f4e6ef;
 }
 .hero-a-propos .titre-a-propos {
   text-align: center;
@@ -193,7 +194,13 @@ ul {
   box-sizing: border-box;
 }
 
-.btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
+.btn-6,
+.btn-5,
+.btn-4,
+.btn-3,
+.btn-2,
+.btn-1,
+.btn-0 {
   background-color: #223843;
   color: white;
   border-radius: 10px;
@@ -203,7 +210,7 @@ ul {
 
 .hero {
   padding: 30px;
-  background-color: #F4E6EF;
+  background-color: #f4e6ef;
 }
 .hero__titre {
   font-family: sunday;
@@ -219,6 +226,7 @@ ul {
   font-family: dosis;
   text-align: center;
 }
+/* Boutons*/
 
 .btn-0 {
   margin: 10px;
@@ -262,6 +270,7 @@ ul {
   height: 91.2px;
 }
 
+/* Card*/
 .card-0 {
   background-color: #223843;
   padding: 10px;
@@ -269,6 +278,9 @@ ul {
   text-align: center;
   border-radius: 10px;
   color: white;
+}
+.card-0 .card-text {
+  font-size: 13px;
 }
 
 .card-1 {
@@ -279,6 +291,9 @@ ul {
   border-radius: 10px;
   color: white;
 }
+.card-1 .card-text {
+  font-size: 13px;
+}
 
 .card-2 {
   background-color: #223843;
@@ -287,6 +302,9 @@ ul {
   text-align: center;
   border-radius: 10px;
   color: white;
+}
+.card-2 .card-text {
+  font-size: 13px;
 }
 
 .card-3 {
@@ -297,6 +315,9 @@ ul {
   border-radius: 10px;
   color: white;
 }
+.card-3 .card-text {
+  font-size: 13px;
+}
 
 .card-4 {
   background-color: #223843;
@@ -305,6 +326,9 @@ ul {
   text-align: center;
   border-radius: 10px;
   color: white;
+}
+.card-4 .card-text {
+  font-size: 13px;
 }
 
 .card-5 {
@@ -315,6 +339,9 @@ ul {
   border-radius: 10px;
   color: white;
 }
+.card-5 .card-text {
+  font-size: 13px;
+}
 
 .card-6 {
   background-color: #223843;
@@ -323,6 +350,9 @@ ul {
   text-align: center;
   border-radius: 10px;
   color: white;
+}
+.card-6 .card-text {
+  font-size: 13px;
 }
 
 .card-7 {
@@ -333,7 +363,10 @@ ul {
   border-radius: 10px;
   color: white;
 }
-
+.card-7 .card-text {
+  font-size: 13px;
+}
+/* Swipper */
 .swiper-slide {
   width: auto;
   display: flex;
@@ -350,10 +383,12 @@ ul {
   margin: 20px;
 }
 
+/*Carte swipper */
+
 .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -363,7 +398,7 @@ ul {
 .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -373,7 +408,7 @@ ul {
 .card__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -383,16 +418,16 @@ ul {
 .card__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
 }
-.card__emploi {
+.card__emplois {
   background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -401,7 +436,7 @@ ul {
 .card__alimentation {
   background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -409,7 +444,7 @@ ul {
 }
 
 .card-title {
-  color: #FC9478;
+  color: #fc9478;
 }
 
 .card-text {
@@ -418,6 +453,6 @@ ul {
 }
 
 footer {
-  background-color: #FC9478;
+  background-color: #fc9478;
   font-family: "dosis";
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

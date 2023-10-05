@@ -47,6 +47,9 @@
 @for $index from 0 through 7 {
   .card-#{$index} {
     @include mixins.card;
+    .card-text {
+      font-size: 13px;
+    }
   }
 }
 
@@ -102,7 +105,7 @@
     padding: 20px;
     background-repeat: no-repeat;
   }
-  &__emploi {
+  &__emplois {
     background-image: url(/media/icone/cv_transparent.png);
     object-fit: contain;
     background-position: center;
