@@ -86,7 +86,7 @@
     background-blend-mode: soft-light;
   }
   &__famille {
-    background-image: url(/media/icone/famille.png);
+    background-image: url(/media/icone/soutien_famille_transparent.png);
     object-fit: contain;
     background-position: center;
     background-size: contain;
@@ -95,7 +95,16 @@
     background-blend-mode: soft-light;
   }
   &__scolaire {
-    background-image: url(/media/icone/accueil_main_transparence.png);
+    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  &__emploi {
+    background-image: url(/media/icone/cv_transparent.png);
     object-fit: cover;
     background-position: center;
     background-size: cover;

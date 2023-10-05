@@ -371,7 +371,7 @@ ul {
   background-blend-mode: soft-light;
 }
 .card__famille {
-  background-image: url(/media/icone/famille.png);
+  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -381,7 +381,17 @@ ul {
   background-blend-mode: soft-light;
 }
 .card__scolaire {
-  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__emploi {
+  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
