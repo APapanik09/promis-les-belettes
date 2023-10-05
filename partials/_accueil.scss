@@ -44,7 +44,7 @@
     height: 91.2px;
   }
 }
-@for $index from 0 through 6 {
+@for $index from 0 through 7 {
   .card-#{$index} {
     @include mixins.card;
   }
@@ -69,8 +69,46 @@
 .card {
   &__accueil {
     background-image: url(/media/icone/accueil_main_transparence.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  &__francisation {
+    background-image: url(/media/icone/francisation.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  &__famille {
+    background-image: url(/media/icone/famille.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  &__scolaire {
+    background-image: url(/media/icone/accueil_main_transparence.png);
     object-fit: cover;
     background-position: center;
     background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
   }
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+}
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }

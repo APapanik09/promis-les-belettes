@@ -266,6 +266,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -273,6 +275,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -280,6 +284,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -287,6 +293,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -294,6 +302,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -301,6 +311,8 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -308,6 +320,17 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-7 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 20%;
+  text-align: center;
+  border-radius: 10px;
   color: white;
 }
 
@@ -329,10 +352,52 @@ ul {
 
 .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/famille.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
   background-size: cover;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 footer {
