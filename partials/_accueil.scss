@@ -101,25 +101,22 @@
     background-size: contain;
     padding: 20px;
     background-repeat: no-repeat;
-    background-blend-mode: soft-light;
   }
   &__emploi {
     background-image: url(/media/icone/cv_transparent.png);
-    object-fit: cover;
+    object-fit: contain;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     padding: 20px;
     background-repeat: no-repeat;
-    background-blend-mode: soft-light;
   }
   &__alimentation {
-    background-image: url(/media/icone/cv_transparent.png);
-    object-fit: cover;
+    background-image: url(/media/icone/aliment_transparent.png);
+    object-fit: contain;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     padding: 20px;
     background-repeat: no-repeat;
-    background-blend-mode: soft-light;
   }
 }
 
