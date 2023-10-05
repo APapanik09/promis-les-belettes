@@ -266,49 +266,49 @@ ul {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-1 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-2 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-3 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-4 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-5 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .card-6 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
-  height: 533.4px;
+  color: white;
 }
 
 .swiper-slide {
@@ -323,8 +323,12 @@ ul {
   height: 200px;
 }
 
-.swipper-scrollbar {
+.swipper {
   margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
 }
 
 footer {

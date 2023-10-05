@@ -1,12 +1,9 @@
-
-@use 'colors';
-@use 'fonts';
+@use "colors";
+@use "fonts";
 
 @mixin card {
-    background-color: colors.$bleuFoncer;
-padding: 10px;
-margin: 20%;
-height: 533.4px;
-
-  }
-  
+  background-color: colors.$bleuFoncer;
+  padding: 10px;
+  margin: 20%;
+  color: white;
+}
