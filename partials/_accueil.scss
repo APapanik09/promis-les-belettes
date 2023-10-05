@@ -77,7 +77,7 @@
     background-blend-mode: soft-light;
   }
   &__francisation {
-    background-image: url(/media/icone/francisation.png);
+    background-image: url(/media/icone/francisation_transparent.png);
     object-fit: contain;
     background-position: center;
     background-size: contain;
@@ -104,6 +104,15 @@
     background-blend-mode: soft-light;
   }
   &__emploi {
+    background-image: url(/media/icone/cv_transparent.png);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  &__alimentation {
     background-image: url(/media/icone/cv_transparent.png);
     object-fit: cover;
     background-position: center;
