@@ -329,6 +329,10 @@ ul {
 
 .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
