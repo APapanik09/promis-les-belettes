@@ -139,4 +139,10 @@ ul {
     text-align: center;
     font-family: dosis;
     font-weight: 700;
+    text-align: center;
+    position: relative;
+    &__texte {
+        text-align: center;
+        position: relative;
+    }
 }

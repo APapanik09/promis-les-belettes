@@ -1,0 +1,11 @@
+@use 'fonts';
+@use 'colors';
+@use 'banniere';
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
+}
