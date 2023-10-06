@@ -159,6 +159,12 @@ ul {
   text-align: center;
   font-family: dosis;
   font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  text-align: center;
+  position: relative;
 }
 
 .barreNav {
