@@ -206,7 +206,7 @@ p {
   box-sizing: border-box;
 }
 
-.card-7 .card-text .btn-7, .card-6 .card-text .btn-6, .card-5 .card-text .btn-5, .card-4 .card-text .btn-4, .card-3 .card-text .btn-3, .card-2 .card-text .btn-2, .card-1 .card-text .btn-1, .card-0 .card-text .btn-0, .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
+.card-7 .card-text .btn-7 .btn-7, .card-6 .card-text .btn-6 .btn-6, .card-5 .card-text .btn-5 .btn-5, .card-4 .card-text .btn-4 .btn-4, .card-3 .card-text .btn-3 .btn-3, .card-2 .card-text .btn-2 .btn-2, .card-1 .card-text .btn-1 .btn-1, .card-0 .card-text .btn-0 .btn-0, .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
   background-color: #223843;
   color: white;
   border-radius: 10px;
@@ -286,10 +286,93 @@ p {
 .card-0 .card-text {
   font-size: 13px;
 }
-.card-0 .card-text .btn-0 {
+.card-0 .card-text .btn-0 .btn-0 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-1 {
@@ -303,10 +386,93 @@ p {
 .card-1 .card-text {
   font-size: 13px;
 }
-.card-1 .card-text .btn-1 {
+.card-1 .card-text .btn-1 .btn-1 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-2 {
@@ -320,10 +486,93 @@ p {
 .card-2 .card-text {
   font-size: 13px;
 }
-.card-2 .card-text .btn-2 {
+.card-2 .card-text .btn-2 .btn-2 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-3 {
@@ -337,10 +586,93 @@ p {
 .card-3 .card-text {
   font-size: 13px;
 }
-.card-3 .card-text .btn-3 {
+.card-3 .card-text .btn-3 .btn-3 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-4 {
@@ -354,10 +686,93 @@ p {
 .card-4 .card-text {
   font-size: 13px;
 }
-.card-4 .card-text .btn-4 {
+.card-4 .card-text .btn-4 .btn-4 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-5 {
@@ -371,10 +786,93 @@ p {
 .card-5 .card-text {
   font-size: 13px;
 }
-.card-5 .card-text .btn-5 {
+.card-5 .card-text .btn-5 .btn-5 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-6 {
@@ -388,10 +886,93 @@ p {
 .card-6 .card-text {
   font-size: 13px;
 }
-.card-6 .card-text .btn-6 {
+.card-6 .card-text .btn-6 .btn-6 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+.card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+.card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  color: #FC9478;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .card-7 {
@@ -405,7 +986,7 @@ p {
 .card-7 .card-text {
   font-size: 13px;
 }
-.card-7 .card-text .btn-7 {
+.card-7 .card-text .btn-7 .btn-7 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
