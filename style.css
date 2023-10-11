@@ -195,11 +195,21 @@ ul {
   display: flex;
 }
 
+.banniere {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  max-height: 24px;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
+.card-7 .card-text .btn-7, .card-6 .card-text .btn-6, .card-5 .card-text .btn-5, .card-4 .card-text .btn-4, .card-3 .card-text .btn-3, .card-2 .card-text .btn-2, .card-1 .card-text .btn-1, .card-0 .card-text .btn-0, .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
   background-color: #223843;
   color: white;
   border-radius: 10px;
@@ -279,6 +289,11 @@ ul {
 .card-0 .card-text {
   font-size: 13px;
 }
+.card-0 .card-text .btn-0 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
 
 .card-1 {
   background-color: #223843;
@@ -290,6 +305,11 @@ ul {
 }
 .card-1 .card-text {
   font-size: 13px;
+}
+.card-1 .card-text .btn-1 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
 }
 
 .card-2 {
@@ -303,6 +323,11 @@ ul {
 .card-2 .card-text {
   font-size: 13px;
 }
+.card-2 .card-text .btn-2 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
 
 .card-3 {
   background-color: #223843;
@@ -314,6 +339,11 @@ ul {
 }
 .card-3 .card-text {
   font-size: 13px;
+}
+.card-3 .card-text .btn-3 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
 }
 
 .card-4 {
@@ -327,6 +357,11 @@ ul {
 .card-4 .card-text {
   font-size: 13px;
 }
+.card-4 .card-text .btn-4 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
 
 .card-5 {
   background-color: #223843;
@@ -338,6 +373,11 @@ ul {
 }
 .card-5 .card-text {
   font-size: 13px;
+}
+.card-5 .card-text .btn-5 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
 }
 
 .card-6 {
@@ -351,6 +391,11 @@ ul {
 .card-6 .card-text {
   font-size: 13px;
 }
+.card-6 .card-text .btn-6 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
 
 .card-7 {
   background-color: #223843;
@@ -362,6 +407,11 @@ ul {
 }
 .card-7 .card-text {
   font-size: 13px;
+}
+.card-7 .card-text .btn-7 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
 }
 
 .swiper-slide {
@@ -451,8 +501,9 @@ footer {
   background-color: #FC9478;
   font-family: "dosis";
   padding: 35px;
-  display: inline-flex;
+  display: flex;
   width: 100%;
+  text-align: center;
 }
 
 .logofooter {
