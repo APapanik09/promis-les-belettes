@@ -37,6 +37,7 @@
 }
 // bouton hero
 @for $index from 0 through 6 {
+<<<<<<< Updated upstream
   .btn-#{$index} {
     @extend %btn;
     margin: 10px;
@@ -49,6 +50,13 @@
     @include mixins.card;
     .card-text {
       font-size: 13px;
+=======
+    .btn-#{$index} {
+        @extend %btn;
+        margin: 10px;
+        font-family: dm-sans;
+        height: 92px;
+>>>>>>> Stashed changes
     }
   }
 }
