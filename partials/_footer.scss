@@ -1,12 +1,15 @@
 @use 'colors';
 @use 'fonts';
+@use "mixins";
+@use 'banniere';
 
 footer {
     background-color: colors.$orangeFonce;
     font-family: 'dosis';
     padding: 35px;
-    display: inline-flex;
+    display: flex;
     width: 100%;
+    text-align: center;
 
 
 }

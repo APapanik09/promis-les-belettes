@@ -51,7 +51,12 @@
     .card-text {
       font-size: 13px;
 
+      
+  .btn-#{$index} {
+
+
     .btn-#{$index} {
+
         @extend %btn;
         margin: 10px;
         font-family: dm-sans;
@@ -59,7 +64,7 @@
 
     }
   }
-}
+} }
 
 .swiper-slide {
   width: auto;
