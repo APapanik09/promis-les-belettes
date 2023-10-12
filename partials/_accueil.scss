@@ -170,12 +170,13 @@ width:350px;
     padding-bottom: 10%;
 }
 .service__titre{
-  color: colors.$bleuFoncer;
+ 
   text-align: center;
 
 }
 
 .service {
+  
 
     &__accueil {
       background-image: url(/media/icone/accueil_main_transparence.png);
@@ -184,7 +185,7 @@ width:350px;
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
+   
      
     }
     
@@ -195,7 +196,6 @@ width:350px;
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
     }
     &__famille {
       background-image: url(/media/icone/soutien_famille_transparent.png);
@@ -204,7 +204,7 @@ width:350px;
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
+    
     }
     &__scolaire {
       background-image: url(/media/icone/soutien_scolaire_transparent.png);
