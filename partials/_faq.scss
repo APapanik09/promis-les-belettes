@@ -1,0 +1,24 @@
+@use 'fonts';
+@use 'colors';
+@use 'banniere';
+@use "mixins";
+.hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    height: 30vh;
+    position: relative;
+    padding: 2%;
+    background-color: colors.$rosepale;
+    .titre-a-propos {
+        text-align: center;
+        font-family: sunday;
+        font-size: 50px;
+        padding: 10px;
+    }
+    .texte-hero-a-propos {
+        font-size: 20px;
+        font-family: dosis;
+        padding: 10px;
+        font-weight: 300;
+    }
+}
