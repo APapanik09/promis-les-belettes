@@ -30,6 +30,19 @@ p {
   padding-bottom: none;
 }
 
+footer {
+  background-color: #FC9478;
+  font-family: "dosis";
+  padding: 35px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.logofooter {
+  margin-bottom: 15px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1077,17 +1090,4 @@ p {
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
-}
-
-footer {
-  background-color: #FC9478;
-  font-family: "dosis";
-  padding: 35px;
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-
-.logofooter {
-  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
