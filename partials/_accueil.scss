@@ -150,30 +150,8 @@
 
 // service lg
 
-.service__lg{
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr ;
-  grid-template-rows: 1fr 1fr ;
-}
 
-.card{
-  &__LG-accueil{
 
-    grid-column: span 1;
-  }
-  &__LG-francisation{
-  
-    grid-column: span  1;
-  }
-  &__LG-famille{
-    grid-row:  1 ;
-    grid-column: span 1;
-  }
-  &__LG-solaire{
-    grid-row:  1;
-    grid-column: span 1;
-  }
-}
 .row__hero{
   display: grid;
   grid-template-rows: 1fr 1fr ;
@@ -181,9 +159,3 @@
   gap: 3%;
 }
 
-.row__service{
-  display: grid;
-  grid-template-rows: 1fr 1fr ;
-  grid-template-columns: 1fr 1fr 1fr ;
-
-}
