@@ -62,12 +62,12 @@ body {
   padding: 2%;
 }
 
-/* extend de style des paragraphe*/
+/*extend de style des paragraphe*/
 .vision, .mission {
   font-family: dosis;
   font-style: bold;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .hero-a-propos {
@@ -101,9 +101,8 @@ body {
 .tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
-  padding-top: 2%;
-  padding-bottom: 10px;
-  margin-bottom: 100px;
+  margin-top: 2%;
+  margin: 10px;
 }
 .tout-sous-meme-toi.liste-a-puce {
   font-size: 22px;
@@ -122,15 +121,16 @@ ul {
 }
 
 .valeurs {
-  padding-top: 6%;
-  padding-bottom: 5%;
+  padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
   font-family: dosis;
   font-weight: 700;
 }
 
 .excellence {
-  padding-top: 2%;
+  width: 100%;
+  margin-top: 2%;
   color: #223843;
   font-family: dosis;
 }
@@ -139,15 +139,14 @@ ul {
 }
 
 .respect {
-  padding-top: 2%;
-  font-family: dosis;
+  margin-top: 2%;
 }
 .respect__text {
   font-family: dm-sans;
 }
 
 .engagement {
-  padding-top: 2%;
+  margin: 2%;
   font-family: dm-sans;
 }
 .engagement__text {
@@ -155,7 +154,7 @@ ul {
 }
 
 .inclusion {
-  padding-bottom: 2%;
+  margin-top: 2%;
   font-family: dm-sans;
 }
 .inclusion__text {
@@ -163,7 +162,7 @@ ul {
 }
 
 .innovation {
-  padding-top: 2%;
+  margin-top: 2%;
   font-family: dm-sans;
 }
 .innovation__text {
@@ -171,7 +170,7 @@ ul {
 }
 
 .servicesLangues {
-  padding-top: 2%;
+  margin-top: 2%;
   padding-bottom: 5%;
   font-family: dosis;
   font-weight: 700;
@@ -216,7 +215,6 @@ ul {
 
 p {
   margin: 0;
-  max-height: 24px;
 }
 
 * {
