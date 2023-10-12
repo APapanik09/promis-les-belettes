@@ -158,20 +158,20 @@
 
 .card{
   &__LG-accueil{
-    grid-row:  1  ;
+
     grid-column: span 1;
   }
   &__LG-francisation{
-    grid-row:  1 ;
-    grid-column: span 2/3;
+  
+    grid-column: span  1;
   }
   &__LG-famille{
     grid-row:  1 ;
-    grid-column: span 3/4;
+    grid-column: span 1;
   }
   &__LG-solaire{
-    grid-row:  2;
-    grid-column: span 1/2;
+    grid-row:  1;
+    grid-column: span 1;
   }
 }
 .row__hero{
@@ -179,4 +179,11 @@
   grid-template-rows: 1fr 1fr ;
   grid-template-columns: 1fr 1fr 1fr ;
   gap: 3%;
+}
+
+.row__service{
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr ;
+
 }

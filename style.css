@@ -1090,7 +1090,6 @@ p {
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
-
 }
 
 .service__lg {
@@ -1100,20 +1099,18 @@ p {
 }
 
 .card__LG-accueil {
-  grid-row: 1;
   grid-column: span 1;
 }
 .card__LG-francisation {
-  grid-row: 1;
-  grid-column: span 2/3;
+  grid-column: span 1;
 }
 .card__LG-famille {
   grid-row: 1;
-  grid-column: span 3/4;
+  grid-column: span 1;
 }
 .card__LG-solaire {
-  grid-row: 2;
-  grid-column: span 1/2;
+  grid-row: 1;
+  grid-column: span 1;
 }
 
 .row__hero {
@@ -1123,16 +1120,8 @@ p {
   gap: 3%;
 }
 
-footer {
-  background-color: #FC9478;
-  font-family: "dosis";
-  padding: 35px;
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-
-.logofooter {
-  margin-bottom: 15px;
-
+.row__service {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }/*# sourceMappingURL=style.css.map */
