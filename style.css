@@ -1140,43 +1140,39 @@ p {
 }
 
 .service__titre {
-  color: #223843;
   text-align: center;
 }
 
 .service__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
-
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-
 }
 .service__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
-
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
+  background-size: 60%;
   padding: 20px;
   background-repeat: no-repeat;
- 
 }
 .service__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
- 
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
+  background-size: 60%;
   padding: 20px;
   background-repeat: no-repeat;
-
 }
 .service__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
-
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
   background-size: contain;
@@ -1185,7 +1181,7 @@ p {
 }
 .service__emplois {
   background-image: url(/media/icone/cv_transparent.png);
- 
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
   background-size: contain;
@@ -1194,7 +1190,7 @@ p {
 }
 .service__alimentation {
   background-image: url(/media/icone/aliment_transparent.png);
-  
+  -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
   background-size: contain;
@@ -1241,5 +1237,5 @@ p {
 
 .accordion-header {
   background-color: #FFCFB4;
-  color: black;
+  color: #223843;
 }/*# sourceMappingURL=style.css.map */
