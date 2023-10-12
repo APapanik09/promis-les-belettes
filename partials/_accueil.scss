@@ -185,9 +185,9 @@ width:350px;
       padding: 20px;
       background-repeat: no-repeat;
       background-blend-mode: soft-light;
-      background-color: colors.$bleuFoncer;
+     
     }
-    }
+    
     &__francisation {
       background-image: url(/media/icone/francisation_transparent.png);
       object-fit: contain;
@@ -230,5 +230,5 @@ width:350px;
       padding: 20px;
       background-repeat: no-repeat;
     }
-  }
   
+}
