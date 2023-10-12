@@ -1075,6 +1075,36 @@ p {
   margin-bottom: 10%;
 }
 
+.service__lg {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card__LG-accueil {
+  grid-row: 1;
+  grid-column: span 1;
+}
+.card__LG-francisation {
+  grid-row: 1;
+  grid-column: span 2/3;
+}
+.card__LG-famille {
+  grid-row: 1;
+  grid-column: span 3/4;
+}
+.card__LG-solaire {
+  grid-row: 2;
+  grid-column: span 1/2;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
 footer {
   background-color: #FC9478;
   font-family: "dosis";

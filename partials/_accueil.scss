@@ -35,6 +35,7 @@
     text-align: center;
   }
 }
+
 // bouton hero
 @for $index from 0 through 6 {
 
@@ -53,7 +54,7 @@
 
       
   .btn-#{$index} {
-
+  
 
     .btn-#{$index} {
 
@@ -61,11 +62,13 @@
         margin: 10px;
         font-family: dm-sans;
         height: 92px;
+        
+       
 
     }
   }
 } }
-
+//Swipper service
 .swiper-slide {
   width: auto;
   display: flex;
@@ -143,4 +146,37 @@
   margin-top: 10%;
   margin-bottom: 10%;
 }
+}
+
+// service lg
+
+.service__lg{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr ;
+  grid-template-rows: 1fr 1fr ;
+}
+
+.card{
+  &__LG-accueil{
+    grid-row:  1  ;
+    grid-column: span 1;
+  }
+  &__LG-francisation{
+    grid-row:  1 ;
+    grid-column: span 2/3;
+  }
+  &__LG-famille{
+    grid-row:  1 ;
+    grid-column: span 3/4;
+  }
+  &__LG-solaire{
+    grid-row:  2;
+    grid-column: span 1/2;
+  }
+}
+.row__hero{
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 3%;
 }
