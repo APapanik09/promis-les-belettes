@@ -24,12 +24,11 @@
     }
 }
 
-h2.questionsTitre {
+.questionsTitre{
     font-size: 20px;
     font-family: dosis;
-    
-    
-    margin: 20%;
+    color: aqua; 
+     margin-top: 10px;
     text-align: center;
 }
 
@@ -38,7 +37,7 @@ h2.questionsTitre {
     margin: 10%;
 }
 
-button.accordion-button {
+.accordion-header {
     background-color: colors.$orangePale;
-    color: aquamarine;
+    
 }

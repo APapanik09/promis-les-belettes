@@ -1097,4 +1097,42 @@ p {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3%;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  height: 30vh;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.questionsTitre {
+  font-size: 20px;
+  font-family: dosis;
+  color: aqua;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.accordion {
+  padding-top: 10%;
+  margin: 10%;
+}
+
+.accordion-header {
+  background-color: #FFCFB4;
 }/*# sourceMappingURL=style.css.map */
