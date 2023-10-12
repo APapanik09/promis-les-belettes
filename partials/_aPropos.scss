@@ -1,6 +1,7 @@
 @use 'fonts';
 @use 'colors';
 @use 'banniere';
+@use 'footer';
 * {
     box-sizing: border-box;
 }
@@ -63,14 +64,20 @@ body {
     font-family: dosis;
     padding-top: 2%;
     padding-bottom: 10px;
+    margin-bottom: 100px;
     &.liste-a-puce {
         font-size: 22px;
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
     }
 }
 
 ul {
     /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
     margin-left: 2%;
+    
 }
 
 .mission {
@@ -82,6 +89,7 @@ ul {
 
 .vision {
     @extend %titre-texte-paragraphe;
+
 }
 
 .valeurs {
