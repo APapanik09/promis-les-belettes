@@ -23,21 +23,24 @@
         font-weight: 300;
     }
 }
-
 .questionsTitre{
-    font-size: 20px;
+  
     font-family: dosis;
-    color: aqua; 
-     margin-top: 10px;
+    color: black; 
+     margin-top: 8%;
     text-align: center;
+    font-size: 40px;
 }
 
 .accordion {
-    padding-top: 10%;
+ 
     margin: 10%;
+}
+.accordion-button:not(.collapsed){
+    background-color: colors.$orangeFonce;
 }
 
 .accordion-header {
     background-color: colors.$orangePale;
-    
+    color:color.$bleuFoncer;
 }
