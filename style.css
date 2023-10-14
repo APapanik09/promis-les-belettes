@@ -294,9 +294,12 @@ p {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-0 .card-text {
   font-size: 13px;
@@ -335,7 +338,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -346,7 +348,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -357,7 +358,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -393,20 +393,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-1 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-1 .card-text {
   font-size: 13px;
@@ -445,7 +450,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -456,7 +460,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -467,7 +470,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -503,20 +505,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-2 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-2 .card-text {
   font-size: 13px;
@@ -555,7 +562,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -566,7 +572,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -577,7 +582,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -613,20 +617,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-3 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-3 .card-text {
   font-size: 13px;
@@ -665,7 +674,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -676,7 +684,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -687,7 +694,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -723,20 +729,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-4 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-4 .card-text {
   font-size: 13px;
@@ -775,7 +786,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -786,7 +796,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -797,7 +806,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -833,20 +841,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-5 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-5 .card-text {
   font-size: 13px;
@@ -885,7 +898,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -896,7 +908,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -907,7 +918,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -943,20 +953,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-6 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-6 .card-text {
   font-size: 13px;
@@ -995,7 +1010,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -1006,7 +1020,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -1017,7 +1030,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -1053,20 +1065,25 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .card-7 {
   background-color: #223843;
   padding: 10px;
   margin: 20%;
+  height: 300px;
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
+  font-size: large;
 }
 .card-7 .card-text {
   font-size: 13px;
@@ -1105,7 +1122,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__francisation {
@@ -1116,7 +1132,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__famille {
@@ -1127,7 +1142,6 @@ p {
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
-  background-blend-mode: soft-light;
   background-color: #223843;
 }
 .card__scolaire {
@@ -1163,11 +1177,13 @@ p {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
 }
 
 .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-family: dm-sans;
 }
 
 .row__hero {
@@ -1189,67 +1205,138 @@ p {
 
 .service__titre {
   text-align: center;
+  margin-top: 10%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
 }
-
 .service__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
 }
 .service__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: 60%;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
 }
 .service__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: 60%;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
 }
-.service__famille__scolaire {
+.service__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
 }
-.service__famille__emploi {
+.service__emplois {
   background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
 }
-.service__famille__alimentation {
+.service__alimentaire {
   background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
-  background-size: contain;
-  padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.nouvelle__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.nouvelle__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.nouvelle__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.nouvelle__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
 }
 
 .hero-a-propos {

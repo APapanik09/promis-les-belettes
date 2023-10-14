@@ -81,6 +81,7 @@
   .card {
     height: 300px;
     width: 350px;
+
     &__accueil {
       background-image: url(/media/icone/accueil_main_transparence.png);
       object-fit: contain;
@@ -88,7 +89,7 @@
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
+
       background-color: colors.$bleuFoncer;
     }
     &__francisation {
@@ -98,7 +99,7 @@
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
+
       background-color: colors.$bleuFoncer;
     }
     &__famille {
@@ -108,7 +109,7 @@
       background-size: contain;
       padding: 20px;
       background-repeat: no-repeat;
-      background-blend-mode: soft-light;
+
       background-color: colors.$bleuFoncer;
     }
     &__scolaire {
@@ -142,10 +143,12 @@
 
   .card-title {
     color: colors.$orangeFonce;
+    font-family: dm-sans;
   }
   .card-text {
     margin-top: 10%;
     margin-bottom: 10%;
+    font-family: dm-sans;
   }
 }
 
@@ -165,64 +168,82 @@
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.service__titre {
-  text-align: center;
-}
 
 .service {
+  &__titre {
+    @include mixins.titre;
+  }
   &__accueil {
     background-image: url(/media/icone/accueil_main_transparence.png);
-    object-fit: contain;
-    background-position: center;
+
     background-size: contain;
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-color: colors.$bleuFoncer;
+    @include mixins.service;
   }
 
   &__francisation {
     background-image: url(/media/icone/francisation_transparent.png);
-    object-fit: contain;
-    background-position: center;
+    @include mixins.service;
     background-size: 60%;
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-color: colors.$bleuFoncer;
   }
   &__famille {
     background-image: url(/media/icone/soutien_famille_transparent.png);
-    object-fit: contain;
-    background-position: center;
+    @include mixins.service;
+
     background-size: 60%;
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-color: colors.$bleuFoncer;
-    &__scolaire {
-      background-image: url(/media/icone/soutien_scolaire_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
-    }
-    &__emploi {
-      background-image: url(/media/icone/cv_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
-    }
-    &__alimentation {
-      background-image: url(/media/icone/aliment_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
-    }
+  }
+  &__scolaire {
+    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+    @include mixins.service;
+    background-size: 70%;
+  }
+  &__emplois {
+    background-image: url(/media/icone/cv_transparent.png);
+    @include mixins.service;
+    background-size: 60%;
+  }
+
+  &__alimentaire {
+    background-image: url(/media/icone/aliment_transparent.png);
+    @include mixins.service;
+    background-size: 70%;
+  }
+}
+.nouvelle {
+  &__titre {
+    @include mixins.titre;
+  }
+  &__sarah {
+    background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+
+    background-size: contain;
+    @include mixins.service;
+  }
+
+  &__francisation {
+    background-image: url(/media/icone/francisation_transparent.png);
+    @include mixins.service;
+    background-size: 60%;
+  }
+  &__famille {
+    background-image: url(/media/icone/soutien_famille_transparent.png);
+    @include mixins.service;
+
+    background-size: 60%;
+  }
+  &__scolaire {
+    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+    @include mixins.service;
+    background-size: 70%;
+  }
+  &__emplois {
+    background-image: url(/media/icone/cv_transparent.png);
+    @include mixins.service;
+    background-size: 60%;
+  }
+
+  &__alimentaire {
+    background-image: url(/media/icone/aliment_transparent.png);
+    @include mixins.service;
+    background-size: 70%;
   }
 }
