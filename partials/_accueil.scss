@@ -177,6 +177,7 @@
     background-size: contain;
     padding: 20px;
     background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
   }
 
   &__francisation {
@@ -186,6 +187,7 @@
     background-size: 60%;
     padding: 20px;
     background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
   }
   &__famille {
     background-image: url(/media/icone/soutien_famille_transparent.png);
@@ -194,29 +196,33 @@
     background-size: 60%;
     padding: 20px;
     background-repeat: no-repeat;
-  }
-  &__scolaire {
-    background-image: url(/media/icone/soutien_scolaire_transparent.png);
-    object-fit: contain;
-    background-position: center;
-    background-size: contain;
-    padding: 20px;
-    background-repeat: no-repeat;
-  }
-  &__emplois {
-    background-image: url(/media/icone/cv_transparent.png);
-    object-fit: contain;
-    background-position: center;
-    background-size: contain;
-    padding: 20px;
-    background-repeat: no-repeat;
-  }
-  &__alimentation {
-    background-image: url(/media/icone/aliment_transparent.png);
-    object-fit: contain;
-    background-position: center;
-    background-size: contain;
-    padding: 20px;
-    background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
+    &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
+    &__emploi {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
+    &__alimentation {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
   }
 }
