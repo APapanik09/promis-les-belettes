@@ -219,21 +219,21 @@
     @include mixins.service;
   }
 
-  &__francisation {
-    background-image: url(/media/icone/francisation_transparent.png);
+  &__demenagement {
+    background-image: url(/media/nouvelles/hebergement_femme.jpeg);
     @include mixins.service;
-    background-size: 60%;
+    background-size: cover;
   }
-  &__famille {
-    background-image: url(/media/icone/soutien_famille_transparent.png);
+  &__etude {
+    background-image: url(/media/nouvelles/etudier.png);
     @include mixins.service;
 
-    background-size: 60%;
+    background-size: cover;
   }
   &__scolaire {
     background-image: url(/media/icone/soutien_scolaire_transparent.png);
     @include mixins.service;
-    background-size: 70%;
+    background-size: cover;
   }
   &__emplois {
     background-image: url(/media/icone/cv_transparent.png);
