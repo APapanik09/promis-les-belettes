@@ -1374,7 +1374,7 @@ p {
   color: #ffffff;
   background-size: cover;
 }
-.nouvelle__etude {
+.nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
   -o-object-fit: contain;
      object-fit: contain;
@@ -1385,7 +1385,7 @@ p {
   color: #ffffff;
   background-size: cover;
 }
-.nouvelle__scolaire {
+.nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
@@ -1396,7 +1396,7 @@ p {
   color: #ffffff;
   background-size: cover;
 }
-.nouvelle__emplois {
+.nouvelle__citoyennete {
   background-image: url(/media/nouvelles/citoyennete.jpg);
   -o-object-fit: contain;
      object-fit: contain;
@@ -1407,7 +1407,7 @@ p {
   color: #ffffff;
   background-size: cover;
 }
-.nouvelle__alimentaire {
+.nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
@@ -1422,8 +1422,22 @@ p {
 .nouvelle {
   padding: none;
 }
-.nouvelle .card-body {
+.nouvelle__color {
+  background-color: #ffffff;
+  opacity: 0.7;
+  width: 20000px;
+  height: 20px;
+  position: relative;
+  top: 130px;
+}
+
+.card-body {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.604);
 }
 
 .hero-a-propos {

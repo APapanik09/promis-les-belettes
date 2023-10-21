@@ -230,24 +230,24 @@
     @include mixins.service;
     background-size: cover;
   }
-  &__etude {
+  &__reseautage {
     background-image: url(/media/nouvelles/etudier.png);
     @include mixins.service;
 
     background-size: cover;
   }
-  &__scolaire {
+  &__hebergement {
     background-image: url(/media/nouvelles/hebergement_femme.jpeg);
     @include mixins.service;
     background-size: cover;
   }
-  &__emplois {
+  &__citoyennete {
     background-image: url(/media/nouvelles/citoyennete.jpg);
     @include mixins.service;
     background-size: cover;
   }
 
-  &__alimentaire {
+  &__vivre-ensemble {
     background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
     @include mixins.service;
     background-size: 70%;
@@ -255,8 +255,20 @@
 }
 .nouvelle {
   padding: none;
-
-  .card-body {
-    align-items: flex-end;
+  &__color {
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 20000px;
+    height: 20px;
+    position: relative;
+    top: 130px;
   }
+}
+.card-body {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.604);
 }
