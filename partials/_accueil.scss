@@ -61,6 +61,12 @@
       }
     }
   }
+  .service {
+    padding: 50px;
+  }
+  .nouvelle {
+    padding: 50px;
+  }
   //Swipper service
   .swiper-slide {
     width: auto;
@@ -215,12 +221,12 @@
   &__sarah {
     background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
 
-    background-size: contain;
+    background-size: cover;
     @include mixins.service;
   }
 
   &__demenagement {
-    background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+    background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
     @include mixins.service;
     background-size: cover;
   }
@@ -231,19 +237,26 @@
     background-size: cover;
   }
   &__scolaire {
-    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+    background-image: url(/media/nouvelles/hebergement_femme.jpeg);
     @include mixins.service;
     background-size: cover;
   }
   &__emplois {
-    background-image: url(/media/icone/cv_transparent.png);
+    background-image: url(/media/nouvelles/citoyennete.jpg);
     @include mixins.service;
-    background-size: 60%;
+    background-size: cover;
   }
 
   &__alimentaire {
-    background-image: url(/media/icone/aliment_transparent.png);
+    background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
     @include mixins.service;
     background-size: 70%;
+  }
+}
+.nouvelle {
+  padding: none;
+
+  .card-body {
+    align-items: flex-end;
   }
 }

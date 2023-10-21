@@ -314,6 +314,14 @@ p {
   height: 92px;
 }
 
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
+}
+
 .swiper-slide {
   width: auto;
   display: flex;
@@ -424,6 +432,14 @@ p {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
 }
 
 .swiper-slide {
@@ -538,6 +554,14 @@ p {
   height: 92px;
 }
 
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
+}
+
 .swiper-slide {
   width: auto;
   display: flex;
@@ -648,6 +672,14 @@ p {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
 }
 
 .swiper-slide {
@@ -762,6 +794,14 @@ p {
   height: 92px;
 }
 
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
+}
+
 .swiper-slide {
   width: auto;
   display: flex;
@@ -872,6 +912,14 @@ p {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
 }
 
 .swiper-slide {
@@ -986,6 +1034,14 @@ p {
   height: 92px;
 }
 
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
+}
+
 .swiper-slide {
   width: auto;
   display: flex;
@@ -1096,6 +1152,14 @@ p {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.service {
+  padding: 50px;
+}
+
+.nouvelle {
+  padding: 50px;
 }
 
 .swiper-slide {
@@ -1219,6 +1283,7 @@ p {
   background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1228,6 +1293,7 @@ p {
   background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1238,6 +1304,7 @@ p {
   background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1248,6 +1315,7 @@ p {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1258,6 +1326,7 @@ p {
   background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1268,6 +1337,7 @@ p {
   background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1284,18 +1354,20 @@ p {
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
-  background-size: contain;
+  background-size: cover;
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
   color: #ffffff;
 }
 .nouvelle__demenagement {
-  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1306,6 +1378,7 @@ p {
   background-image: url(/media/nouvelles/etudier.png);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1313,9 +1386,10 @@ p {
   background-size: cover;
 }
 .nouvelle__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1323,24 +1397,33 @@ p {
   background-size: cover;
 }
 .nouvelle__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
+  background-image: url(/media/nouvelles/citoyennete.jpg);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
   color: #ffffff;
-  background-size: 60%;
+  background-size: cover;
 }
 .nouvelle__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
+  padding: none;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+
+.nouvelle {
+  padding: none;
+}
+.nouvelle .card-body {
+  align-items: flex-end;
 }
 
 .hero-a-propos {
