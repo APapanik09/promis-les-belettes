@@ -1,6 +1,7 @@
 @use 'fonts';
 @use 'colors';
 @use 'banniere';
+@use 'mixins';
 * {
     box-sizing: border-box;
 }
@@ -8,4 +9,8 @@
 body {
     /* couleur de fond*/
     background-color: colors.$orangePale;
+}
+
+.hero-histoire {
+    @include mixins.sectionhero;
 }
