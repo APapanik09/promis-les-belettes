@@ -1493,10 +1493,9 @@ body {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
-  height: 30vh;
+  height: 40vh;
   position: relative;
   padding: 2%;
-  color: pink;
   background-color: #F4E6EF;
   display: flex;
   justify-content: center;
@@ -1507,15 +1506,13 @@ body {
   text-align: center;
   font-family: sunday;
   font-size: 50px;
-  padding-bottom: 20%;
-  padding-top: 20%;
+  padding-bottom: -25%;
 }
 .hero .texte-hero-histoire {
   font-size: 20px;
   font-family: dosis;
-  padding-bottom: 10%;
-  padding-top: 20%;
   font-weight: 300;
+  padding-top: 3%;
 }
 
 .histoire {
