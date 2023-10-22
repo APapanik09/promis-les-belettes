@@ -14,7 +14,7 @@
 }
 @mixin service {
   object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: colors.$bleuFoncer;

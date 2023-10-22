@@ -1283,7 +1283,7 @@ p {
   background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1293,7 +1293,7 @@ p {
   background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1304,7 +1304,7 @@ p {
   background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1315,7 +1315,7 @@ p {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1326,7 +1326,7 @@ p {
   background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1337,7 +1337,7 @@ p {
   background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1357,7 +1357,7 @@ p {
   background-size: cover;
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1367,7 +1367,7 @@ p {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1378,7 +1378,7 @@ p {
   background-image: url(/media/nouvelles/etudier.png);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1389,7 +1389,7 @@ p {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1400,7 +1400,7 @@ p {
   background-image: url(/media/nouvelles/citoyennete.jpg);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1411,7 +1411,7 @@ p {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
   -o-object-fit: contain;
      object-fit: contain;
-  padding: none;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1422,22 +1422,32 @@ p {
 .nouvelle {
   padding: none;
 }
-.nouvelle__color {
-  background-color: #ffffff;
-  opacity: 0.7;
-  width: 20000px;
-  height: 20px;
+.nouvelle .card-body {
   position: relative;
-  top: 130px;
-}
-
-.card-body {
+  bottom: -160px;
+  height: 140px;
   display: flex;
-  align-content: space-between;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.604);
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: -25px;
+  color: #223843;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
 }
 
 .hero-a-propos {
