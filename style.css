@@ -1498,4 +1498,28 @@ body {
   padding: 2%;
   color: pink;
   background-color: #F4E6EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero .titre-histoire {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding-bottom: 20%;
+  padding-top: 20%;
+}
+.hero .texte-hero-histoire {
+  font-size: 20px;
+  font-family: dosis;
+  padding-bottom: 10%;
+  padding-top: 20%;
+  font-weight: 300;
+}
+
+.histoire {
+  text-align: center;
+  position: relative;
+  padding-top: 10%;
 }/*# sourceMappingURL=style.css.map */
