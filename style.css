@@ -1425,6 +1425,8 @@ p {
   color: #223843;
 }
 
+/*****temoignage 
+*****************************************/
 .temoignage {
   padding: 10px;
 }
@@ -1476,4 +1478,24 @@ p {
 .accordion-header {
   background-color: #FFCFB4;
   color: #223843;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  height: 30vh;
+  position: relative;
+  padding: 2%;
+  color: pink;
+  background-color: #F4E6EF;
 }/*# sourceMappingURL=style.css.map */
