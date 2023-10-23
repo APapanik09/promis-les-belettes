@@ -4,9 +4,6 @@
 @use "footer";
 @use "mixins";
 
-%alignement {
-  text-align: center;
-}
 
 * {
   box-sizing: border-box;
@@ -85,7 +82,9 @@ ul {
 .mission {
   @extend %titre-texte-paragraphe;
 
- 
+  &.text {
+    font-size: 20px;
+  }
 }
 
 
