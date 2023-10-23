@@ -3,7 +3,7 @@
 @mixin card {
   background-color: colors.$bleuFoncer;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -23,7 +23,7 @@
 
 @mixin titre {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 45px;
   font-family: dosis;
   color: colors.$bleuFoncer;
