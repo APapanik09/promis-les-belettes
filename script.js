@@ -1,6 +1,6 @@
-//gsap.registerPlugin(ScrollTrigger);
-/*gsap.registerPlugin(MotionPathPlugin);
-*/
+
+
+
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
@@ -57,6 +57,6 @@ gsap.timeline( {
   },
 })
 .to('.promis', { x: '1300px', duration:2 },'<0.5')
-.to('.creation',{ x: '1000px'},'<0.5')
-.to('.MariaGoretti',{ x: '1000px'},'< 1')
-.to('.section-histoire',{ autoAlpha: 1, })
+.to('.creation',{ x: '1000px', duration:2},'<0.5')
+.to('.MariaGoretti',{ x: '1000px', duration:2},'< 1')
+.to('.section-histoire',{ autoAlpha: 1, y:'-50%', ease: 'linear', duration:3})
