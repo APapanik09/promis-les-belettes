@@ -37,10 +37,13 @@ const swiper = new Swiper(".swiper", {
 /* animation page histoire */
 gsap.to('.no2', {
   transformOrigin: '50% 50%',
-  path:svg-path,
   motionPath: {
-    start:1,
-    end:0
+    curviness: 0,
+    path: [
+      {x: 125, y: 125}, 
+      {x: 0, y: 250}
+    ]
+  
   },
   duration: 8,
   repeat: -1,

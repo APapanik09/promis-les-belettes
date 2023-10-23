@@ -40,7 +40,8 @@ body {
   text-align: center;
   padding-top: 0%;
   &__texte{
-    padding-top: 2%; 
+    padding-top: 4%; 
+    margin-top: 2%;
     text-align: center;
   }
   &__Mg{
@@ -57,16 +58,21 @@ svg {
   width: 300px;
 }
 
-.svg-path {
-  stroke: 
-gray;
-  stroke-width: 4;
-  fill: none;
-}
+
 .element {
   display: inline-block;
   width: 30px;
   height: 30px;
   padding: 0;
+
+}
+@media (max-width: 375px) {
+  .section-histoire * {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
 }
