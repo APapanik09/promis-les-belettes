@@ -1338,7 +1338,7 @@ p {
 /*****Nouvelle
 ************************************************/
 .nouvelle {
-  padding: 8%;
+  padding: 30px;
 }
 .nouvelle__titre {
   text-align: center;

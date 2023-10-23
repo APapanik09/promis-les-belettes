@@ -179,7 +179,6 @@ padding-bottom: 20px;
 /*Service 
 ************************************************/
 .service {
-  
   &__titre {
     @include mixins.titre;
 
@@ -224,7 +223,7 @@ padding-bottom: 20px;
 
 
 .nouvelle {
-padding: 8%;
+padding: 30px;
   &__titre {
     @include mixins.titre;
   }

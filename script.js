@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+//gsap.registerPlugin(ScrollTrigger);
 /*gsap.registerPlugin(MotionPathPlugin);
 */
 const swiper = new Swiper(".swiper", {
@@ -35,6 +35,8 @@ const swiper = new Swiper(".swiper", {
     // when window width is >= 640px
   },
 });
+
+gsap.registerPlugin(ScrollTrigger);
 /* animation page histoire */
 const promis = document.querySelector('.promis');
 const creation = document.querySelector('.creation');
