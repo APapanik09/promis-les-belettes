@@ -12,6 +12,7 @@ body {
   background-color: colors.$orangePale;
 }
 
+
 .hero-histoire {
   @include mixins.sectionhero;
   display: flex;
@@ -37,6 +38,35 @@ body {
 
 .histoire {
   text-align: center;
-  position: relative;
-  padding-top: 10%;
+  padding-top: 0%;
+  &__texte{
+    padding-top: 2%; 
+    text-align: center;
+  }
+  &__Mg{
+    padding-top: 4%;
+  }
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  display: block;
+  stroke: var(--green);
+  stroke-width: 2px;
+  width: 300px;
+}
+
+.svg-path {
+  stroke: 
+gray;
+  stroke-width: 4;
+  fill: none;
+}
+.element {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
 }

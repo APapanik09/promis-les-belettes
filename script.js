@@ -1,3 +1,5 @@
+
+gsap.registerPlugin(MotionPathPlugin);
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
@@ -32,3 +34,15 @@ const swiper = new Swiper(".swiper", {
     // when window width is >= 640px
   },
 });
+/* animation page histoire */
+gsap.to('.no2', {
+  transformOrigin: '50% 50%',
+  path:svg-path,
+  motionPath: {
+    start:1,
+    end:0
+  },
+  duration: 8,
+  repeat: -1,
+  yoyo: true,
+})
