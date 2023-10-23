@@ -61,6 +61,14 @@
       }
     }
   }
+
+  /****service
+  *******************************************************************/
+
+  .service {
+    padding: 10px;
+  }
+
   //Swipper service
   .swiper-slide {
     width: auto;
@@ -70,15 +78,15 @@
     justify-content: center;
   }
 
-  .card-body {
+  /*.card-body {
     height: 200px;
-  }
+  }*/
 
   .swipper {
     margin: 20px;
   }
 
-  .card {
+  .service .card {
     height: 300px;
     width: 350px;
 
@@ -166,9 +174,9 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 10%;
-  padding-bottom: 10%;
 }
-
+/*Service 
+************************************************/
 .service {
   &__titre {
     @include mixins.titre;
@@ -208,6 +216,12 @@
     background-size: 70%;
   }
 }
+/*****Nouvelle
+************************************************/
+.nouvelle {
+  padding: 10px;
+}
+
 .nouvelle {
   &__titre {
     @include mixins.titre;
@@ -215,35 +229,72 @@
   &__sarah {
     background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
 
-    background-size: contain;
+    background-size: cover;
     @include mixins.service;
   }
 
-  &__francisation {
-    background-image: url(/media/icone/francisation_transparent.png);
+  &__demenagement {
+    background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
     @include mixins.service;
-    background-size: 60%;
+    background-size: cover;
   }
-  &__famille {
-    background-image: url(/media/icone/soutien_famille_transparent.png);
+  &__reseautage {
+    background-image: url(/media/nouvelles/etudier.png);
     @include mixins.service;
 
-    background-size: 60%;
+    background-size: cover;
   }
-  &__scolaire {
-    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  &__hebergement {
+    background-image: url(/media/nouvelles/hebergement_femme.jpeg);
     @include mixins.service;
-    background-size: 70%;
-  }
-  &__emplois {
-    background-image: url(/media/icone/cv_transparent.png);
-    @include mixins.service;
-    background-size: 60%;
+    background-size: cover;
   }
 
-  &__alimentaire {
-    background-image: url(/media/icone/aliment_transparent.png);
+  &__vivre-ensemble {
+    background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
     @include mixins.service;
-    background-size: 70%;
+    background-size: 100%;
+  }
+}
+.nouvelle {
+  padding: none;
+  .card-body {
+    position: relative;
+    bottom: -160px;
+    height: 140px;
+    display: flex;
+    border-radius: 10px;
+    place-content: space-between space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.805);
+
+    h5 {
+      font-size: 24px;
+      padding: none;
+      position: relative;
+      top: 10px;
+      color: colors.$bleuFoncer;
+      .col-sm-12 {
+        font-size: 30px;
+      }
+    }
+    p {
+      font-size: 18px;
+      position: relative;
+      left: 50px;
+      top: -20px;
+      color: colors.$bleuFoncer;
+    }
+  }
+}
+/*****temoignage 
+*****************************************/
+.temoignage {
+  padding: 10px;
+  &__titre {
+    @include mixins.titre;
   }
 }

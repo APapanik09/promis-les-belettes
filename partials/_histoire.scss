@@ -1,11 +1,42 @@
-@use 'fonts';
-@use 'colors';
-@use 'banniere';
+@use "fonts";
+@use "colors";
+@use "banniere";
+@use "mixins";
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    /* couleur de fond*/
-    background-color: colors.$orangePale;
+  /* couleur de fond*/
+  background-color: colors.$orangePale;
+}
+
+.hero-histoire {
+  @include mixins.sectionhero;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .titre-histoire {
+    text-align: center;
+    font-family: sunday;
+    font-size: 50px;
+    padding-bottom: -25%;
+    //padding-top: 20%;
+  }
+  .texte-hero-histoire {
+    font-size: 20px;
+    font-family: dosis;
+    // padding-bottom: 10%;
+    // padding-top: 20%;
+    font-weight: 300;
+    padding-top: 3%;
+  }
+}
+
+.histoire {
+  text-align: center;
+  position: relative;
+  padding-top: 10%;
 }

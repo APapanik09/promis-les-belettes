@@ -1,6 +1,5 @@
 @use "colors";
 @use "fonts";
-
 @mixin card {
   background-color: colors.$bleuFoncer;
   padding: 10px;
@@ -12,8 +11,10 @@
   color: white;
   font-size: large;
 }
+
 @mixin service {
   object-fit: contain;
+  padding: unset;
   background-position: center;
   background-repeat: no-repeat;
   background-color: colors.$bleuFoncer;
@@ -26,4 +27,15 @@
   font-size: 45px;
   font-family: dosis;
   color: colors.$bleuFoncer;
+}
+
+@mixin sectionhero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  height: 40vh;
+  position: relative;
+  padding: 2%;
+
+  background-color: colors.$rosepale;
 }
