@@ -20,7 +20,7 @@
   background-color: colors.$rosepale;
   &__titre {
     font-family: sunday;
-
+padding-bottom: 20px;
     text-align: center;
     line-height: 1.7;
   }
@@ -28,6 +28,7 @@
     font-family: dosis;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 20px;
   }
   &__option {
     font-family: dosis;
@@ -178,8 +179,10 @@
 /*Service 
 ************************************************/
 .service {
+  
   &__titre {
     @include mixins.titre;
+
   }
   &__accueil {
     background-image: url(/media/icone/accueil_main_transparence.png);
@@ -218,11 +221,10 @@
 }
 /*****Nouvelle
 ************************************************/
-.nouvelle {
-  padding: 10px;
-}
+
 
 .nouvelle {
+padding: 8%;
   &__titre {
     @include mixins.titre;
   }
@@ -257,7 +259,7 @@
   }
 }
 .nouvelle {
-  padding: none;
+
   .card-body {
     position: relative;
     bottom: -160px;

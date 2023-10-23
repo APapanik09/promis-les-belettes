@@ -250,6 +250,7 @@ p {
 }
 .hero__titre {
   font-family: sunday;
+  padding-bottom: 20px;
   text-align: center;
   line-height: 1.7;
 }
@@ -257,6 +258,7 @@ p {
   font-family: dosis;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 20px;
 }
 .hero__option {
   font-family: dosis;
@@ -308,7 +310,7 @@ p {
 .card-0 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -425,7 +427,7 @@ p {
 .card-1 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -542,7 +544,7 @@ p {
 .card-2 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -659,7 +661,7 @@ p {
 .card-3 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -776,7 +778,7 @@ p {
 .card-4 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -893,7 +895,7 @@ p {
 .card-5 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -1010,7 +1012,7 @@ p {
 .card-6 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -1127,7 +1129,7 @@ p {
 .card-7 {
   background-color: #223843;
   padding: 10px;
-  margin: 20%;
+  margin: 5%;
   height: 300px;
   width: 100%;
   text-align: center;
@@ -1261,7 +1263,7 @@ p {
 ************************************************/
 .service__titre {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 45px;
   font-family: dosis;
   color: #223843;
@@ -1336,12 +1338,11 @@ p {
 /*****Nouvelle
 ************************************************/
 .nouvelle {
-  padding: 10px;
+  padding: 8%;
 }
-
 .nouvelle__titre {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 45px;
   font-family: dosis;
   color: #223843;
@@ -1402,9 +1403,6 @@ p {
   background-size: 100%;
 }
 
-.nouvelle {
-  padding: none;
-}
 .nouvelle .card-body {
   position: relative;
   bottom: -160px;
@@ -1443,7 +1441,7 @@ p {
 }
 .temoignage__titre {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 45px;
   font-family: dosis;
   color: #223843;
