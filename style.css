@@ -1539,7 +1539,7 @@ body {
 
 .quatre {
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
   justify-content: center;
   text-align: center;
   padding-top: 15vh;
@@ -1560,13 +1560,14 @@ body {
   text-align: center;
   width: 15vw;
   height: 5vh;
-  margin: 0 auto;
+  margin: 0 0 0 48vw;
   display: flex;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 375px) {
   .quatre .retour-menu {
-    margin: 0 auto;
+    margin: 0 0 0 39vw;
+    text-align: center;
   }
 }
 .quatre .retour-menu .texte-retour {
@@ -1574,4 +1575,5 @@ body {
   color: #ffffff;
   padding: 10px;
   border-radius: 10px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

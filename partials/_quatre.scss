@@ -9,7 +9,7 @@
 
 .quatre {
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     justify-content: center;
     text-align: center;
     padding-top: 15vh;
@@ -32,13 +32,14 @@
         text-align: center;
         width: 15vw;
         height: 5vh;
-        margin: 0 auto;
+        margin: 0 0 0 48vw;
         display: flex;
         flex-wrap: wrap;
 
         
         @media screen and (max-width: 375px){
-            margin: 0 auto;
+            margin: 0 0 0 39vw;
+            text-align: center;
             
         }
 
@@ -48,6 +49,7 @@
             color: colors.$blanc;
             padding: 10px;
             border-radius: 10px;
+            text-align: center;
 
             
         }
