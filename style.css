@@ -1526,8 +1526,134 @@ body {
 
 .histoire {
   text-align: center;
+  padding-top: 0%;
+}
+.histoire__texte {
+  padding-top: 4%;
+  margin-top: 2%;
+  text-align: center;
+}
+.histoire__Mg {
+  padding-top: 4%;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  display: block;
+  stroke: var(--green);
+  stroke-width: 2px;
+  width: 300px;
+}
+
+.element {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+@media (max-width: 375px) {
+  .section-histoire * {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.timeline ol {
+  font-size: 0;
+  width: 100vw;
+  height: 30vh;
+  padding: 250px 0;
+  transition: all 1s;
+}
+
+.timeline ol li {
   position: relative;
-  padding-top: 10%;
+  display: inline-block;
+  list-style-type: none;
+  width: 350px;
+  height: 3px;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline ol li:last-child {
+  width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #FC9478;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 5px);
+  width: 280px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color: black;
+  background: white;
+}
+
+.timeline ol li div::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-80%);
+}
+
+.timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .quatre-contenu {
