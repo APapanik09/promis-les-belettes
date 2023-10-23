@@ -6,6 +6,7 @@
 %alignement {
   text-align: center;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -36,12 +37,14 @@ body {
 
 .hero-a-propos {
   @include mixins.sectionhero;
+
   .titre-a-propos {
     text-align: center;
     font-family: sunday;
     font-size: 50px;
     padding: 10px;
   }
+
   .texte-hero-a-propos {
     font-size: 20px;
     font-family: dosis;
@@ -75,18 +78,23 @@ ul {
   /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
   margin-left: 2%;
 }
+
 .MISSION {
   text-align: center;
 }
+
 .mission {
   @extend %titre-texte-paragraphe;
+
   &.text {
     font-size: 20px;
   }
 }
+
 .VISION {
   text-align: center;
 }
+
 .vision {
   @extend %titre-texte-paragraphe;
 }
@@ -100,10 +108,12 @@ ul {
 }
 
 .excellence {
+  margin-bottom: 2%;
   width: 100%;
   margin-top: 2%;
   color: colors.$bleuFoncer;
   font-family: dosis;
+
   &__text {
     font-family: dm-sans;
   }
@@ -111,7 +121,7 @@ ul {
 
 .respect {
   margin-top: 2%;
-
+margin-bottom: 2%;
   // font-family: dosis;
   &__text {
     font-family: dm-sans;
@@ -120,7 +130,9 @@ ul {
 
 .engagement {
   margin-top: 2%;
+  margin-bottom: 2%;
   font-family: dm-sans;
+
   &__text {
     font-family: dm-sans;
   }
@@ -129,6 +141,7 @@ ul {
 .inclusion {
   margin-top: 2%;
   font-family: dm-sans;
+
   &__text {
     font-family: dm-sans;
   }
@@ -137,6 +150,7 @@ ul {
 .innovation {
   margin-top: 2%;
   font-family: dm-sans;
+
   &__text {
     font-family: dm-sans;
   }
@@ -145,15 +159,30 @@ ul {
 .servicesLangues {
   margin-top: 5%;
   padding-bottom: 5%;
-
   font-family: dosis;
   font-weight: 700;
-
   position: relative;
+
   &__texte {
     position: relative;
   }
 }
+
 iframe {
   aspect-ratio: 16/9;
+}
+
+@media (max-width: 375px) {
+  .section-a-propos * {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MISSION {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
