@@ -13,7 +13,6 @@ body {
 }
 
 
-
 .hero-histoire {
   @include mixins.sectionhero;
   display: flex;
@@ -99,9 +98,11 @@ svg {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 160px;
+  width: 350px;
   height: 3px;
   background: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline ol li:last-child {
@@ -122,12 +123,12 @@ svg {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #F45B69;
+  background: colors.$orangeFonce;
 }
 
 .timeline ol li div {
   position: absolute;
-  left: calc(100% + 7px);
+  left: calc(100% + 5px);
   width: 280px;
   padding: 15px;
   font-size: 1rem;
@@ -148,7 +149,7 @@ svg {
 
 .timeline ol li:nth-child(odd) div {
   top: -16px;
-  transform: translateY(-100%);
+  transform: translateY(-80%);
 }
 
 .timeline ol li:nth-child(odd) div::before {
