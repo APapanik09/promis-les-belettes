@@ -1,6 +1,6 @@
-
-gsap.registerPlugin(MotionPathPlugin);
-window.addEventListener("load", init);
+gsap.registerPlugin(ScrollTrigger);
+/*gsap.registerPlugin(MotionPathPlugin);
+*/
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
@@ -36,33 +36,26 @@ const swiper = new Swiper(".swiper", {
   },
 });
 /* animation page histoire */
-gsap.to('.no2', {
-  transformOrigin: '50% 50%',
-  motionPath: {
-    curviness: 0,
-    path: [
-      {x: 125, y: 125}, 
-      {x: 0, y: 250}
-    ]
-  
-  },
-  duration: 8,
-  repeat: -1,
-  yoyo: true,
-})
+const promis = document.querySelector('.promis');
+const creation = document.querySelector('.creation');
+const MariaGoretti = document.querySelector('.MariaGoretti');
+const enveloppe= document.querySelectorAll(".section-histoire ");
 
-const timeline = document.querySelector(".timeline ol"),
-  elH = document.querySelectorAll(".timeline li > div"),
-  arrows = document.querySelectorAll(".timeline .arrows .arrow"),
-  arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
-  arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
-  firstItem = document.querySelector(".timeline li:first-child"),
-  lastItem = document.querySelector(".timeline li:last-child"),
-  xScrolling = 280,
-  disabledClass = "disabled";
-  function init() {
-    setEqualHeights(elH);
-    animateTl(xScrolling, arrows, timeline);
-    setSwipeFn(timeline, arrowPrev, arrowNext);
-    setKeyboardFn(arrowPrev, arrowNext);
-  }
+
+
+gsap.timeline( { 
+  x: '100%',
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: 'top 15%',
+    end: 'bottom 25%',
+    trigger: '.timeline',
+
+  },
+})
+.to('.promis', { x: '1300px', duration:2 },'<0.5')
+.to('.creation',{ x: '1000px'},'<0.5')
+.to('.MariaGoretti',{ x: '1000px'},'<0.5')
+.to('.enveloppe',{ diplay: "block"},'<0.5')
