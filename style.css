@@ -170,7 +170,7 @@ ul {
 }
 
 .servicesLangues {
-  margin-top: 2%;
+  margin-top: 5%;
   padding-bottom: 5%;
   font-family: dosis;
   font-weight: 700;
@@ -1383,4 +1383,47 @@ p {
 .accordion-header {
   background-color: #FFCFB4;
   color: #223843;
+}
+
+.quatre-contenu {
+  background-color: #F4E6EF;
+}
+
+.quatre {
+  width: 100vw;
+  height: 75vh;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15vh;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.quatre .quatre-titre {
+  font-size: 10vw;
+  text-align: center;
+}
+.quatre .quatre-texte {
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.quatre .retour-menu {
+  text-align: center;
+  width: 15vw;
+  height: 5vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 375px) {
+  .quatre .retour-menu {
+    margin: 0 auto;
+  }
+}
+.quatre .retour-menu .texte-retour {
+  background-color: #223843;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
