@@ -67,16 +67,11 @@ svg {
   padding: 0;
 
 }
-@media (max-width: 375px) {
-  .section-histoire * {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+
+  
 
 
 
-}
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -153,21 +148,6 @@ svg {
   transform: translateY(-80%);
 }
 
-.timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
-}
-
-.timeline ol li:nth-child(even) div {
-  top: calc(100% + 16px);
-}
-
-.timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
-}
 
 .timeline time {
   display: block;
@@ -176,3 +156,20 @@ svg {
   margin-bottom: 8px;
 }
 
+@media (max-width: 375px) {
+  .section-histoire * {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .timeline ol li div{
+    right: calc(100% 10px);
+    width: 100px;
+    padding:10px;
+  }
+  .promis{
+    width: 100px; 
+  }
+  .timeline ol li {
+    width: 15px;
+  }}

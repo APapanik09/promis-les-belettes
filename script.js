@@ -45,6 +45,7 @@ const enveloppe= document.querySelectorAll(".section-histoire ");
 
 
 gsap.set(".section-histoire", {autoAlpha: 0});
+gsap.set(".timeline", {autoAlpha: 1});
 gsap.timeline( { 
   x: '100%',
   scrollTrigger: {
@@ -56,7 +57,8 @@ gsap.timeline( {
 
   },
 })
-.to('.promis', { x: '1300px', duration:2 },'<0.5')
-.to('.creation',{ x: '1000px', duration:2},'<0.5')
-.to('.MariaGoretti',{ x: '1000px', duration:2},'< 1')
+.to('.promis', { x: '1300px', duration:2, delay:2 },'<0.5')
+.to('.creation',{ x: '1000px', duration:2, delay:3},'<0.5')
+.to('.MariaGoretti',{ x: '1000px', duration:2, delay:4},'< 1')
 .to('.section-histoire',{ autoAlpha: 1, y:'-50%', ease: 'linear', duration:3})
+.to('.timeline',{ autoAlpha: 0, y:'-50%', ease: 'linear', duration:3})
