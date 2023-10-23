@@ -1,5 +1,6 @@
 
 gsap.registerPlugin(MotionPathPlugin);
+window.addEventListener("load", init);
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
@@ -49,3 +50,19 @@ gsap.to('.no2', {
   repeat: -1,
   yoyo: true,
 })
+
+const timeline = document.querySelector(".timeline ol"),
+  elH = document.querySelectorAll(".timeline li > div"),
+  arrows = document.querySelectorAll(".timeline .arrows .arrow"),
+  arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
+  arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
+  firstItem = document.querySelector(".timeline li:first-child"),
+  lastItem = document.querySelector(".timeline li:last-child"),
+  xScrolling = 280,
+  disabledClass = "disabled";
+  function init() {
+    setEqualHeights(elH);
+    animateTl(xScrolling, arrows, timeline);
+    setSwipeFn(timeline, arrowPrev, arrowNext);
+    setKeyboardFn(arrowPrev, arrowNext);
+  }
