@@ -68,12 +68,14 @@ body {
   font-style: bold;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
-  height: 30vh;
+  text-align: center;
+  height: 40vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -87,7 +89,7 @@ body {
 .hero-a-propos .texte-hero-a-propos {
   font-size: 20px;
   font-family: dosis;
-  padding: 10px;
+  padding: 3%;
   font-weight: 300;
 }
 
@@ -116,10 +118,6 @@ ul {
   margin-left: 2%;
 }
 
-.mission.text {
-  font-size: 20px;
-}
-
 .valeurs {
   padding-top: 50px;
   padding-bottom: 40px;
@@ -129,6 +127,7 @@ ul {
 }
 
 .excellence {
+  margin-bottom: 2%;
   width: 100%;
   margin-top: 2%;
   color: #223843;
@@ -140,6 +139,7 @@ ul {
 
 .respect {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 .respect__text {
   font-family: dm-sans;
@@ -147,6 +147,7 @@ ul {
 
 .engagement {
   margin-top: 2%;
+  margin-bottom: 2%;
   font-family: dm-sans;
 }
 .engagement__text {
@@ -184,6 +185,13 @@ iframe {
   aspect-ratio: 16/9;
 }
 
+@media (max-width: 375px) {
+  .section-a-propos * {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .barreNav {
   display: flex;
   justify-content: center;

@@ -2,6 +2,7 @@
 @use "colors";
 @use "banniere";
 @use "footer";
+@use "mixins";
 
 %alignement {
   text-align: center;
@@ -79,21 +80,15 @@ ul {
   margin-left: 2%;
 }
 
-.MISSION {
-  text-align: center;
-}
+
 
 .mission {
   @extend %titre-texte-paragraphe;
 
-  &.text {
-    font-size: 20px;
-  }
+ 
 }
 
-.VISION {
-  text-align: center;
-}
+
 
 .vision {
   @extend %titre-texte-paragraphe;
@@ -179,10 +174,6 @@ iframe {
     justify-content: center;
   }
 
-  .MISSION {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+
 
 }
