@@ -12,7 +12,6 @@ body {
   background-color: colors.$orangePale;
 }
 
-
 .hero-histoire {
   @include mixins.sectionhero;
   display: flex;
@@ -39,12 +38,12 @@ body {
 .histoire {
   text-align: center;
   padding-top: 0%;
-  &__texte{
-    padding-top: 4%; 
+  &__texte {
+    padding-top: 4%;
     margin-top: 2%;
     text-align: center;
   }
-  &__Mg{
+  &__Mg {
     padding-top: 4%;
     margin-top: 2%;
   }
@@ -59,19 +58,12 @@ svg {
   width: 300px;
 }
 
-
 .element {
   display: inline-block;
   width: 30px;
   height: 30px;
   padding: 0;
-
 }
-
-  
-
-
-
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -79,7 +71,6 @@ svg {
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
-  
 }
 
 .timeline ol {
@@ -110,7 +101,7 @@ svg {
 }
 
 .timeline ol li:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: calc(100% + 1px);
@@ -134,7 +125,7 @@ svg {
 }
 
 .timeline ol li div::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
@@ -147,7 +138,6 @@ svg {
   top: -16px;
   transform: translateY(-80%);
 }
-
 
 .timeline time {
   display: block;
@@ -162,14 +152,15 @@ svg {
     align-items: center;
     justify-content: center;
   }
-  .timeline ol li div{
-    right: calc(100% 10px);
+  .timeline ol li div {
+    //right: calc(100% 10px);
     width: 100px;
-    padding:10px;
+    padding: 10px;
   }
-  .promis{
-    width: 100px; 
+  .promis {
+    width: 100px;
   }
   .timeline ol li {
     width: 15px;
-  }}
+  }
+}
