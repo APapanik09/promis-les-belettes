@@ -10,7 +10,7 @@
 %btn {
   background-color: colors.$bleuFoncer;
   color: white;
-font-size: 18px;
+  font-size: 18px;
   border-radius: 10px;
   padding: 20px;
   margin: 3px;
@@ -300,14 +300,14 @@ font-size: 18px;
   padding: 10px;
   &__titre {
     @include mixins.titre;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
   }
   &__body {
     background-image: url(/media/icone/cercle_don.png);
     z-index: 10;
     background-repeat: no-repeat;
     background-position: 120% 0;
-    background-size:80%;
+    background-size: 80%;
     background-color: colors.$rosepale;
     border: none;
     border-radius: 10px;
@@ -323,16 +323,43 @@ font-size: 18px;
     border-radius: 10px;
     aspect-ratio: 3/4;
     height: 15%;
-    .col-12{
+    .col-12 {
       height: 30px;
     }
   }
   &__card {
- 
     background-position: center;
 
     border: none;
   }
-
 }
+.don {
+  background-color: colors.$blanc;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
 
+  &__body {
+    background-color: colors.$bleuFoncer;
+    background-image: url(/media/icone/CERCLE\ 1.png);
+    background-position: 0 -15%;
+    border-radius: 10px;
+    border: none;
+  }
+  &__container {
+    justify-content: center;
+  }
+  &__bouton {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: colors.$orangeFonce;
+    justify-content: center;
+    border: none;
+    margin: 0 auto;
+  }
+  &__card-text {
+    color: colors.$blanc;
+    font-size: 25px;
+    text-align: center;
+  }
+}
