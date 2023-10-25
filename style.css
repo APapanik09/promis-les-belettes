@@ -1485,6 +1485,16 @@ p {
   border: none;
 }
 
+.partenaires {
+  background-color: #223843;
+  text-align: center;
+}
+.partenaires img {
+  width: 10vw;
+  box-sizing: border-box;
+  margin: 10px 15px;
+}
+
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
