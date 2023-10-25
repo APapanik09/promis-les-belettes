@@ -35,31 +35,26 @@ const swiper = new Swiper(".swiper", {
 
 gsap.registerPlugin(ScrollTrigger);
 /* animation page histoire */
+/* animation page histoire */
 const promis = document.querySelector('.promis');
 const creation = document.querySelector('.creation');
 const MariaGoretti = document.querySelector('.MariaGoretti');
-const enveloppe = document.querySelectorAll(".section-histoire ");
+const enveloppe= document.querySelectorAll(".section-histoire ");
 
 
-gsap.set(".section-histoire", { autoAlpha: 0 });
-gsap.set(".promis", { autoAlpha: 0 });
-gsap.set(".creation", { autoAlpha: 0 });
-gsap.set(".MariaGoretti", { autoAlpha: 0 });
-let tl = gsap.timeline({
-    x: '100%',
-    scrollTrigger: {
-        pin: true,
-        scrub: true,
-        start: 'top 5%',
-        end: 'bottom 5%',
-        trigger: '.timeline',
+gsap.set(".section-histoire", {autoAlpha: 0});
+gsap.timeline( { 
+  x: '100%',
+  scrollTrigger: {
+    pin: true,
+    scrub: true,
+    start: 'top 15%',
+    end: 'bottom 5%',
+    trigger: '.timeline',
 
-    },
+  },
 })
-tl.to('.promis', { autoAlpha: 1, x: '-350px', duration: 10, delay: 2, ease: 'linear' }, '<0.5')
-tl.to('.creation', { autoAlpha: 1, x: '-350px', duration: 10, delay: 3, ease: 'linear' }, '>0.5')
-tl.to('.MariaGoretti', { autoAlpha: 1, x: '-150px', duration: 10, delay: 4, ease: 'linear' }, '> 1')
-tl.to('.promis', { autoAlpha: 0, x: '-200px', duration: 6, delay: 2, ease: 'linear' }, '<0.5')
-tl.to('.creation', { autoAlpha: 0, x: '-100px', duration: 6, delay: 3, ease: 'linear' }, '<0.5')
-tl.to('.MariaGoretti', { autoAlpha: 0, x: '-50px', duration: 6, delay: 4, ease: 'linear' }, '< 1')
-tl.to('.section-histoire', { autoAlpha: 1, y: '-50%', ease: 'linear', duration: 6 })
+.to('.promis', { x: '1300px', duration:2 },'<0.5')
+.to('.creation',{ x: '1000px'},'<0.5')
+.to('.MariaGoretti',{ x: '1000px'},'< 1')
+.to('.section-histoire',{ autoAlpha: 1, })

@@ -1452,23 +1452,31 @@ p {
   font-size: 45px;
   font-family: dosis;
   color: #223843;
+  padding-bottom: 20px;
 }
 .temoignage__body {
-  background-image: url(/media/icone/CERCLE\ 1.png);
-  background: #F4E6EF;
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
 }
 .temoignage__container {
   justify-content: center;
 }
 .temoignage__card-texte {
   font-size: 20px;
+  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
 }
 .temoignage__card {
-  background-image: url(/media/icone/cercle_don.png);
   background-position: center;
+  border: none;
 }
 
 .hero-a-propos {
@@ -1664,15 +1672,12 @@ svg {
     align-items: center;
     justify-content: center;
   }
-  .timeline ol li div {
+  .timeline {
     width: 100px;
     padding: 10px;
   }
   .promis {
     width: 100px;
-  }
-  .timeline ol li {
-    width: 15px;
   }
 }
 .quatre-contenu {

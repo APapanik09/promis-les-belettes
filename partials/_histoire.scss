@@ -1,4 +1,4 @@
-                  @use "fonts";
+         @use "fonts";
           @use "colors";
           @use "banniere";
           @use "mixins";
@@ -66,76 +66,96 @@
           /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
           
-          .timeline {
-              white-space: nowrap;
-              overflow-x: hidden;
-              white-space: nowrap;
-              overflow-x: hidden;
-          }
-          
-          .timeline ol {
-              font-size: 0;
-              width: 100vw;
-              height: 30vh;
-              padding: 250px 0;
-              transition: all 1s;
-          }
-          
-          .timeline ol li {
-              position: relative;
-              display: inline-block;
-              list-style-type: none;
-              width: 350px;
-              height: 3px;
-              background: #fff;
-              align-items: center;
-              justify-content: center;
-          }
-          
-          .timeline ol li:last-child {
-              width: 280px;
-          }
-          
-          .timeline ol li:not(:first-child) {
-              margin-left: 14px;
-          }
-          
-          .timeline ol li:not(:last-child)::after {
-              content: '';
-              position: absolute;
-              top: 50%;
-              left: calc(100% + 1px);
-              bottom: 0;
-              width: 12px;
-              height: 12px;
-              transform: translateY(-50%);
-              border-radius: 50%;
-              background: colors.$orangeFonce;
-              .timeline ol li div {
-                  position: absolute;
-                  left: calc(100% + 5px);
-                  width: 280px;
-                  padding: 15px;
-                  font-size: 1rem;
-                  white-space: normal;
-                  color: black;
-                  background: white;
-              }
-              .timeline ol li div::before {
-                  content: '';
-                  position: absolute;
-                  top: 100%;
-                  left: 0;
-                  width: 0;
-                  height: 0;
-                  border-style: solid;
-                  .timeline ol li:nth-child(odd) div {
-                      top: -16px;
-                      transform: translateY(-80%);
-                  }
-                  .timeline time {
-                      display: block;
-                      font-size: 1.2rem;
-                      font-weight: bold;
-                      margin-bottom: 8px;
-                  }
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.timeline ol {
+    font-size: 0;
+    width: 100vw;
+    height: 30vh;
+    padding: 250px 0;
+    transition: all 1s;
+}
+
+.timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 350px;
+    height: 3px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline ol li:last-child {
+    width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+    margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: colors.$orangeFonce;
+}
+
+.timeline ol li div {
+    position: absolute;
+    left: calc(100% + 5px);
+    width: 280px;
+    padding: 15px;
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: white;
+}
+
+.timeline ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+    top: -16px;
+    transform: translateY(-80%);
+}
+
+.timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 375px) {
+    .section-histoire * {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .timeline {
+     //  right: calc(100% 10px);
+        width: 100px;
+        padding: 10px;
+    }
+    .promis {
+        width: 100px;
+    }
+}
