@@ -1453,6 +1453,23 @@ p {
   font-family: dosis;
   color: #223843;
 }
+.temoignage__body {
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background: #F4E6EF;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 20px;
+}
+.temoignage__image {
+  border-radius: 10px;
+}
+.temoignage__card {
+  background-image: url(/media/icone/cercle_don.png);
+  background-position: center;
+}
 
 .hero-a-propos {
   width: 100vw;

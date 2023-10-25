@@ -301,4 +301,21 @@
   &__titre {
     @include mixins.titre;
   }
+  &__body {
+    background-image: url(/media/icone/CERCLE\ 1.png);
+    background: colors.$rosepale;
+  }
+  &__container {
+    justify-content: center;
+  }
+  &__card-texte {
+    font-size: 20px;
+  }
+  &__image {
+    border-radius: 10px;
+  }
+  &__card {
+    background-image: url(/media/icone/cercle_don.png);
+    background-position: center;
+  }
 }
