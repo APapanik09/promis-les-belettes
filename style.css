@@ -1920,4 +1920,55 @@ svg {
 }
 
 /*Service 
-************************************************//*# sourceMappingURL=style.css.map */
+************************************************/
+.hero-equipe {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  height: 40vh;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-equipe .titre-equipe {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-equipe .texte-hero-equipe {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300;
+}
+
+.equipe {
+  background-color: #ffffff;
+}
+.equipe__titre {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.equipe__container {
+  justify-content: center;
+}
+.equipe__card-texte {
+  font-size: 20px;
+  color: #223843;
+}
+.equipe__image {
+  border-radius: 10px;
+  aspect-ratio: 38/57;
+}
+.equipe__card {
+  background-position: center;
+  display: flex;
+  margin: 10px;
+}
+.equipe__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 70px;
+}/*# sourceMappingURL=style.css.map */
