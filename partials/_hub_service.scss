@@ -2,8 +2,140 @@
 @use "fonts";
 @use "mixins";
 @use 'banniere';
+@use "accueil";
 
 
-.hub-service{
+
+.hub-services{
     @include mixins.sectionhero;
+    &__titre {
+        text-align: center;
+        font-family: sunday;
+        font-size: 50px;
+        padding: 10px;
+        
+      }
+    
+      &__texte{
+     
+        font-family: dosis;
+        padding: 3%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 25px;
+      }
 }
+
+
+.service {
+    padding: 10px;
+  }
+
+  //Swipper service
+  .swiper-slide {
+    width: auto;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  /*.card-body {
+    height: 200px;
+  }*/
+
+  .swipper {
+    margin: 20px;
+  }
+
+  .service .card {
+    height: 300px;
+    width: 350px;
+
+    &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+
+      background-color: colors.$bleuFoncer;
+    }
+    &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+
+      background-color: colors.$bleuFoncer;
+    }
+    &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+
+      background-color: colors.$bleuFoncer;
+    }
+    &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
+    &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
+    &__alimentation {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+    }
+  }
+
+  .card-title {
+    color: colors.$orangeFonce;
+    font-family: dm-sans;
+  }
+  .card-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: dm-sans;
+  }
+
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10%;
+}
+/*Service 
+************************************************/
