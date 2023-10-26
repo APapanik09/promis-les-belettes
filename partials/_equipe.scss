@@ -1,0 +1,22 @@
+@use "fonts";
+@use "colors";
+@use "banniere";
+@use "footer";
+@use "mixins";
+.hero-equipe {
+    @include mixins.sectionhero;
+  
+    .titre-equipe{
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+    }
+  
+    .texte-hero-equipe {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300;
+    }
+  }
