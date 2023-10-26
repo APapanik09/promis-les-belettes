@@ -336,18 +336,25 @@ font-size: 18px;
 
 }
 
-// Swiper Partenaires
+// Partenaires
+
+.part {
+  background-color: colors.$bleuFoncer;
+
+}
 
 .partenaires {
-  background-color: colors.$bleuFoncer;
   text-align: center;
 
 
   img {
-    width: 10vw;
+    padding: 5px;
+    max-width: 19vw;
+    object-fit: contain;
     box-sizing: border-box;
-    margin: 10px 15px;
   }
+
+
 }
 
 

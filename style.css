@@ -1485,14 +1485,19 @@ p {
   border: none;
 }
 
-.partenaires {
+.part {
   background-color: #223843;
+}
+
+.partenaires {
   text-align: center;
 }
 .partenaires img {
-  width: 10vw;
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
-  margin: 10px 15px;
 }
 
 .hero-a-propos {

@@ -33,6 +33,17 @@ const swiper = new Swiper(".swiper", {
     },
 });
 
+const swiperP = new Swiper(".swiper-p", {
+     // Optional parameters
+     direction: "horizontal",
+     loop: true,
+     autoplay: {
+        delay: 2500,
+        },
+        
+ 
+});
+
 gsap.registerPlugin(ScrollTrigger);
 /* animation page histoire */
 /* animation page histoire */
