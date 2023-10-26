@@ -1,0 +1,9 @@
+@use "colors";
+@use "fonts";
+@use "mixins";
+@use 'banniere';
+
+
+.hub-service{
+    @include mixins.sectionhero;
+}

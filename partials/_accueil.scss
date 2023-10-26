@@ -311,6 +311,7 @@
     background-color: colors.$rosepale;
     border: none;
     border-radius: 10px;
+   
   }
   &__container {
     justify-content: center;
@@ -329,8 +330,15 @@
   }
   &__card {
     background-position: center;
-
+    display: flex;
     border: none;
+  }
+  &__citation{
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    left: 25%;
+    top:-50px;
   }
 }
 .don {
