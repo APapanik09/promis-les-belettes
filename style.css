@@ -74,7 +74,6 @@ body {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
-  height: 40vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -82,15 +81,14 @@ body {
 .hero-a-propos .titre-a-propos {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
+  font-size: 60px;
   padding: 10px;
 }
 .hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
+  font-size: 30px;
   font-family: dosis;
   padding: 3%;
   font-weight: 300;
-  font-size: 35px;
 }
 
 .paragraphe-a-propos {
@@ -358,7 +356,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -475,7 +473,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -592,7 +590,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -709,7 +707,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -826,7 +824,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -943,7 +941,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -1060,7 +1058,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -1177,7 +1175,7 @@ p {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -1264,9 +1262,19 @@ p {
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
 /*Service 
 ************************************************/
 .service__titre {
@@ -1275,6 +1283,7 @@ p {
   font-size: 45px;
   font-family: dosis;
   color: #223843;
+  font-size: 60px;
 }
 .service__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -1282,7 +1291,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1293,7 +1302,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1305,7 +1314,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1317,7 +1326,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1329,7 +1338,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1341,7 +1350,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1367,7 +1376,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1378,7 +1387,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1390,7 +1399,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1402,7 +1411,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1414,7 +1423,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
-  height: 90%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1552,7 +1561,6 @@ p {
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
-  height: 30vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -1560,11 +1568,11 @@ p {
 .hero-a-propos .titre-a-propos {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
+  font-size: 60px;
   padding: 10px;
 }
 .hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
+  font-size: 35px;
   font-family: dosis;
   padding: 10px;
   font-weight: 300;
@@ -1604,7 +1612,6 @@ body {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
-  height: 40vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -1620,7 +1627,7 @@ body {
   padding-bottom: -25%;
 }
 .hero-histoire .texte-hero-histoire {
-  font-size: 20px;
+  font-size: 30px;
   font-family: dosis;
   font-weight: 300;
   padding-top: 3%;
@@ -1799,7 +1806,6 @@ svg {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
-  height: 40vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -1808,8 +1814,11 @@ svg {
 .hub-services__titre {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
+  font-size: 60px;
   padding: 10px;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
 }
 .hub-services__texte {
   font-family: dosis;
@@ -1879,7 +1888,7 @@ svg {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-.service__alimentation {
+.service__alimentaire {
   background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
@@ -1899,10 +1908,15 @@ svg {
 }
 
 /*.card-body {
-  height: 200px;
-}*/
+    height: 200px;
+  }*/
 @media (min-width: 1400px) {
-  .service__container, .service__container-lg, .container-md, .container-sm, .service__container-xl, .service__container-xxl {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
     max-width: 20000px;
   }
 }
@@ -1912,17 +1926,16 @@ svg {
 
 .service .card {
   height: 300px;
-  width: 350px;
+  width: 420px;
 }
 
 .card-title {
   color: #FC9478;
   font-family: dm-sans;
+  font-size: 25px;
 }
 
 .card-text {
-  margin-top: 10%;
-  margin-bottom: 10%;
   font-family: dm-sans;
 }
 
@@ -1939,7 +1952,7 @@ svg {
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -1949,7 +1962,6 @@ svg {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
-  height: 40vh;
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
@@ -1995,4 +2007,8 @@ svg {
   position: relative;
   margin: 0 auto;
   left: 70px;
+}
+
+html {
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */

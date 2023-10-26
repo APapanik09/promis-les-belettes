@@ -94,7 +94,7 @@
 
   .service .card {
     height: 300px;
-    width: 350px;
+    width: 420px;
 
     &__accueil {
       background-image: url(/media/icone/accueil_main_transparence.png);
@@ -179,13 +179,24 @@
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
+}
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
 }
 /*Service 
 ************************************************/
 .service {
   &__titre {
     @include mixins.titre;
+    font-size: 60px;
   }
   &__accueil {
     background-image: url(/media/icone/accueil_main_transparence.png);
@@ -311,7 +322,6 @@
     background-color: colors.$rosepale;
     border: none;
     border-radius: 10px;
-   
   }
   &__container {
     justify-content: center;
@@ -333,7 +343,7 @@
     display: flex;
     border: none;
   }
-  &__citation{
+  &__citation {
     justify-content: center;
     position: relative;
     margin: 0 auto;
@@ -375,7 +385,6 @@
 
 .part {
   background-color: colors.$bleuFoncer;
-
 }
 
 .partenaires {
@@ -387,6 +396,4 @@
     object-fit: contain;
     box-sizing: border-box;
   }
-
-
 }
