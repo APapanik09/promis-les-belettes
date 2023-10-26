@@ -1,0 +1,14 @@
+@use "fonts";
+@use "colors";
+@use "banniere";
+@use "footer";
+@use "mixins";
+
+.nouvelles {
+    .heronouv {
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
