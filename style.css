@@ -1518,6 +1518,7 @@ p {
   justify-content: center;
   padding: 3%;
   display: flex;
+  position: relative;
 }
 .don__body {
   background-color: #223843;
@@ -1539,8 +1540,20 @@ p {
 }
 .don__card-text {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+.dollar {
+  bottom: 50px;
+  top: 100px;
+  left: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 40px;
 }
 
 .part {

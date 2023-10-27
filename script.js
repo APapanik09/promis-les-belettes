@@ -34,14 +34,14 @@ const swiper = new Swiper(".swiper", {
 });
 
 const swiperP = new Swiper(".swiper-p", {
-     // Optional parameters
-     direction: "horizontal",
-     loop: true,
-     autoplay: {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    autoplay: {
         delay: 2500,
-        },
-        
- 
+    },
+
+
 });
 
 gsap.registerPlugin(ScrollTrigger);
@@ -50,22 +50,35 @@ gsap.registerPlugin(ScrollTrigger);
 const promis = document.querySelector('.promis');
 const creation = document.querySelector('.creation');
 const MariaGoretti = document.querySelector('.MariaGoretti');
-const enveloppe= document.querySelectorAll(".section-histoire ");
+const enveloppe = document.querySelectorAll(".section-histoire ");
 
 
-gsap.set(".section-histoire", {autoAlpha: 0});
-gsap.timeline( { 
-  x: '100%',
-  scrollTrigger: {
-    pin: true,
-    scrub: true,
-    start: 'top 15%',
-    end: 'bottom 5%',
-    trigger: '.timeline',
+gsap.set(".section-histoire", { autoAlpha: 0 });
+gsap.timeline({
+    x: '100%',
+    scrollTrigger: {
+        pin: true,
+        scrub: true,
+        start: 'top 15%',
+        end: 'bottom 5%',
+        trigger: '.timeline',
 
-  },
+    },
 })
-.to('.promis', { x: '1300px', duration:2 },'<0.5')
-.to('.creation',{ x: '1000px'},'<0.5')
-.to('.MariaGoretti',{ x: '1000px'},'< 1')
-.to('.section-histoire',{ autoAlpha: 1, })
+
+.to('.promis', { x: '1300px', duration: 2 }, '<0.5')
+    .to('.creation', { x: '1000px' }, '<0.5')
+    .to('.MariaGoretti', { x: '1000px' }, '< 1')
+    .to('.section-histoire', { autoAlpha: 1, })
+
+/* fin animation page histoire */
+
+/* animation Don */
+const play = document.querySelector('.play');
+const red = document.querySelector('.red');
+const animation = gsap.timeline()
+    .from('.element.no1', { x: '400%' })
+    .from('.element.no2', { x: '400%' })
+    .add('red')
+    .from('.element.no3', { x: '400%' })
+    .paused(true);

@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 
 
     <link rel="stylesheet" href="style.css">
@@ -20,422 +17,458 @@
     <!--<h1>Promis</h1>
     <h2>Les belettes</h2>
 <a href="https://github.com/APapanik09/promis-les-belettes/tree/main"><button>Repo Github</button></a>-->
-<header>
-    <div class="banniere">
-        <div class="banniere__lienPromis">
-        <p>Projet étudiant créé par Les belettes basé sur<a href="https://promis.qc.ca/fr/" > le site Promis .</a></p>
-    </div>
-    </div>
-    <section class="barreNav">
-    <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container">
-            <!-- Hamburger button -->
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Navigation -->
-            <a class="navbar__logo navbar-brand" href="index.html"><img src="media/logo_promis.svg" alt=""></a>
-            <div id="mainNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nos services</a>
-                    
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="hub_services.html" class="dropdown-item">Tous les services</a>
-                            </li>
-                            <li>
-                                <a href="page-1.html" class="dropdown-item">Accueil et intégration</a>
-                            </li>
-                            <li>
-                                <a href="page-2.html" class="dropdown-item">Service de francisation</a>
-                            </li>
-                            <li>
-                                <a href="page-2.html" class="dropdown-item">Soutien aux familles</a>
-                            </li>
-                            <li>
-                                <a href="page-2.html" class="dropdown-item">Soutien scolaire</a>
-                            </li>
-                            <li>
-                                <a href="page-2.html" class="dropdown-item">Aide à l'emplois</a>
-                            </li>
-                            <li>
-                                <a href="page-2.html" class="dropdown-item">Action alimentaire</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--élément du menu-->
-                    <li class="nav-item">
-                        <a href="page-2.html" class="nav-link">Nouvelles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="page-2.html" class="nav-link">Équipe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="A_Propos.html" class="nav-link">À propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="histoire.html" class="nav-link">Notre histoire</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="faq" class="nav-link">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="page-2.html" class="nav-link">Don</a>
-                    </li>
-                </ul>
+    <header>
+        <div class="banniere">
+            <div class="banniere__lienPromis">
+                <p>Projet étudiant créé par Les belettes basé sur<a href="https://promis.qc.ca/fr/"> le site Promis .</a></p>
             </div>
         </div>
-    </nav>
-</section>
+        <section class="barreNav">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <div class="container">
+                    <!-- Hamburger button -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-</header>
-<!--Hero-->
-<section class="hero d-flex">
-    <div class="container-fluid  hero__accueil">
-        <div class="row">
-    <h1 class="hero__titre col-12">
-        C'est Promis une intégration sans problème
-    </h1>
-    <h2 class="hero__question col-12 d-none  d-md-block">Quelle est votre situation?</h2>
-    <h3 class="hero__option col-12 d-none d-md-block">
-        Sélectionnez l'une des options suivantes et découvrez des informations adaptées à vos besoins:
-    </h3>
-    <div class="row row__hero hero__button justify-content-center">
-        <button type="button" class="btn-1 col-lg-8 d-none d-md-block" >j'ai un certificat de
-            sélection du Québec</button> 
-         <button type="button" class="btn-2  col-lg-8 d-none d-md-block ">Je suis une résidente permanente, un résident permanent</button>
-        <button type="button" class="btn-3  col-lg-8 d-none d-md-block">Je suis une citoyenne naturalisée, un citoyen naturalisé</button>
-        <button type="button" class="btn-4  col-lg-8 d-none d-md-block">Je suis travailleur 
-            autonome</button>
-        <button type="button" class="btn-5  col-lg-8 d-none d-md-block"  >Je suis un étudiant international</button>
-        <button type="button" class="btn-6  col-lg-8 d-none d-md-block "  >Je suis un réfugié, une réfugiée</button> 
-  </div>
-</div>
-</div>
-</section>
-<!---Fin Hero-->
-<section class="service">
-<h2 class="service__titre">Services offerts</h2>
-   <!-- Swipper service -->
-    <div class="swiper d-lg-none">
-  
-        <div class="swiper-wrapper ">
-            <!-- Slides -->
+                    <!-- Navigation -->
+                    <a class="navbar__logo navbar-brand" href="index.html"><img src="media/logo_promis.svg" alt=""></a>
+                    <div id="mainNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nos services</a>
 
-                 <!--Accueil
-              ---------------------------------------------------------->
-            <div class="swiper-slide justify-content-centercard"> <div class="card-1 col-10 col-md-11 col-lg-6  ">
-         
-       
-                  <div class="card-body card__accueil">
-                    <div class="row ">
-                  <h5 class="card-title col-12">Accueil et Intégration</h5>
-            
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="hub_services.html" class="dropdown-item">Tous les services</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-1.html" class="dropdown-item">Accueil et intégration</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-2.html" class="dropdown-item">Service de francisation</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-2.html" class="dropdown-item">Soutien aux familles</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-2.html" class="dropdown-item">Soutien scolaire</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-2.html" class="dropdown-item">Aide à l'emplois</a>
+                                    </li>
+                                    <li>
+                                        <a href="page-2.html" class="dropdown-item">Action alimentaire</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--élément du menu-->
+                            <li class="nav-item">
+                                <a href="page-2.html" class="nav-link">Nouvelles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="page-2.html" class="nav-link">Équipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="A_Propos.html" class="nav-link">À propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="histoire.html" class="nav-link">Notre histoire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="page-2.html" class="nav-link">Don</a>
+                            </li>
+                        </ul>
                     </div>
-                  <p class="card-text">Nos conseillers vous offrent un accompagnement personnalisé pour faciliter votre intégration et celle de votre famille à la société québécoise.</p>
-               
                 </div>
-                
-              </div> 
-            </div>
-                 <!--francisation
-              ---------------------------------------------------------->
-            <div class="swiper-slide ">  <div class="card-2 col-10 col-md-11 col-lg-6">
-                <div class="card-body card__francisation">
-                  <div class="row">
-                  <h5 class="card-title col-12">Service de francisation</h5>
-              
-                </div>
-                  <p class="card-text">Maîtriser la langue officielle du Québec est essentiel pour vous épanouir pleinement sur votre lieu de travail et vous intégrer à la vie de la province. Gratuits, nos cours sont reconnus par le gouvernement et disponibles pour tous les niveaux.</p>
-               
-                </div>
-              </div></div>
-                   <!--famille
-              ---------------------------------------------------------->
-            <div class="swiper-slide d-lg-block"> <div class="card-3 col-md-11 col-10 col-lg-6">
-                <div class="card-body card__famille">
-                  <div class="row">
-                  <h5 class="card-title col-12">Soutien aux familles</h5>
-                 
-                </div>
-                  <p class="card-text">Notre équipe organise régulièrement des sorties et activités ludiques pour permettre de s'imprégner et de s'impliquer dans la vie culturelle québécoise. Nous offrons aussi un service de soutien personnalisé aux familles selon les besoins de chacun.</p>
-           
-                </div>
-              </div></div>
-     <!--scolaire
-              ---------------------------------------------------------->
-              <div class="swiper-slide ">   <div class="card-4 col-10 col-md-11 col-lg-6">
-                <div class="card-body card__scolaire">
-                  <div class="row">
-                  <h5 class="card-title col-12">Soutien scolaire</h5>
+            </nav>
+        </section>
 
+    </header>
+    <!--Hero-->
+    <section class="hero d-flex">
+        <div class="container-fluid  hero__accueil">
+            <div class="row">
+                <h1 class="hero__titre col-12">
+                    C'est Promis une intégration sans problème
+                </h1>
+                <h2 class="hero__question col-12 d-none  d-md-block">Quelle est votre situation?</h2>
+                <h3 class="hero__option col-12 d-none d-md-block">
+                    Sélectionnez l'une des options suivantes et découvrez des informations adaptées à vos besoins:
+                </h3>
+                <div class="row row__hero hero__button justify-content-center">
+                    <button type="button" class="btn-1 col-lg-8 d-none d-md-block">j'ai un certificat de
+            sélection du Québec</button>
+                    <button type="button" class="btn-2  col-lg-8 d-none d-md-block ">Je suis une résidente permanente, un résident permanent</button>
+                    <button type="button" class="btn-3  col-lg-8 d-none d-md-block">Je suis une citoyenne naturalisée, un citoyen naturalisé</button>
+                    <button type="button" class="btn-4  col-lg-8 d-none d-md-block">Je suis travailleur 
+            autonome</button>
+                    <button type="button" class="btn-5  col-lg-8 d-none d-md-block">Je suis un étudiant international</button>
+                    <button type="button" class="btn-6  col-lg-8 d-none d-md-block ">Je suis un réfugié, une réfugiée</button>
                 </div>
-                  <p class="card-text">Parce que l'école occupe une place importante dans l'intégration des jeunes immigrants, Promis offre un soutien scolaire pour les enfants du primaire et les jeunes du secondaire.</p>
-               
+            </div>
+        </div>
+    </section>
+    <!---Fin Hero-->
+    <section class="service">
+        <h2 class="service__titre">Services offerts</h2>
+        <!-- Swipper service -->
+        <div class="swiper d-lg-none">
+
+            <div class="swiper-wrapper ">
+                <!-- Slides -->
+
+                <!--Accueil
+              ---------------------------------------------------------->
+                <div class="swiper-slide justify-content-centercard">
+                    <div class="card-1 col-10 col-md-11 col-lg-6  ">
+
+
+                        <div class="card-body card__accueil">
+                            <div class="row ">
+                                <h5 class="card-title col-12">Accueil et Intégration</h5>
+
+                            </div>
+                            <p class="card-text">Nos conseillers vous offrent un accompagnement personnalisé pour faciliter votre intégration et celle de votre famille à la société québécoise.</p>
+
+                        </div>
+
+                    </div>
                 </div>
-              </div></div>
+                <!--francisation
+              ---------------------------------------------------------->
+                <div class="swiper-slide ">
+                    <div class="card-2 col-10 col-md-11 col-lg-6">
+                        <div class="card-body card__francisation">
+                            <div class="row">
+                                <h5 class="card-title col-12">Service de francisation</h5>
+
+                            </div>
+                            <p class="card-text">Maîtriser la langue officielle du Québec est essentiel pour vous épanouir pleinement sur votre lieu de travail et vous intégrer à la vie de la province. Gratuits, nos cours sont reconnus par le gouvernement et disponibles pour
+                                tous les niveaux.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--famille
+              ---------------------------------------------------------->
+                <div class="swiper-slide d-lg-block">
+                    <div class="card-3 col-md-11 col-10 col-lg-6">
+                        <div class="card-body card__famille">
+                            <div class="row">
+                                <h5 class="card-title col-12">Soutien aux familles</h5>
+
+                            </div>
+                            <p class="card-text">Notre équipe organise régulièrement des sorties et activités ludiques pour permettre de s'imprégner et de s'impliquer dans la vie culturelle québécoise. Nous offrons aussi un service de soutien personnalisé aux familles selon
+                                les besoins de chacun.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--scolaire
+              ---------------------------------------------------------->
+                <div class="swiper-slide ">
+                    <div class="card-4 col-10 col-md-11 col-lg-6">
+                        <div class="card-body card__scolaire">
+                            <div class="row">
+                                <h5 class="card-title col-12">Soutien scolaire</h5>
+
+                            </div>
+                            <p class="card-text">Parce que l'école occupe une place importante dans l'intégration des jeunes immigrants, Promis offre un soutien scolaire pour les enfants du primaire et les jeunes du secondaire.</p>
+
+                        </div>
+                    </div>
+                </div>
 
                 <!--emploi
               ---------------------------------------------------------->
-              <div class="swiper-slide ">   <div class="card-5 col-10 col-md-11 col-lg-6">
-                <div class="card-body card__emplois">
-                  <div class="row">
-                  <h5 class="card-title col-12">Aide à l'emplois</h5>
-             
+                <div class="swiper-slide ">
+                    <div class="card-5 col-10 col-md-11 col-lg-6">
+                        <div class="card-body card__emplois">
+                            <div class="row">
+                                <h5 class="card-title col-12">Aide à l'emplois</h5>
+
+                            </div>
+                            <p class="card-text">Notre service d'aide à l'emploi vous conseille dans vos démarches et vous prépare pour ce nouveau marché de l'emploi que vous découvrez. Notre équipe s'appuie sur un solide réseau de partenaires pour répondre à vos besoins.</p>
+
+                        </div>
+                    </div>
                 </div>
-                  <p class="card-text">Notre service d'aide à l'emploi vous conseille dans vos démarches et vous prépare pour ce nouveau marché de l'emploi que vous découvrez. Notre équipe s'appuie sur un solide réseau de partenaires pour répondre à vos besoins.</p>
-           
-                </div>
-              </div></div>
-               <!--alimentaire
+                <!--alimentaire
               ---------------------------------------------------------->
-             
-              
-              <div class="swiper-slide">    <div class="card-7 col-10 col-md-11 col-lg-6">
-                <div class="card-body card__alimentation">
-                  <div class="row">
-                  <h5 class="card-title col-12">Action Alimentaire</h5>
-                
+
+
+                <div class="swiper-slide">
+                    <div class="card-7 col-10 col-md-11 col-lg-6">
+                        <div class="card-body card__alimentation">
+                            <div class="row">
+                                <h5 class="card-title col-12">Action Alimentaire</h5>
+
+                            </div>
+                            <p class="card-text">Nos ateliers et le jardin collectif de Promis vous permettent de cultiver différents fruits et légumes et d'étoffer votre livre de recettes. Vous avez aussi la possibilité de commander des boîtes de fruits et légumes frais
+                                à juste prix!</p>
+
+                        </div>
+                    </div>
                 </div>
-                  <p class="card-text">Nos ateliers et le jardin collectif de Promis vous permettent de cultiver différents fruits et légumes et d'étoffer votre livre de recettes. Vous avez aussi la possibilité de commander des boîtes de fruits et légumes frais à juste prix!</p>
-                
-                </div>
-              </div> </div>
-        
-            
+
+
             </div>
-    
-        <!-- scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
-    <!--Pour ecran large col-12 
+
+            <!-- scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!--Pour ecran large col-12 
     ------------------------------------------------->
- <div class="container service__container ">
+        <div class="container service__container ">
 
-      <div class="row row__service ">
+            <div class="row row__service ">
 
-        <div class="card  service__accueil d-none  m-2 col-3 d-lg-block">
-            <div class="card-body ">
-                <div class="row ">
-              <h5 class="card-title">Accueil et Intégration</h5>
-      
-            </div>
-              <p class="card-text">Nos conseillers vous offrent un accompagnement personnalisé pour faciliter votre intégration et celle de votre famille à la société québécoise.</p>
-           
-            </div>
-          </div>
-      
-        <div class="card service__francisation  m-2 col-3 d-none d-lg-block ">
-            <div class="card-body ">
-              <h5 class="card-title">Service de francisation</h5>
-           
-              <p class="card-text">Maîtriser la langue officielle du Québec est essentiel pour vous épanouir pleinement sur votre lieu de travail et vous intégrer à la vie de la province. Gratuits, nos cours sont reconnus par le gouvernement et disponibles pour tous les niveaux.</p>
-           
-            </div>
-          </div>
-          <div class="card service__famille m-2 col-3  d-none d-lg-block  ">
-            <div class="card-body ">
-              <h5 class="card-title">Soutien aux familles</h5>
-          
-              <p class="card-text">Notre équipe organise régulièrement des sorties et activités ludiques pour permettre de s'imprégner et de s'impliquer dans la vie culturelle québécoise. Nous offrons aussi un service de soutien personnalisé aux familles selon les besoins de chacun.</p>
-       
-            </div>
-          </div>
-          <div class="card  service__scolaire m-2 d-none  col-3 d-lg-block">
-            <div class="card-body ">
-              <h5 class="card-title">Soutien scolaire</h5>
-          
-              <p class="card-text">Parce que l'école occupe une place importante dans l'intégration des jeunes immigrants, Promis offre un soutien scolaire pour les enfants du primaire et les jeunes du secondaire.</p>
-           
-            </div>
-          </div>
-          <div class="card   service__emplois m-2 d-none   col-3 d-lg-block ">
-            <div class="card-body ">
-              <h5 class="card-title">Aide à l'emplois</h5>
-            
-              <p class="card-text">Notre service d'aide à l'emploi vous conseille dans vos démarches et vous prépare pour ce nouveau marché de l'emploi que vous découvrez. Notre équipe s'appuie sur un solide réseau de partenaires pour répondre à vos besoins.</p>
-              
-            </div>
-          </div>
-          <div class="card service__alimentaire m-2  d-none col-3 d-lg-block">
-            <div class="card-body ">
-              <h5 class="card-title">Action Alimentaire</h5>
-         
-              <p class="card-text">Nos ateliers et le jardin collectif de Promis vous permettent de cultiver différents fruits et légumes et d'étoffer votre livre de recettes. Vous avez aussi la possibilité de commander des boîtes de fruits et légumes frais à juste prix!</p>
-            
-            </div>
-          </div>
- 
-    </div>
+                <div class="card  service__accueil d-none  m-2 col-3 d-lg-block">
+                    <div class="card-body ">
+                        <div class="row ">
+                            <h5 class="card-title">Accueil et Intégration</h5>
 
-</section>
-<!--Nouvelle
+                        </div>
+                        <p class="card-text">Nos conseillers vous offrent un accompagnement personnalisé pour faciliter votre intégration et celle de votre famille à la société québécoise.</p>
+
+                    </div>
+                </div>
+
+                <div class="card service__francisation  m-2 col-3 d-none d-lg-block ">
+                    <div class="card-body ">
+                        <h5 class="card-title">Service de francisation</h5>
+
+                        <p class="card-text">Maîtriser la langue officielle du Québec est essentiel pour vous épanouir pleinement sur votre lieu de travail et vous intégrer à la vie de la province. Gratuits, nos cours sont reconnus par le gouvernement et disponibles pour
+                            tous les niveaux.</p>
+
+                    </div>
+                </div>
+                <div class="card service__famille m-2 col-3  d-none d-lg-block  ">
+                    <div class="card-body ">
+                        <h5 class="card-title">Soutien aux familles</h5>
+
+                        <p class="card-text">Notre équipe organise régulièrement des sorties et activités ludiques pour permettre de s'imprégner et de s'impliquer dans la vie culturelle québécoise. Nous offrons aussi un service de soutien personnalisé aux familles selon les
+                            besoins de chacun.</p>
+
+                    </div>
+                </div>
+                <div class="card  service__scolaire m-2 d-none  col-3 d-lg-block">
+                    <div class="card-body ">
+                        <h5 class="card-title">Soutien scolaire</h5>
+
+                        <p class="card-text">Parce que l'école occupe une place importante dans l'intégration des jeunes immigrants, Promis offre un soutien scolaire pour les enfants du primaire et les jeunes du secondaire.</p>
+
+                    </div>
+                </div>
+                <div class="card   service__emplois m-2 d-none   col-3 d-lg-block ">
+                    <div class="card-body ">
+                        <h5 class="card-title">Aide à l'emplois</h5>
+
+                        <p class="card-text">Notre service d'aide à l'emploi vous conseille dans vos démarches et vous prépare pour ce nouveau marché de l'emploi que vous découvrez. Notre équipe s'appuie sur un solide réseau de partenaires pour répondre à vos besoins.</p>
+
+                    </div>
+                </div>
+                <div class="card service__alimentaire m-2  d-none col-3 d-lg-block">
+                    <div class="card-body ">
+                        <h5 class="card-title">Action Alimentaire</h5>
+
+                        <p class="card-text">Nos ateliers et le jardin collectif de Promis vous permettent de cultiver différents fruits et légumes et d'étoffer votre livre de recettes. Vous avez aussi la possibilité de commander des boîtes de fruits et légumes frais à juste
+                            prix!
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+    <!--Nouvelle
 ----------------------------------------->
-<section class="nouvelle">
-<h2 class="nouvelle__titre">Nouvelles récentes</h2>
-   <!-- Swipper service 
+    <section class="nouvelle">
+        <h2 class="nouvelle__titre">Nouvelles récentes</h2>
+        <!-- Swipper service 
   -------------------------------------->
-    <div class="swiper ">
-  
-        <div class="swiper-wrapper ">
-            <!-- Slides -->
+        <div class="swiper ">
 
-                 <!--Déménagement 
+            <div class="swiper-wrapper ">
+                <!-- Slides -->
+
+                <!--Déménagement 
               ---------------------------------------------------------->
-            <div class="swiper-slide justify-content-centercard"><div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
-         
-                <div class="nouvelle card-body ">
-           
-                  <h5 class="card-title col-12">Réussir son déménagement </h5>
-            
-                   
-                  <p class="card-text">1 juin 2023</p>
-               
-             </div>
-              </div>
-            </div>
-                 <!--francisation
-              ---------------------------------------------------------->
-            <div class="swiper-slide ">  <div class="card-2 nouvelle__sarah col-10 col-md-11 col-lg-6">
-                <div class="nouvelle card-body ">
-              
-                  <h5 class="card-title col-12">La contribution de Sarah</h5>
-              
-                  <p class="card-text">29 juin 2023</p>
-                 </div>
+                <div class="swiper-slide justify-content-centercard">
+                    <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+
+                        <div class="nouvelle card-body ">
+
+                            <h5 class="card-title col-12">Réussir son déménagement </h5>
+
+
+                            <p class="card-text">1 juin 2023</p>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
-                   <!--famille
+                <!--francisation
               ---------------------------------------------------------->
-            <div class="swiper-slide "> <div class="card-3 col-md-11 col-10 col-lg-6 nouvelle__reseautage">
-                <div class="nouvelle card-body ">
-           
-                  <h5 class="card-title col-12">La puissance du réseautage</h5>
-                  <p class="card-text">3 mai 2023</p>
-             </div>
+                <div class="swiper-slide ">
+                    <div class="card-2 nouvelle__sarah col-10 col-md-11 col-lg-6">
+                        <div class="nouvelle card-body ">
+
+                            <h5 class="card-title col-12">La contribution de Sarah</h5>
+
+                            <p class="card-text">29 juin 2023</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-     <!--citoyennete 
+                <!--famille
               ---------------------------------------------------------->
-             
+                <div class="swiper-slide ">
+                    <div class="card-3 col-md-11 col-10 col-lg-6 nouvelle__reseautage">
+                        <div class="nouvelle card-body ">
+
+                            <h5 class="card-title col-12">La puissance du réseautage</h5>
+                            <p class="card-text">3 mai 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <!--citoyennete 
+              ---------------------------------------------------------->
+
 
                 <!--vivre ensemble
               ---------------------------------------------------------->
-              <div class="swiper-slide ">   <div class="  nouvelle__vivre-ensemble card-5 col-10 col-md-11 col-lg-6">
-                <div class="nouvelle card-body ">
-              
-                  <h5 class="card-title col-12">Journée nationale du vivre-ensemble</h5>
-             
-              
-                  <p class="card-text"> 12 janvier 2023</p>
-           
+                <div class="swiper-slide ">
+                    <div class="  nouvelle__vivre-ensemble card-5 col-10 col-md-11 col-lg-6">
+                        <div class="nouvelle card-body ">
+
+                            <h5 class="card-title col-12">Journée nationale du vivre-ensemble</h5>
+
+
+                            <p class="card-text"> 12 janvier 2023</p>
+
+                        </div>
+                    </div>
                 </div>
-              </div></div>
-               <!--hebergement
+                <!--hebergement
               ---------------------------------------------------------->
-             
-              
-              <div class="swiper-slide">    <div class=" nouvelle__hebergement card-7 col-10 col-md-11 col-lg-6">
-                <div class="nouvelle card-body ">
-                
-                  <h5 class="card-title col-12">Un lieu d'hébergement pour les femmes</h5>
-                
-               
-                  <p class="card-text"> 26 janvier 2021</p>
-                
+
+
+                <div class="swiper-slide">
+                    <div class=" nouvelle__hebergement card-7 col-10 col-md-11 col-lg-6">
+                        <div class="nouvelle card-body ">
+
+                            <h5 class="card-title col-12">Un lieu d'hébergement pour les femmes</h5>
+
+
+                            <p class="card-text"> 26 janvier 2021</p>
+
+                        </div>
+                    </div>
                 </div>
-              </div>   </div> 
-        
-            
+
+
             </div>
-    
-        <!-- scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
-    <!--Pour ecran large col-12 
+
+            <!-- scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!--Pour ecran large col-12 
     ------------------------------------------------->
 
 
-</section>
+    </section>
 
-<section class="temoignage">
-  <h2 class="temoignage__titre ">Témoignage</h2>
-  <div class="container temoignage__container d-flex">
+    <section class="temoignage">
+        <h2 class="temoignage__titre ">Témoignage</h2>
+        <div class="container temoignage__container d-flex">
 
 
-<div class="card temoignage__card col-12 col-md-11 col-sm-12 justify-content-center  ">
-            <div class="temoignage__body card-body ">
-             
-              
-             <div class="row">
-              
-                <img class="card-image-top temoignage__image col-lg-3 col-md-11 col-sm-5" src="media/temoignage.jpg" alt="">
-            
-              
-          
-              <p class="card-text temoignage__card-texte col-lg-7">“Propreté, accueil, tranquillité, sécurité, et confort vous attendent dans un décor sobre et reposant. Ceci était ma première expérience mais certainement pas la dernière.”</p>
+            <div class="card temoignage__card col-12 col-md-11 col-sm-12 justify-content-center  ">
+                <div class="temoignage__body card-body ">
+
+
+                    <div class="row">
+
+                        <img class="card-image-top temoignage__image col-lg-3 col-md-11 col-sm-5" src="media/temoignage.jpg" alt="">
 
 
 
-<p class="temoignage__citation temoignage__card-texte col-lg-7">– Céline, Norvège, Avis Booking</p>
-   </div>
-       </div>
-         </div>
-          </div>
+                        <p class="card-text temoignage__card-texte col-lg-7">“Propreté, accueil, tranquillité, sécurité, et confort vous attendent dans un décor sobre et reposant. Ceci était ma première expérience mais certainement pas la dernière.”</p>
 
 
 
-</section>
-
-<section class="don">
-  <div class="container don__container d-flex">
-    <div class="card don__card col-lg-5 col-md-8 col-sm-11 justify-content-center  ">
-            <div class="don__body card-body ">
-             
-              
-             <div class="row">
-            
-            
-              
-          
-              <p class="card-text don__card-text justify-content-center">Faites un don pour nous aider à changer la vie de ses familles </p>
-              <button class="don__bouton col-5 justify-content-center">Faire la différence</button>
-   </div>
-       </div>
-         </div>
-  </div>
-
-</section>
-<section class="partenaires">
-
- <!-- début partenaire -->
- <section class="part">
-   <div class="partnenaires swiper-p">
-     <div class="partenaires swiper-wrapper">
-               <div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png" alt="partenaires" class="brasseur"><img src="media/partenaires/BREBEUF_BLANC-340x78.png" alt="brebeuf" class="brebeuf"><img src="media/partenaires/centraide_blanc2-300x200.png" alt="centraide" class="centraide"><img src="media/partenaires/CSS-MargueriteBourgeon.png" alt="logo CSS-Marguerite Bourgeon" class="cssmargue"><img src="media/partenaires/CSS-Montreal.png" alt="logo CSS Montreal" class="cssmontreal"></div>
-               <div class="swiper-slide"><img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir"><img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie"><img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec" class="immigrationQc"><img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC" class="investissementQc"><img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot"></div>
-               <div class="swiper-slide"><img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac"><img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite" class="reseau"><img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc" class="montrealblanc"><img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada" class="serviceCan"><img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state"></div>
-
-     </div>
-   </div>
- </section>
- <!-- fin partenaire -->
+                        <p class="temoignage__citation temoignage__card-texte col-lg-7">– Céline, Norvège, Avis Booking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
- <!-- début footer -->
+    </section>
 
-<footer>      
+    <section class="don">
+        <div class="container don__container d-flex">
+            <div class="card don__card col-lg-5 col-md-8 col-sm-11 justify-content-center  ">
+                <div class="don__body card-body ">
 
-  <div class="container-fluid d-flex justify-content-center">
-    <div class="row d-flex footerdiv align-items-center ">
-        <div class="col-lg-2 col-sm-12 text-align-center"><img class='logofooter img-fluid' src="media/logo_promis.svg" alt="logo promis"><br></div>
-        <div class="col-lg-2 col-sm-12 text-align-center"> Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615<br>Télécopieur: (514) 345-1088</div>
-        <div class="col-lg-2 col-sm-12 text-align-center">3333, chemin de la Côte<br>Ste-Catherine, Montréal<br>(Québec), H3T 1C8</div>
-        <div class="col-lg-2 col-sm-12 text-align-center"><a href="#">Nos Services</a><br><a href="#">Nouvelles</a><br><a href="#">Équipe</a></div>
-        <div class="col-lg-2 col-sm-12 text-align-center"><a href="#">À propos</a><br><a href="#">Notre histoire</a><br><a href="#">FAQ</div>
+
+                    <div class="row">
+
+
+
+
+                        <p class="card-text don__card-text justify-content-center">Faites un don pour nous aider à changer la vie de ses familles </p>
+
+                        <svg class="dollar" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.pt" height="30.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+              <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#FC9478" stroke="none">
+              <path d="M2370 5114 c-19 -2 -78 -9 -130 -15 -791 -90 -1522 -586 -1924 -1305 -146 -262 -252 -588 -297 -914 -18 -125 -18 -515 0 -640 105 -762 511 -1409 1146 -1826 840 -552 1956 -550 2797 4 1266 835 1539 2571 591 3747 -409 507 -974 829 -1633 930 -100 15 -472 28 -550 19z m545 -343 c628 -106 1158 -448 1511 -977 179 -267 296 -573 351 -909 24 -153 24 -497 0 -650 -108 -668 -474 -1222 -1042 -1580 -243 -153 -537 -261 -850 -312 -154 -24 -497 -24 -650 1 -658 107 -1197 455 -1557 1006 -168 257 -281 557 -335 885 -24 153 -24 497 0 650 81 497 291 912 636 1255 382 381 862 605 1401 654 108 10 418 -4 535 -23z"/>
+              <path d="M2495 4146 c-74 -34 -95 -83 -95 -221 l0 -103 -67 -21 c-89 -27 -180 -82 -263 -158 -243 -225 -299 -597 -133 -883 21 -36 74 -101 118 -145 139 -139 270 -197 487 -214 109 -9 130 -14 194 -45 86 -43 144 -103 187 -194 29 -61 32 -76 32 -162 0 -86 -3 -101 -32 -162 -44 -93 -100 -151 -191 -196 -72 -35 -81 -37 -171 -37 -87 0 -102 3 -161 31 -142 68 -222 182 -239 343 -10 88 -24 117 -75 155 -20 16 -42 21 -86 21 -63 0 -95 -16 -133 -67 -59 -79 -12 -322 94 -484 81 -125 235 -244 371 -285 l66 -20 4 -119 c3 -128 11 -149 72 -194 39 -29 133 -29 172 0 61 45 69 66 72 192 l4 117 78 28 c302 107 499 408 477 728 -13 177 -81 323 -212 454 -139 139 -270 197 -487 214 -109 9 -130 14 -194 45 -86 43 -144 103 -187 194 -29 61 -32 76 -32 163 0 90 2 99 37 171 45 91 103 147 196 191 61 29 76 32 162 32 86 0 101 -3 162 -32 139 -66 220 -182 237 -342 10 -88 24 -117 75 -155 39 -29 133 -29 172 0 69 51 85 112 64 242 -43 266 -234 494 -482 574 l-66 21 -4 118 c-3 127 -11 148 -70 192 -34 25 -113 32 -153 13z"/>
+              </g>
+              </svg>
+                        <button class="don__bouton col-5 justify-content-center">Faire la différence</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="partenaires">
+
+        <!-- début partenaire -->
+        <section class="part">
+            <div class="partnenaires swiper-p">
+                <div class="partenaires swiper-wrapper">
+                    <div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png" alt="partenaires" class="brasseur"><img src="media/partenaires/BREBEUF_BLANC-340x78.png" alt="brebeuf" class="brebeuf"><img src="media/partenaires/centraide_blanc2-300x200.png"
+                            alt="centraide" class="centraide"><img src="media/partenaires/CSS-MargueriteBourgeon.png" alt="logo CSS-Marguerite Bourgeon" class="cssmargue"><img src="media/partenaires/CSS-Montreal.png" alt="logo CSS Montreal" class="cssmontreal"></div>
+                    <div class="swiper-slide"><img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir"><img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie"><img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec"
+                            class="immigrationQc"><img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC" class="investissementQc"><img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot"></div>
+                    <div class="swiper-slide"><img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac"><img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite" class="reseau"><img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc"
+                            class="montrealblanc"><img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada" class="serviceCan"><img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state"></div>
+
+                </div>
+            </div>
+        </section>
+        <!-- fin partenaire -->
+
+
+
+        <!-- début footer -->
+
+        <footer>
+
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="row d-flex footerdiv align-items-center ">
+                    <div class="col-lg-2 col-sm-12 text-align-center"><img class='logofooter img-fluid' src="media/logo_promis.svg" alt="logo promis"><br></div>
+                    <div class="col-lg-2 col-sm-12 text-align-center"> Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615<br>Télécopieur: (514) 345-1088</div>
+                    <div class="col-lg-2 col-sm-12 text-align-center"><a href="https://www.google.ca/maps/place/333+Chem.+de+la+C%C3%B4te-Sainte-Catherine,+Outremont,+QC/@45.5160075,-73.6057758,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91986ca96da87:0xb66160f92f082d58!8m2!3d45.5160075!4d-73.6032009?entry=ttu"> 3333, chemin de la Côte<br>Ste-Catherine, Montréal<br>(Québec), H3T 1C8</a></div>
+                    <div class="col-lg-2 col-sm-12 text-align-center"><a href="#">Nos Services</a><br><a href="#">Nouvelles</a><br><a href="#">Équipe</a></div>
+                    <div class="col-lg-2 col-sm-12 text-align-center"><a href="#">À propos</a><br><a href="#">Notre histoire</a><br><a href="#">FAQ</div>
 
 </footer>
 
