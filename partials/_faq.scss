@@ -2,44 +2,52 @@
 @use "colors";
 @use "banniere";
 @use "mixins";
+body {
+    border-radius: 10px;
+    border: none;
+    background-image: url(/media/icone/CERCLE\ 1.png), url(/media/icone/CERCLE\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 0 0%, 90% 90%;
+}
 
 .hero-a-propos {
-  width: 100vw;
-  margin: 0 auto;
-
-  position: relative;
-  padding: 2%;
-  background-color: colors.$rosepale;
-  .titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 60px;
-    padding: 10px;
-  }
-  .texte-hero-a-propos {
-    font-size: 35px;
-    font-family: dosis;
-    padding: 10px;
-    font-weight: 300;
-  }
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    padding: 2%;
+    background-color: colors.$rosepale;
+    .titre-a-propos {
+        text-align: center;
+        font-family: sunday;
+        font-size: 60px;
+        padding: 10px;
+    }
+    .texte-hero-a-propos {
+        font-size: 35px;
+        font-family: dosis;
+        padding: 10px;
+        font-weight: 300;
+    }
 }
+
 .questionsTitre {
-  font-family: dosis;
-  color: black;
-  margin-top: 8%;
-  text-align: center;
-  font-size: 40px;
+    font-family: dosis;
+    color: black;
+    margin-bottom: 4%;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 40px;
 }
 
 .accordion {
-  margin: 10%;
+    margin-bottom: 10%;
 }
+
 .accordion-button:not(.collapsed) {
-  background-color: colors.$orangeFonce;
+    background-color: colors.$orangeFonce;
 }
 
 .accordion-header {
-  background-color: colors.$orangePale;
-
-  color: colors.$bleuFoncer;
+    background-color: colors.$orangePale;
+    color: colors.$bleuFoncer;
 }

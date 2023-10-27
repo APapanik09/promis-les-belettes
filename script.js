@@ -102,7 +102,7 @@ don.addEventListener("click", function() {
         .timeline()
         .to(".oiseau", { display: "none" }, )
         .to(".dollar", { autoAlpha: 1, duration: 1, }, )
-        .to(".dollar", { y: "-200%", rotate: 360, duration: 1, x: "200%" }, )
+        .to(".dollar", { y: "-200%", rotate: 360, duration: 1, x: "200%", scale: 1.2 }, )
         .to(".dollar", { autoAlpha: 0, duration: 1, }, )
 
 
