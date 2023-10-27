@@ -2,12 +2,12 @@
 @use "colors";
 @use "banniere";
 @use "mixins";
-body {
+body .questions {
     border-radius: 10px;
     border: none;
     background-image: url(/media/icone/CERCLE\ 1.png), url(/media/icone/CERCLE\ 1.png);
     background-repeat: no-repeat;
-    background-position: 0 0%, 90% 90%;
+    background-position: 10% -20%, 100% 100%;
 }
 
 .hero-a-propos {
@@ -19,14 +19,15 @@ body {
     .titre-a-propos {
         text-align: center;
         font-family: sunday;
-        font-size: 60px;
         padding: 10px;
+        line-height: 1.7;
     }
     .texte-hero-a-propos {
         font-size: 35px;
         font-family: dosis;
         padding: 10px;
         font-weight: 300;
+        line-height: 1.7;
     }
 }
 
