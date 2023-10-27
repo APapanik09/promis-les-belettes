@@ -74,11 +74,38 @@ gsap.timeline({
 /* fin animation page histoire */
 
 /* animation Don */
-const play = document.querySelector('.play');
-const red = document.querySelector('.red');
-const animation = gsap.timeline()
-    .from('.element.no1', { x: '400%' })
-    .from('.element.no2', { x: '400%' })
-    .add('red')
-    .from('.element.no3', { x: '400%' })
-    .paused(true);
+let oiseau = document.querySelector('.oiseau');
+let dollar = document.querySelector('.dollar');
+let don = document.querySelector('.don__bouton');
+
+
+/* animation mouseover */
+gsap.set(".dollar", { autoAlpha: 0 });
+gsap.set(".oiseau", { opacity: 0 });
+
+don.addEventListener("mouseover", function() {
+    gsap
+        .timeline()
+        .to(".oiseau", { opacity: 1, duration: 2, }, )
+        .to(".oiseau", { x: "400%", duration: 1, })
+
+
+
+});
+
+/* fin animation mouseover */
+
+/* animation au click*/
+
+don.addEventListener("click", function() {
+    gsap
+        .timeline()
+        .to(".oiseau", { display: "none" }, )
+        .to(".dollar", { autoAlpha: 1, duration: 1, }, )
+        .to(".dollar", { y: "-200%", rotate: 360, duration: 1, x: "200%" }, )
+        .to(".dollar", { autoAlpha: 0, duration: 1, }, )
+
+
+
+});
+/* fin animation au click*/
