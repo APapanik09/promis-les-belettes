@@ -80,7 +80,7 @@ let dollar = document.querySelector('.dollar');
 let don = document.querySelector('.don__bouton');
 
 
-/* animation mouseover */
+/* animation motionpath */
 gsap.set(".dollar", { autoAlpha: 0 });
 /*gsap.set(".oiseau", { opacity: 0 });*/
 
@@ -93,7 +93,7 @@ gsap.to('.oiseau', {
 
         path: [
             { x: 0, y: 10 },
-            { x: 280, y: 30 }
+            { x: 180, y: 30 }
         ]
     },
     duration: 4,
@@ -105,15 +105,9 @@ gsap.to('.oiseau', {
 
 
 
+/* fin animation motion path */
 
-
-
-
-
-
-/* fin animation mouseover */
-
-/* animation au click*/
+/* animation au click don avce timeline*/
 
 don.addEventListener("click", function() {
     gsap
