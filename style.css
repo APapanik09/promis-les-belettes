@@ -1540,7 +1540,7 @@ p {
 }
 .don__card-text {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   bottom: 50px;
   position: relative;
@@ -1549,6 +1549,25 @@ p {
 .anim {
   position: relative;
   top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
 }
 
 .dollar {
@@ -1560,13 +1579,12 @@ p {
   height: 40px;
 }
 
-.oiseau {
-  position: absolute;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-}
-
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
 .part {
   background-color: #223843;
 }

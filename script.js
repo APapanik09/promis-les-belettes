@@ -45,6 +45,7 @@ const swiperP = new Swiper(".swiper-p", {
 });
 
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(MotionPathPlugin);
 /* animation page histoire */
 /* animation page histoire */
 const promis = document.querySelector('.promis');
@@ -81,17 +82,34 @@ let don = document.querySelector('.don__bouton');
 
 /* animation mouseover */
 gsap.set(".dollar", { autoAlpha: 0 });
-gsap.set(".oiseau", { opacity: 0 });
-
-don.addEventListener("mouseover", function() {
-    gsap
-        .timeline()
-        .to(".oiseau", { opacity: 1, duration: 2, }, )
-        .to(".oiseau", { x: "400%", duration: 1, })
+/*gsap.set(".oiseau", { opacity: 0 });*/
 
 
 
-});
+
+gsap.to('.oiseau', {
+
+    motionPath: {
+
+        path: [
+            { x: 0, y: 10 },
+            { x: 280, y: 30 }
+        ]
+    },
+    duration: 4,
+    repeat: -1,
+    yoyo: true,
+    rotate: 20,
+
+})
+
+
+
+
+
+
+
+
 
 /* fin animation mouseover */
 
@@ -102,7 +120,7 @@ don.addEventListener("click", function() {
         .timeline()
         .to(".oiseau", { display: "none" }, )
         .to(".dollar", { autoAlpha: 1, duration: 1, }, )
-        .to(".dollar", { y: "-200%", rotate: 360, duration: 1, x: "200%", scale: 1.2 }, )
+        .to(".dollar", { y: "-300%", rotate: 360, duration: 1, x: "200%", scale: 1.2 }, )
         .to(".dollar", { autoAlpha: 0, duration: 1, }, )
 
 
