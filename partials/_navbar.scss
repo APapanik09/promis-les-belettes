@@ -1,9 +1,6 @@
 @use 'colors';
 @use 'fonts';
-
-
-
-.barreNav{
+.barreNav {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -11,24 +8,24 @@
     flex-direction: row;
     background-color: colors.$bleuFoncer;
 }
-.container{
+
+.container {
     display: flex;
     width: 100%;
 }
-.navbar{
-    display: flex;
-  &-nav{
-    display: flex;
 
-    .nav-link{
-
-        justify-content: space-between;
-        color: colors.$blanc;
-    }
-    .nav-item{
+.navbar {
+    display: flex;
+    &-nav {
         display: flex;
+        .nav-link {
+            justify-content: space-between;
+            color: colors.$blanc;
+        }
+        .nav-item {
+            display: flex;
+        }
     }
-  }
 }
 
 .banniere {
@@ -38,5 +35,4 @@
 
 p {
     margin: 0;
-    
 }

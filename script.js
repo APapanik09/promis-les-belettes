@@ -45,7 +45,7 @@ const swiperP = new Swiper(".swiper-p", {
 });
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(MotionPathPlugin);
+
 /* animation page histoire */
 /* animation page histoire */
 const promis = document.querySelector('.promis');
@@ -73,7 +73,7 @@ gsap.timeline({
     .to('.section-histoire', { autoAlpha: 1, })
 
 /* fin animation page histoire */
-
+gsap.registerPlugin(MotionPathPlugin);
 /* animation Don */
 let oiseau = document.querySelector('.oiseau');
 let dollar = document.querySelector('.dollar');

@@ -5,54 +5,113 @@
 @use "mixins";
 .hero-equipe {
     @include mixins.sectionhero;
-  
-    .titre-equipe{
-      text-align: center;
-      font-family: sunday;
-      font-size: 50px;
-      padding: 10px;
+    .titre-equipe {
+        text-align: center;
+        font-family: sunday;
+        font-size: 50px;
+        padding: 10px;
     }
-  
     .texte-hero-equipe {
-      font-size: 20px;
-      font-family: dosis;
-      padding: 3%;
-      font-weight: 300;
+        font-size: 20px;
+        font-family: dosis;
+        padding: 3%;
+        font-weight: 300;
     }
-  }
-  .equipe{
+}
+
+
+/*.equipe {
     background-color: colors.$blanc;
-  
     &__titre {
-     text-align:center ;
-      padding-bottom: 20px;
+        text-align: center;
+        padding-bottom: 10px;
     }
-    
     &__container {
-      justify-content: center;
-     
+        justify-content: center;
     }
     &__card-texte {
-      font-size: 20px;
-      color: colors.$bleuFoncer;
+        font-size: 18px;
+        color: colors.$bleuFoncer;
     }
     &__image {
-      border-radius: 10px;
-    
-    aspect-ratio: 38/57;
-      
+        border-radius: 10px;
+        aspect-ratio: 38/57;
     }
     &__card {
-      background-position: center;
-      display: flex;
-      margin: 10px;
-     
+        background-position: center;
+        display: flex;
+        margin: 5px;
     }
-    &__citation{
-      justify-content: center;
-      position: relative;
-      margin: 0 auto;
-      left: 70px;
-      
+    &__citation {
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        left: 70px;
     }
-  }
+}*/
+
+wipper service .swiper-slide {
+    width: auto;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card-body {
+    height: 200px;
+}
+
+.swipper {
+    margin: 20px;
+}
+
+.equipe.card {
+    height: 300px;
+    width: 420px;
+    padding: 20px;
+    background-color: colors.$bleuFoncer;
+}
+
+.card-title {
+    color: colors.$orangeFonce;
+    font-family: dm-sans;
+}
+
+.card-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: dm-sans;
+}
+
+.card-image-top {
+    width: 500px;
+    height: 500px;
+}
+
+.row__hero {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+}
+
+.row__service {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+    .service__container,
+    .service__container-lg,
+    .container-md,
+    .container-sm,
+    .service__container-xl,
+    .service__container-xxl {
+        max-width: 20029px;
+    }
+}

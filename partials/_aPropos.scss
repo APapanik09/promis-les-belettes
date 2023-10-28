@@ -3,167 +3,163 @@
 @use "banniere";
 @use "footer";
 @use "mixins";
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  /* couleur de fond*/
-  background-color: colors.$orangePale;
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
 }
 
 .enveloppe {
-  background-color: white;
-  width: 75vw;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 2%;
+    background-color: white;
+    width: 75vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
 }
 
+
 /*extend de style des paragraphe*/
+
 %titre-texte-paragraphe {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
+    font-family: dosis;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .hero-a-propos {
-  @include mixins.sectionhero;
-
-  .titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 60px;
-    padding: 10px;
-  }
-
-  .texte-hero-a-propos {
-    font-size: 30px;
-    font-family: dosis;
-    padding: 3%;
-    font-weight: 300;
-  }
+    @include mixins.sectionhero;
+    .titre-a-propos {
+        text-align: center;
+        font-family: sunday;
+        font-size: 60px;
+        padding: 10px;
+    }
+    .texte-hero-a-propos {
+        font-size: 30px;
+        font-family: dosis;
+        padding: 3%;
+        font-weight: 300;
+    }
 }
 
 .paragraphe-a-propos {
-  font-family: sunday;
-  width: 100%;
-  text-align: center;
-  padding-top: 5%;
+    font-family: sunday;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
-  font-family: dosis;
-  margin-top: 2%;
-  margin: 10px;
-
-  &.liste-a-puce {
-    font-size: 22px;
-    padding: 20px;
-    margin-bottom: 0px;
-    margin-top: 15px;
-  }
+    font-size: 20px;
+    font-family: dosis;
+    margin-top: 2%;
+    margin: 10px;
+    &.liste-a-puce {
+        font-size: 22px;
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
 }
 
 ul {
-  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
-  margin-left: 2%;
+    /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+    margin-left: 2%;
 }
 
 .mission {
-  @extend %titre-texte-paragraphe;
-
-  &.text {
-    font-size: 20px;
-  }
+    @extend %titre-texte-paragraphe;
+    &.text {
+        font-size: 20px;
+    }
 }
 
 .Vision {
-  @extend %titre-texte-paragraphe;
+    @extend %titre-texte-paragraphe;
 }
 
 .valeurs {
-  padding-top: 50px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-family: dosis;
-  font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: dosis;
+    font-weight: 700;
 }
 
 .excellence {
-  margin-bottom: 2%;
-  width: 100%;
-  margin-top: 2%;
-  color: colors.$bleuFoncer;
-  font-family: dosis;
-
-  &__text {
-    font-family: dm-sans;
-  }
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 2%;
+    color: colors.$bleuFoncer;
+    font-family: dosis;
+    &__text {
+        font-family: dm-sans;
+    }
 }
 
 .respect {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  // font-family: dosis;
-  &__text {
-    font-family: dm-sans;
-  }
+    margin-top: 2%;
+    margin-bottom: 2%;
+    // font-family: dosis;
+    &__text {
+        font-family: dm-sans;
+    }
 }
 
 .engagement {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-family: dm-sans;
-
-  &__text {
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-family: dm-sans;
-  }
+    &__text {
+        font-family: dm-sans;
+    }
 }
 
 .inclusion {
-  margin-top: 2%;
-  font-family: dm-sans;
-
-  &__text {
+    margin-top: 2%;
     font-family: dm-sans;
-  }
+    &__text {
+        font-family: dm-sans;
+    }
 }
 
 .innovation {
-  margin-top: 2%;
-  font-family: dm-sans;
-
-  &__text {
+    margin-top: 2%;
     font-family: dm-sans;
-  }
+    &__text {
+        font-family: dm-sans;
+    }
 }
 
 .servicesLangues {
-  margin-top: 5%;
-  padding-bottom: 5%;
-  font-family: dosis;
-  font-weight: 700;
-  position: relative;
-
-  &__texte {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: dosis;
+    font-weight: 700;
+    text-align: center;
     position: relative;
-  }
+    &__texte {
+        position: relative;
+    }
+    &__facebook {
+        margin-bottom: 5%;
+    }
 }
 
 iframe {
-  aspect-ratio: 16/9;
+    aspect-ratio: 16/9;
 }
 
 @media (max-width: 375px) {
-  .section-a-propos * {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+    .section-a-propos * {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }
