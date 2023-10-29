@@ -240,6 +240,8 @@ p {
   box-sizing: border-box;
 }
 
+/* HERO
+***********************************************/
 .card-7 .card-text .btn-7 .btn-7, .card-6 .card-text .btn-6 .btn-6, .card-5 .card-text .btn-5 .btn-5, .card-4 .card-text .btn-4 .btn-4, .card-3 .card-text .btn-3 .btn-3, .card-2 .card-text .btn-2 .btn-2, .card-1 .card-text .btn-1 .btn-1, .card-0 .card-text .btn-0 .btn-0, .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
   background-color: #223843;
   color: white;
@@ -253,6 +255,10 @@ p {
   padding-left: 3%;
   align-items: center;
   justify-items: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
 }
 
 .hero {
@@ -323,7 +329,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -338,7 +343,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -352,9 +357,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -440,7 +442,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -455,7 +456,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -469,9 +470,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -557,7 +555,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -572,7 +569,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -586,9 +583,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -674,7 +668,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -689,7 +682,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -703,9 +696,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -791,7 +781,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -806,7 +795,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -820,9 +809,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -908,7 +894,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -923,7 +908,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -937,9 +922,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -1025,7 +1007,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -1040,7 +1021,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -1054,9 +1035,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -1142,7 +1120,6 @@ p {
   padding: 10px;
   margin: 5%;
   height: 300px;
-  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -1157,7 +1134,7 @@ p {
   height: 92px;
 }
 
-/****service
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .service {
   padding: 10px;
@@ -1171,9 +1148,6 @@ p {
   justify-content: center;
 }
 
-/*.card-body {
-  height: 200px;
-}*/
 .swipper {
   margin: 20px;
 }
@@ -1254,13 +1228,6 @@ p {
   font-family: dm-sans;
 }
 
-.row__hero {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3%;
-}
-
 .row__service {
   width: 100%;
   display: flex;
@@ -1280,7 +1247,7 @@ p {
     max-width: 20029px;
   }
 }
-/*Service 
+/*SERVICE VERSION ORDI
 ************************************************/
 .service__titre {
   text-align: center;
@@ -1363,7 +1330,7 @@ p {
   background-size: 70%;
 }
 
-/*****Nouvelle
+/*****NOUVELLE
 ************************************************/
 .nouvelle {
   padding: 30px;
@@ -1467,7 +1434,7 @@ p {
   color: #223843;
 }
 
-/*****temoignage 
+/*****TÉMOIGNAGE
 *****************************************/
 .temoignage {
   background-color: #ffffff;
@@ -1518,6 +1485,8 @@ p {
   left: 25%;
 }
 
+/* DON
+***********************************************************/
 .don {
   background-color: #ffffff;
   justify-content: center;
@@ -1551,6 +1520,8 @@ p {
   position: relative;
 }
 
+/*ANIMATION DON
+***************************************************/
 .anim {
   position: relative;
   top: -90px;
@@ -1590,6 +1561,8 @@ svg .anim.oiseau {
     width: 40px;
     height: 40px;
 }*/
+/*PARTENAIRES
+*******************************************************/
 .part {
   background-color: #223843;
 }
@@ -1826,10 +1799,9 @@ svg {
 
 .quatre {
   width: 100vw;
-  height: 100vh;
   justify-content: center;
   text-align: center;
-  padding-top: 15vh;
+  padding: 15vh 0;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -1843,17 +1815,8 @@ svg {
   margin-bottom: 10px;
   padding: 5px;
 }
-.quatre .retour-menu {
-  text-align: center;
-  width: 15vw;
-  height: 5vh;
-  margin: 0 0 0 48vw;
-  display: flex;
-  flex-wrap: wrap;
-}
 @media screen and (max-width: 375px) {
   .quatre .retour-menu {
-    margin: 0 0 0 39vw;
     text-align: center;
   }
 }
@@ -1974,7 +1937,7 @@ svg {
 /*.card-body {
     height: 200px;
   }*/
-@media (min-width: 1400px) {
+/*@media (min-width: 1400px) {
   .service__container,
   .service__container-lg,
   .container-md,
@@ -1983,7 +1946,7 @@ svg {
   .service__container-xxl {
     max-width: 20000px;
   }
-}
+}*/
 .swipper {
   margin: 20px;
 }
