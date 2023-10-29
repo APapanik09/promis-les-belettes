@@ -92,6 +92,10 @@ body {
   font-weight: 300;
 }
 
+.section-a-propos {
+  color: #223843;
+}
+
 .paragraphe-a-propos {
   font-family: sunday;
   width: 100%;
@@ -190,13 +194,12 @@ ul {
 
 iframe {
   aspect-ratio: 16/9;
+  margin-top: 3%;
 }
 
 @media (max-width: 375px) {
-  .section-a-propos * {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  body {
+    background-color: white !important;
   }
 }
 .barreNav {
