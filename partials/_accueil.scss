@@ -1,434 +1,451 @@
 @use "colors";
 @use "fonts";
 @use "mixins";
+@use "aPropos";
+@use "histoire";
+@use "faq";
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* HERO
 ***********************************************/
+
 %btn {
-  background-color: colors.$bleuFoncer;
-  color: white;
-  font-size: 18px;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 3px;
+    background-color: colors.$bleuFoncer;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 3px;
 }
+
 // Disposition des bouton dans le hero
 .row__hero {
-  padding-left: 3%;
-  align-items: center;
-  justify-items: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3%;
+    padding-left: 3%;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
 }
 
 .hero {
-  padding: 30px;
-  background-color: colors.$rosepale;
-  &__titre {
-    font-family: sunday;
-    padding-bottom: 20px;
-    text-align: center;
-    line-height: 1.7;
-  }
-  &__question {
-    font-family: dosis;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  &__option {
-    font-family: dosis;
-    text-align: center;
-  }
+    padding: 30px;
+    background-color: colors.$rosepale;
+    &__titre {
+        font-family: sunday;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.7;
+    }
+    &__question {
+        font-family: dosis;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    &__option {
+        font-family: dosis;
+        text-align: center;
+    }
 }
 
 // bouton hero
 @for $index from 0 through 6 {
-  .btn-#{$index} {
-    @extend %btn;
-    margin: 10px;
-    font-family: dm-sans;
-    height: 150px;
-  }
+    .btn-#{$index} {
+        @extend %btn;
+        margin: 10px;
+        font-family: dm-sans;
+        height: 150px;
+    }
 }
+
 // boucle pour afficher les boutons
 @for $index from 0 through 7 {
-  .card-#{$index} {
-    @include mixins.card;
-    .card-text {
-      .btn-#{$index} {
-        .btn-#{$index} {
-          @extend %btn;
-          margin: 10px;
-          font-family: dm-sans;
-          height: 92px;
+    .card-#{$index} {
+        @include mixins.card;
+        .card-text {
+            .btn-#{$index} {
+                .btn-#{$index} {
+                    @extend %btn;
+                    margin: 10px;
+                    font-family: dm-sans;
+                    height: 92px;
+                }
+            }
         }
-      }
     }
-  }
-  /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
+    /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
-
-  //Lien
-  .lien {
-    color: colors.$blanc;
-    text-decoration: none;
-  }
-
-  .service {
-    padding: 10px;
-  }
-  //Swipper service
-  .swiper-slide {
-    width: auto;
-    display: flex;
-    position: relative;
-    margin-top: 20px;
-    justify-content: center;
-  }
-
-  .swipper {
-    margin: 20px;
-  }
-  // Card Service
-  .service .card {
-    height: 300px;
-    width: 420px;
-
-    &__accueil {
-      background-image: url(/media/icone/accueil_main_transparence.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    //Lien
+    .lien {
+        color: colors.$blanc;
+        text-decoration: none;
     }
-    &__francisation {
-      background-image: url(/media/icone/francisation_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    .service {
+        padding: 10px;
     }
-    &__famille {
-      background-image: url(/media/icone/soutien_famille_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    //Swipper service
+    .swiper-slide {
+        width: auto;
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+        justify-content: center;
     }
-    &__scolaire {
-      background-image: url(/media/icone/soutien_scolaire_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    .swipper {
+        margin: 20px;
     }
-    &__emplois {
-      background-image: url(/media/icone/cv_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    // Card Service
+    .service .card {
+        height: 300px;
+        width: 420px;
+        &__accueil {
+            background-image: url(/media/icone/accueil_main_transparence.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
+        &__francisation {
+            background-image: url(/media/icone/francisation_transparent.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
+        &__famille {
+            background-image: url(/media/icone/soutien_famille_transparent.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
+        &__scolaire {
+            background-image: url(/media/icone/soutien_scolaire_transparent.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
+        &__emplois {
+            background-image: url(/media/icone/cv_transparent.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
+        &__alimentation {
+            background-image: url(/media/icone/aliment_transparent.png);
+            object-fit: contain;
+            background-position: center;
+            background-size: contain;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: colors.$bleuFoncer;
+        }
     }
-    &__alimentation {
-      background-image: url(/media/icone/aliment_transparent.png);
-      object-fit: contain;
-      background-position: center;
-      background-size: contain;
-      padding: 20px;
-      background-repeat: no-repeat;
-      background-color: colors.$bleuFoncer;
+    .card-title {
+        color: colors.$orangeFonce;
+        font-family: dm-sans;
     }
-  }
-  .card-title {
-    color: colors.$orangeFonce;
-    font-family: dm-sans;
-  }
-  .card-text {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: dm-sans;
-    font-size: 20px;
-  }
+    .card-text {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-family: dm-sans;
+        font-size: 20px;
+    }
 }
+
 //ajuster l'écriture
-
 @media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 // row du service
 .row__service {
-  width: 100%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 5%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5%;
 }
 
 // Rendre le container responsive
 @media (min-width: 1400px) {
-  .service__container,
-  .service__container-lg,
-  .container-md,
-  .container-sm,
-  .service__container-xl,
-  .service__container-xxl {
-    max-width: 20029px;
-  }
+    .service__container,
+    .service__container-lg,
+    .container-md,
+    .container-sm,
+    .service__container-xl,
+    .service__container-xxl {
+        max-width: 20029px;
+    }
 }
+
 
 /*SERVICE VERSION ORDI
 ************************************************/
 
 .service {
-  &__titre {
-    @include mixins.titre;
-    font-size: 60px;
-  }
-  &__accueil {
-    background-image: url(/media/icone/accueil_main_transparence.png);
-    background-size: contain;
-    @include mixins.service;
-  }
-  &__francisation {
-    background-image: url(/media/icone/francisation_transparent.png);
-    @include mixins.service;
-    background-size: 60%;
-  }
-  &__famille {
-    background-image: url(/media/icone/soutien_famille_transparent.png);
-    @include mixins.service;
-    background-size: 60%;
-  }
-  &__scolaire {
-    background-image: url(/media/icone/soutien_scolaire_transparent.png);
-    @include mixins.service;
-    background-size: 70%;
-  }
-  &__emplois {
-    background-image: url(/media/icone/cv_transparent.png);
-    @include mixins.service;
-    background-size: 60%;
-  }
-  &__alimentaire {
-    background-image: url(/media/icone/aliment_transparent.png);
-    @include mixins.service;
-    background-size: 70%;
-  }
+    &__titre {
+        @include mixins.titre;
+        font-size: 60px;
+    }
+    &__accueil {
+        background-image: url(/media/icone/accueil_main_transparence.png);
+        background-size: contain;
+        @include mixins.service;
+    }
+    &__francisation {
+        background-image: url(/media/icone/francisation_transparent.png);
+        @include mixins.service;
+        background-size: 60%;
+    }
+    &__famille {
+        background-image: url(/media/icone/soutien_famille_transparent.png);
+        @include mixins.service;
+        background-size: 60%;
+    }
+    &__scolaire {
+        background-image: url(/media/icone/soutien_scolaire_transparent.png);
+        @include mixins.service;
+        background-size: 70%;
+    }
+    &__emplois {
+        background-image: url(/media/icone/cv_transparent.png);
+        @include mixins.service;
+        background-size: 60%;
+    }
+    &__alimentaire {
+        background-image: url(/media/icone/aliment_transparent.png);
+        @include mixins.service;
+        background-size: 70%;
+    }
 }
+
 
 /*****NOUVELLE
 ************************************************/
 
 .nouvelle {
-  padding: 30px;
-  &__titre {
-    @include mixins.titre;
-  }
-  &__sarah {
-    background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
-    background-size: cover;
-    @include mixins.service;
-  }
-  &__demenagement {
-    background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-    @include mixins.service;
-    background-size: cover;
-  }
-  &__reseautage {
-    background-image: url(/media/nouvelles/etudier.png);
-    @include mixins.service;
-    background-size: cover;
-  }
-  &__hebergement {
-    background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-    @include mixins.service;
-    background-size: cover;
-  }
-  &__vivre-ensemble {
-    background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-    @include mixins.service;
-    background-size: 100%;
-  }
+    padding: 30px;
+    &__titre {
+        @include mixins.titre;
+    }
+    &__sarah {
+        background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+        background-size: cover;
+        @include mixins.service;
+    }
+    &__demenagement {
+        background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__reseautage {
+        background-image: url(/media/nouvelles/etudier.png);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__hebergement {
+        background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__vivre-ensemble {
+        background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+        @include mixins.service;
+        background-size: 100%;
+    }
 }
+
 // Détails pour les cartes
 .nouvelle {
-  .card-body {
-    position: relative;
-    bottom: -160px;
-    height: 140px;
-    display: flex;
-    border-radius: 10px;
-    place-content: space-between space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.805);
-    h5 {
-      font-size: 24px;
-      padding: none;
-      position: relative;
-      top: 10px;
-      color: colors.$bleuFoncer;
-      .col-sm-12 {
-        font-size: 30px;
-      }
+    .card-body {
+        position: relative;
+        bottom: -160px;
+        height: 140px;
+        display: flex;
+        border-radius: 10px;
+        place-content: space-between space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.805);
+        h5 {
+            font-size: 24px;
+            padding: none;
+            position: relative;
+            top: 10px;
+            color: colors.$bleuFoncer;
+            .col-sm-12 {
+                font-size: 30px;
+            }
+        }
+        p {
+            font-size: 18px;
+            position: relative;
+            left: 50px;
+            top: -20px;
+            color: colors.$bleuFoncer;
+        }
     }
-    p {
-      font-size: 18px;
-      position: relative;
-      left: 50px;
-      top: -20px;
-      color: colors.$bleuFoncer;
-    }
-  }
 }
+
 
 /*****TÉMOIGNAGE
 *****************************************/
 
 .temoignage {
-  background-color: colors.$blanc;
-  padding: 10px;
-  &__titre {
-    @include mixins.titre;
-    padding-bottom: 20px;
-  }
-  &__body {
-    background-image: url(/media/icone/cercle_don.png);
-    z-index: 10;
-    background-repeat: no-repeat;
-    background-position: 120% 0;
-    background-size: 80%;
-    background-color: colors.$rosepale;
-    border: none;
-    border-radius: 10px;
-  }
-  &__container {
-    justify-content: center;
-  }
-  &__card-texte {
-    font-size: 25px;
-    color: colors.$bleuFoncer;
-  }
-  &__image {
-    border-radius: 10px;
-    aspect-ratio: 3/4;
-    height: 15%;
-    .col-12 {
-      height: 30px;
+    background-color: colors.$blanc;
+    padding: 10px;
+    &__titre {
+        @include mixins.titre;
+        padding-bottom: 20px;
     }
-  }
-  &__card {
-    background-position: center;
-    display: flex;
-    border: none;
-  }
-  &__citation {
-    justify-content: center;
-    position: relative;
-    margin: 0 auto;
-    left: 25%;
-  }
+    &__body {
+        background-image: url(/media/icone/cercle_don.png);
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position: 120% 0;
+        background-size: 80%;
+        background-color: colors.$rosepale;
+        border: none;
+        border-radius: 10px;
+    }
+    &__container {
+        justify-content: center;
+    }
+    &__card-texte {
+        font-size: 25px;
+        color: colors.$bleuFoncer;
+    }
+    &__image {
+        border-radius: 10px;
+        aspect-ratio: 3/4;
+        height: 15%;
+        .col-12 {
+            height: 30px;
+        }
+    }
+    &__card {
+        background-position: center;
+        display: flex;
+        border: none;
+    }
+    &__citation {
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        left: 25%;
+    }
 }
+
+
 /* DON
 ***********************************************************/
+
 .don {
-  background-color: colors.$blanc;
-  justify-content: center;
-  padding: 3%;
-  display: flex;
-  position: relative;
-  &__body {
-    background-color: colors.$bleuFoncer;
-    background-image: url(/media/icone/CERCLE\ 1.png);
-    background-position: 0 -15%;
-    border-radius: 10px;
-    border: none;
-  }
-  &__container {
+    background-color: colors.$blanc;
     justify-content: center;
-  }
-  &__bouton {
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: colors.$orangeFonce;
-    justify-content: center;
-    border: none;
-    margin: 0 auto;
-  }
-  &__card-text {
-    color: colors.$blanc;
-    font-size: 20px;
-    text-align: center;
-    bottom: 50px;
+    padding: 3%;
+    display: flex;
     position: relative;
-  }
+    &__body {
+        background-color: colors.$bleuFoncer;
+        background-image: url(/media/icone/CERCLE\ 1.png);
+        background-position: 0 -15%;
+        border-radius: 10px;
+        border: none;
+    }
+    &__container {
+        justify-content: center;
+    }
+    &__bouton {
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: colors.$orangeFonce;
+        justify-content: center;
+        border: none;
+        margin: 0 auto;
+    }
+    &__card-text {
+        color: colors.$blanc;
+        font-size: 20px;
+        text-align: center;
+        bottom: 50px;
+        position: relative;
+    }
 }
+
+
 /*ANIMATION DON
 ***************************************************/
+
 .anim {
-  position: relative;
-  top: -90px;
+    position: relative;
+    top: -90px;
 }
 
 svg .anim.oiseau {
-  top: 50px;
-  display: block;
-  fill: transparent;
-  stroke: var(--green);
-  stroke-width: 2px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
+    top: 50px;
+    display: block;
+    fill: transparent;
+    stroke: var(--green);
+    stroke-width: 2px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
 }
 
 .oiseau-trace {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    position: absolute;
 }
 
 .dollar {
-  position: absolute;
-  text-align: center;
-  width: 50px;
-  left: 200px;
-  top: 70px;
-  height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    left: 200px;
+    top: 70px;
+    height: 40px;
 }
+
 
 /*.oiseau {
     position: absolute;
@@ -437,18 +454,20 @@ svg .anim.oiseau {
     height: 40px;
 }*/
 
+
 /*PARTENAIRES
 *******************************************************/
+
 .part {
-  background-color: colors.$bleuFoncer;
+    background-color: colors.$bleuFoncer;
 }
 
 .partenaires {
-  text-align: center;
-  img {
-    padding: 5px;
-    max-width: 19vw;
-    object-fit: contain;
-    box-sizing: border-box;
-  }
+    text-align: center;
+    img {
+        padding: 5px;
+        max-width: 19vw;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
 }
