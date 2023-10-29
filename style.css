@@ -47,202 +47,6 @@ footer {
   box-sizing: border-box;
 }
 
-body {
-  /* couleur de fond*/
-  background-color: #FFCFB4;
-}
-
-.enveloppe {
-  background-color: white;
-  width: 75vw;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 2%;
-}
-
-/*extend de style des paragraphe*/
-.Vision, .mission {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.hero-a-propos {
-  width: 100vw;
-  margin: 0 auto;
-  text-align: center;
-  color: #223843;
-  position: relative;
-  padding: 2%;
-  background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 60px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 30px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300;
-}
-
-.section-a-propos {
-  color: #223843;
-}
-
-.paragraphe-a-propos {
-  font-family: sunday;
-  width: 100%;
-  text-align: center;
-  padding-top: 5%;
-}
-
-.tout-sous-meme-toi {
-  font-size: 20px;
-  font-family: dosis;
-  margin-top: 2%;
-  margin: 10px;
-}
-.tout-sous-meme-toi.liste-a-puce {
-  font-size: 22px;
-  padding: 20px;
-  margin-bottom: 0px;
-  margin-top: 15px;
-}
-
-ul {
-  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
-  margin-left: 2%;
-}
-
-.mission.text {
-  font-size: 20px;
-}
-
-.valeurs {
-  padding-top: 50px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-family: dosis;
-  font-weight: 700;
-}
-
-.excellence {
-  margin-bottom: 2%;
-  width: 100%;
-  margin-top: 2%;
-  color: #223843;
-  font-family: dosis;
-}
-.excellence__text {
-  font-family: dm-sans;
-}
-
-.respect {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.respect__text {
-  font-family: dm-sans;
-}
-
-.engagement {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-family: dm-sans;
-}
-.engagement__text {
-  font-family: dm-sans;
-}
-
-.inclusion {
-  margin-top: 2%;
-  font-family: dm-sans;
-}
-.inclusion__text {
-  font-family: dm-sans;
-}
-
-.innovation {
-  margin-top: 2%;
-  font-family: dm-sans;
-}
-.innovation__text {
-  font-family: dm-sans;
-}
-
-.servicesLangues {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-family: dosis;
-  font-weight: 700;
-  text-align: center;
-  position: relative;
-}
-.servicesLangues__texte {
-  position: relative;
-}
-.servicesLangues__facebook {
-  margin-bottom: 5%;
-}
-
-iframe {
-  aspect-ratio: 16/9;
-  margin-top: 3%;
-}
-
-@media (max-width: 375px) {
-  body {
-    background-color: white !important;
-  }
-}
-.barreNav {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #223843;
-}
-
-.container {
-  display: flex;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-}
-.navbar-nav {
-  display: flex;
-}
-.navbar-nav .nav-link {
-  justify-content: space-between;
-  color: #ffffff;
-}
-.navbar-nav .nav-item {
-  display: flex;
-}
-
-.banniere {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 /* HERO
 ***********************************************/
 .card-7 .card-text .btn-7 .btn-7, .card-6 .card-text .btn-6 .btn-6, .card-5 .card-text .btn-5 .btn-5, .card-4 .card-text .btn-4 .btn-4, .card-3 .card-text .btn-3 .btn-3, .card-2 .card-text .btn-2 .btn-2, .card-1 .card-text .btn-1 .btn-1, .card-0 .card-text .btn-0 .btn-0, .btn-6, .btn-5, .btn-4, .btn-3, .btn-2, .btn-1, .btn-0 {
@@ -1628,6 +1432,226 @@ svg .anim.oiseau {
   -o-object-fit: contain;
      object-fit: contain;
   box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.Vision, .mission {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 30px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+}
+.barreNav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #223843;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff;
+}
+.navbar-nav .nav-item {
+  display: flex;
+}
+
+.banniere {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100px;
+  text-align: center;
 }
 
 body .questions {
