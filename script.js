@@ -67,9 +67,9 @@ gsap.timeline({
     },
 })
 
-.to('.promis', { x: '1300px', duration: 2 }, '<0.5')
-    .to('.creation', { x: '1000px' }, '<0.5')
-    .to('.MariaGoretti', { x: '1000px' }, '< 1')
+.to('.promis', { x: '-200%', duration: 2 }, '<0.5')
+    .to('.creation', { x: '-300%' }, '<0.5')
+    .to('.MariaGoretti', { x: '-400%' }, '< 1')
     .to('.section-histoire', { autoAlpha: 1, })
 
 /* fin animation page histoire */
