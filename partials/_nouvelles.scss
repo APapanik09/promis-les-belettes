@@ -4,11 +4,26 @@
 @use "footer";
 @use "mixins";
 
-.nouvelles {
-    .heronouv {
-        img {
-            width: 100%;
-            object-fit: contain;
-        }
-    }
+
+.titre-nouvelles {
+    text-align: center;
+    font-family: 'sunday';
+    font-size: 50px;
+    padding: 10px;
 }
+
+/*.hero-nouvelles {
+    @include mixins.sectionhero;
+    .titre-nouvelles {
+        text-align: center;
+        font-family: sunday;
+        font-size: 50px;
+        padding: 10px;
+    }
+    .texte-hero-nouvelles {
+        font-size: 20px;
+        font-family:dosis;
+        padding: 3%;
+        font-weight:300;
+    }
+}*/

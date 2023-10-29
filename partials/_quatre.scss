@@ -9,10 +9,11 @@
 
 .quatre {
     width: 100vw;
-    height: 100vh;
+
     justify-content: center;
     text-align: center;
-    padding-top: 15vh;
+    padding:15vh 0;
+
     margin-bottom: 30px;
     margin-top: 30px;
 
@@ -29,16 +30,10 @@
         padding: 5px;
     }
     .retour-menu {
-        text-align: center;
-        width: 15vw;
-        height: 5vh;
-        margin: 0 0 0 48vw;
-        display: flex;
-        flex-wrap: wrap;
+  
 
         
         @media screen and (max-width: 375px){
-            margin: 0 0 0 39vw;
             text-align: center;
             
         }
