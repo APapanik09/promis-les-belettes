@@ -1438,6 +1438,7 @@ svg .anim.oiseau {
   box-sizing: border-box;
 }
 
+
 /*PARTENAIRES
 *******************************************************/
 .part {
@@ -1454,6 +1455,7 @@ svg .anim.oiseau {
      object-fit: contain;
   box-sizing: border-box;
 }
+
 
 body {
   /* couleur de fond*/
@@ -1653,6 +1655,7 @@ p {
   width: 100px;
   text-align: center;
 }
+
 
 body .questions {
   border-radius: 10px;
