@@ -5,7 +5,7 @@
   padding: 10px;
   margin: 5%;
   height: 300px;
-
+  width: 100%;
   text-align: center;
   border-radius: 10px;
   color: white;
@@ -15,7 +15,7 @@
 @mixin service {
   object-fit: contain;
   padding: unset;
-  width: 400px;
+  //width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: colors.$bleuFoncer;
