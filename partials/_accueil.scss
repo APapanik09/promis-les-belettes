@@ -61,7 +61,6 @@
   .card-#{$index} {
     @include mixins.card;
     .card-text {
-      font-size: 13px;
       .btn-#{$index} {
         .btn-#{$index} {
           @extend %btn;
@@ -74,7 +73,12 @@
   }
   /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
+
   //Lien
+  .lien {
+    color: colors.$blanc;
+    text-decoration: none;
+  }
 
   .service {
     padding: 10px;
@@ -95,6 +99,7 @@
   .service .card {
     height: 300px;
     width: 420px;
+
     &__accueil {
       background-image: url(/media/icone/accueil_main_transparence.png);
       object-fit: contain;
@@ -158,9 +163,27 @@
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: dm-sans;
+    font-size: 20px;
   }
 }
+//ajuster l'écriture
 
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
 // row du service
 .row__service {
   width: 100%;

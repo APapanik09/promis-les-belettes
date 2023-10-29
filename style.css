@@ -328,15 +328,12 @@ p {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-0 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-0 .card-text .btn-0 .btn-0 {
   margin: 10px;
@@ -346,6 +343,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -436,21 +438,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-1 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-1 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-1 .card-text .btn-1 .btn-1 {
   margin: 10px;
@@ -460,6 +460,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -550,21 +555,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-2 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-2 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-2 .card-text .btn-2 .btn-2 {
   margin: 10px;
@@ -574,6 +577,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -664,21 +672,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-3 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-3 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-3 .card-text .btn-3 .btn-3 {
   margin: 10px;
@@ -688,6 +694,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -778,21 +789,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-4 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-4 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-4 .card-text .btn-4 .btn-4 {
   margin: 10px;
@@ -802,6 +811,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -892,21 +906,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-5 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-5 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-5 .card-text .btn-5 .btn-5 {
   margin: 10px;
@@ -916,6 +928,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -1006,21 +1023,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-6 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-6 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-6 .card-text .btn-6 .btn-6 {
   margin: 10px;
@@ -1030,6 +1045,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -1120,21 +1140,19 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
 .card-7 {
   background-color: #223843;
   padding: 10px;
   margin: 5%;
-  height: 300px;
+  height: 325px;
   width: 100%;
-  text-align: center;
+  text-align: start;
   border-radius: 10px;
   color: white;
-  font-size: large;
-}
-.card-7 .card-text {
-  font-size: 13px;
+  overflow-y: hidden;
 }
 .card-7 .card-text .btn-7 .btn-7 {
   margin: 10px;
@@ -1144,6 +1162,11 @@ p {
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .service {
   padding: 10px;
 }
@@ -1234,8 +1257,26 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
+  font-size: 20px;
 }
 
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
 .row__service {
   width: 100%;
   display: flex;
@@ -1271,6 +1312,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1281,6 +1323,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1292,6 +1335,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1303,6 +1347,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1314,6 +1359,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1325,6 +1371,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1350,6 +1397,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1360,6 +1408,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1371,6 +1420,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1382,6 +1432,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1393,6 +1444,7 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
@@ -1943,7 +1995,7 @@ svg {
   .service__container-xxl {
     max-width: 20000px;
   }
-}*/
+}
 .swipper {
   margin: 20px;
 }
@@ -1954,11 +2006,10 @@ svg {
 }
 
 .card-title {
-  color: #FC9478;
+  color: colors.$orangeFonce;
   font-family: dm-sans;
   font-size: 25px;
 }
-
 .card-text {
   font-family: dm-sans;
 }
@@ -1979,7 +2030,6 @@ svg {
   padding-top: 5%;
   margin-bottom: 5%;
 }
-
 /*Service 
 ************************************************/
 .hero-equipe {
