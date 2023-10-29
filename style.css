@@ -2227,6 +2227,10 @@ wipper service .swiper-slide {
   background-color: #223843;
 }
 
+.container-xl {
+  max-width: 20000px;
+}
+
 html {
   overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */
