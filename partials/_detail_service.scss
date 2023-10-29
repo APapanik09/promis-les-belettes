@@ -81,7 +81,11 @@
 }
 
 .detail-services-plus{
+
  &__body{
   background-color: colors.$bleuFoncer;
  }
+}
+.container-xl {
+  max-width: 20000px;
 }
