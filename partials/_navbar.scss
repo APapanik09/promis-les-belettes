@@ -40,7 +40,14 @@ p {
 }
 .navbar-nav .nav-link {
     justify-content: space-between;
-    color: #ffffff;
+    color: colors.$blanc;
+    width: 100px;
+    text-align: center;
+}
+
+.navbar-nav:hover .nav-link:hover {
+    justify-content: space-between;
+    color: colors.$orangeFonce;
     width: 100px;
     text-align: center;
 }
