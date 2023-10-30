@@ -10,9 +10,11 @@
 @use "partials/hub_service";
 @use "partials/equipe";
 @use "partials/nouvelles";
-@use "partials/detail_service";
+@use"partials/detail_service";
+@use"partials/detail_nouvelle";
 
 
 html {
   overflow-x: hidden;
 }
+

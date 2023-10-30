@@ -294,12 +294,14 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  line-height: 3 !important;
 }
 .hero-histoire .titre-histoire {
   text-align: center;
   font-family: sunday;
   font-size: 50px;
   padding-bottom: -25%;
+  line-height: 3 !important;
 }
 .hero-histoire .texte-hero-histoire {
   font-size: 30px;
@@ -1873,9 +1875,11 @@ svg .anim.oiseau {
   font-family: sunday;
   font-size: 60px;
   padding: 10px;
+  line-height: 2;
 }
 .hub-services__titre .col-12 {
   font-size: 40px;
+  line-height: 2;
 }
 .hub-services__texte {
   font-family: dosis;
@@ -2256,6 +2260,108 @@ svg .anim.oiseau {
   margin: none;
 }
 
-/*html {
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nouvelle {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.nouvelle .col-12 {
+  text-align: center;
+}
+.nouvelle__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+p .nouvelle__texte .col-12 .text-align-center {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+html {
   overflow-x: hidden;
-}*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
