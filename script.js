@@ -1,3 +1,4 @@
+/* (A RETRAVAILLER) 
 const swiperCarrousel = new Swiper(".swiperCarrousel", {
     // Optional parameters
     direction: "horizontal",
@@ -25,7 +26,7 @@ const swiperCarrousel = new Swiper(".swiperCarrousel", {
         },
         // when window width is >= 640px
     },
-});
+});*/
 const swiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",
