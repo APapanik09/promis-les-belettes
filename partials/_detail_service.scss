@@ -3,10 +3,16 @@
 @use "banniere";
 @use "footer";
 @use "mixins";
+@use "accueil";
+@use "faq";
 
-.detail-services {
+
+
+.detail{
+   @include mixins.sectionhero;
+     line-height: 2 !important;
   &__hero {
-    @include mixins.sectionhero;
+  
     padding-bottom: 5%;
   }
 
@@ -45,6 +51,7 @@
       font-family: sunday;
       font-size: 30px;
       padding: 10px;
+      line-height: 3;
     }
 
     &__texte {
@@ -80,30 +87,3 @@
   }
 }
 
-.detail-services-plus{
-
- &__body{
-  background-color: colors.$bleuFoncer;
- }
- &__service1{
-      @include mixins.service;
-}
- &__service2 {
-   @include mixins.service;
- }
-    &__service3 {
-      @include mixins.service;
-    }
-  }
-// Rendre le container responsive
-@media (min-width: 1400px) {
-
-  .service__container,
-  .service__container-lg,
-  .container-md,
-  .container-sm,
-  .service__container-xl,
-  .service__container-xxl {
-    max-width: 20029px;
-  }
-}

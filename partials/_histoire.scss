@@ -18,12 +18,14 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+     line-height: 3!important;
     .titre-histoire {
         text-align: center;
         font-family: sunday;
         font-size: 50px;
         padding-bottom: -25%;
         //padding-top: 20%;
+      line-height: 3!important;
     }
     .texte-hero-histoire {
         font-size: 30px;

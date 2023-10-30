@@ -266,6 +266,13 @@ p {
   text-align: center;
 }
 
+.navbar-nav:hover .nav-link:hover {
+  justify-content: space-between;
+  color: #FC9478;
+  width: 100px;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }

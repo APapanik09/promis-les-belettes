@@ -8,16 +8,19 @@
   &__hero {
     @include mixins.sectionhero;
     padding-bottom: 5%;
+
   }
 
   &__titre {
     .col-12 {
       font-size: 40px;
+        line-height: 2;
     }
     text-align: center;
     font-family: sunday;
     font-size: 60px;
     padding: 10px;
+      line-height: 2;
   }
 
   &__texte {
