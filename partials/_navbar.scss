@@ -27,7 +27,11 @@
         }
     }
 }
-
+        &-nav:hover {
+            display: flex;
+        color: colors.$orangePale;
+        
+        }
 .banniere {
     margin: 0;
     padding: 0;
@@ -35,4 +39,10 @@
 
 p {
     margin: 0;
+}
+.navbar-nav .nav-link {
+    justify-content: space-between;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
 }

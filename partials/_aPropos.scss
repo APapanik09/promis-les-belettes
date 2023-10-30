@@ -7,7 +7,22 @@
 * {
     box-sizing: border-box;
 }
+/*PARTENAIRES
+*******************************************************/
+.part {
+    background-color: colors.$bleuFoncer;
+}
 
+.partenaires {
+    text-align: center;
+
+    img {
+        padding: 5px;
+        max-width: 19vw;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+}
 body {
     /* couleur de fond*/
     background-color: colors.$orangePale;
