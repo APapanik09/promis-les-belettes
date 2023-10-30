@@ -3,10 +3,26 @@
 @use "banniere";
 @use "footer";
 @use "mixins";
+@use "accueil";
 * {
     box-sizing: border-box;
 }
+/*PARTENAIRES
+*******************************************************/
+.part {
+    background-color: colors.$bleuFoncer;
+}
 
+.partenaires {
+    text-align: center;
+
+    img {
+        padding: 5px;
+        max-width: 19vw;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+}
 body {
     /* couleur de fond*/
     background-color: colors.$orangePale;
@@ -46,6 +62,10 @@ body {
         padding: 3%;
         font-weight: 300;
     }
+}
+
+.section-a-propos {
+    color: colors.$bleuFoncer;
 }
 
 .paragraphe-a-propos {
@@ -154,12 +174,11 @@ ul {
 
 iframe {
     aspect-ratio: 16/9;
+    margin-top: 3%;
 }
 
 @media (max-width: 375px) {
-    .section-a-propos * {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+    body {
+        background-color: white !important;
     }
 }

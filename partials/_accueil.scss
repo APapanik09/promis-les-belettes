@@ -1,11 +1,17 @@
 @use "colors";
 @use "fonts";
 @use "mixins";
+@use "aPropos";
+@use "histoire";
+@use "faq";
 * {
     box-sizing: border-box;
 }
 
-// HERO
+
+/* HERO
+***********************************************/
+
 %btn {
     background-color: colors.$bleuFoncer;
     color: white;
@@ -15,10 +21,15 @@
     margin: 3px;
 }
 
+// Disposition des bouton dans le hero
 .row__hero {
     padding-left: 3%;
     align-items: center;
     justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
 }
 
 .hero {
@@ -52,11 +63,11 @@
     }
 }
 
+// boucle pour afficher les boutons
 @for $index from 0 through 7 {
     .card-#{$index} {
         @include mixins.card;
         .card-text {
-            font-size: 13px;
             .btn-#{$index} {
                 .btn-#{$index} {
                     @extend %btn;
@@ -67,8 +78,13 @@
             }
         }
     }
-    /****service
+    /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
+    //Lien
+    .lien {
+        color: colors.$blanc;
+        text-decoration: none;
+    }
     .service {
         padding: 10px;
     }
@@ -80,12 +96,10 @@
         margin-top: 20px;
         justify-content: center;
     }
-    /*.card-body {
-    height: 200px;
-  }*/
     .swipper {
         margin: 20px;
     }
+    // Card Service
     .service .card {
         height: 300px;
         width: 420px;
@@ -152,16 +166,31 @@
         margin-top: 10%;
         margin-bottom: 10%;
         font-family: dm-sans;
+        font-size: 20px;
     }
 }
 
-.row__hero {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3%;
+//ajuster l'écriture
+@media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
 
+@media (max-width: 767px) {
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 377px) {
+    .card-text {
+        font-size: 18px;
+    }
+}
+
+// row du service
 .row__service {
     width: 100%;
     display: flex;
@@ -171,6 +200,7 @@
     padding-top: 5%;
 }
 
+// Rendre le container responsive
 @media (min-width: 1400px) {
     .service__container,
     .service__container-lg,
@@ -183,7 +213,7 @@
 }
 
 
-/*Service 
+/*SERVICE VERSION ORDI
 ************************************************/
 
 .service {
@@ -224,7 +254,7 @@
 }
 
 
-/*****Nouvelle
+/*****NOUVELLE
 ************************************************/
 
 .nouvelle {
@@ -259,6 +289,7 @@
     }
 }
 
+// Détails pour les cartes
 .nouvelle {
     .card-body {
         position: relative;
@@ -293,7 +324,7 @@
 }
 
 
-/*****temoignage 
+/*****TÉMOIGNAGE
 *****************************************/
 
 .temoignage {
@@ -341,6 +372,10 @@
     }
 }
 
+
+/* DON
+***********************************************************/
+
 .don {
     background-color: colors.$blanc;
     justify-content: center;
@@ -373,6 +408,10 @@
         position: relative;
     }
 }
+
+
+/*ANIMATION DON
+***************************************************/
 
 .anim {
     position: relative;
@@ -415,7 +454,10 @@ svg .anim.oiseau {
     height: 40px;
 }*/
 
-// Partenaires
+
+/*PARTENAIRES
+*******************************************************/
+
 .part {
     background-color: colors.$bleuFoncer;
 }
