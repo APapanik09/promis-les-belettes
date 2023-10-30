@@ -91,7 +91,11 @@
     </header>
     <!--Hero-->
     <section class="hero d-flex">
-        <div class="container-fluid  hero__accueil">
+        <div class="swiperCarrousel">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><div class="container-fluid  hero__accueil">
             <div class="row">
                 <h1 class="hero__titre col-12">
                     C'est Promis une intégration sans problème
@@ -111,7 +115,17 @@
                     <button type="button" class="btn-6  col-lg-8 d-none d-md-block ">Je suis un réfugié, une réfugiée</button>
                 </div>
             </div>
-        </div>
+        </div></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+    </div>
+
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+        
     </section>
     <!---Fin Hero-->
     <section class="service">

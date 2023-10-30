@@ -3,7 +3,7 @@
 @use "banniere";
 @use "footer";
 @use "mixins";
-@use "accueil";
+
 .detail-services {
   &__hero {
     @include mixins.sectionhero;
@@ -85,7 +85,25 @@
  &__body{
   background-color: colors.$bleuFoncer;
  }
+ &__service1{
+      @include mixins.service;
 }
-.container-xl {
-  max-width: 20000px;
+ &__service2 {
+   @include mixins.service;
+ }
+    &__service3 {
+      @include mixins.service;
+    }
+  }
+// Rendre le container responsive
+@media (min-width: 1400px) {
+
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
 }

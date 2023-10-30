@@ -27,11 +27,9 @@
         }
     }
 }
-        &-nav:hover {
-            display: flex;
-        color: colors.$orangePale;
-        
-        }
+      a .navbar-nav:hover{
+        color:colors.$orangeFonce;
+      }
 .banniere {
     margin: 0;
     padding: 0;
