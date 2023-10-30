@@ -58,3 +58,9 @@ body .questions {
 .accordion-header {
     background-color: colors.$bleuFoncer;
 }
+
+@media (max-width: 375px) {
+    h1.titre-a-propos {
+        font-size: 18px;
+    }
+}
