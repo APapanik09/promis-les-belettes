@@ -2530,8 +2530,7 @@ p .nouvelle__texte .col-12 .text-align-center {
 }
 
 .nouvelle {
-  margin-right: 0;
-  padding: 0%;
+  padding: 30px;
 }
 .nouvelle .card-body {
   position: relative;
@@ -2564,6 +2563,11 @@ p .nouvelle__texte .col-12 .text-align-center {
   color: #223843;
 }
 
+@media (min-width: 992px) {
+  .col-lg-6 {
+    width: 100%;
+  }
+}
 html {
   overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */

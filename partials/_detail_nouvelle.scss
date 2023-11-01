@@ -78,8 +78,8 @@ p .nouvelle__texte .col-12 .text-align-center {
 
 // Détails pour les cartes
 .nouvelle {
-    margin-right: 0;
-    padding: 0%;
+    padding:30px ;
+   
     .card-body {
         position: relative;
         bottom: -160px;
@@ -109,5 +109,10 @@ p .nouvelle__texte .col-12 .text-align-center {
             top: -20px;
             color: colors.$bleuFoncer;
         }
+    }
+}
+@media (min-width: 992px){
+    .col-lg-6 {
+        width: 100%;
     }
 }
