@@ -11,10 +11,11 @@
 .nouvellle {
     background-color: colors.$rosepale;
     background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-    background-position: center;
+    background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 30vh;
     .nouvelle img {
         width: 100%;
     }
@@ -23,9 +24,12 @@
     }
     &__titre {
         font-family: sunday;
+        position: absolute;
+        bottom: -10px;
         padding-bottom: 20px;
         text-align: center;
         line-height: 1.7;
+      
         background-color: rgba($color: white, $alpha: .805)
     }
 }
@@ -35,4 +39,75 @@ p .nouvelle__texte .col-12 .text-align-center {
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
+}
+
+/*****NOUVELLE
+************************************************/
+
+.nouvelle {
+ margin-right: 0;
+    &__titre {
+        @include mixins.titre;
+    }
+    &__sarah {
+        background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+        background-size: cover;
+        @include mixins.service;
+    }
+    &__demenagement {
+        background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__reseautage {
+        background-image: url(/media/nouvelles/etudier.png);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__hebergement {
+        background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+    &__vivre-ensemble {
+        background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+        @include mixins.service;
+        background-size: 100%;
+    }
+}
+
+// Détails pour les cartes
+.nouvelle {
+    margin-right: 0;
+    padding: 0%;
+    .card-body {
+        position: relative;
+        bottom: -160px;
+        height: 140px;
+        display: flex;
+        border-radius: 10px;
+        place-content: space-between space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.805);
+        h5 {
+            font-size: 24px;
+            padding: none;
+            position: relative;
+            top: 10px;
+            color: colors.$bleuFoncer;
+            .col-sm-12 {
+                font-size: 30px;
+            }
+        }
+        p {
+            font-size: 18px;
+            position: relative;
+            left: 50px;
+            top: -20px;
+            color: colors.$bleuFoncer;
+        }
+    }
 }

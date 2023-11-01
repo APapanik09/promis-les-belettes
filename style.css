@@ -2427,10 +2427,11 @@ svg .anim.oiseau {
 .nouvellle {
   background-color: #F4E6EF;
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  background-position: center;
+  background-position: 0 50%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 30vh;
 }
 .nouvellle .nouvelle img {
   width: 100%;
@@ -2440,6 +2441,8 @@ svg .anim.oiseau {
 }
 .nouvellle__titre {
   font-family: sunday;
+  position: absolute;
+  bottom: -10px;
   padding-bottom: 20px;
   text-align: center;
   line-height: 1.7;
@@ -2451,6 +2454,114 @@ p .nouvelle__texte .col-12 .text-align-center {
   font-weight: 700;
   text-align: center;
   padding-bottom: 20px;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  margin-right: 0;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle {
+  margin-right: 0;
+  padding: 0%;
+}
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 140px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
 }
 
 html {
