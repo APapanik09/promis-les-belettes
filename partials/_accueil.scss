@@ -101,7 +101,7 @@
     }
     // Card Service
     .service .card {
-        height: 300px;
+     height: 300px;
         width: 420px;
         &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
@@ -109,6 +109,7 @@
             background-position: center;
             background-size: contain;
             padding: 20px;
+        height: 100% !important;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
@@ -120,6 +121,7 @@
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+          
         }
         &__famille {
             background-image: url(/media/icone/soutien_famille_transparent.png);
@@ -129,6 +131,7 @@
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+            
         }
         &__scolaire {
             background-image: url(/media/icone/soutien_scolaire_transparent.png);
@@ -138,6 +141,7 @@
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+          
         }
         &__emplois {
             background-image: url(/media/icone/cv_transparent.png);
@@ -147,6 +151,7 @@
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+        
         }
         &__alimentation {
             background-image: url(/media/icone/aliment_transparent.png);
@@ -156,11 +161,13 @@
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+
         }
     }
     .card-title {
         color: colors.$orangeFonce;
         font-family: dm-sans;
+        font-size: 30px;
     }
     .card-text {
         margin-top: 10%;
