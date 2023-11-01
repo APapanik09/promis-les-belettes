@@ -7,10 +7,18 @@
 * {
     box-sizing: border-box;
 }
-.nouvelle {
-    padding: 30px;
+
+.nouvellle {
     background-color: colors.$rosepale;
-    .col-12{
+    background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .nouvelle img {
+        width: 100%;
+    }
+    .col-12 {
         text-align: center;
     }
     &__titre {
@@ -18,13 +26,13 @@
         padding-bottom: 20px;
         text-align: center;
         line-height: 1.7;
-     
-    }}
-
+        background-color: rgba($color: white, $alpha: .805)
+    }
+}
 
 p .nouvelle__texte .col-12 .text-align-center {
-        font-family: dosis;
-        font-weight: 700;
-        text-align: center;
-        padding-bottom: 20px;
-    }
+    font-family: dosis;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}

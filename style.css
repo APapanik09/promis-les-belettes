@@ -2424,18 +2424,26 @@ svg .anim.oiseau {
   box-sizing: border-box;
 }
 
-.nouvelle {
-  padding: 30px;
+.nouvellle {
   background-color: #F4E6EF;
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.nouvelle .col-12 {
+.nouvellle .nouvelle img {
+  width: 100%;
+}
+.nouvellle .col-12 {
   text-align: center;
 }
-.nouvelle__titre {
+.nouvellle__titre {
   font-family: sunday;
   padding-bottom: 20px;
   text-align: center;
   line-height: 1.7;
+  background-color: rgba(255, 255, 255, 0.805);
 }
 
 p .nouvelle__texte .col-12 .text-align-center {
