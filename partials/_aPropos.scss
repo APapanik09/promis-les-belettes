@@ -49,18 +49,19 @@ body {
 }
 
 .hero-a-propos {
+   
     @include mixins.sectionhero;
     .titre-a-propos {
         text-align: center;
         font-family: sunday;
-        font-size: 60px;
+        font-size: 50px;
         padding: 10px;
     }
     .texte-hero-a-propos {
-        font-size: 30px;
+        font-size: 20px;
         font-family: dosis;
         padding: 3%;
-        font-weight: 300;
+        font-weight: 300px;
     }
 }
 
@@ -73,6 +74,7 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 5%;
+    line-height: 1.8 !important;
 }
 
 .tout-sous-meme-toi {
@@ -180,5 +182,24 @@ iframe {
 @media (max-width: 375px) {
     body {
         background-color: white !important;
+    }
+    .hero-a-propos {
+   
+        @include mixins.sectionhero;
+        .titre-a-propos {
+            text-align: center;
+            font-family: sunday;
+            font-size:20px;
+            padding: 10px;
+        }
+        p.texte-hero-a-propos.col-12 {
+            font-size: 10px ;
+            font-family: dosis;
+            padding: 3%;
+            
+        }
+        p.col-sm-8 col-xl-12{
+            font-size: 15px;
+        }
     }
 }
