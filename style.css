@@ -2122,6 +2122,9 @@ svg .anim.oiseau {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
 }
 .nouvelles .card-title {
   text-align: center;
@@ -2288,7 +2291,6 @@ svg .anim.oiseau {
 .nouvelles .card-body {
   position: relative;
   bottom: -160px;
-  height: 140px;
   display: flex;
   border-radius: 10px;
   flex-wrap: wrap;

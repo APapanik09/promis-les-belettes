@@ -29,6 +29,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
     .card-title {
         @include mixins.titre;
     }
@@ -71,6 +74,7 @@
         background-image: url(../media/nouvelles/assurence.jpg);
         @include mixins.service;
         background-size: cover;
+
     }
     &__hiver {
         background-image: url(../media/nouvelles/hiver_montreal.jpeg);
@@ -109,7 +113,6 @@
     .card-body {
         position: relative;
         bottom: -160px;
-        height: 140px;
         display: flex;
         border-radius: 10px;
         flex-wrap: wrap;
