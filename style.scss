@@ -7,11 +7,11 @@
 @use "partials/faq";
 @use "partials/histoire";
 @use "partials/quatre";
-@use "partials/hub_service";
+//@use "partials/hub_service";
 @use "partials/equipe";
 @use "partials/nouvelles";
-@use"partials/detail_service";
-@use"partials/detail_nouvelle";
+//@use"partials/detail_service";
+//@use"partials/detail_nouvelle";
 
 
 html {
@@ -102,6 +102,15 @@ html {
       }
     }
   }
+
+.btn{
+    width: 45%;
+    height: 20%;
+    background-color: colors.$rosepale;
+  }
+}
+
+  
 
   /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
@@ -218,7 +227,7 @@ html {
     font-family: dm-sans;
     font-size: 20px;
   }
-}
+
 
 //ajuster l'écriture
 @media (max-width: 987px) {
