@@ -1,5 +1,5 @@
 @use "partials/banniere";
-@use "partials/aPropos";
+@use "partials/fonts";
 @use "partials/navbar";
 @use "partials/colors";
 @use "partials/mixins";
@@ -18,13 +18,16 @@ html {
   overflow-x: hidden;
 }
 
-/*****ACCUEIL
-********************************************************/
+
 
 * {
   box-sizing: border-box;
 }
 
+
+/* ACCUEIL JOLYANNE
+***********************************************************************
+**********************************************************************/
 
 /* HERO
 ***********************************************/
@@ -128,7 +131,7 @@ html {
   // Card Service
   .service .card {
 
-    height: 370px !important;
+   height: 370px !important;
     width: 420px;
 
     .autres {
@@ -136,15 +139,15 @@ html {
     }
 
 
-    &__accueil {
+   &__accueil {
       background-image: url(/media/icone/accueil_main_transparence.png);
       object-fit: contain;
       background-position: center;
       background-size: contain;
       padding: 20px;
-
       background-repeat: no-repeat;
       background-color: colors.$bleuFoncer;
+
     }
 
     &__francisation {
@@ -547,3 +550,373 @@ svg .anim.oiseau {
     box-sizing: border-box;
   }
 }
+
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+
+
+.hub-services {
+  &__hero {
+    @include mixins.sectionhero;
+    padding-bottom: 5%;
+
+  }
+
+  &__titre {
+    .col-12 {
+      font-size: 40px;
+        line-height: 2;
+    }
+    text-align: center;
+    font-family: sunday;
+    font-size: 60px;
+    padding: 10px;
+      line-height: 2;
+  }
+
+  &__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+.service {
+  padding: 10px;
+
+  &__container {
+    margin-bottom: 5%;
+  }
+  &__accueil {
+    background-image: url(/media/icone/accueil_main_transparence.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    height: 100% !important;
+    background-repeat: no-repeat;
+
+    background-color: colors.$bleuFoncer;
+  }
+  &__francisation {
+    background-image: url(/media/icone/francisation_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+
+    background-color: colors.$bleuFoncer;
+  }
+  &__famille {
+    background-image: url(/media/icone/soutien_famille_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+
+    background-color: colors.$bleuFoncer;
+  }
+  &__scolaire {
+    background-image: url(/media/icone/soutien_scolaire_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
+  }
+  &__emplois {
+    background-image: url(/media/icone/cv_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
+  }
+  &__alimentaire {
+    background-image: url(/media/icone/aliment_transparent.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-color: colors.$bleuFoncer;
+  }
+}
+//Swipper service
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+    height: 200px;
+  }*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+
+@use "fonts";
+@use "colors";
+@use "banniere";
+@use "footer";
+@use "mixins";
+
+* {
+    box-sizing: border-box;
+}
+/*PARTENAIRES
+*******************************************************/
+.part {
+    background-color: colors.$bleuFoncer;
+}
+
+.partenaires {
+    text-align: center;
+
+    img {
+        padding: 5px;
+        max-width: 19vw;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+}
+body {
+    /* couleur de fond*/
+    background-color: colors.$orangePale;
+}
+
+.enveloppe {
+    background-color: white;
+    width: 75vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+
+/*extend de style des paragraphe*/
+
+%titre-texte-paragraphe {
+    font-family: dosis;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-a-propos {
+   
+    @include mixins.sectionhero;
+    .titre-a-propos {
+        text-align: center;
+        font-family: sunday;
+        font-size: 50px;
+        padding: 10px;
+    }
+    .texte-hero-a-propos {
+        font-size: 20px;
+        font-family: dosis;
+        padding: 3%;
+        font-weight: 300px;
+    }
+}
+
+.section-a-propos {
+    color: colors.$bleuFoncer;
+}
+
+.paragraphe-a-propos {
+    font-family: sunday;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+    font-size: 20px;
+    font-family: dosis;
+    margin-top: 2%;
+    margin: 10px;
+    &.liste-a-puce {
+        font-size: 22px;
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+}
+
+ul {
+    /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+    margin-left: 2%;
+}
+
+.mission {
+    @extend %titre-texte-paragraphe;
+    &.text {
+        font-size: 20px;
+    }
+}
+
+.Vision {
+    @extend %titre-texte-paragraphe;
+}
+
+.valeurs {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: dosis;
+    font-weight: 700;
+}
+
+.excellence {
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 2%;
+    color: colors.$bleuFoncer;
+    font-family: dosis;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.respect {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    // font-family: dosis;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.engagement {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.inclusion {
+    margin-top: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.innovation {
+    margin-top: 2%;
+    font-family: dm-sans;
+    &__text {
+        font-family: dm-sans;
+    }
+}
+
+.servicesLangues {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: dosis;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    &__texte {
+        position: relative;
+    }
+    &__facebook {
+        margin-bottom: 5%;
+    }
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: white !important;
+    }
+    .hero-a-propos {
+   
+        @include mixins.sectionhero;
+        .titre-a-propos {
+            text-align: center;
+            font-family: sunday;
+            font-size:20px;
+            padding: 10px;
+        }
+        p.texte-hero-a-propos.col-12 {
+            font-size: 10px ;
+            font-family: dosis;
+            padding: 3%;
+            
+        }
+        p.col-sm-8 col-xl-12{
+            font-size: 15px;
+        }
+    }
+}
+
