@@ -711,14 +711,96 @@ svg .anim.oiseau {
 /*Service 
 ************************************************/
 
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+
+
+
+.detail{
+   @include mixins.sectionhero;
+     line-height: 2 !important;
+  &__hero {
+  
+    padding-bottom: 5%;
+  }
+
+  &__titre {
+    line-height: 2;
+    text-align: center;
+    font-family: sunday;
+    font-size: 55px;
+    padding: 10px;
+  }
+
+  &__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services {
+    &__titre {
+      text-align: center;
+      font-family: sunday;
+      font-size: 30px;
+      padding: 10px;
+      line-height: 3;
+    }
+
+    &__texte {
+      font-family: dosis;
+      padding: 3%;
+      text-align: center;
+      font-weight: 300;
+      font-size: 25px;
+    }
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    justify-content: center;
+
+    margin: 2%;
+  }
+  &__row {
+    align-items: flex-end;
+  }
+  &__bouton {
+    height: 40px;
+    background-color: colors.$orangeFonce;
+    border: none;
+    border-radius: 10px;
+    align-items: end;
+  }
+  &__body {
+    padding: 30px;
+  }
+}
+
+
+
 /* À PROPOS LAURIE *****************************************
 ***************************************************************/
 
-@use "fonts";
-@use "colors";
-@use "banniere";
-@use "footer";
-@use "mixins";
+
 
 * {
     box-sizing: border-box;
