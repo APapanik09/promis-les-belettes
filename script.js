@@ -139,4 +139,4 @@ let animquatre =
 },
   duration: 10,
   yoyo: true,      
-})
+});
