@@ -43,3 +43,13 @@
     font-family: dosis;
     text-align: center;
 }
+
+//utilise object-fit, ajoute max-height et object-position sur tes images de l'équipe
+
+.equipe {
+    .card-img-top {
+        max-height: 250px;
+        object-fit: cover;
+        
+    }
+}
