@@ -139,16 +139,14 @@ p .nouvelle__texte .col-12 .text-align-center {
     }
 }
 @media (max-width: 375px){
-    .nouvellle{
-        padding: 20px;
-    }
+   
     .enveloppe-nouvelle{
-        padding:5px;
+        padding:0px;
     }
 }
 @media (min-width: 375px){
     .nouvellle{
-        padding: 20px;
+        margin: 20px;
     }
     &__titre{
         width: 100%;
