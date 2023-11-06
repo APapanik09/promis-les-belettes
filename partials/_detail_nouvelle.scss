@@ -16,21 +16,37 @@
     background-size: cover;
     position: relative;
     height: 30vh;
+   
     .nouvelle img {
         width: 100%;
     }
     .col-12 {
         text-align: center;
     }
+    
     &__titre {
         font-family: sunday;
-        position: absolute;
-        bottom: -10px;
+        position: relative;
+        bottom: 0px;
         padding-bottom: 20px;
         text-align: center;
         line-height: 1.7;
+        padding: 2%;
+        margin: 0px;
+        background-color: rgba($color: white, $alpha: .805);
+    }
+    &__date{
+        position: relative;
+        background-color: rgba($color: white, $alpha: .805);
+        width: 100%;
+    
+    }
+    &__categorie{
+        position: absolute;
+        top: 0px;
+        background-color: rgba($color: white, $alpha: .805);
+        width: 100%; 
       
-        background-color: rgba($color: white, $alpha: .805)
     }
 }
 
@@ -115,4 +131,27 @@ p .nouvelle__texte .col-12 .text-align-center {
     .col-lg-6 {
         width: 100%;
     }
+    .nouvellle{
+        padding: 20px;   
+    }
+    &__date{
+        text-align: center;
+    }
+}
+@media (max-width: 375px){
+    .nouvellle{
+        padding: 20px;
+    }
+    .enveloppe-nouvelle{
+        padding:5px;
+    }
+}
+@media (min-width: 375px){
+    .nouvellle{
+        padding: 20px;
+    }
+    &__titre{
+        width: 100%;
+    }
+    
 }
