@@ -398,7 +398,8 @@ svg {
 
 .equipe .card-img-top {
   max-height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hero-nouvelles {
@@ -444,7 +445,8 @@ svg {
 .nouvelles__sarah {
   background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -454,7 +456,8 @@ svg {
 }
 .nouvelles__demenagement {
   background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -465,7 +468,8 @@ svg {
 }
 .nouvelles__reseautage {
   background-image: url(../media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -476,7 +480,8 @@ svg {
 }
 .nouvelles__hebergement {
   background-image: url(../media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -487,7 +492,8 @@ svg {
 }
 .nouvelles__vivre-ensemble {
   background-image: url(../media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -498,7 +504,8 @@ svg {
 }
 .nouvelles__organisation {
   background-image: url(../media/nouvelles/reorientation_carriere.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -509,7 +516,8 @@ svg {
 }
 .nouvelles__temoignager {
   background-image: url(../media/nouvelles/temoignage.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -520,7 +528,8 @@ svg {
 }
 .nouvelles__besoins {
   background-image: url(../media/nouvelles/assurence.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -531,7 +540,8 @@ svg {
 }
 .nouvelles__hiver {
   background-image: url(../media/nouvelles/hiver_montreal.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -542,7 +552,8 @@ svg {
 }
 .nouvelles__partener {
   background-image: url(../media/nouvelles/parrainer_partenaire.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -553,7 +564,8 @@ svg {
 }
 .nouvelles__etudier {
   background-image: url(../media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -564,7 +576,8 @@ svg {
 }
 .nouvelles__citoyennete {
   background-image: url(../media/nouvelles/citoyennete.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -575,7 +588,8 @@ svg {
 }
 .nouvelles__normes {
   background-image: url(../media/nouvelles/norme_travail.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -586,7 +600,8 @@ svg {
 }
 .nouvelles__permis {
   background-image: url(../media/nouvelles/assurence.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -735,173 +750,6 @@ html {
   height: 92px;
 }
 
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-1 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-1 .card-text .btn-1 .btn-1 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-2 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-2 .card-text .btn-2 .btn-2 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-3 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-3 .card-text .btn-3 .btn-3 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-4 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-4 .card-text .btn-4 .btn-4 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-5 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-5 .card-text .btn-5 .btn-5 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-6 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-6 .card-text .btn-6 .btn-6 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
-.card-7 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
-  width: 100%;
-  text-align: start;
-  border-radius: 10px;
-  color: white;
-  overflow-y: hidden;
-}
-.card-7 .card-text .btn-7 .btn-7 {
-  margin: 10px;
-  font-family: dm-sans;
-  height: 92px;
-}
-
-.btn {
-  width: 45%;
-  height: 20%;
-  background-color: #F4E6EF;
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -934,7 +782,8 @@ html {
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -943,7 +792,8 @@ html {
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -952,7 +802,8 @@ html {
 }
 .service .card__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -961,7 +812,8 @@ html {
 }
 .service .card__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -970,7 +822,8 @@ html {
 }
 .service .card__emplois {
   background-image: url(/media/icone/cv_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -979,7 +832,8 @@ html {
 }
 .service .card__alimentation {
   background-image: url(/media/icone/aliment_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1008,7 +862,8 @@ html {
 @media (max-width: 767px) {
   .card-text {
     font-size: 20px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 377px) {
@@ -1048,7 +903,8 @@ html {
 .service__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
   background-size: contain;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1058,7 +914,8 @@ html {
 }
 .service__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1069,7 +926,8 @@ html {
 }
 .service__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1080,7 +938,8 @@ html {
 }
 .service__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1091,7 +950,8 @@ html {
 }
 .service__emplois {
   background-image: url(/media/icone/cv_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1102,7 +962,8 @@ html {
 }
 .service__alimentaire {
   background-image: url(/media/icone/aliment_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1127,7 +988,8 @@ html {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1137,7 +999,8 @@ html {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1148,7 +1011,8 @@ html {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1159,7 +1023,8 @@ html {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1170,7 +1035,8 @@ html {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1183,7 +1049,7 @@ html {
 .nouvelle .card-body {
   position: relative;
   bottom: -160px;
-  height: 140px;
+  height: 180px;
   display: flex;
   border-radius: 10px;
   place-content: space-between space-around;
@@ -1209,6 +1075,22 @@ html {
   left: 50px;
   top: -20px;
   color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
 }
 
 /*****TÉMOIGNAGE
@@ -1244,11 +1126,9 @@ html {
 }
 .temoignage__image {
   border-radius: 10px;
-  aspect-ratio: 3/4;
-  height: 15%;
-}
-.temoignage__image .col-12 {
-  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
 }
 .temoignage__card {
   background-position: center;
@@ -1350,7 +1230,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -1397,58 +1278,79 @@ svg .anim.oiseau {
 }
 .service__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
-  height: 100% !important;
+  height: 350px;
   background-repeat: no-repeat;
   background-color: #223843;
 }
 .service__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
+  height: 350px;
   background-color: #223843;
 }
 .service__famille {
   background-image: url(/media/icone/soutien_famille_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
+  height: 350px;
   background-color: #223843;
 }
 .service__scolaire {
   background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
+  height: 350px;
   background-repeat: no-repeat;
   background-color: #223843;
 }
 .service__emplois {
   background-image: url(/media/icone/cv_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+  height: 350px;
 }
 .service__alimentaire {
   background-image: url(/media/icone/aliment_transparent.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
+  height: 350px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
 }
 
 .swiper-slide {
@@ -1460,8 +1362,8 @@ svg .anim.oiseau {
 }
 
 /*.card-body {
-    height: 200px;
-  }*/
+  height: 200px;
+}*/
 /*@media (min-width: 1400px) {
   .service__container,
   .service__container-lg,
@@ -1546,7 +1448,8 @@ svg .anim.oiseau {
 @media (max-width: 767px) {
   .card-text {
     font-size: 20px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 377px) {
@@ -1593,165 +1496,20 @@ svg .anim.oiseau {
   box-sizing: border-box;
 }
 
-.nouvellle {
-  background-color: #F4E6EF;
-  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  background-position: 0 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 30vh;
-}
-.nouvellle .nouvelle img {
-  width: 100%;
-}
-.nouvellle .col-12 {
-  text-align: center;
-}
-.nouvellle__titre {
-  font-family: sunday;
-  position: absolute;
-  bottom: -10px;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-  background-color: rgba(255, 255, 255, 0.805);
-}
-.nouvellle__date {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.805);
-  width: 100%;
-}
-.nouvellle__categorie {
-  position: absolute;
-  top: 0px;
-  background-color: rgba(255, 255, 255, 0.805);
-  width: 100%;
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
 }
 
 .partenaires {
   text-align: center;
 }
-
-/*****NOUVELLE
-************************************************/
-.nouvelle {
-  margin-right: 0;
-}
-.nouvelle__titre {
-  text-align: center;
-  margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
-}
-.nouvelle__sarah {
-  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
-  background-size: cover;
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
   -o-object-fit: contain;
      object-fit: contain;
-  padding: unset;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  color: #ffffff;
-}
-.nouvelle__demenagement {
-  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: unset;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  color: #ffffff;
-  background-size: cover;
-}
-.nouvelle__reseautage {
-  background-image: url(/media/nouvelles/etudier.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: unset;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  color: #ffffff;
-  background-size: cover;
-}
-.nouvelle__hebergement {
-  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: unset;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  color: #ffffff;
-  background-size: cover;
-}
-.nouvelle__vivre-ensemble {
-  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: unset;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  color: #ffffff;
-  background-size: 100%;
-}
-
-.nouvelle {
-  padding: 30px;
-}
-.nouvelle .card-body {
-  position: relative;
-  bottom: -160px;
-  height: 140px;
-  display: flex;
-  border-radius: 10px;
-  place-content: space-between space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.805);
-}
-.nouvelle .card-body h5 {
-  font-size: 24px;
-  padding: none;
-  position: relative;
-  top: 10px;
-  color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
-}
-.nouvelle .card-body p {
-  font-size: 18px;
-  position: relative;
-  left: 50px;
-  top: -20px;
-  color: #223843;
-}
-
-@media (min-width: 992px) {
-  .col-lg-6 {
-    width: 100%;
-  }
-}
-html {
-  overflow-x: hidden;
-}
-
-/*****ACCUEIL
-********************************************************/
-* {
   box-sizing: border-box;
 }
 
@@ -1793,7 +1551,159 @@ body {
   font-size: 50px;
   padding: 10px;
 }
-.card-0 .card-text .btn-0 .btn-0 {
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-1 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-1 .card-text .btn-1 .btn-1 {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
@@ -1901,6 +1811,707 @@ body {
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
   font-family: dosis;
   padding: 3%;
   font-weight: 300px;
@@ -1910,264 +2521,22 @@ body {
   color: #223843;
 }
 
-/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
-*******************************************************************/
-.lien {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.service {
-  padding: 10px;
-}
-
-.swiper-slide {
-  width: auto;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.swipper {
-  margin: 20px;
-}
-
-.service .card {
-  height: 370px !important;
-  width: 420px;
-}
-.service .card .autres {
-  height: 444px !important;
-}
-.service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-
-.card-title {
-  color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
-}
-
-.card-text {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  font-family: dm-sans;
-  font-size: 20px;
-}
-
-.card-2 {
-  background-color: #223843;
-  padding: 10px;
-  margin: 5%;
-  height: 325px;
+.paragraphe-a-propos {
+  font-family: sunday;
   width: 100%;
   text-align: center;
   padding-top: 5%;
   line-height: 1.8 !important;
 }
 
-/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
-*******************************************************************/
-.lien {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.service {
-  padding: 10px;
-}
-
-.swiper-slide {
-  width: auto;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.swipper {
-  margin: 20px;
-}
-
-.service .card {
-  height: 370px !important;
-  width: 420px;
-}
-.service .card .autres {
-  height: 444px !important;
-}
-.service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-
-.card-title {
-  color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
-}
-
-.card-text {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  font-family: dm-sans;
+.tout-sous-meme-toi {
   font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
 }
-
-/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
-*******************************************************************/
-.lien {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.service {
-  padding: 10px;
-}
-
-.swiper-slide {
-  width: auto;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.swipper {
-  margin: 20px;
-}
-
-.service .card {
-  height: 370px !important;
-  width: 420px;
-}
-.service .card .autres {
-  height: 444px !important;
-}
-.service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
   padding: 20px;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -2190,6 +2559,115 @@ ul {
   font-weight: 700;
 }
 
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-2 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-2 .card-text .btn-2 .btn-2 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -2294,11 +2772,754 @@ ul {
   font-size: 20px;
 }
 
-.card-5 {
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
   padding: 10px;
-  margin: 5%;
-  height: 325px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
   width: 100%;
   margin-top: 2%;
   color: #223843;
@@ -2312,93 +3533,7 @@ ul {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-.service {
-  padding: 10px;
-}
-
-.swiper-slide {
-  width: auto;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.swipper {
-  margin: 20px;
-}
-
-.service .card {
-  height: 370px !important;
-  width: 420px;
-}
-.service .card .autres {
-  height: 444px !important;
-}
-.service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-
-.card-title {
-  color: #FC9478;
+.respect__text {
   font-family: dm-sans;
 }
 
@@ -2411,99 +3546,8 @@ ul {
   font-family: dm-sans;
 }
 
-/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
-*******************************************************************/
-.lien {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.service {
-  padding: 10px;
-}
-
-.swiper-slide {
-  width: auto;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.swipper {
-  margin: 20px;
-}
-
-.service .card {
-  height: 370px !important;
-  width: 420px;
-}
-.service .card .autres {
-  height: 444px !important;
-}
-.service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-
-.card-title {
-  color: #FC9478;
+.inclusion {
+  margin-top: 2%;
   font-family: dm-sans;
 }
 .inclusion__text {
@@ -2514,6 +3558,74 @@ ul {
   margin-top: 2%;
   font-family: dm-sans;
 }
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-3 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-3 .card-text .btn-3 .btn-3 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
@@ -2608,6 +3720,4640 @@ ul {
 
 .card-title {
   color: #FC9478;
+  font-family: dm-sans;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-4 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-4 .card-text .btn-4 .btn-4 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
+
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
+*******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.service {
+  padding: 10px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 370px !important;
+  width: 420px;
+}
+.service .card .autres {
+  height: 444px !important;
+}
+.service .card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.card-title {
+  color: #FC9478;
+  font-family: dm-sans;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-5 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-5 .card-text .btn-5 .btn-5 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
+
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
+*******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.service {
+  padding: 10px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 370px !important;
+  width: 420px;
+}
+.service .card .autres {
+  height: 444px !important;
+}
+.service .card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.card-title {
+  color: #FC9478;
+  font-family: dm-sans;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-6 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-6 .card-text .btn-6 .btn-6 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
+
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
+*******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.service {
+  padding: 10px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 370px !important;
+  width: 420px;
+}
+.service .card .autres {
+  height: 444px !important;
+}
+.service .card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.card-title {
+  color: #FC9478;
+  font-family: dm-sans;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
+  font-family: dm-sans;
+}
+
+.servicesLangues {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.servicesLangues__texte {
+  position: relative;
+}
+.servicesLangues__facebook {
+  margin-bottom: 5%;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white !important;
+  }
+  .hero-a-propos {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #223843;
+    position: relative;
+    padding: 2%;
+    background-color: #F4E6EF;
+  }
+  .hero-a-propos .titre-a-propos {
+    text-align: center;
+    font-family: sunday;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .hero-a-propos p.texte-hero-a-propos.col-12 {
+    font-size: 10px;
+    font-family: dosis;
+    padding: 3%;
+  }
+  .hero-a-propos p.col-sm-8 col-xl-12 {
+    font-size: 15px;
+  }
+}
+.card-7 {
+  background-color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color: white;
+  overflow-y: hidden;
+}
+.card-7 .card-text .btn-7 .btn-7 {
+  margin: 10px;
+  font-family: dm-sans;
+  height: 92px;
+}
+
+/**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
+*******************************************************************/
+.lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.service {
+  padding: 10px;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 370px !important;
+  width: 420px;
+}
+.service .card .autres {
+  height: 444px !important;
+}
+.service .card__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service .card__alimentation {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.card-title {
+  color: #FC9478;
+  font-family: dm-sans;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20029px;
+  }
+}
+/*SERVICE VERSION ORDI
+************************************************/
+.service__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  font-size: 60px;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 60%;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 70%;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  color: #ffffff;
+  background-size: 100%;
+}
+
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 180px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.btn {
+  width: 35%;
+  height: 20%;
+  background-color: #F4E6EF;
+  font-size: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #223843;
+  color: #ffffff;
+}
+
+/*****TÉMOIGNAGE
+*****************************************/
+.temoignage {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 45px;
+  font-family: dosis;
+  color: #223843;
+  padding-bottom: 20px;
+}
+.temoignage__body {
+  background-image: url(/media/icone/cercle_don.png);
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: 120% 0;
+  background-size: 80%;
+  background-color: #F4E6EF;
+  border: none;
+  border-radius: 10px;
+}
+.temoignage__container {
+  justify-content: center;
+}
+.temoignage__card-texte {
+  font-size: 25px;
+  color: #223843;
+}
+.temoignage__image {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 250px !important;
+}
+.temoignage__card {
+  background-position: center;
+  display: flex;
+  border: none;
+}
+.temoignage__citation {
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  left: 25%;
+}
+
+/* DON
+***********************************************************/
+.don {
+  background-color: #ffffff;
+  justify-content: center;
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+.don__body {
+  background-color: #223843;
+  background-image: url(/media/icone/CERCLE\ 1.png);
+  background-position: 0 -15%;
+  border-radius: 10px;
+  border: none;
+}
+.don__container {
+  justify-content: center;
+}
+.don__bouton {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #FC9478;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}
+.don__card-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+/*ANIMATION DON
+***************************************************/
+.anim {
+  position: relative;
+  top: -90px;
+}
+
+svg .anim.oiseau {
+  top: 50px;
+  display: block;
+  fill: transparent;
+  stroke: var(--green);
+  stroke-width: 2px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.oiseau-trace {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+
+.dollar {
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  left: 200px;
+  top: 70px;
+  height: 40px;
+}
+
+/*.oiseau {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}*/
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+/*HUB DE SERVICE  JOLYANNE********************************
+**********************************************************/
+.hub-services__hero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  padding-bottom: 5%;
+}
+.hub-services__titre {
+  text-align: center;
+  font-family: sunday;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 2;
+}
+.hub-services__titre .col-12 {
+  font-size: 40px;
+  line-height: 2;
+}
+.hub-services__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.container-xl {
+  max-width: 20000px;
+}
+
+.service {
+  padding: 10px;
+}
+.service__container {
+  margin-bottom: 5%;
+}
+.service__accueil {
+  background-image: url(/media/icone/accueil_main_transparence.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__francisation {
+  background-image: url(/media/icone/francisation_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__famille {
+  background-image: url(/media/icone/soutien_famille_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-color: #223843;
+}
+.service__scolaire {
+  background-image: url(/media/icone/soutien_scolaire_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.service__emplois {
+  background-image: url(/media/icone/cv_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  height: 350px;
+}
+.service__alimentaire {
+  background-image: url(/media/icone/aliment_transparent.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #223843;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*.card-body {
+  height: 200px;
+}*/
+/*@media (min-width: 1400px) {
+  .service__container,
+  .service__container-lg,
+  .container-md,
+  .container-sm,
+  .service__container-xl,
+  .service__container-xxl {
+    max-width: 20000px;
+  }
+}
+.swipper {
+  margin: 20px;
+}
+
+.service .card {
+  height: 300px;
+  width: 420px;
+}
+
+.card-title {
+  color: colors.$orangeFonce;
+  font-family: dm-sans;
+  font-size: 25px;
+}
+.card-text {
+  font-family: dm-sans;
+}
+
+.row__hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.row__service {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+/*Service 
+************************************************/
+/*DÉTAIL DE SERVICES JOLYANNE**************************
+******************************************************/
+.detail {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+  line-height: 2 !important;
+}
+.detail__hero {
+  padding-bottom: 5%;
+}
+.detail__titre {
+  line-height: 2;
+  text-align: center;
+  font-family: sunday;
+  font-size: 55px;
+  padding: 10px;
+}
+.detail__texte {
+  font-family: dosis;
+  padding: 3%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+@media (max-width: 987px) {
+  .card-text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .card-text {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .detail-services__titre {
+    text-align: center;
+    font-family: sunday;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 3;
+  }
+  .detail-services__texte {
+    font-family: dosis;
+    padding: 3%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+.rendez-vous {
+  display: flex;
+  justify-content: center;
+}
+.rendez-vous__container {
+  justify-content: center;
+  margin: 2%;
+}
+.rendez-vous__row {
+  align-items: flex-end;
+}
+.rendez-vous__bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__body {
+  padding: 30px;
+}
+
+/* À PROPOS LAURIE *****************************************
+***************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*PARTENAIRES
+*******************************************************/
+.part {
+  background-color: #223843;
+}
+
+.partenaires {
+  text-align: center;
+}
+.partenaires img {
+  padding: 5px;
+  max-width: 19vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-sizing: border-box;
+}
+
+body {
+  /* couleur de fond*/
+  background-color: #FFCFB4;
+}
+
+.enveloppe {
+  background-color: white;
+  width: 75vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+/*extend de style des paragraphe*/
+.mission, .Vision {
+  font-family: dosis;
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-a-propos {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #223843;
+  position: relative;
+  padding: 2%;
+  background-color: #F4E6EF;
+}
+.hero-a-propos .titre-a-propos {
+  text-align: center;
+  font-family: sunday;
+  font-size: 50px;
+  padding: 10px;
+}
+.hero-a-propos .texte-hero-a-propos {
+  font-size: 20px;
+  font-family: dosis;
+  padding: 3%;
+  font-weight: 300px;
+}
+
+.section-a-propos {
+  color: #223843;
+}
+
+.paragraphe-a-propos {
+  font-family: sunday;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 1.8 !important;
+}
+
+.tout-sous-meme-toi {
+  font-size: 20px;
+  font-family: dosis;
+  margin-top: 2%;
+  margin: 10px;
+}
+.tout-sous-meme-toi.liste-a-puce {
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+ul {
+  /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+  margin-left: 2%;
+}
+
+.mission.text {
+  font-size: 20px;
+}
+
+.valeurs {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: dosis;
+  font-weight: 700;
+}
+
+.excellence {
+  margin-bottom: 2%;
+  width: 100%;
+  margin-top: 2%;
+  color: #223843;
+  font-family: dosis;
+}
+.excellence__text {
+  font-family: dm-sans;
+}
+
+.respect {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.respect__text {
+  font-family: dm-sans;
+}
+
+.engagement {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: dm-sans;
+}
+.engagement__text {
+  font-family: dm-sans;
+}
+
+.inclusion {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.inclusion__text {
+  font-family: dm-sans;
+}
+
+.innovation {
+  margin-top: 2%;
+  font-family: dm-sans;
+}
+.innovation__text {
   font-family: dm-sans;
 }
 
