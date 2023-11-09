@@ -10,20 +10,18 @@
 
 .nouvellle {
     background-color: colors.$rosepale;
-    background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+    background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 30vh;
-   
     .nouvelle img {
         width: 100%;
     }
     .col-12 {
         text-align: center;
     }
-    
     &__titre {
         font-family: sunday;
         position: relative;
@@ -35,33 +33,32 @@
         margin: 0px;
         background-color: rgba($color: white, $alpha: .805);
     }
-    &__date{
+    &__date {
         position: relative;
         background-color: rgba($color: white, $alpha: .805);
         width: 100%;
-    
     }
-    &__categorie{
+    &__categorie {
         position: absolute;
         top: 0px;
         background-color: rgba($color: white, $alpha: .805);
-        width: 100%; 
-      
+        width: 100%;
     }
 }
 
-p .nouvelle__texte .col-12 .text-align-center {
+p .nouvellle__texte .col-12 .text-align-center {
     font-family: dosis;
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
 }
 
+
 /*****NOUVELLE
 ************************************************/
 
 .nouvelle {
- margin-right: 0;
+    margin-right: 0;
     &__titre {
         @include mixins.titre;
     }
@@ -94,8 +91,7 @@ p .nouvelle__texte .col-12 .text-align-center {
 
 // Détails pour les cartes
 .nouvelle {
-    padding:30px ;
-   
+    padding: 30px;
     .card-body {
         position: relative;
         bottom: -160px;
@@ -127,29 +123,30 @@ p .nouvelle__texte .col-12 .text-align-center {
         }
     }
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
     .col-lg-6 {
         width: 100%;
     }
-    .nouvellle{
-        padding: 20px;   
+    .nouvellle {
+        padding: 20px;
     }
-    &__date{
+    &__date {
         text-align: center;
     }
 }
-@media (max-width: 375px){
-   
-    .enveloppe-nouvelle{
-        padding:0px;
+
+@media (max-width: 375px) {
+    .enveloppe-nouvelle {
+        padding: 0px;
     }
 }
-@media (min-width: 375px){
-    .nouvellle{
+
+@media (min-width: 375px) {
+    .nouvellle {
         margin: 20px;
     }
-    &__titre{
+    &__titre {
         width: 100%;
     }
-    
 }
