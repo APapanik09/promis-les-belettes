@@ -1,10 +1,14 @@
 
-const swiperCarrousel = new Swiper(".swiperCaroussel", {
+const swiperCarrousel = new Swiper(".swiperAccueil", {
     // Optional parameters
     direction: "horizontal",
     loop: true,
+    autoplay: {
+        delay: 3500,
+    },
 
-
+   slidesPerView: 1,
+            spaceBetween: 10,
    
 
     // And if we need scrollbar
@@ -13,7 +17,36 @@ const swiperCarrousel = new Swiper(".swiperCaroussel", {
     },
    
 });
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".swiperService", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: ".swiper-pagination",
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: ".swiper-scrollbar",
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        // when window width is >= 480px
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        // when window width is >= 640px
+    },
+});
+
+const swiperNouvelle = new Swiper(".swiperNouvelle", {
     // Optional parameters
     direction: "horizontal",
     loop: true,

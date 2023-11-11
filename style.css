@@ -167,6 +167,7 @@ body {
   background-color: #FFCFB4;
 }
 
+/* section hero histoire debut*/
 .hero-histoire {
   width: 100vw;
   margin: 0 auto;
@@ -195,6 +196,8 @@ body {
   padding-top: 3%;
 }
 
+/* section hero histoire  fin*/
+/* section histoire debut*/
 .histoire {
   text-align: center;
   padding-top: 0%;
@@ -320,6 +323,7 @@ svg {
     width: 100px;
   }
 }
+/* section histoire fin*/
 .quatre-contenu {
   background-color: #F4E6EF;
 }
@@ -691,6 +695,39 @@ html {
   text-align: center;
 }
 
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
 .btn-0 {
   margin: 10px;
   font-family: dm-sans;
@@ -769,7 +806,7 @@ html {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -1684,7 +1721,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -1728,7 +1765,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -2643,7 +2680,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -2687,7 +2724,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -3602,7 +3639,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -3646,7 +3683,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -4561,7 +4598,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -4605,7 +4642,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -5520,7 +5557,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -5564,7 +5601,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -6479,7 +6516,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -6523,7 +6560,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -7438,7 +7475,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }
@@ -7482,7 +7519,7 @@ iframe {
   justify-content: center;
 }
 
-.swipper {
+.swiper {
   margin: 20px;
 }
 
@@ -8397,7 +8434,7 @@ iframe {
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: dosis;
     padding: 3%;
   }

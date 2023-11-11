@@ -10,6 +10,7 @@
 //@use "partials/hub_service";
 @use "partials/equipe";
 @use "partials/nouvelles";
+
 //@use"partials/detail_service";
 //@use"partials/detail_nouvelle";
 html {
@@ -52,21 +53,63 @@ html {
 .hero {
     padding: 30px;
     background-color: colors.$rosepale;
+
     &__titre {
         font-family: sunday;
         padding-bottom: 20px;
         text-align: center;
         line-height: 1.7;
     }
+
     &__question {
         font-family: dosis;
         font-weight: 700;
         text-align: center;
         padding-bottom: 20px;
     }
+
     &__option {
         font-family: dosis;
         text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 12000px;
+    }
+}
+
+.rendez-vous__accueil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &--container {
+        justify-content: center;
+        margin: 2%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    &--row {
+        align-items: flex-end;
+    }
+
+    &--bouton {
+        height: 40px;
+        background-color: colors.$orangeFonce;
+        border: none;
+        border-radius: 10px;
+        align-items: end;
+    }
+
+    &--body {
+        padding: 30px;
     }
 }
 
@@ -84,6 +127,7 @@ html {
 @for $index from 0 through 7 {
     .card-#{$index} {
         @include mixins.card;
+
         .card-text {
             .btn-#{$index} {
                 .btn-#{$index} {
@@ -95,6 +139,7 @@ html {
             }
         }
     }
+
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
     //Lien
@@ -102,9 +147,11 @@ html {
         color: colors.$blanc;
         text-decoration: none;
     }
+
     .service {
         padding: 10px;
     }
+
     //Swipper service
     .swiper-slide {
         width: auto;
@@ -113,16 +160,20 @@ html {
         margin-top: 20px;
         justify-content: center;
     }
-    .swipper {
+
+    .swiper {
         margin: 20px;
     }
+
     // Card Service
     .service .card {
         height: 370px !important;
         width: 420px;
+
         .autres {
             height: 444px !important;
         }
+
         &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
             object-fit: contain;
@@ -132,6 +183,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__francisation {
             background-image: url(/media/icone/francisation_transparent.png);
             object-fit: contain;
@@ -141,6 +193,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__famille {
             background-image: url(/media/icone/soutien_famille_transparent.png);
             object-fit: contain;
@@ -150,6 +203,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__scolaire {
             background-image: url(/media/icone/soutien_scolaire_transparent.png);
             object-fit: contain;
@@ -159,6 +213,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__emplois {
             background-image: url(/media/icone/cv_transparent.png);
             object-fit: contain;
@@ -168,6 +223,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__alimentation {
             background-image: url(/media/icone/aliment_transparent.png);
             object-fit: contain;
@@ -178,34 +234,40 @@ html {
             background-color: colors.$bleuFoncer;
         }
     }
+
     .card-title {
         color: colors.$orangeFonce;
         font-family: dm-sans;
         font-size: 30px;
     }
+
     .card-text {
         margin-top: 10%;
         margin-bottom: 10%;
         font-family: dm-sans;
         font-size: 20px;
     }
+
     //ajuster l'écriture
     @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
         }
     }
+
     @media (max-width: 767px) {
         .card-text {
             font-size: 20px;
             object-fit: cover;
         }
     }
+
     @media (max-width: 377px) {
         .card-text {
             font-size: 18px;
         }
     }
+
     // row du service
     .row__service {
         width: 100%;
@@ -215,8 +277,10 @@ html {
         justify-content: center;
         padding-top: 5%;
     }
+
     // Rendre le container responsive
     @media (min-width: 1400px) {
+
         .service__container,
         .service__container-lg,
         .container-md,
@@ -226,6 +290,7 @@ html {
             max-width: 20029px;
         }
     }
+
     /*SERVICE VERSION ORDI
 ************************************************/
     .service {
@@ -233,70 +298,84 @@ html {
             @include mixins.titre;
             font-size: 60px;
         }
+
         &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
             background-size: contain;
             @include mixins.service;
         }
+
         &__francisation {
             background-image: url(/media/icone/francisation_transparent.png);
             @include mixins.service;
             background-size: 60%;
         }
+
         &__famille {
             background-image: url(/media/icone/soutien_famille_transparent.png);
             @include mixins.service;
             background-size: 60%;
         }
+
         &__scolaire {
             background-image: url(/media/icone/soutien_scolaire_transparent.png);
             @include mixins.service;
             background-size: 70%;
         }
+
         &__emplois {
             background-image: url(/media/icone/cv_transparent.png);
             @include mixins.service;
             background-size: 60%;
         }
+
         &__alimentaire {
             background-image: url(/media/icone/aliment_transparent.png);
             @include mixins.service;
             background-size: 70%;
         }
     }
+
     /*****NOUVELLE
 ************************************************/
     .nouvelle {
         padding: 30px;
+
         &__titre {
             @include mixins.titre;
         }
+
         &__sarah {
             background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
             background-size: cover;
             @include mixins.service;
         }
+
         &__demenagement {
             background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
             @include mixins.service;
             background-size: cover;
         }
+
         &__reseautage {
             background-image: url(/media/nouvelles/etudier.png);
             @include mixins.service;
             background-size: cover;
         }
+
         &__hebergement {
             background-image: url(/media/nouvelles/hebergement_femme.jpeg);
             @include mixins.service;
             background-size: cover;
         }
+
         &__vivre-ensemble {
             background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
             @include mixins.service;
             background-size: 100%;
         }
     }
+
     // Détails pour les cartes
     .nouvelle {
         .card-body {
@@ -311,16 +390,19 @@ html {
             align-items: flex-end;
             justify-content: space-around;
             background-color: rgba(255, 255, 255, 0.805);
+
             h5 {
                 font-size: 24px;
                 padding: none;
                 position: relative;
                 top: 10px;
                 color: colors.$bleuFoncer;
+
                 .col-sm-12 {
                     font-size: 30px;
                 }
             }
+
             p {
                 font-size: 18px;
                 position: relative;
@@ -330,6 +412,7 @@ html {
             }
         }
     }
+
     // bouton autre nouvelle
     .btn {
         width: 35%;
@@ -341,19 +424,23 @@ html {
         justify-content: center;
         text-decoration: none;
     }
+
     .btn:hover {
         background-color: colors.$bleuFoncer;
         color: colors.$blanc;
     }
+
     /*****TÉMOIGNAGE
 *****************************************/
     .temoignage {
         background-color: colors.$blanc;
         padding: 10px;
+
         &__titre {
             @include mixins.titre;
             padding-bottom: 20px;
         }
+
         &__body {
             background-image: url(/media/icone/cercle_don.png);
             z-index: 10;
@@ -364,23 +451,28 @@ html {
             border: none;
             border-radius: 10px;
         }
+
         &__container {
             justify-content: center;
         }
+
         &__card-texte {
             font-size: 25px;
             color: colors.$bleuFoncer;
         }
+
         &__image {
             border-radius: 10px;
             object-fit: cover;
             max-height: 250px !important;
         }
+
         &__card {
             background-position: center;
             display: flex;
             border: none;
         }
+
         &__citation {
             justify-content: center;
             position: relative;
@@ -388,6 +480,7 @@ html {
             left: 25%;
         }
     }
+
     /* DON
 ***********************************************************/
     .don {
@@ -396,6 +489,7 @@ html {
         padding: 3%;
         display: flex;
         position: relative;
+
         &__body {
             background-color: colors.$bleuFoncer;
             background-image: url(/media/icone/CERCLE\ 1.png);
@@ -403,9 +497,11 @@ html {
             border-radius: 10px;
             border: none;
         }
+
         &__container {
             justify-content: center;
         }
+
         &__bouton {
             border-radius: 10px;
             font-size: 20px;
@@ -414,6 +510,7 @@ html {
             border: none;
             margin: 0 auto;
         }
+
         &__card-text {
             color: colors.$blanc;
             font-size: 20px;
@@ -422,12 +519,14 @@ html {
             position: relative;
         }
     }
+
     /*ANIMATION DON
 ***************************************************/
     .anim {
         position: relative;
         top: -90px;
     }
+
     svg .anim.oiseau {
         top: 50px;
         display: block;
@@ -438,6 +537,7 @@ html {
         width: 40px;
         height: 40px;
     }
+
     .oiseau-trace {
         display: inline-block;
         width: 30px;
@@ -445,6 +545,7 @@ html {
         padding: 0;
         position: absolute;
     }
+
     .dollar {
         position: absolute;
         text-align: center;
@@ -453,6 +554,7 @@ html {
         top: 70px;
         height: 40px;
     }
+
     /*.oiseau {
     position: absolute;
     text-align: center;
@@ -464,8 +566,10 @@ html {
     .part {
         background-color: colors.$bleuFoncer;
     }
+
     .partenaires {
         text-align: center;
+
         img {
             padding: 5px;
             max-width: 19vw;
@@ -473,6 +577,7 @@ html {
             box-sizing: border-box;
         }
     }
+
     /*HUB DE SERVICE  JOLYANNE********************************
 **********************************************************/
     .hub-services {
@@ -480,17 +585,20 @@ html {
             @include mixins.sectionhero;
             padding-bottom: 5%;
         }
+
         &__titre {
             .col-12 {
                 font-size: 40px;
                 line-height: 2;
             }
+
             text-align: center;
             font-family: sunday;
             font-size: 60px;
             padding: 10px;
             line-height: 2;
         }
+
         &__texte {
             font-family: dosis;
             padding: 3%;
@@ -499,14 +607,18 @@ html {
             font-size: 25px;
         }
     }
+
     .container-xl {
         max-width: 20000px;
     }
+
     .service {
         padding: 10px;
+
         &__container {
             margin-bottom: 5%;
         }
+
         &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
             object-fit: contain;
@@ -517,6 +629,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__francisation {
             background-image: url(/media/icone/francisation_transparent.png);
             object-fit: contain;
@@ -527,6 +640,7 @@ html {
             height: 350px;
             background-color: colors.$bleuFoncer;
         }
+
         &__famille {
             background-image: url(/media/icone/soutien_famille_transparent.png);
             object-fit: contain;
@@ -537,6 +651,7 @@ html {
             height: 350px;
             background-color: colors.$bleuFoncer;
         }
+
         &__scolaire {
             background-image: url(/media/icone/soutien_scolaire_transparent.png);
             object-fit: contain;
@@ -547,6 +662,7 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__emplois {
             background-image: url(/media/icone/cv_transparent.png);
             object-fit: contain;
@@ -557,6 +673,7 @@ html {
             background-color: colors.$bleuFoncer;
             height: 350px;
         }
+
         &__alimentaire {
             background-image: url(/media/icone/aliment_transparent.png);
             object-fit: contain;
@@ -568,14 +685,17 @@ html {
             background-color: colors.$bleuFoncer;
         }
     }
+
     .carte-service:hover {
         background-color: colors.$blanc;
         color: colors.$bleuFoncer;
     }
+
     .card:hover {
         background-color: colors.$blanc;
         color: colors.$bleuFoncer;
     }
+
     //Swipper service
     .swiper-slide {
         width: auto;
@@ -584,6 +704,7 @@ html {
         margin-top: 20px;
         justify-content: center;
     }
+
     /*.card-body {
     height: 200px;
   }*/
@@ -638,9 +759,11 @@ html {
     .detail {
         @include mixins.sectionhero;
         line-height: 2 !important;
+
         &__hero {
             padding-bottom: 5%;
         }
+
         &__titre {
             line-height: 2;
             text-align: center;
@@ -648,6 +771,7 @@ html {
             font-size: 55px;
             padding: 10px;
         }
+
         &__texte {
             font-family: dosis;
             padding: 3%;
@@ -656,17 +780,20 @@ html {
             font-size: 25px;
         }
     }
+
     @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
         }
     }
+
     @media (max-width: 767px) {
         .card-text {
             font-size: 20px;
             object-fit: cover;
         }
     }
+
     @media (max-width: 377px) {
         .detail-services {
             &__titre {
@@ -676,6 +803,7 @@ html {
                 padding: 10px;
                 line-height: 3;
             }
+
             &__texte {
                 font-family: dosis;
                 padding: 3%;
@@ -685,16 +813,20 @@ html {
             }
         }
     }
+
     .rendez-vous {
         display: flex;
         justify-content: center;
+
         &__container {
             justify-content: center;
             margin: 2%;
         }
+
         &__row {
             align-items: flex-end;
         }
+
         &__bouton {
             height: 40px;
             background-color: colors.$orangeFonce;
@@ -702,22 +834,27 @@ html {
             border-radius: 10px;
             align-items: end;
         }
+
         &__body {
             padding: 30px;
         }
     }
+
     /* À PROPOS LAURIE *****************************************
 ***************************************************************/
     * {
         box-sizing: border-box;
     }
+
     /*PARTENAIRES
 *******************************************************/
     .part {
         background-color: colors.$bleuFoncer;
     }
+
     .partenaires {
         text-align: center;
+
         img {
             padding: 5px;
             max-width: 19vw;
@@ -725,10 +862,12 @@ html {
             box-sizing: border-box;
         }
     }
+
     body {
         /* couleur de fond*/
         background-color: colors.$orangePale;
     }
+
     .enveloppe {
         background-color: white;
         width: 75vw;
@@ -738,6 +877,7 @@ html {
         margin-bottom: 5%;
         padding: 2%;
     }
+
     /*extend de style des paragraphe*/
     %titre-texte-paragraphe {
         font-family: dosis;
@@ -745,14 +885,17 @@ html {
         margin-top: 20px;
         margin-bottom: 10px;
     }
+
     .hero-a-propos {
         @include mixins.sectionhero;
+
         .titre-a-propos {
             text-align: center;
             font-family: sunday;
             font-size: 50px;
             padding: 10px;
         }
+
         .texte-hero-a-propos {
             font-size: 20px;
             font-family: dosis;
@@ -760,9 +903,11 @@ html {
             font-weight: 300px;
         }
     }
+
     .section-a-propos {
         color: colors.$bleuFoncer;
     }
+
     .paragraphe-a-propos {
         font-family: sunday;
         width: 100%;
@@ -770,11 +915,13 @@ html {
         padding-top: 5%;
         line-height: 1.8 !important;
     }
+
     .tout-sous-meme-toi {
         font-size: 20px;
         font-family: dosis;
         margin-top: 2%;
         margin: 10px;
+
         &.liste-a-puce {
             font-size: 22px;
             padding: 20px;
@@ -782,19 +929,24 @@ html {
             margin-top: 15px;
         }
     }
+
     ul {
         /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
         margin-left: 2%;
     }
+
     .mission {
         @extend %titre-texte-paragraphe;
+
         &.text {
             font-size: 20px;
         }
     }
+
     .Vision {
         @extend %titre-texte-paragraphe;
     }
+
     .valeurs {
         padding-top: 50px;
         padding-bottom: 40px;
@@ -802,46 +954,57 @@ html {
         font-family: dosis;
         font-weight: 700;
     }
+
     .excellence {
         margin-bottom: 2%;
         width: 100%;
         margin-top: 2%;
         color: colors.$bleuFoncer;
         font-family: dosis;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .respect {
         margin-top: 2%;
         margin-bottom: 2%;
+
         // font-family: dosis;
         &__text {
             font-family: dm-sans;
         }
     }
+
     .engagement {
         margin-top: 2%;
         margin-bottom: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .inclusion {
         margin-top: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .innovation {
         margin-top: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .servicesLangues {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -849,34 +1012,42 @@ html {
         font-weight: 700;
         text-align: center;
         position: relative;
+
         &__texte {
             position: relative;
         }
+
         &__facebook {
             margin-bottom: 5%;
         }
     }
+
     iframe {
         aspect-ratio: 16/9;
         margin-top: 3%;
     }
+
     @media (max-width: 375px) {
         body {
             background-color: white !important;
         }
+
         .hero-a-propos {
             @include mixins.sectionhero;
+
             .titre-a-propos {
                 text-align: center;
                 font-family: sunday;
                 font-size: 20px;
                 padding: 10px;
             }
+
             p.texte-hero-a-propos.col-12 {
                 font-size: 20px;
                 font-family: dosis;
                 padding: 3%;
             }
+
             p.col-sm-8 col-xl-12 {
                 font-size: 15px;
             }
