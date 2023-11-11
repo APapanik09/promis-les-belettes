@@ -442,9 +442,6 @@ svg {
 .nouvelles .card-title {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelles__sarah {
   background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
@@ -650,6 +647,60 @@ html {
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+h2 {
+  font-weight: 300;
+  font-family: dosis;
+  font-weight: 600;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-weight: 300;
+  font-family: dm-sans !important;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px !important;
+  padding-bottom: 20px;
+}
+
+.card-title {
+  font-family: dosis;
+  font-size: 30px;
+}
+
+.card-text {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: dm-sans;
+}
+
+h5 {
+  font-size: 24px;
+}
+h5 .col-sm-12 {
+  font-size: 30px;
+}
+
+p {
+  font-family: dm-sans;
+  font-size: 18px;
+}
+
 /* ACCUEIL JOLYANNE
 ***********************************************************************
 **********************************************************************/
@@ -738,12 +789,6 @@ html {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -813,7 +858,7 @@ html {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -828,6 +873,27 @@ html {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -858,7 +924,7 @@ html {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -869,6 +935,15 @@ html {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -920,18 +995,74 @@ html {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -975,9 +1106,6 @@ html {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -1061,9 +1189,6 @@ html {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -1140,20 +1265,19 @@ html {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -1182,9 +1306,6 @@ html {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -1793,12 +1914,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -1868,7 +1983,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -1883,6 +1998,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -1913,7 +2049,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -1924,6 +2060,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -1975,18 +2120,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -2030,9 +2231,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -2116,9 +2314,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -2195,20 +2390,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -2237,9 +2431,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -2848,12 +3039,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -2923,7 +3108,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -2938,6 +3123,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -2968,7 +3174,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -2979,6 +3185,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -3030,18 +3245,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -3085,9 +3356,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -3171,9 +3439,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -3250,20 +3515,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -3292,9 +3556,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -3903,12 +4164,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -3978,7 +4233,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -3993,6 +4248,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -4023,7 +4299,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -4034,6 +4310,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -4085,18 +4370,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -4140,9 +4481,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -4226,9 +4564,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -4305,20 +4640,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -4347,9 +4681,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -4958,12 +5289,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -5033,7 +5358,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -5048,6 +5373,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -5078,7 +5424,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -5089,6 +5435,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -5140,18 +5495,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -5195,9 +5606,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -5281,9 +5689,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -5360,20 +5765,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -5402,9 +5806,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -6013,12 +6414,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -6088,7 +6483,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -6103,6 +6498,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -6133,7 +6549,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -6144,6 +6560,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -6195,18 +6620,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -6250,9 +6731,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -6336,9 +6814,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -6415,20 +6890,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -6457,9 +6931,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -7068,12 +7539,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -7143,7 +7608,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -7158,6 +7623,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -7188,7 +7674,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -7199,6 +7685,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -7250,18 +7745,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -7305,9 +7856,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -7391,9 +7939,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -7470,20 +8015,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -7512,9 +8056,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {
@@ -8123,12 +8664,6 @@ iframe {
   padding: 30px;
   background-color: #F4E6EF;
 }
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
 .hero__question {
   font-family: dosis;
   font-weight: 700;
@@ -8198,7 +8733,7 @@ iframe {
 .evenement__prix::before {
   content: " ";
   display: inline-block;
-  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-image: url("/media/icone/portefeuille.png");
   background-size: contain;
   width: 1.5em;
   height: 1.5em;
@@ -8213,6 +8748,27 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 987px) {
+  .evenement h2 {
+    font-size: 30px;
+  }
+  .evenement h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .evenement h2 {
+    font-size: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .evenement h2 {
+    font-size: 12px;
+  }
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -8243,7 +8799,7 @@ iframe {
   width: 420px;
 }
 .service .card .autres {
-  height: 444px !important;
+  height: 488px !important;
 }
 .service .card__accueil {
   background-image: url(/media/icone/accueil_main_transparence.png);
@@ -8254,6 +8810,15 @@ iframe {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
+}
+.service .card .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -8305,18 +8870,74 @@ iframe {
   background-repeat: no-repeat;
   background-color: #223843;
 }
-
-.card-title {
+.service .card .card-title {
   color: #FC9478;
-  font-family: dm-sans;
-  font-size: 30px;
 }
-
-.card-text {
+.service .card .card-text {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
   font-size: 20px;
+}
+
+.accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 @media (max-width: 987px) {
@@ -8360,9 +8981,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   font-size: 60px;
 }
 .service__accueil {
@@ -8446,9 +9064,6 @@ iframe {
 .nouvelle__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
 }
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
@@ -8525,20 +9140,19 @@ iframe {
   background-color: rgba(255, 255, 255, 0.805);
 }
 .nouvelle .card-body h5 {
-  font-size: 24px;
   padding: none;
   position: relative;
   top: 10px;
   color: #223843;
-}
-.nouvelle .card-body h5 .col-sm-12 {
-  font-size: 30px;
 }
 .nouvelle .card-body p {
   font-size: 18px;
   position: relative;
   left: 50px;
   top: -20px;
+  color: #223843;
+}
+.nouvelle .card-body .card-title {
   color: #223843;
 }
 
@@ -8567,9 +9181,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: #223843;
   padding-bottom: 20px;
 }
 .temoignage__body {

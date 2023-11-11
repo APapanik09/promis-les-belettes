@@ -1,5 +1,6 @@
 @use "colors";
 @use "fonts";
+
 @mixin card {
   background-color: colors.$bleuFoncer;
   padding: 10px;
@@ -25,9 +26,7 @@
 @mixin titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 45px;
-  font-family: dosis;
-  color: colors.$bleuFoncer;
+
 }
 
 @mixin sectionhero {

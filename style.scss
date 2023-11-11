@@ -21,6 +21,66 @@ html {
     box-sizing: border-box;
 }
 
+h1 {
+    font-family: sunday;
+
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.7;
+
+}
+
+h2 {
+    font-weight: 300;
+    font-family: dosis;
+    font-weight: 600;
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-weight: 300;
+    font-family: dm-sans !important;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px !important;
+    padding-bottom: 20px;
+}
+
+
+.card-title {
+
+    font-family: dosis;
+    font-size: 30px;
+}
+
+.card-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: dm-sans;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: dm-sans;
+}
+
+h5 {
+    font-size: 24px;
+
+
+    .col-sm-12 {
+        font-size: 30px;
+    }
+}
+
+p {
+    font-family: dm-sans;
+    font-size: 18px;
+
+}
 
 /* ACCUEIL JOLYANNE
 ***********************************************************************
@@ -82,12 +142,7 @@ html {
         padding: 30px;
         background-color: colors.$rosepale;
 
-        &__titre {
-            font-family: sunday;
-            padding-bottom: 20px;
-            text-align: center;
-            line-height: 1.7;
-        }
+
 
         &__question {
             font-family: dosis;
@@ -169,7 +224,7 @@ html {
     .evenement__prix::before {
         content: ' ';
         display: inline-block;
-        background-image: url('/media/icone/portefeuille-avec-carte-qui-sort.png');
+        background-image: url('/media/icone/portefeuille.png');
         background-size: contain;
         width: 1.5em;
         height: 1.5em;
@@ -186,6 +241,31 @@ html {
         height: 1.5em;
         margin-right: 0.5em;
 
+    }
+
+    .evenement {
+        @media (max-width: 987px) {
+            h2 {
+                font-size: 30px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            h2 {
+                font-size: 20px;
+                object-fit: cover;
+            }
+        }
+
+        @media (max-width: 377px) {
+            h2 {
+                font-size: 12px;
+            }
+        }
     }
 
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -219,7 +299,7 @@ html {
         width: 420px;
 
         .autres {
-            height: 444px !important;
+            height: 488px !important;
         }
 
         &__accueil {
@@ -230,6 +310,16 @@ html {
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+        }
+
+        .accueil::after {
+            content: '';
+            display: inline-block;
+            background-image: url('/media/icone/accueil_mains_blanc.png');
+            background-size: contain;
+            width: 1em;
+            height: 1em;
+            margin-right: 0.5em;
         }
 
         &__francisation {
@@ -281,20 +371,81 @@ html {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
+        .card-title {
+            color: colors.$orangeFonce;
+
+        }
+
+        .card-text {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            font-family: dm-sans;
+            font-size: 20px;
+        }
+
     }
 
-    .card-title {
-        color: colors.$orangeFonce;
-        font-family: dm-sans;
-        font-size: 30px;
+    .accueil::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/accueil_mains_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
     }
 
-    .card-text {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        font-family: dm-sans;
-        font-size: 20px;
+    .francisation::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/francisation_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
     }
+
+    .famille::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/famille_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
+    }
+
+    .scolaire::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/accueil_mains_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
+    }
+
+    .emplois::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/accueil_mains_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
+    }
+
+    .alimentaire::after {
+        content: '';
+        display: inline-block;
+        background-image: url('/media/icone/accueil_mains_blanc.png');
+        background-size: contain;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
+    }
+
 
     //ajuster l'écriture
     @media (max-width: 987px) {
@@ -440,15 +591,13 @@ html {
             background-color: rgba(255, 255, 255, 0.805);
 
             h5 {
-                font-size: 24px;
+
                 padding: none;
                 position: relative;
                 top: 10px;
                 color: colors.$bleuFoncer;
 
-                .col-sm-12 {
-                    font-size: 30px;
-                }
+
             }
 
             p {
@@ -458,6 +607,12 @@ html {
                 top: -20px;
                 color: colors.$bleuFoncer;
             }
+
+            .card-title {
+                color: colors.$bleuFoncer;
+
+            }
+
         }
     }
 
