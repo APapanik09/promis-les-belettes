@@ -674,60 +674,7 @@ html {
   gap: 3%;
 }
 
-.hero {
-  padding: 30px;
-  background-color: #F4E6EF;
-}
-.hero__titre {
-  font-family: sunday;
-  padding-bottom: 20px;
-  text-align: center;
-  line-height: 1.7;
-}
-.hero__question {
-  font-family: dosis;
-  font-weight: 700;
-  text-align: center;
-  padding-bottom: 20px;
-}
-.hero__option {
-  font-family: dosis;
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm {
-    max-width: 12000px;
-  }
-}
-.rendez-vous__accueil {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.rendez-vous__accueil--container {
-  justify-content: center;
-  margin: 2%;
-  width: 100%;
-  padding-bottom: 2%;
-}
-.rendez-vous__accueil--row {
-  align-items: flex-end;
-}
-.rendez-vous__accueil--bouton {
-  height: 40px;
-  background-color: #FC9478;
-  border: none;
-  border-radius: 10px;
-  align-items: end;
-}
-.rendez-vous__accueil--body {
-  padding: 30px;
-}
-
+/******************************** 1ème swiper*****************************/
 .btn-0 {
   margin: 10px;
   font-family: dm-sans;
@@ -785,6 +732,102 @@ html {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -1746,6 +1789,102 @@ iframe {
   height: 92px;
 }
 
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -2703,6 +2842,102 @@ iframe {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -3664,6 +3899,102 @@ iframe {
   height: 92px;
 }
 
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -4621,6 +4952,102 @@ iframe {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -5582,6 +6009,102 @@ iframe {
   height: 92px;
 }
 
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -6541,6 +7064,102 @@ iframe {
   height: 92px;
 }
 
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -7498,6 +8117,102 @@ iframe {
   margin: 10px;
   font-family: dm-sans;
   height: 92px;
+}
+
+.hero {
+  padding: 30px;
+  background-color: #F4E6EF;
+}
+.hero__titre {
+  font-family: sunday;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+.hero__question {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.hero__option {
+  font-family: dosis;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 12000px;
+  }
+}
+/******************************** 2ème swiper*****************************/
+.rendez-vous__accueil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.rendez-vous__accueil--container {
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.rendez-vous__accueil--row {
+  align-items: flex-end;
+}
+.rendez-vous__accueil--bouton {
+  height: 40px;
+  background-color: #FC9478;
+  border: none;
+  border-radius: 10px;
+  align-items: end;
+}
+.rendez-vous__accueil--body {
+  padding: 30px;
+}
+
+/******************************** 3ème swiper*****************************/
+.evenement__calendrier::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/calendrierOrange.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__heure::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/horloge.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__prix::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/portefeuille-avec-carte-qui-sort.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
+
+.evenement__lieu::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("/media/icone/lieu.png");
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
