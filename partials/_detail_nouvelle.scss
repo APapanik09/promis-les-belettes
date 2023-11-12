@@ -1,7 +1,6 @@
 @use "colors";
 @use "fonts";
 @use "mixins";
-@use "accueil";
 @use "histoire";
 @use "faq";
 * {
@@ -16,7 +15,7 @@
     background-size: cover;
     position: relative;
     height: 30vh;
-    .nouvelle img {
+    .nouvellle img {
         width: 100%;
     }
     .col-12 {
@@ -130,9 +129,9 @@ p .nouvellle__texte .col-12 .text-align-center {
     }
     .nouvellle {
         padding: 20px;
-    }
-    &__date {
-        text-align: center;
+        &__date {
+            text-align: center;
+        }
     }
 }
 
@@ -142,11 +141,12 @@ p .nouvellle__texte .col-12 .text-align-center {
     }
 }
 
-@media (min-width: 375px) {
+
+/*@media (min-width: 375px) {
     .nouvellle {
         margin: 20px;
+        &__titre {
+            width: 100%;
+        }
     }
-    &__titre {
-        width: 100%;
-    }
-}
+}*/
