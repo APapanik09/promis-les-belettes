@@ -30,6 +30,10 @@ p {
   padding-bottom: none;
 }
 
+.quitter {
+  width: 30px;
+}
+
 .barreNav {
   display: flex;
   justify-content: center;
