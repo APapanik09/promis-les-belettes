@@ -103,25 +103,6 @@ svg {
     justify-content: center;
 }
 
-
-/*.timeline ol li:last-child {
-    width: 280px;
-}*/
-
-
-/*.timeline ol li::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: calc(25% + 2px);
-    bottom: 0;
-    width: 13px;
-    height: 13px;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background: colors.$orangeFonce;
-}*/
-
 .timeline ol li div {
     position: absolute;
     left: calc(25% + 5px);
@@ -169,7 +150,6 @@ svg {
         justify-content: center;
     }
     .timeline {
-        //  right: calc(100% 10px);
         width: 100px;
         padding: 10px;
     }

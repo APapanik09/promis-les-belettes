@@ -3,12 +3,18 @@
 @use "banniere";
 @use "mixins";
 
+/* debut accodeon*/
+
 body .questions {
     border-radius: 10px;
     border: none;
     background-image: url(/media/icone/CERCLE\ 1.png), url(/media/icone/CERCLE\ 1.png);
     background-repeat: no-repeat;
     background-position: 10% -20%, 100% 100%;
+}
+
+h2 {
+    padding-bottom: 0 !important;
 }
 
 .hero-a-propos {
@@ -47,7 +53,6 @@ body .questions {
 
 .accordion-button {
     color: colors.$bleuFoncer;
-    ;
 }
 
 .accordion-button:not(.collapsed) {
@@ -64,3 +69,6 @@ body .questions {
         font-size: 18px;
     }
 }
+
+
+/*acccordeon fin /*
