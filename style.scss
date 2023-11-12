@@ -1062,16 +1062,17 @@ p {
         aspect-ratio: 16/9;
         margin-top: 3%;
     }
-    @media (max-width: 375px) {
+    /* ajuster les styles selon les differents dimensions*/
+    @media screen and (max-width: 375px) {
         body {
-            background-color: white !important;
+            background-color: white;
         }
         .hero-a-propos {
             @include mixins.sectionhero;
-            .titre-a-propos {
+            h2.titre-a-propos {
                 text-align: center;
                 font-family: sunday;
-                font-size: 20px;
+                font-size: 10px;
                 padding: 10px;
             }
             p.texte-hero-a-propos.col-12 {
@@ -1079,9 +1080,65 @@ p {
                 font-family: dosis;
                 padding: 3%;
             }
-            p.col-sm-8 col-xl-12 {
-                font-size: 15px;
-            }
+        }
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 25px !important;
         }
     }
+    h2.valeurs {
+        font-size: 25px;
+    }
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+    p {
+        font-size: 17px;
+    }
 }
+
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+    h2.servicesLangues {
+        font-size: 25px
+    }
+    h2.valeurs {
+        font-size: 25px;
+    }
+    body {
+        background-color: colors.$orangePale !important;
+    }
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+    h3 {
+        font-size: 25px !important;
+    }
+}
+
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
+    h2.servicesLangues {
+        font-size: 40px
+    }
+    h2.valeurs {
+        font-size: 40px;
+    }
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+
+
+/*  fin ajuster les styles selon les differents dimensions*/

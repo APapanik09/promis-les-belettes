@@ -98,12 +98,17 @@ footer {
   margin-bottom: 15px;
 }
 
+/* debut accodeon*/
 body .questions {
   border-radius: 10px;
   border: none;
   background-image: url(/media/icone/CERCLE\ 1.png), url(/media/icone/CERCLE\ 1.png);
   background-repeat: no-repeat;
   background-position: 10% -20%, 100% 100%;
+}
+
+h2 {
+  padding-bottom: 0 !important;
 }
 
 .hero-a-propos {
@@ -254,21 +259,6 @@ svg {
   justify-content: center;
 }
 
-/*.timeline ol li:last-child {
-    width: 280px;
-}*/
-/*.timeline ol li::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: calc(25% + 2px);
-    bottom: 0;
-    width: 13px;
-    height: 13px;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background: colors.$orangeFonce;
-}*/
 .timeline ol li div {
   position: absolute;
   left: calc(25% + 5px);
@@ -652,7 +642,7 @@ svg {
   position: relative;
   height: 30vh;
 }
-.nouvellle .nouvellle img {
+.nouvellle img {
   width: 100%;
 }
 .nouvellle .col-12 {
@@ -792,30 +782,43 @@ p .nouvellle__texte .col-12 .text-align-center {
   color: #223843;
 }
 
-@media (min-width: 992px) {
-  .col-lg-6 {
-    width: 100%;
-  }
-  .nouvellle {
-    padding: 20px;
-  }
-  .nouvellle__date {
-    text-align: center;
-  }
+.nouvelle-img {
+  background-image: url(../media/icone/accueil_main_transparence.png);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
+
+/*
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 100%;
+    }
+    .nouvellle {
+        padding: 20px;
+        &__date {
+            text-align: center;
+        }
+    }
+}
+*/
 @media (max-width: 375px) {
   .enveloppe-nouvelle {
     padding: 0px;
   }
+  img {
+    width: 59%;
+  }
 }
-/*@media (min-width: 375px) {
-    .nouvellle {
-        margin: 20px;
-        &__titre {
-            width: 100%;
-        }
-    }
-}*/
+@media (max-width: 768px) {
+  .enveloppe-nouvelle {
+    padding: 0px;
+  }
+  img {
+    width: 200px;
+  }
+}
 html {
   overflow-x: hidden;
 }
@@ -2042,9 +2045,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -2055,10 +2059,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -2066,10 +2070,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-1 {
   background-color: #223843;
   padding: 10px;
@@ -3167,9 +3189,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -3180,10 +3203,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -3191,10 +3214,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-2 {
   background-color: #223843;
   padding: 10px;
@@ -4292,9 +4333,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -4305,10 +4347,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -4316,10 +4358,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-3 {
   background-color: #223843;
   padding: 10px;
@@ -5417,9 +5477,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -5430,10 +5491,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -5441,10 +5502,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-4 {
   background-color: #223843;
   padding: 10px;
@@ -6542,9 +6621,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -6555,10 +6635,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -6566,10 +6646,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-5 {
   background-color: #223843;
   padding: 10px;
@@ -7667,9 +7765,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -7680,10 +7779,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -7691,10 +7790,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-6 {
   background-color: #223843;
   padding: 10px;
@@ -8792,9 +8909,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -8805,10 +8923,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -8816,10 +8934,28 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
 }
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
 .card-7 {
   background-color: #223843;
   padding: 10px;
@@ -9917,9 +10053,10 @@ iframe {
   margin-top: 3%;
 }
 
-@media (max-width: 375px) {
+/* ajuster les styles selon les differents dimensions*/
+@media screen and (max-width: 375px) {
   body {
-    background-color: white !important;
+    background-color: white;
   }
   .hero-a-propos {
     width: 100vw;
@@ -9930,10 +10067,10 @@ iframe {
     padding: 2%;
     background-color: #F4E6EF;
   }
-  .hero-a-propos .titre-a-propos {
+  .hero-a-propos h2.titre-a-propos {
     text-align: center;
     font-family: sunday;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-a-propos p.texte-hero-a-propos.col-12 {
@@ -9941,7 +10078,60 @@ iframe {
     font-family: dosis;
     padding: 3%;
   }
-  .hero-a-propos p.col-sm-8 col-xl-12 {
+  p.col-sm-8 col-xl-12 {
     font-size: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
+}
+h2.valeurs {
+  font-size: 25px;
+}
+
+h2.servicesLangues {
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
+@media (max-width: 599px) {
+  h2.paragraphe-a-propos {
+    font-size: 20px;
+  }
+  h2.servicesLangues {
+    font-size: 25px;
+  }
+  h2.valeurs {
+    font-size: 25px;
+  }
+  body {
+    background-color: #FFCFB4 !important;
+  }
+  p.servicesLangues__texte {
+    text-align: center;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
+}
+@media (min-width: 992px) {
+  h2.paragraphe-a-propos {
+    font-size: 40px;
+  }
+  h2.servicesLangues {
+    font-size: 40px;
+  }
+  h2.valeurs {
+    font-size: 40px;
+  }
+  body {
+    background-color: #FFCFB4 !important;
+  }
+}
+/*  fin ajuster les styles selon les differents dimensions*//*# sourceMappingURL=style.css.map */

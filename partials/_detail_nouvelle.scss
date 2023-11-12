@@ -15,7 +15,7 @@
     background-size: cover;
     position: relative;
     height: 30vh;
-    .nouvellle img {
+    img {
         width: 100%;
     }
     .col-12 {
@@ -123,6 +123,14 @@ p .nouvellle__texte .col-12 .text-align-center {
     }
 }
 
+.nouvelle-img {
+    background-image: url(../media/icone/accueil_main_transparence.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 
 /*
 @media (min-width: 992px) {
@@ -136,9 +144,22 @@ p .nouvellle__texte .col-12 .text-align-center {
         }
     }
 }
+*/
 
 @media (max-width: 375px) {
     .enveloppe-nouvelle {
         padding: 0px;
+    }
+    img {
+        width: 59%;
+    }
+}
+
+@media (max-width: 768px) {
+    .enveloppe-nouvelle {
+        padding: 0px;
+    }
+    img {
+        width: 200px;
     }
 }
