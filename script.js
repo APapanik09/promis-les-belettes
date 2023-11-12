@@ -1,4 +1,3 @@
-
 const swiperCarrousel = new Swiper(".swiperAccueil", {
     // Optional parameters
     direction: "horizontal",
@@ -7,15 +6,15 @@ const swiperCarrousel = new Swiper(".swiperAccueil", {
         delay: 3500,
     },
 
-   slidesPerView: 1,
-            spaceBetween: 10,
-   
+    slidesPerView: 1,
+    spaceBetween: 10,
+
 
     // And if we need scrollbar
     scrollbar: {
         el: ".swiper-scrollbar",
     },
-   
+
 });
 const swiper = new Swiper(".swiperService", {
     // Optional parameters
@@ -83,6 +82,29 @@ const swiperP = new Swiper(".swiper-p", {
         delay: 2500,
     },
 });
+
+/* banniere x cliquable*/
+
+
+var quitter = document.querySelector(".quitter")
+let banniere = document.querySelector(".bnaniiere")
+    /*save_button.onclick = saveData;*/
+
+/*function saveData() {
+    var input = document.getElementById("saveServer");
+    localStorage.setItem("server", input.value);
+    var storedValue = localStorage.getItem("server");
+}*/
+
+localStorage.setItem("quitter", "bouton");
+
+quitter.onclick = function() {
+    banniere.style.color = "yellow";
+    console.log("CLICKED!");
+    localStorage.getItem("quitter");
+}
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -160,16 +182,16 @@ don.addEventListener("click", function() {
 let animquatre =
 
     gsap.to('.birdfour', {
-  motionPath: {
-  path: '.volbird',
-  align: '.volbird',
-  autoRotate:true,  
-  start:0,
-  end:0.55,
-  alignOrigin: [0.5,0.7],
-  xPercent:50,
-  yPercent:90,  
-},
-  duration: 10,
-  yoyo: true,      
-});
+        motionPath: {
+            path: '.volbird',
+            align: '.volbird',
+            autoRotate: true,
+            start: 0,
+            end: 0.55,
+            alignOrigin: [0.5, 0.7],
+            xPercent: 50,
+            yPercent: 90,
+        },
+        duration: 10,
+        yoyo: true,
+    });
