@@ -2,6 +2,7 @@
 @use "colors";
 @use "banniere";
 @use "mixins";
+
 * {
     box-sizing: border-box;
 }
@@ -20,15 +21,17 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    line-height: 3!important;
+
+
     .titre-histoire {
         text-align: center;
         font-family: sunday;
-        font-size: 50px;
+
         padding-bottom: -25%;
         //padding-top: 20%;
-        line-height: 3!important;
+
     }
+
     .texte-hero-histoire {
         font-size: 30px;
         font-family: dosis;
@@ -48,11 +51,13 @@ body {
 .histoire {
     text-align: center;
     padding-top: 0%;
+
     &__texte {
         padding-top: 4%;
         margin-top: 2%;
         text-align: center;
     }
+
     &__Mg {
         padding-top: 4%;
         margin-top: 2%;
@@ -150,10 +155,12 @@ svg {
         align-items: center;
         justify-content: center;
     }
+
     .timeline {
         width: 100px;
         padding: 10px;
     }
+
     .promis {
         width: 100px;
     }

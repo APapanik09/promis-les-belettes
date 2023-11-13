@@ -209,14 +209,11 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  line-height: 3 !important;
 }
 .hero-histoire .titre-histoire {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
   padding-bottom: -25%;
-  line-height: 3 !important;
 }
 .hero-histoire .texte-hero-histoire {
   font-size: 30px;
@@ -386,11 +383,9 @@ svg {
 .hero-equipe .titre-equipe {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
   padding: 10px;
 }
 .hero-equipe .texte-hero-equipe {
-  font-size: 20px;
   font-family: dosis;
   padding: 3%;
   font-weight: 300;
@@ -848,7 +843,6 @@ h2 {
   font-family: dosis;
   font-weight: 600;
   font-size: 45px;
-  padding-top: 20px;
 }
 
 h3 {
