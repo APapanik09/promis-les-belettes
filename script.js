@@ -121,7 +121,7 @@ const enveloppe = document.querySelectorAll(".section-histoire ");
 const temps = document.querySelector(".li")
 
 gsap.set(".section-histoire", { autoAlpha: 0 });
-gsap.set("li", { autoAlpha: 0 });
+/*gsap.set("li", { autoAlpha: 0 });*/
 
 gsap
     .timeline({
