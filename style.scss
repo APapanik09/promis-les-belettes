@@ -44,6 +44,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-family: dm-sans;
+
 }
 
 h4 {
@@ -56,11 +57,7 @@ h4 {
 
 }
 
-/*.card-title {
-    font-family: dosis;
-    font-size: 30px;
-}
-*/
+
 
 
 h5 {
@@ -74,8 +71,51 @@ h5 {
 p {
     font-family: dm-sans;
     font-size: 18px;
+    color: colors.$blanc;
 }
 
+p:hover {
+    color: colors.$bleuFoncer;
+}
+
+
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 47px;
+        object-fit: cover;
+    }
+
+    h3 {
+
+        margin-bottom: 20px !important;
+
+    }
+}
+
+@media (max-width: 447px) {
+    h2 {
+        font-size: 47px;
+        object-fit: cover;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px !important;
+
+    }
+}
+
+@media (max-width: 377px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+
+        margin-bottom: 20px !important;
+    }
+}
 
 /* ACCUEIL JOLYANNE
 ***********************************************************************
@@ -233,32 +273,6 @@ p {
         margin-right: 0.5em;
     }
 
-    .evenement {
-
-
-        @media (max-width: 987px) {
-            h2 {
-                font-size: 30px;
-            }
-
-            h3 {
-                font-size: 20px;
-            }
-        }
-
-        @media (max-width: 767px) {
-            h2 {
-                font-size: 20px;
-                object-fit: cover;
-            }
-        }
-
-        @media (max-width: 377px) {
-            h2 {
-                font-size: 12px;
-            }
-        }
-    }
 
 
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -267,10 +281,19 @@ p {
     .lien {
         color: colors.$blanc;
         text-decoration: none;
+
+        &-titre {
+            color: colors.$orangeFonce;
+            text-decoration: none;
+        }
     }
 
     .service {
         padding: 10px;
+
+        &-titre {
+            color: colors.$orangeFonce;
+        }
     }
 
     //Swipper service
@@ -305,15 +328,7 @@ p {
             background-color: colors.$bleuFoncer;
         }
 
-        .accueil::after {
-            content: '';
-            display: inline-block;
-            background-image: url('/media/icone/accueil_mains_blanc.png');
-            background-size: contain;
-            width: 1em;
-            height: 1em;
-            margin-right: 0.5em;
-        }
+
 
         &__francisation {
             background-image: url(/media/icone/francisation_transparent.png);
@@ -366,7 +381,7 @@ p {
         }
 
         .card-title {
-            color: colors.$orangeFonce;
+            color: colors.$orangeFonce !important;
         }
 
         .card-text {
@@ -379,7 +394,7 @@ p {
 
 
     //ajuster l'écriture
-    @media (max-width: 987px) {
+    /* @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
         }
@@ -396,7 +411,7 @@ p {
         .card-text {
             font-size: 18px;
         }
-    }
+    }*/
 
     // row du service
     .row__service {
@@ -430,65 +445,65 @@ p {
         }
 
         &__accueil {
-            background-image: url(/media/icone/accueil_main_transparence.png);
-            background-size: contain;
+
+
             @include mixins.service;
         }
 
         &__francisation {
-            background-image: url(/media/icone/francisation_transparent.png);
+
             @include mixins.service;
-            background-size: 60%;
+
         }
 
         &__famille {
-            background-image: url(/media/icone/soutien_famille_transparent.png);
+
             @include mixins.service;
-            background-size: 60%;
+
         }
 
         &__scolaire {
-            background-image: url(/media/icone/soutien_scolaire_transparent.png);
+
             @include mixins.service;
-            background-size: 70%;
+
         }
 
         &__emplois {
-            background-image: url(/media/icone/cv_transparent.png);
+
             @include mixins.service;
-            background-size: 60%;
+
         }
 
         &__alimentaire {
-            background-image: url(/media/icone/aliment_transparent.png);
+
             @include mixins.service;
-            background-size: 70%;
+
         }
 
         .accueil::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/accueil_mains_blanc.png');
+            background-image: url('/media/icone/mainOrange.png');
             background-size: contain;
-            width: 1em;
-            height: 1em;
+            width: 2em;
+            height: 2em;
             margin-right: 0.5em;
         }
 
         .francisation::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/francisation_blanc.png');
+            background-image: url('/media/icone/crayonOrange.png');
             background-size: contain;
-            width: 1em;
-            height: 1em;
+            width: 2em;
+            height: 2em;
             margin-right: 0.5em;
         }
 
         .famille::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/famille_blanc.png');
+            background-image: url('/media/icone/familleOrange.png');
             background-size: contain;
             width: 1em;
             height: 1em;
@@ -498,30 +513,30 @@ p {
         .scolaire::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/accueil_mains_blanc.png');
+            background-image: url('/media/icone/sacOrange.png');
             background-size: contain;
-            width: 1em;
-            height: 1em;
+            width: 2em;
+            height: 2em;
             margin-right: 0.5em;
         }
 
         .emplois::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/accueil_mains_blanc.png');
+            background-image: url('/media/icone/cvOrange.png');
             background-size: contain;
-            width: 1em;
-            height: 1em;
+            width: 2em;
+            height: 2em;
             margin-right: 0.5em;
         }
 
         .alimentaire::after {
             content: '';
             display: inline-block;
-            background-image: url('/media/icone/accueil_mains_blanc.png');
+            background-image: url('/media/icone/alimentsOrange.png');
             background-size: contain;
-            width: 1em;
-            height: 1em;
+            width: 2em;
+            height: 2em;
             margin-right: 0.5em;
         }
     }
@@ -966,7 +981,7 @@ p {
         }
     }
 
-    @media (max-width: 987px) {
+    /* @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
         }
@@ -997,7 +1012,7 @@ p {
                 font-size: 25px;
             }
         }
-    }
+    }*/
 
     .rendez-vous {
         display: flex;
@@ -1213,7 +1228,7 @@ p {
     }
 
     /* ajuster les styles selon les differents dimensions*/
-    @media screen and (max-width: 375px) {
+    /* @media screen and (max-width: 375px) {
         body {
             background-color: white;
         }
@@ -1306,6 +1321,7 @@ p {
         background-color: colors.$orangePale !important;
     }
 }
+*/
 
-
-/*  fin ajuster les styles selon les differents dimensions*/
+    /*  fin ajuster les styles selon les differents dimensions*/
+}

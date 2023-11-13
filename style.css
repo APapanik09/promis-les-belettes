@@ -468,7 +468,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelles__demenagement {
   background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -479,7 +478,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__reseautage {
@@ -491,7 +489,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__hebergement {
@@ -503,7 +500,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__vivre-ensemble {
@@ -515,7 +511,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__organisation {
@@ -527,7 +522,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__temoignager {
@@ -539,7 +533,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__besoins {
@@ -551,7 +544,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__hiver {
@@ -563,7 +555,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__partener {
@@ -575,7 +566,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__etudier {
@@ -587,7 +577,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__citoyennete {
@@ -599,7 +588,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__normes {
@@ -611,7 +599,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelles__permis {
@@ -623,7 +610,6 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 
@@ -722,7 +708,6 @@ p .nouvellle__texte .col-12 .text-align-center {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -733,7 +718,6 @@ p .nouvellle__texte .col-12 .text-align-center {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -745,7 +729,6 @@ p .nouvellle__texte .col-12 .text-align-center {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -757,7 +740,6 @@ p .nouvellle__texte .col-12 .text-align-center {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -769,7 +751,6 @@ p .nouvellle__texte .col-12 .text-align-center {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -880,11 +861,6 @@ h4 {
   padding: 30px;
 }
 
-/*.card-title {
-    font-family: dosis;
-    font-size: 30px;
-}
-*/
 h5 {
   font-size: 20px;
 }
@@ -895,8 +871,42 @@ h5 .col-sm-12 {
 p {
   font-family: dm-sans;
   font-size: 18px;
+  color: #ffffff;
 }
 
+p:hover {
+  color: #223843;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 47px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  h3 {
+    margin-bottom: 20px !important;
+  }
+}
+@media (max-width: 447px) {
+  h2 {
+    font-size: 47px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px !important;
+  }
+}
+@media (max-width: 377px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    margin-bottom: 20px !important;
+  }
+}
 /* ACCUEIL JOLYANNE
 ***********************************************************************
 **********************************************************************/
@@ -972,7 +982,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-0 .card-text .btn-0 .btn-0 {
@@ -1071,36 +1080,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -1131,15 +1126,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -1192,7 +1178,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -1201,23 +1187,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -1245,8 +1232,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1254,10 +1239,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1265,11 +1248,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1277,11 +1257,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1289,11 +1266,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1301,11 +1275,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -1313,31 +1284,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -1346,28 +1315,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -1390,7 +1359,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -1401,7 +1369,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -1413,7 +1380,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -1425,7 +1391,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -1437,7 +1402,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -1822,34 +1786,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -2047,52 +2015,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-1 {
   background-color: #223843;
   padding: 10px;
@@ -2101,7 +2118,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-1 .card-text .btn-1 .btn-1 {
@@ -2200,36 +2216,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -2260,15 +2262,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -2321,7 +2314,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -2330,23 +2323,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -2374,8 +2368,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2383,10 +2375,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2394,11 +2384,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2406,11 +2393,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2418,11 +2402,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2430,11 +2411,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -2442,31 +2420,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -2475,28 +2451,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -2519,7 +2495,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -2530,7 +2505,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -2542,7 +2516,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -2554,7 +2527,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -2566,7 +2538,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -2951,34 +2922,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -3176,52 +3151,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-2 {
   background-color: #223843;
   padding: 10px;
@@ -3230,7 +3254,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-2 .card-text .btn-2 .btn-2 {
@@ -3329,36 +3352,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -3389,15 +3398,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -3450,7 +3450,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -3459,23 +3459,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -3503,8 +3504,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3512,10 +3511,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3523,11 +3520,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3535,11 +3529,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3547,11 +3538,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3559,11 +3547,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -3571,31 +3556,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -3604,28 +3587,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -3648,7 +3631,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -3659,7 +3641,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -3671,7 +3652,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -3683,7 +3663,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -3695,7 +3674,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -4080,34 +4058,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -4305,52 +4287,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-3 {
   background-color: #223843;
   padding: 10px;
@@ -4359,7 +4390,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-3 .card-text .btn-3 .btn-3 {
@@ -4458,36 +4488,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -4518,15 +4534,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -4579,7 +4586,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -4588,23 +4595,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -4632,8 +4640,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4641,10 +4647,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4652,11 +4656,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4664,11 +4665,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4676,11 +4674,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4688,11 +4683,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -4700,31 +4692,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -4733,28 +4723,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -4777,7 +4767,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -4788,7 +4777,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -4800,7 +4788,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -4812,7 +4799,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -4824,7 +4810,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -5209,34 +5194,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -5434,52 +5423,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-4 {
   background-color: #223843;
   padding: 10px;
@@ -5488,7 +5526,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-4 .card-text .btn-4 .btn-4 {
@@ -5587,36 +5624,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -5647,15 +5670,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -5708,7 +5722,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -5717,23 +5731,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -5761,8 +5776,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5770,10 +5783,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5781,11 +5792,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5793,11 +5801,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5805,11 +5810,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5817,11 +5819,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -5829,31 +5828,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -5862,28 +5859,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -5906,7 +5903,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -5917,7 +5913,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -5929,7 +5924,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -5941,7 +5935,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -5953,7 +5946,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -6338,34 +6330,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -6563,52 +6559,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-5 {
   background-color: #223843;
   padding: 10px;
@@ -6617,7 +6662,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-5 .card-text .btn-5 .btn-5 {
@@ -6716,36 +6760,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -6776,15 +6806,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -6837,7 +6858,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -6846,23 +6867,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -6890,8 +6912,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6899,10 +6919,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6910,11 +6928,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6922,11 +6937,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6934,11 +6946,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6946,11 +6955,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -6958,31 +6964,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -6991,28 +6995,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -7035,7 +7039,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -7046,7 +7049,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -7058,7 +7060,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -7070,7 +7071,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -7082,7 +7082,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -7467,34 +7466,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -7692,52 +7695,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-6 {
   background-color: #223843;
   padding: 10px;
@@ -7746,7 +7798,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-6 .card-text .btn-6 .btn-6 {
@@ -7845,36 +7896,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -7905,15 +7942,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -7966,7 +7994,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -7975,23 +8003,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -8019,8 +8048,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8028,10 +8055,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8039,11 +8064,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8051,11 +8073,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8063,11 +8082,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8075,11 +8091,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -8087,31 +8100,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -8120,28 +8131,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -8164,7 +8175,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -8175,7 +8185,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -8187,7 +8196,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -8199,7 +8207,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -8211,7 +8218,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -8596,34 +8602,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -8821,52 +8831,101 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+}
+*/
+/*  fin ajuster les styles selon les differents dimensions*/
 .card-7 {
   background-color: #223843;
   padding: 10px;
@@ -8875,7 +8934,6 @@ p {
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
   overflow-y: hidden;
 }
 .card-7 .card-text .btn-7 .btn-7 {
@@ -8974,36 +9032,22 @@ p {
   margin-right: 0.5em;
 }
 
-@media (max-width: 987px) {
-  .evenement h2 {
-    font-size: 30px;
-  }
-  .evenement h3 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .evenement h2 {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-@media (max-width: 377px) {
-  .evenement h2 {
-    font-size: 12px;
-  }
-}
-
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
   color: #ffffff;
   text-decoration: none;
 }
+.lien-titre {
+  color: #FC9478;
+  text-decoration: none;
+}
 
 .service {
   padding: 10px;
+}
+.service-titre {
+  color: #FC9478;
 }
 
 .swiper-slide {
@@ -9034,15 +9078,6 @@ p {
   padding: 20px;
   background-repeat: no-repeat;
   background-color: #223843;
-}
-.service .card .accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
 }
 .service .card__francisation {
   background-image: url(/media/icone/francisation_transparent.png);
@@ -9095,7 +9130,7 @@ p {
   background-color: #223843;
 }
 .service .card .card-title {
-  color: #FC9478;
+  color: #FC9478 !important;
 }
 .service .card .card-text {
   margin-top: 10%;
@@ -9104,23 +9139,24 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .card-text {
-    font-size: 18px;
-  }
-}
+    .card-text {
+        font-size: 18px;
+    }
+}*/
 .row__service {
   width: 100%;
   display: flex;
@@ -9148,8 +9184,6 @@ p {
   font-size: 60px;
 }
 .service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9157,10 +9191,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9168,11 +9200,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9180,11 +9209,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9192,11 +9218,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9204,11 +9227,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 60%;
 }
 .service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   padding: unset;
@@ -9216,31 +9236,29 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
-  background-size: 70%;
 }
 .service .accueil::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
+  background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
+  background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
   width: 1em;
   height: 1em;
@@ -9249,28 +9267,28 @@ p {
 .service .scolaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.5em;
 }
 
@@ -9293,7 +9311,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
@@ -9304,7 +9321,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__reseautage {
@@ -9316,7 +9332,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__hebergement {
@@ -9328,7 +9343,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: cover;
 }
 .nouvelle__vivre-ensemble {
@@ -9340,7 +9354,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #223843;
-  color: #ffffff;
   background-size: 100%;
 }
 
@@ -9725,34 +9738,38 @@ svg .anim.oiseau {
   font-size: 25px;
 }
 
-@media (max-width: 987px) {
-  .card-text {
-    font-size: 18px;
-  }
+/* @media (max-width: 987px) {
+    .card-text {
+        font-size: 18px;
+    }
 }
+
 @media (max-width: 767px) {
-  .card-text {
-    font-size: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+    .card-text {
+        font-size: 20px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 377px) {
-  .detail-services__titre {
-    text-align: center;
-    font-family: sunday;
-    font-size: 30px;
-    padding: 10px;
-    line-height: 3;
-  }
-  .detail-services__texte {
-    font-family: dosis;
-    padding: 3%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 25px;
-  }
-}
+    .detail-services {
+        &__titre {
+            text-align: center;
+            font-family: sunday;
+            font-size: 30px;
+            padding: 10px;
+            line-height: 3;
+        }
+
+        &__texte {
+            font-family: dosis;
+            padding: 3%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+}*/
 .rendez-vous {
   display: flex;
   justify-content: center;
@@ -9950,84 +9967,98 @@ iframe {
 }
 
 /* ajuster les styles selon les differents dimensions*/
-@media screen and (max-width: 375px) {
-  body {
-    background-color: white;
-  }
-  .hero-a-propos {
-    width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    color: #223843;
-    position: relative;
-    padding: 2%;
-    background-color: #F4E6EF;
-  }
-  .hero-a-propos h2.titre-a-propos {
-    text-align: center;
-    font-family: sunday;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .hero-a-propos p.texte-hero-a-propos.col-12 {
-    font-size: 20px;
-    font-family: dosis;
-    padding: 3%;
-  }
-  p.col-sm-8 col-xl-12 {
-    font-size: 15px;
-  }
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
-}
-h2.valeurs {
-  font-size: 25px;
+/* @media screen and (max-width: 375px) {
+        body {
+            background-color: white;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            h2.titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 10px;
+                padding: 10px;
+            }
+
+            p.texte-hero-a-propos.col-12 {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+            }
+        }
+
+        p.col-sm-8 col-xl-12 {
+            font-size: 15px;
+        }
+
+        h2.paragraphe-a-propos {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
 
-h2.servicesLangues {
-  font-size: 25px;
+@media(max-width: 599px) {
+    h2.paragraphe-a-propos {
+        font-size: 20px;
+    }
+
+    h2.servicesLangues {
+        font-size: 25px
+    }
+
+    h2.valeurs {
+        font-size: 25px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
+
+    p.servicesLangues {
+        &__texte {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
 }
 
-p {
-  font-size: 17px;
-}
+@media(min-width: 992px) {
+    h2.paragraphe-a-propos {
+        font-size: 40px;
+    }
 
-@media (max-width: 599px) {
-  h2.paragraphe-a-propos {
-    font-size: 20px;
-  }
-  h2.servicesLangues {
-    font-size: 25px;
-  }
-  h2.valeurs {
-    font-size: 25px;
-  }
-  body {
-    background-color: #FFCFB4 !important;
-  }
-  p.servicesLangues__texte {
-    text-align: center;
-  }
-  h3 {
-    font-size: 25px !important;
-  }
+    h2.servicesLangues {
+        font-size: 40px
+    }
+
+    h2.valeurs {
+        font-size: 40px;
+    }
+
+    body {
+        background-color: colors.$orangePale !important;
+    }
 }
-@media (min-width: 992px) {
-  h2.paragraphe-a-propos {
-    font-size: 40px;
-  }
-  h2.servicesLangues {
-    font-size: 40px;
-  }
-  h2.valeurs {
-    font-size: 40px;
-  }
-  body {
-    background-color: #FFCFB4 !important;
-  }
-}
+*/
 /*  fin ajuster les styles selon les differents dimensions*//*# sourceMappingURL=style.css.map */

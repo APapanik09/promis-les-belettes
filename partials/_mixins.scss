@@ -9,7 +9,7 @@
   width: 100%;
   text-align: start;
   border-radius: 10px;
-  color: white;
+
   overflow-y: hidden;
 }
 
@@ -20,7 +20,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: colors.$bleuFoncer;
-  color: colors.$blanc;
+
 }
 
 @mixin titre {
