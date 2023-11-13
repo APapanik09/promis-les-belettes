@@ -99,6 +99,7 @@ p {
   color: #FC9478 !important;
   background-color: #FC9478;
   border-radius: 10px;
+  width: 100px;
   box-shadow: none;
 }
 
@@ -139,19 +140,20 @@ h2 {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  padding: 10px;
-  line-height: 1.7;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 35px;
-  font-family: dosis;
-  padding: 10px;
-  font-weight: 300;
-  line-height: 1.7;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      padding: 10px;
+      line-height: 1.7;
+  }
+
+  .texte-hero-a-propos {
+      font-size: 35px;
+      font-family: dosis;
+      padding: 10px;
+      font-weight: 300;
+      line-height: 1.7;
+  }*/
 }
 
 .questionsTitre {
@@ -180,11 +182,11 @@ h2 {
   background-color: #223843;
 }
 
-@media (max-width: 375px) {
-  h1.titre-a-propos {
-    font-size: 18px;
-  }
-}
+/*@media (max-width: 375px) {
+    h1.titre-a-propos {
+        font-size: 18px;
+    }
+}*/
 * {
   box-sizing: border-box;
 }
@@ -863,40 +865,32 @@ h2 {
   font-weight: 600;
   text-align: center;
   font-size: 45px;
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 h4 {
-  font-weight: 300;
   font-family: dm-sans !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   font-size: 30px !important;
-  padding-bottom: 20px;
+  padding: 30px;
 }
 
-.card-title {
-  font-family: dosis;
-  font-size: 30px;
+/*.card-title {
+    font-family: dosis;
+    font-size: 30px;
 }
-
-.card-text {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  font-family: dm-sans;
-  font-size: 20px;
-}
-
+*/
 h3 {
   font-size: 35px;
   font-family: dm-sans;
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 20px;
 }
 h5 .col-sm-12 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 p {
@@ -1484,7 +1478,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -1495,7 +1489,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -1574,11 +1568,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -2628,7 +2622,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -2639,7 +2633,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -2718,11 +2712,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -3772,7 +3766,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -3783,7 +3777,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -3862,11 +3856,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -4916,7 +4910,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -4927,7 +4921,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -5006,11 +5000,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -6060,7 +6054,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -6071,7 +6065,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -6150,11 +6144,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -7204,7 +7198,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -7215,7 +7209,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -7294,11 +7288,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -8348,7 +8342,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -8359,7 +8353,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -8438,11 +8432,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON
@@ -9492,7 +9486,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -9503,7 +9497,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -9582,11 +9576,11 @@ p {
   margin: 0 auto;
 }
 .don__card-text {
-  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: dm-sans;
   font-size: 20px;
-  text-align: center;
-  bottom: 50px;
-  position: relative;
+  color: #ffffff;
 }
 
 /*ANIMATION DON

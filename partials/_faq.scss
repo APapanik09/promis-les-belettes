@@ -23,19 +23,21 @@ h2 {
     position: relative;
     padding: 2%;
     background-color: colors.$rosepale;
-    .titre-a-propos {
+
+    /*.titre-a-propos {
         text-align: center;
         font-family: sunday;
         padding: 10px;
         line-height: 1.7;
     }
+
     .texte-hero-a-propos {
         font-size: 35px;
         font-family: dosis;
         padding: 10px;
         font-weight: 300;
         line-height: 1.7;
-    }
+    }*/
 }
 
 .questionsTitre {
@@ -64,8 +66,8 @@ h2 {
     background-color: colors.$bleuFoncer;
 }
 
-@media (max-width: 375px) {
+/*@media (max-width: 375px) {
     h1.titre-a-propos {
         font-size: 18px;
     }
-}
+}*/
