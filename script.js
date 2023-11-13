@@ -199,3 +199,6 @@ let animquatre =
         duration: 10,
         yoyo: true,
     });
+
+    // Modal Equipe
+    $('#myModal').modal(options)
