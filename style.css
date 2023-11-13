@@ -871,7 +871,6 @@ h2 {
 h4 {
   font-family: dm-sans !important;
   font-weight: 500;
-  text-align: center;
   font-size: 30px !important;
   padding: 30px;
 }
@@ -1202,66 +1201,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -1376,6 +1315,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -2346,66 +2339,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -2520,6 +2453,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -3490,66 +3477,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -3664,6 +3591,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -4634,66 +4615,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -4808,6 +4729,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -5778,66 +5753,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -5952,6 +5867,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -6922,66 +6891,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -7096,6 +7005,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -8066,66 +8029,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -8240,6 +8143,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
@@ -9210,66 +9167,6 @@ p {
   font-size: 20px;
 }
 
-.accueil::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.francisation::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/francisation_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.famille::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/famille_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.scolaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.emplois::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
-.alimentaire::after {
-  content: "";
-  display: inline-block;
-  background-image: url("/media/icone/accueil_mains_blanc.png");
-  background-size: contain;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-}
-
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
@@ -9384,6 +9281,60 @@ p {
   background-color: #223843;
   color: #ffffff;
   background-size: 70%;
+}
+.service .accueil::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .francisation::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/francisation_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .famille::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/famille_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .scolaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .emplois::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.service .alimentaire::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/media/icone/accueil_mains_blanc.png");
+  background-size: contain;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
 }
 
 /*****NOUVELLE
