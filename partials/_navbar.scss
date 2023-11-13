@@ -29,10 +29,10 @@
 }
 
 a .navbar-nav:hover {
-    color: colors.$orangeFonce;
+    color: colors.$rosepale;
 }
 
-.banniere {
+#banniere {
     margin: 0;
     padding: 0;
 }
@@ -58,9 +58,11 @@ p {
 .bouton-don {
     color: colors.$orangeFonce !important;
     background-color: colors.$orangeFonce;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: none;
 }
 
 .bouton-don:hover {
     color: colors.$bleuFoncer;
+    box-shadow: none;
 }

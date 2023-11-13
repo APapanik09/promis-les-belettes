@@ -69,10 +69,10 @@ p {
 }
 
 a .navbar-nav:hover {
-  color: #FC9478;
+  color: #F4E6EF;
 }
 
-.banniere {
+#banniere {
   margin: 0;
   padding: 0;
 }
@@ -99,10 +99,12 @@ p {
   color: #FC9478 !important;
   background-color: #FC9478;
   border-radius: 10px;
+  box-shadow: none;
 }
 
 .bouton-don:hover {
   color: #223843;
+  box-shadow: none;
 }
 
 footer {

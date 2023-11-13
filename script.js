@@ -86,9 +86,9 @@ const swiperP = new Swiper(".swiper-p", {
 /* banniere x cliquable*/
 
 
-/*var quitter = document.querySelector(".quitter")
-let banniere = document.querySelector(".bnaniiere")
-    /*save_button.onclick = saveData;*/
+var quitter = document.querySelector(".quitter");
+objectJavascript = document.getElementById('.banniere');
+/*save_button.onclick = saveData;*/
 
 /*function saveData() {
     var input = document.getElementById("saveServer");
@@ -96,19 +96,16 @@ let banniere = document.querySelector(".bnaniiere")
     var storedValue = localStorage.getItem("server");
 }*/
 
-/*localStorage.setItem("quitter", "bouton");
+localStorage.setItem("quitter", "bouton");
 
 quitter.onclick = function() {
-    css(banniere, {
-        'background-color': 'yellow',
-        color: 'red'
-    });
+    objectJavascript.style["border-right-color"];
 
-    console.log("CLICKED!");
+
+
     localStorage.getItem("quitter");
 }
 
-*/
 
 gsap.registerPlugin(ScrollTrigger);
 
