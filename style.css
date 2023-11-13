@@ -433,15 +433,12 @@ svg {
 .hero-nouvelles .titre-nouvelles {
   text-align: center;
   font-family: sunday;
-  font-size: 50px;
   padding: 10px;
 }
 .hero-nouvelles .texte-hero-nouvelles {
-  font-size: 20px;
   font-family: dosis;
   padding: 3%;
   font-weight: 300;
-  font-size: 45px;
   text-align: center;
 }
 
@@ -829,6 +826,11 @@ html {
   overflow-x: hidden;
 }
 
+.d-flex {
+  display: flex !important;
+  justify-content: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -838,13 +840,13 @@ h1 {
   padding-bottom: 20px;
   text-align: center;
   line-height: 1.7;
+  font-size: 4rem;
 }
 
 h2 {
   font-weight: 300;
   font-family: dosis;
   font-weight: 600;
-  text-align: center;
   font-size: 45px;
   padding-top: 20px;
 }
@@ -857,8 +859,7 @@ h3 {
 h4 {
   font-family: dm-sans !important;
   font-weight: 500;
-  font-size: 30px !important;
-  padding: 30px;
+  font-size: 25px;
 }
 
 h5 {
@@ -874,10 +875,23 @@ p {
   color: #ffffff;
 }
 
-p:hover {
-  color: #223843;
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 47px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  h3 {
+    font-size: 27px;
+    margin-bottom: 20px !important;
+  }
+  h4 {
+    font-family: dm-sans !important;
+    font-weight: 500;
+    font-size: 20px !important;
+    padding: 30px;
+  }
 }
-
 @media (max-width: 767px) {
   h2 {
     font-size: 47px;
@@ -885,7 +899,14 @@ p:hover {
        object-fit: cover;
   }
   h3 {
+    font-size: 30px;
     margin-bottom: 20px !important;
+  }
+  h4 {
+    font-family: dm-sans !important;
+    font-weight: 500;
+    font-size: 20px !important;
+    padding: 30px;
   }
 }
 @media (max-width: 447px) {
@@ -895,8 +916,14 @@ p:hover {
        object-fit: cover;
   }
   h3 {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 20px !important;
+  }
+  h4 {
+    font-family: dm-sans !important;
+    font-weight: 500;
+    font-size: 20px !important;
+    padding: 30px;
   }
 }
 @media (max-width: 377px) {
@@ -904,7 +931,14 @@ p:hover {
     font-size: 25px;
   }
   h3 {
+    font-size: 40px;
     margin-bottom: 20px !important;
+  }
+  h4 {
+    font-family: dm-sans !important;
+    font-weight: 500;
+    font-size: 20px !important;
+    padding: 30px;
   }
 }
 /* ACCUEIL JOLYANNE
@@ -1118,7 +1152,6 @@ p:hover {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1128,7 +1161,6 @@ p:hover {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1138,7 +1170,6 @@ p:hover {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1148,7 +1179,6 @@ p:hover {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1158,7 +1188,6 @@ p:hover {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1168,7 +1197,6 @@ p:hover {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -1290,54 +1318,72 @@ p:hover {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -1436,13 +1482,15 @@ p:hover {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -1475,6 +1523,7 @@ p:hover {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -1485,7 +1534,12 @@ p:hover {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -1618,75 +1672,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -1879,13 +1932,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.Vision, .mission {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -1894,18 +1947,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -1921,7 +1974,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -1940,6 +1992,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -2254,7 +2311,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2264,7 +2320,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2274,7 +2329,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2284,7 +2338,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2294,7 +2347,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2304,7 +2356,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -2426,54 +2477,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -2572,13 +2641,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -2611,6 +2682,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -2621,7 +2693,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -2754,75 +2831,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -3015,13 +3091,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -3030,18 +3106,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -3057,7 +3133,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -3076,6 +3151,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -3390,7 +3470,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3400,7 +3479,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3410,7 +3488,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3420,7 +3497,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3430,7 +3506,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3440,7 +3515,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -3562,54 +3636,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -3708,13 +3800,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -3747,6 +3841,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -3757,7 +3852,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -3890,75 +3990,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -4151,13 +4250,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -4166,18 +4265,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -4193,7 +4292,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -4212,6 +4310,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -4526,7 +4629,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4536,7 +4638,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4546,7 +4647,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4556,7 +4656,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4566,7 +4665,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4576,7 +4674,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -4698,54 +4795,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -4844,13 +4959,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -4883,6 +5000,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -4893,7 +5011,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -5026,75 +5149,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -5287,13 +5409,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -5302,18 +5424,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -5329,7 +5451,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -5348,6 +5469,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -5662,7 +5788,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5672,7 +5797,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5682,7 +5806,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5692,7 +5815,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5702,7 +5824,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5712,7 +5833,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -5834,54 +5954,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -5980,13 +6118,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -6019,6 +6159,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -6029,7 +6170,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -6162,75 +6308,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -6423,13 +6568,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -6438,18 +6583,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -6465,7 +6610,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -6484,6 +6628,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -6798,7 +6947,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6808,7 +6956,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6818,7 +6965,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6828,7 +6974,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6838,7 +6983,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6848,7 +6992,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -6970,54 +7113,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -7116,13 +7277,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -7155,6 +7318,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -7165,7 +7329,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -7298,75 +7467,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -7559,13 +7727,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -7574,18 +7742,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -7601,7 +7769,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -7620,6 +7787,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -7934,7 +8106,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -7944,7 +8115,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -7954,7 +8124,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -7964,7 +8133,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -7974,7 +8142,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -7984,7 +8151,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -8106,54 +8272,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -8252,13 +8436,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -8291,6 +8477,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -8301,7 +8488,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -8434,75 +8626,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -8695,13 +8886,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -8710,18 +8901,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -8737,7 +8928,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -8756,6 +8946,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
@@ -9070,7 +9265,6 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9080,7 +9274,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9090,7 +9283,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9100,7 +9292,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9110,7 +9301,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9120,7 +9310,6 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  background-image: url(/media/icone/aliment_transparent.png);
   -o-object-fit: contain;
      object-fit: contain;
   background-position: center;
@@ -9242,54 +9431,72 @@ iframe {
   display: inline-block;
   background-image: url("/media/icone/mainOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 67px;
+  height: 67px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .francisation::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/crayonOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 50px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 17px;
 }
 .service .famille::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/familleOrange.png");
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .scolaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/sacOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .emplois::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/cvOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 .service .alimentaire::after {
   content: "";
   display: inline-block;
   background-image: url("/media/icone/alimentsOrange.png");
   background-size: contain;
-  width: 2em;
-  height: 2em;
+  width: 60px;
+  height: 60px;
   margin-right: 0.5em;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 /*****NOUVELLE
@@ -9388,13 +9595,15 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 35%;
-  height: 15%;
+  width: 20%;
+  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
   border-radius: 10px;
+  position: relative;
   border: none;
+  top: 25px;
   text-decoration: none;
 }
 
@@ -9427,6 +9636,7 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
+  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -9437,7 +9647,12 @@ iframe {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  left: 25%;
+}
+.temoignage__titre {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  padding-bottom: 5% !important;
 }
 
 /* DON
@@ -9570,75 +9785,74 @@ svg .anim.oiseau {
 
 .service {
   padding: 10px;
+  /* &__accueil {
+      background-image: url(/media/icone/accueil_main_transparence.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__francisation {
+      background-image: url(/media/icone/francisation_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__famille {
+      background-image: url(/media/icone/soutien_famille_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      height: 350px;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__scolaire {
+      background-image: url(/media/icone/soutien_scolaire_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }
+
+  &__emplois {
+      background-image: url(/media/icone/cv_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+      height: 350px;
+  }
+
+  &__alimentaire {
+      background-image: url(/media/icone/aliment_transparent.png);
+      object-fit: contain;
+      background-position: center;
+      background-size: contain;
+      padding: 20px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-color: colors.$bleuFoncer;
+  }*/
 }
 .service__container {
   margin-bottom: 5%;
-}
-.service__accueil {
-  background-image: url(/media/icone/accueil_main_transparence.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__francisation {
-  background-image: url(/media/icone/francisation_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__famille {
-  background-image: url(/media/icone/soutien_famille_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-color: #223843;
-}
-.service__scolaire {
-  background-image: url(/media/icone/soutien_scolaire_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-}
-.service__emplois {
-  background-image: url(/media/icone/cv_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-color: #223843;
-  height: 350px;
-}
-.service__alimentaire {
-  background-image: url(/media/icone/aliment_transparent.png);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-position: center;
-  background-size: contain;
-  padding: 20px;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-color: #223843;
 }
 
 .carte-service:hover {
@@ -9831,13 +10045,13 @@ body {
 }
 
 /*extend de style des paragraphe*/
-.mission, .Vision {
-  font-family: dosis;
-  font-style: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
+/* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -9846,18 +10060,18 @@ body {
   position: relative;
   padding: 2%;
   background-color: #F4E6EF;
-}
-.hero-a-propos .titre-a-propos {
-  text-align: center;
-  font-family: sunday;
-  font-size: 50px;
-  padding: 10px;
-}
-.hero-a-propos .texte-hero-a-propos {
-  font-size: 20px;
-  font-family: dosis;
-  padding: 3%;
-  font-weight: 300px;
+  /*.titre-a-propos {
+      text-align: center;
+      font-family: sunday;
+      font-size: 50px;
+      padding: 10px;
+  }*/
+  /*.texte-hero-a-propos {
+      font-size: 20px;
+      font-family: dosis;
+      padding: 3%;
+      font-weight: 300px;
+  }*/
 }
 
 .section-a-propos {
@@ -9873,7 +10087,6 @@ body {
 }
 
 .tout-sous-meme-toi {
-  font-size: 20px;
   font-family: dosis;
   margin-top: 2%;
   margin: 10px;
@@ -9892,6 +10105,11 @@ ul {
 
 .mission.text {
   font-size: 20px;
+  color: #223843;
+}
+
+.Vision {
+  color: #223843;
 }
 
 .valeurs {
