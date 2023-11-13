@@ -95,9 +95,14 @@ p {
   text-align: center;
 }
 
-.navbar-nav .nav-link .bouton-don {
+.bouton-don {
   color: #FC9478 !important;
-  background-color: #F4E6EF;
+  background-color: #FC9478;
+  border-radius: 10px;
+}
+
+.bouton-don:hover {
+  color: #223843;
 }
 
 footer {

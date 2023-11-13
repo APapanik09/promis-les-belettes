@@ -55,7 +55,12 @@ p {
     text-align: center;
 }
 
-.navbar-nav .nav-link .bouton-don {
+.bouton-don {
     color: colors.$orangeFonce !important;
-    background-color: colors.$rosepale;
+    background-color: colors.$orangeFonce;
+    border-radius: 10px
+}
+
+.bouton-don:hover {
+    color: colors.$bleuFoncer;
 }
