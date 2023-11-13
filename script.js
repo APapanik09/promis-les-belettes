@@ -98,13 +98,13 @@ objectJavascript = document.getElementById('.banniere');
 
 localStorage.setItem("quitter", "bouton");
 
-quitter.onclick = function() {
+/*quitter.onclick = function() {
     objectJavascript.style["border-right-color"];
 
 
 
     localStorage.getItem("quitter");
-}
+}*/
 
 
 gsap.registerPlugin(ScrollTrigger);
