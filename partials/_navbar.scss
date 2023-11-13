@@ -1,6 +1,5 @@
 @use 'colors';
 @use 'fonts';
-
 .barreNav {
     display: flex;
     justify-content: center;
@@ -17,15 +16,12 @@
 
 .navbar {
     display: flex;
-
     &-nav {
         display: flex;
-
         .nav-link {
             justify-content: space-between;
             color: colors.$blanc;
         }
-
         .nav-item {
             display: flex;
         }
@@ -57,4 +53,9 @@ p {
     color: colors.$orangeFonce;
     width: 100px;
     text-align: center;
+}
+
+.navbar-nav .nav-link .bouton-don {
+    color: colors.$orangeFonce !important;
+    background-color: colors.$rosepale;
 }

@@ -86,7 +86,7 @@ const swiperP = new Swiper(".swiper-p", {
 /* banniere x cliquable*/
 
 
-var quitter = document.querySelector(".quitter")
+/*var quitter = document.querySelector(".quitter")
 let banniere = document.querySelector(".bnaniiere")
     /*save_button.onclick = saveData;*/
 
@@ -96,15 +96,19 @@ let banniere = document.querySelector(".bnaniiere")
     var storedValue = localStorage.getItem("server");
 }*/
 
-localStorage.setItem("quitter", "bouton");
+/*localStorage.setItem("quitter", "bouton");
 
 quitter.onclick = function() {
-    banniere.style.color = "yellow";
+    css(banniere, {
+        'background-color': 'yellow',
+        color: 'red'
+    });
+
     console.log("CLICKED!");
     localStorage.getItem("quitter");
 }
 
-
+*/
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -114,8 +118,11 @@ const promis = document.querySelector(".promis");
 const creation = document.querySelector(".creation");
 const MariaGoretti = document.querySelector(".MariaGoretti");
 const enveloppe = document.querySelectorAll(".section-histoire ");
+const temps = document.querySelector(".li")
 
 gsap.set(".section-histoire", { autoAlpha: 0 });
+gsap.set("li", { autoAlpha: 0 });
+
 gsap
     .timeline({
         x: "100%",

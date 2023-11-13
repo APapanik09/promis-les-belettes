@@ -95,6 +95,11 @@ p {
   text-align: center;
 }
 
+.navbar-nav .nav-link .bouton-don {
+  color: #FC9478 !important;
+  background-color: #F4E6EF;
+}
+
 footer {
   background-color: #FC9478;
   font-family: "dosis";
@@ -225,6 +230,7 @@ body {
 .histoire__Mg {
   padding-top: 4%;
   margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 svg {
@@ -262,7 +268,7 @@ svg {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 350px;
+  width: 400px;
   height: 3px;
   background: #fff;
   align-items: center;
