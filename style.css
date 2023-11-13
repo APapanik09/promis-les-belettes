@@ -1482,7 +1482,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -1493,7 +1493,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -2626,7 +2626,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -2637,7 +2637,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -3770,7 +3770,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -3781,7 +3781,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -4914,7 +4914,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -4925,7 +4925,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -6058,7 +6058,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -6069,7 +6069,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -7202,7 +7202,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -7213,7 +7213,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -8346,7 +8346,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -8357,7 +8357,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
@@ -9490,7 +9490,7 @@ p {
   color: #223843;
 }
 
-.btn {
+.btn-nouvelle {
   width: 35%;
   height: 20%;
   background-color: #F4E6EF;
@@ -9501,7 +9501,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-nouvelle:hover {
   background-color: #223843;
   color: #ffffff;
 }
