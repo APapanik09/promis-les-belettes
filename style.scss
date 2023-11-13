@@ -29,46 +29,43 @@ h1 {
     line-height: 1.7;
 }
 
+
+
 h2 {
     font-weight: 300;
     font-family: dosis;
     font-weight: 600;
     text-align: center;
     font-size: 45px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 h4 {
-    font-weight: 300;
+
     font-family: dm-sans !important;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     font-size: 30px !important;
-    padding-bottom: 20px;
+    padding: 30px;
+
 }
 
-.card-title {
+/*.card-title {
     font-family: dosis;
     font-size: 30px;
 }
-
-.card-text {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: dm-sans;
-    font-size: 20px;
-}
-
+*/
 h3 {
     font-size: 35px;
     font-family: dm-sans;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 20px;
 
     .col-sm-12 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -235,6 +232,8 @@ p {
     }
 
     .evenement {
+
+
         @media (max-width: 987px) {
             h2 {
                 font-size: 30px;
@@ -258,6 +257,7 @@ p {
             }
         }
     }
+
 
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
@@ -698,11 +698,11 @@ p {
         }
 
         &__card-text {
-            color: colors.$blanc;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            font-family: dm-sans;
             font-size: 20px;
-            text-align: center;
-            bottom: 50px;
-            position: relative;
+            color: colors.$blanc;
         }
     }
 

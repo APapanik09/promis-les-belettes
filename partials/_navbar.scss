@@ -62,9 +62,13 @@ p {
 .bouton-don {
     color: colors.$orangeFonce !important;
     background-color: colors.$orangeFonce;
-    border-radius: 10px
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: none;
 }
 
 .bouton-don:hover {
-    color: colors.$bleuFoncer;
+    color: colors.$blanc;
+    background-color: colors.$bleuFoncer;
+    box-shadow: none;
 }
