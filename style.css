@@ -868,6 +868,11 @@ h2 {
   padding-top: 20px;
 }
 
+h3 {
+  font-size: 30px;
+  font-family: dm-sans;
+}
+
 h4 {
   font-family: dm-sans !important;
   font-weight: 500;
@@ -880,11 +885,6 @@ h4 {
     font-size: 30px;
 }
 */
-h3 {
-  font-size: 35px;
-  font-family: dm-sans;
-}
-
 h5 {
   font-size: 20px;
 }
@@ -1473,12 +1473,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -1493,11 +1493,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -1510,10 +1505,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -2611,12 +2602,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -2631,11 +2622,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -2648,10 +2634,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -3749,12 +3731,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -3769,11 +3751,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -3786,10 +3763,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -4887,12 +4860,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -4907,11 +4880,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -4924,10 +4892,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -6025,12 +5989,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -6045,11 +6009,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -6062,10 +6021,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -7163,12 +7118,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -7183,11 +7138,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -7200,10 +7150,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -8301,12 +8247,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -8321,11 +8267,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -8338,10 +8279,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
@@ -9439,12 +9376,12 @@ p {
 
 .btn-nouvelle {
   width: 35%;
-  height: 20%;
+  height: 15%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  border: none;
   text-decoration: none;
 }
 
@@ -9459,11 +9396,6 @@ p {
   background-color: #ffffff;
   padding: 10px;
 }
-.temoignage__titre {
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 20px;
-}
 .temoignage__body {
   background-image: url(/media/icone/cercle_don.png);
   z-index: 10;
@@ -9476,10 +9408,6 @@ p {
 }
 .temoignage__container {
   justify-content: center;
-}
-.temoignage__card-texte {
-  font-size: 25px;
-  color: #223843;
 }
 .temoignage__image {
   border-radius: 10px;
