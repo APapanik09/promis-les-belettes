@@ -40,6 +40,10 @@
 
 }
 
+.equipe .card:hover {
+    box-shadow: 10px 10px colors.$orangeFonce;
+}
+
 .texte-equipe {
     font-family: dosis;
     text-align: center;
@@ -67,7 +71,3 @@
     font-size: 14px;;
 }
 
-
-.card-modal {
-    text-align: left;
-}

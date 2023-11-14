@@ -411,6 +411,10 @@ img.oiseauquatre {
   max-width: 100%;
 }
 
+.equipe .card:hover {
+  box-shadow: 10px 10px #FC9478;
+}
+
 .texte-equipe {
   font-family: dosis;
   text-align: center;
@@ -431,10 +435,6 @@ img.oiseauquatre {
 .text-muted {
   text-align: center;
   font-size: 14px;
-}
-
-.card-modal {
-  text-align: left;
 }
 
 .hero-nouvelles {
