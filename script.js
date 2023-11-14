@@ -163,6 +163,14 @@ gsap.to(".oiseau", {
 
 /* fin animation motion path */
 
+    // GSAP 404
+
+    const oiseauquatre = document.querySelector(".oiseauquatre");
+
+       gsap.to('.oiseauquatre', { duration: 5,
+        ease: 'circ.in',
+        x: '-120vw', 
+    });
 /* animation au click don avce timeline*/
 
 don.addEventListener("click", function() {
@@ -181,24 +189,5 @@ don.addEventListener("click", function() {
 });
 /* fin animation au click*/
 
-// Motionpath anim 404
 
-let animquatre =
 
-    gsap.to('.birdfour', {
-        motionPath: {
-            path: '.volbird',
-            align: '.volbird',
-            autoRotate: true,
-            start: 0,
-            end: 0.55,
-            alignOrigin: [0.5, 0.7],
-            xPercent: 50,
-            yPercent: 90,
-        },
-        duration: 10,
-        yoyo: true,
-    });
-
-    // Modal Equipe
-    $('#myModal').modal(options)

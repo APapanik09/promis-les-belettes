@@ -26,7 +26,8 @@
 
 
 .equipe .card {
-    margin: 20px 50px;
+    margin: 20px 40px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
@@ -67,3 +68,6 @@
 }
 
 
+.card-modal {
+    text-align: left;
+}

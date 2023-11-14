@@ -358,6 +358,7 @@ svg {
   text-align: center;
   margin-bottom: 10px;
   padding: 5px;
+  color: black;
 }
 @media screen and (max-width: 375px) {
   .quatre .retour-menu {
@@ -370,6 +371,13 @@ svg {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+}
+
+img.oiseauquatre {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
 }
 
 .hero-equipe {
@@ -393,7 +401,8 @@ svg {
 }
 
 .equipe .card {
-  margin: 20px 50px;
+  margin: 20px 40px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   max-width: 400px;
@@ -422,6 +431,10 @@ svg {
 .text-muted {
   text-align: center;
   font-size: 14px;
+}
+
+.card-modal {
+  text-align: left;
 }
 
 .hero-nouvelles {
