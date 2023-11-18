@@ -379,6 +379,24 @@ img.oiseauquatre {
   position: absolute;
   right: -15%;
 }
+img.oiseauquatre_deux {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
+img.oiseauquatre_trois {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
+img.oiseauquatre_quatre {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
 
 .hero-equipe {
   width: 100vw;

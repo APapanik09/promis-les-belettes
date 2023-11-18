@@ -167,10 +167,12 @@ gsap.to(".oiseau", {
 
     const oiseauquatre = document.querySelector(".oiseauquatre");
 
-       gsap.to('.oiseauquatre', { duration: 5,
-        ease: 'circ.in',
-        x: '-120vw', 
-    });
+    gsap.timeline()
+    .to('.oiseauquatre', { x: '-120vw', duration: 4 })
+    .to('.oiseauquatre_deux', { x: '-120vw',duration: 4 },)
+    .to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
+    .to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
+
 /* animation au click don avce timeline*/
 
 don.addEventListener("click", function() {
