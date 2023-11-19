@@ -9,7 +9,6 @@
 
 .quatre {
     width: 100vw;
-
     justify-content: center;
     text-align: center;
     padding:15vh 0;
@@ -28,6 +27,7 @@
         text-align: center;
         margin-bottom: 10px;
         padding: 5px;
+        color: black;
     }
     .retour-menu {
   
@@ -54,3 +54,38 @@
 
 
 }
+
+img.oiseauquatre {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -15%;
+
+    &_deux {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: -15%;
+
+    }
+
+    &_trois {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: -15%;
+
+    }
+
+    &_quatre {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: -15%;
+
+    }
+
+}
+
+
+

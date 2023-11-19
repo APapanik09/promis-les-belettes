@@ -26,7 +26,8 @@
 
 
 .equipe .card {
-    margin: 20px 50px;
+    margin: 20px 40px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
@@ -37,6 +38,10 @@
     }
 
 
+}
+
+.equipe .card:hover {
+    box-shadow: 10px 10px colors.$orangeFonce;
 }
 
 .texte-equipe {
@@ -65,5 +70,4 @@
     text-align: center;
     font-size: 14px;;
 }
-
 

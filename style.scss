@@ -42,7 +42,7 @@ h2 {
     font-family: dosis;
     font-weight: 600;
 
-    font-size: 45px;
+    font-size: 60px;
 
 
 }
@@ -81,6 +81,15 @@ p {
 }
 
 @media (max-width: 1200px) {
+
+    h1 {
+        font-family: sunday;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 30px;
+    }
+
     h2 {
         font-size: 47px;
         object-fit: cover;
@@ -105,6 +114,15 @@ p {
 
 
 @media (max-width: 767px) {
+
+    h1 {
+        font-family: sunday;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 45px;
+    }
+
     h2 {
         font-size: 47px;
         object-fit: cover;
@@ -128,8 +146,17 @@ p {
 }
 
 @media (max-width: 447px) {
+
+    h1 {
+        font-family: sunday;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 35px;
+    }
+
     h2 {
-        font-size: 47px;
+        font-size: 40px;
         object-fit: cover;
     }
 
@@ -382,6 +409,8 @@ p {
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
+
+
         }
 
 
@@ -497,7 +526,7 @@ p {
     .service {
         &__titre {
             @include mixins.titre;
-            font-size: 60px;
+
         }
 
         &__accueil {
@@ -615,6 +644,7 @@ p {
         }
     }
 
+
     /*****NOUVELLE
 ************************************************/
     .nouvelle {
@@ -622,6 +652,7 @@ p {
 
         &__titre {
             @include mixins.titre;
+
         }
 
         &__sarah {
@@ -759,7 +790,7 @@ p {
 
         &__titre {
             @include mixins.titre;
-            font-size: 60px;
+
             padding-bottom: 5% !important;
         }
     }
@@ -798,7 +829,7 @@ p {
             margin-top: 10%;
             margin-bottom: 10%;
             font-family: dm-sans;
-            font-size: 20px;
+            text-align: center;
             color: colors.$blanc;
         }
     }

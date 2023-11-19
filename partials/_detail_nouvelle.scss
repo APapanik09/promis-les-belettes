@@ -24,7 +24,7 @@
     &__titre {
         font-family: sunday;
         position: relative;
-        bottom: 0px;
+        top: 8px;
         padding-bottom: 20px;
         text-align: center;
         line-height: 1.7;
@@ -36,6 +36,7 @@
         position: relative;
         background-color: rgba($color: white, $alpha: .805);
         width: 100%;
+        top:8px;
     }
     &__categorie {
         position: absolute;
