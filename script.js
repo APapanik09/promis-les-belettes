@@ -164,21 +164,25 @@ gsap.to(".oiseau", {
 /* fin animation motion path */
 
 /* animation au click don avce timeline*/
+if (don) {
 
-don.addEventListener("click", function() {
-    gsap
-        .timeline()
-        .to(".oiseau", { display: "none" })
-        .to(".dollar", { autoAlpha: 1, duration: 1 })
-        .to(".dollar", {
-            y: "-300%",
-            rotate: 360,
-            duration: 1,
-            x: "200%",
-            scale: 1.2,
-        })
-        .to(".dollar", { autoAlpha: 0, duration: 1 });
-});
+
+
+    don.addEventListener("click", function() {
+        gsap
+            .timeline()
+            .to(".oiseau", { display: "none" })
+            .to(".dollar", { autoAlpha: 1, duration: 1 })
+            .to(".dollar", {
+                y: "-300%",
+                rotate: 360,
+                duration: 1,
+                x: "200%",
+                scale: 1.2,
+            })
+            .to(".dollar", { autoAlpha: 0, duration: 1 });
+    });
+}
 /* fin animation au click*/
 
 // Motionpath anim 404
@@ -200,5 +204,5 @@ let animquatre =
         yoyo: true,
     });
 
-    // Modal Equipe
-    $('#myModal').modal(options)
+// Modal Equipe
+//$('#myModal').modal(options)
