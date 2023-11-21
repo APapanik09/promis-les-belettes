@@ -358,6 +358,7 @@ svg {
   text-align: center;
   margin-bottom: 10px;
   padding: 5px;
+  color: black;
 }
 @media screen and (max-width: 375px) {
   .quatre .retour-menu {
@@ -370,6 +371,31 @@ svg {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+}
+
+img.oiseauquatre {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
+img.oiseauquatre_deux {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
+img.oiseauquatre_trois {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
+}
+img.oiseauquatre_quatre {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15%;
 }
 
 .hero-equipe {
@@ -393,13 +419,18 @@ svg {
 }
 
 .equipe .card {
-  margin: 20px 50px;
+  margin: 20px 40px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   max-width: 400px;
 }
 .equipe .card .card-body {
   max-width: 100%;
+}
+
+.equipe .card:hover {
+  box-shadow: 10px 10px #FC9478;
 }
 
 .texte-equipe {
@@ -443,6 +474,10 @@ svg {
   font-family: dosis;
   padding: 3%;
   font-weight: 300;
+  text-align: center;
+}
+
+.titre__nouvelle {
   text-align: center;
 }
 
@@ -663,7 +698,7 @@ svg {
 .nouvellle__titre {
   font-family: sunday;
   position: relative;
-  bottom: 0px;
+  top: 8px;
   padding-bottom: 20px;
   text-align: center;
   line-height: 1.7;
@@ -675,6 +710,7 @@ svg {
   position: relative;
   background-color: rgba(255, 255, 255, 0.805);
   width: 100%;
+  top: 8px;
 }
 .nouvellle__categorie {
   position: absolute;
@@ -851,7 +887,7 @@ h2 {
   font-weight: 300;
   font-family: dosis;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 60px;
 }
 
 h3 {
@@ -879,6 +915,13 @@ p {
 }
 
 @media (max-width: 1200px) {
+  h1 {
+    font-family: sunday;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 30px;
+  }
   h2 {
     font-size: 47px;
     -o-object-fit: cover;
@@ -896,6 +939,13 @@ p {
   }
 }
 @media (max-width: 767px) {
+  h1 {
+    font-family: sunday;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 45px;
+  }
   h2 {
     font-size: 47px;
     -o-object-fit: cover;
@@ -913,8 +963,15 @@ p {
   }
 }
 @media (max-width: 447px) {
+  h1 {
+    font-family: sunday;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 35px;
+  }
   h2 {
-    font-size: 47px;
+    font-size: 40px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1069,6 +1126,7 @@ p {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -1115,6 +1173,18 @@ p {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -1260,7 +1330,6 @@ p {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -1526,7 +1595,6 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -1541,7 +1609,6 @@ p {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -1576,7 +1643,7 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -2228,6 +2295,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -2274,6 +2342,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -2419,7 +2499,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -2685,7 +2764,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -2700,7 +2778,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -2735,7 +2812,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -3387,6 +3464,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -3433,6 +3511,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -3578,7 +3668,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -3844,7 +3933,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -3859,7 +3947,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -3894,7 +3981,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -4546,6 +4633,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -4592,6 +4680,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -4737,7 +4837,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -5003,7 +5102,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -5018,7 +5116,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -5053,7 +5150,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -5705,6 +5802,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -5751,6 +5849,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -5896,7 +6006,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -6162,7 +6271,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -6177,7 +6285,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -6212,7 +6319,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -6864,6 +6971,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -6910,6 +7018,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -7055,7 +7175,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -7321,7 +7440,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -7336,7 +7454,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -7371,7 +7488,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -8023,6 +8140,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -8069,6 +8187,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -8214,7 +8344,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -8480,7 +8609,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -8495,7 +8623,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -8530,7 +8657,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -9182,6 +9309,7 @@ iframe {
   height: 40px;
   background-color: #FC9478;
   border: none;
+  margin: 20px;
   border-radius: 10px;
   align-items: end;
 }
@@ -9228,6 +9356,18 @@ iframe {
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.5em;
+}
+
+.evenement__image {
+  background-image: url(media/evenement.png);
+  z-index: 3;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 70%;
+}
+.evenement__card {
+  height: 500px;
+  background-color: #ffffff;
 }
 
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -9373,7 +9513,6 @@ iframe {
 .service__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
 }
 .service__accueil {
   -o-object-fit: contain;
@@ -9639,7 +9778,6 @@ iframe {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 250px !important;
-  width: 100%;
 }
 .temoignage__card {
   background-position: center;
@@ -9654,7 +9792,6 @@ iframe {
 .temoignage__titre {
   text-align: center;
   margin-top: 5%;
-  font-size: 60px;
   padding-bottom: 5% !important;
 }
 
@@ -9689,7 +9826,7 @@ iframe {
   margin-top: 10%;
   margin-bottom: 10%;
   font-family: dm-sans;
-  font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 
