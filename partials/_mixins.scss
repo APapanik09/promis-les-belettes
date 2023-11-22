@@ -13,6 +13,19 @@
   overflow-y: hidden;
 }
 
+@mixin cardHover {
+  background-color: colors.$blanc;
+  color: colors.$bleuFoncer;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+
+  overflow-y: hidden;
+}
+
 @mixin service {
   object-fit: contain;
   padding: unset;

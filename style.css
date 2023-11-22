@@ -1212,6 +1212,10 @@ p {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -1221,6 +1225,18 @@ p {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -1835,16 +1851,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -2369,6 +2375,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -2378,6 +2388,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -2992,16 +3014,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -3526,6 +3538,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -3535,6 +3551,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -4149,16 +4177,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -4683,6 +4701,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -4692,6 +4714,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -5306,16 +5340,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -5840,6 +5864,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -5849,6 +5877,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -6463,16 +6503,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -6997,6 +7027,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -7006,6 +7040,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -7620,16 +7666,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -8154,6 +8190,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -8163,6 +8203,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -8777,16 +8829,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {
@@ -9311,6 +9353,10 @@ iframe {
   margin-right: 0.5em;
 }
 
+.image_evenement {
+  width: 100%;
+}
+
 /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
 *******************************************************************/
 .lien {
@@ -9320,6 +9366,18 @@ iframe {
 .lien-titre {
   color: #FC9478;
   text-decoration: none;
+}
+
+.carte-service:hover {
+  background-color: #ffffff;
+  color: #223843;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  overflow-y: hidden;
 }
 
 .service {
@@ -9934,16 +9992,6 @@ svg .anim.oiseau {
 }
 .service__container {
   margin-bottom: 5%;
-}
-
-.carte-service:hover {
-  background-color: #ffffff;
-  color: #223843;
-}
-
-.card:hover {
-  background-color: #ffffff;
-  color: #223843;
 }
 
 .swiper-slide {

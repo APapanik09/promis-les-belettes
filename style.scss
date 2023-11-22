@@ -357,6 +357,11 @@ p {
         margin-right: 0.5em;
     }
 
+    .image_evenement {
+        width: 100%;
+    }
+
+
 
 
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
@@ -370,6 +375,10 @@ p {
             color: colors.$orangeFonce;
             text-decoration: none;
         }
+    }
+
+    .carte-service:hover {
+        @include mixins.cardHover;
     }
 
     .service {
@@ -392,6 +401,8 @@ p {
     .swiper {
         margin: 20px;
     }
+
+
 
     // Card Service
     .service .card {
@@ -1001,15 +1012,7 @@ p {
         }*/
     }
 
-    .carte-service:hover {
-        background-color: colors.$blanc;
-        color: colors.$bleuFoncer;
-    }
 
-    .card:hover {
-        background-color: colors.$blanc;
-        color: colors.$bleuFoncer;
-    }
 
     //Swipper service
     .swiper-slide {
