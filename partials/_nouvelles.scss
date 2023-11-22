@@ -155,3 +155,46 @@
         }
     }
 }
+
+.dropdown.order {
+    width: 100%;
+    text-align: center;
+
+    .btn {
+        background-color: colors.$bleuFoncer;
+        color: colors.$blanc;
+    }
+    
+}
+
+.firstnews {
+    margin: 20px 40px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 15px auto;
+
+    .card-body {
+        max-width: 100%;
+
+    }
+
+    .card-img-top {
+        max-height: 250px;
+        object-fit: cover;
+
+    }
+
+}
+
+.firstnews.card:hover {
+    box-shadow: 10px 10px colors.$orangeFonce;
+}
+
+.plusnews {
+    background-color: colors.$bleuFoncer;
+    color: colors.$blanc;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
