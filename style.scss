@@ -357,20 +357,6 @@ p {
         margin-right: 0.5em;
     }
 
-    .evenement {
-        &__image {
-            background-image: url(media/evenement.png);
-            z-index: 3;
-            background-repeat: no-repeat;
-            height: 500px;
-            background-size: 70%;
-        }
-
-        &__card {
-            height: 500px;
-            background-color: colors.$blanc;
-        }
-    }
 
 
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
