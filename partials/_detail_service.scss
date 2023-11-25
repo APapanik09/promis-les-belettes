@@ -99,3 +99,8 @@
     height: 700px !important;
   }
 }
+
+.webserie-balado {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+}

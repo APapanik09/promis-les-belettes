@@ -3,6 +3,7 @@
 @use "mixins";
 @use "histoire";
 @use "faq";
+
 * {
     box-sizing: border-box;
 }
@@ -15,12 +16,15 @@
     background-size: cover;
     position: relative;
     height: 30vh;
+
     img {
         width: 100%;
     }
+
     .col-12 {
         text-align: center;
     }
+
     &__titre {
         font-family: sunday;
         position: relative;
@@ -32,12 +36,14 @@
         margin: 0px;
         background-color: rgba($color: white, $alpha: .805);
     }
+
     &__date {
         position: relative;
         background-color: rgba($color: white, $alpha: .805);
         width: 100%;
-        top:8px;
+        top: 8px;
     }
+
     &__categorie {
         position: absolute;
         top: 0px;
@@ -59,29 +65,35 @@ p .nouvellle__texte .col-12 .text-align-center {
 
 .nouvelle {
     margin-right: 0;
+
     &__titre {
         @include mixins.titre;
     }
+
     &__sarah {
         background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
         background-size: cover;
         @include mixins.service;
     }
+
     &__demenagement {
         background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
         @include mixins.service;
         background-size: cover;
     }
+
     &__reseautage {
         background-image: url(/media/nouvelles/etudier.png);
         @include mixins.service;
         background-size: cover;
     }
+
     &__hebergement {
         background-image: url(/media/nouvelles/hebergement_femme.jpeg);
         @include mixins.service;
         background-size: cover;
     }
+
     &__vivre-ensemble {
         background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
         @include mixins.service;
@@ -92,6 +104,7 @@ p .nouvellle__texte .col-12 .text-align-center {
 // Détails pour les cartes
 .nouvelle {
     padding: 30px;
+
     .card-body {
         position: relative;
         bottom: -160px;
@@ -104,16 +117,19 @@ p .nouvellle__texte .col-12 .text-align-center {
         align-items: flex-end;
         justify-content: space-around;
         background-color: rgba(255, 255, 255, 0.805);
+
         h5 {
             font-size: 24px;
             padding: none;
             position: relative;
             top: 10px;
             color: colors.$bleuFoncer;
+
             .col-sm-12 {
                 font-size: 30px;
             }
         }
+
         p {
             font-size: 18px;
             position: relative;
@@ -151,6 +167,7 @@ p .nouvellle__texte .col-12 .text-align-center {
     .enveloppe-nouvelle {
         padding: 0px;
     }
+
     img {
         width: 59%;
     }
@@ -160,7 +177,19 @@ p .nouvellle__texte .col-12 .text-align-center {
     .enveloppe-nouvelle {
         padding: 0px;
     }
+
     img {
         width: 200px;
     }
+}
+
+.mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
+    background: none;
+    border: none;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
 }

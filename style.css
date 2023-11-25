@@ -956,6 +956,17 @@ p .nouvellle__texte .col-12 .text-align-center {
     width: 200px;
   }
 }
+.mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
+  background: none;
+  border: none;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+}
+
 html {
   overflow-x: hidden;
 }
