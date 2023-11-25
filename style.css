@@ -974,6 +974,9 @@ p {
     font-size: 20px !important;
     padding: 30px;
   }
+  p {
+    font-size: 30px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
@@ -998,6 +1001,9 @@ p {
     font-size: 20px !important;
     padding: 30px;
   }
+  p {
+    font-size: 25px;
+  }
 }
 @media (max-width: 447px) {
   h1 {
@@ -1021,6 +1027,9 @@ p {
     font-weight: 500;
     font-size: 20px !important;
     padding: 30px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 @media (max-width: 377px) {
@@ -1595,8 +1604,6 @@ p {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -2758,8 +2765,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -3921,8 +3926,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -5084,8 +5087,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -6247,8 +6248,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -7410,8 +7409,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -8573,8 +8570,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
@@ -9736,8 +9731,6 @@ iframe {
 }
 
 .btn-nouvelle {
-  width: 20%;
-  height: 100%;
   background-color: #F4E6EF;
   font-size: 25px;
   margin: 50px;
