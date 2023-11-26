@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: Services Hub
+ * 	Template Name: Page service
  * 	Identique à page, mais avec une barre latérale
  */
 
