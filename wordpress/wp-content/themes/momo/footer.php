@@ -26,7 +26,7 @@
 <!-- fin partenaire -->
 
 <?php
-  $projects = new WP_Query('footer');
+  $projects = new WP_Query('post_type=footer');
   while ($projects->have_posts()) : $projects->the_post(); 
 ?>
 <!-- 👆 Début boucle while -->
@@ -36,12 +36,12 @@
 <div class="container-fluid d-flex justify-content-center">
 	<div class="row d-flex footerdiv align-items-center ">
 		<div class="col-lg-2 col-sm-12 text-align-center"><img class='logofooter img-fluid' src="media/logo_promis.svg" alt="logo promis"><br></div>
-		<div class="col-lg-2 col-sm-12 text-align-center"> <php get_the> <!ph>Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615
-			<br>Télécopieur: (514) 345-1088</div>
+		<div class="col-lg-2 col-sm-12 text-align-center"> <?php the_field('heure')?><br> <?php the_field('telephone')?> <?php the_field('telecopieur')?>
+			<br></div>
 		<div class="col-lg-2 col-sm-12 text-align-center"><a href="https://www.google.ca/maps/place/333+Chem.+de+la+C%C3%B4te-Sainte-Catherine,+Outremont,+QC/@45.5160075,-73.6057758,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91986ca96da87:0xb66160f92f082d58!8m2!3d45.5160075!4d-73.6032009?entry=ttu">
-				3333, chemin de la Côte<br>Ste-Catherine, Montréal<br>(Québec), H3T 1C8</a></div>
-		<div class="col-lg-2 col-sm-12 text-align-center"><a href="hub_services.html">Nos Services</a><br><a href="hub_nouvelle.html">Nouvelles</a><br><a href="equipe.html">Équipe</a></div>
-		<div class="col-lg-2 col-sm-12 text-align-center"><a href="A_Propos.html">À propos</a><br><a href="histoire.html">Notre histoire</a><br><a href="faq.html">FAQ</div>
+		<?php the_field('adresse')?>	<br><br></a></div>
+		<div class="col-lg-2 col-sm-12 text-align-center"><a href="hub_services.html"> <?php the_field('service_1')?></a><br><a href="hub_nouvelle.html"> <?php the_field('service_2')?></a><br><a href="equipe.html"> <?php the_field('service_3')?></a></div>
+		<div class="col-lg-2 col-sm-12 text-align-center"><a href="A_Propos.html"> <?php the_field('service_4')?></a><br><a href="histoire.html"> <?php the_field('service_5')?></a><br><a href="faq.html"> <?php the_field('service_6')?></div>
 
 </footer>
 <!-- 👇 Fin boucle while -->

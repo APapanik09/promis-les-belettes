@@ -29,3 +29,7 @@ endif;
 get_sidebar(); // Affiche le contenu de sidebar.php
 get_footer(); // Affiche footer.php 
 ?>
+<?php
+  $projects = new WP_Query('post_type=propos');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
