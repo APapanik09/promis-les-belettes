@@ -25,16 +25,18 @@
 
 <!-- fin partenaire -->
 
-
-
-<!-- début footer -->
-
+<?php
+  $projects = new WP_Query('footer');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+<!-- 👆 Début boucle while -->
+  
 <footer>
 
 <div class="container-fluid d-flex justify-content-center">
 	<div class="row d-flex footerdiv align-items-center ">
 		<div class="col-lg-2 col-sm-12 text-align-center"><img class='logofooter img-fluid' src="media/logo_promis.svg" alt="logo promis"><br></div>
-		<div class="col-lg-2 col-sm-12 text-align-center"> Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615
+		<div class="col-lg-2 col-sm-12 text-align-center"> <php get_the> <!ph>Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615
 			<br>Télécopieur: (514) 345-1088</div>
 		<div class="col-lg-2 col-sm-12 text-align-center"><a href="https://www.google.ca/maps/place/333+Chem.+de+la+C%C3%B4te-Sainte-Catherine,+Outremont,+QC/@45.5160075,-73.6057758,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91986ca96da87:0xb66160f92f082d58!8m2!3d45.5160075!4d-73.6032009?entry=ttu">
 				3333, chemin de la Côte<br>Ste-Catherine, Montréal<br>(Québec), H3T 1C8</a></div>
@@ -42,6 +44,14 @@
 		<div class="col-lg-2 col-sm-12 text-align-center"><a href="A_Propos.html">À propos</a><br><a href="histoire.html">Notre histoire</a><br><a href="faq.html">FAQ</div>
 
 </footer>
+<!-- 👇 Fin boucle while -->
+<?php
+  endwhile; 
+  wp_reset_postdata(); 
+?>
+
+<!-- début footer -->
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
