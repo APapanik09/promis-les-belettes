@@ -270,6 +270,44 @@ endif;
     ------------------------------------------------->
 </section>
 
+<section class="temoignage">
+    <?php
+  $projects = new WP_Query('post_type=temoignage');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+    <h2 class="temoignage__titre "><?php the_title() ?></h2>
+    <div class="container temoignage__container d-flex">
+
+
+        <div class="card temoignage__card col-12 col-md-11 col-sm-12 justify-content-center  ">
+            <div class="temoignage__body card-body ">
+
+
+                <div class="row d-flex">
+
+                    <img class="card-image-top temoignage__image justify-content-center col-lg-3 col-md-11 col-sm-5"
+                        src="media/temoignage.jpg" alt="">
+
+
+
+                    <h3 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h3>
+
+
+
+                    <h3 class="temoignage__citation temoignage__card-texte col-lg-7">- Céline, Norvège, Avis Booking
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+  endwhile; 
+  wp_reset_postdata(); 
+?>
+
+
+</section>
+
 <?php
 get_footer(); 
 ?>
