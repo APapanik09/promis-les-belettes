@@ -48,7 +48,9 @@ endif;
             </div>
 
         </div>
-
+        <?php   endwhile;
+  wp_reset_postdata();
+?>
     </section>
 	<?php
   $projects = new WP_Query('post_type= a-propos');
