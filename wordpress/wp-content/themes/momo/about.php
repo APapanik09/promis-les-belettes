@@ -37,10 +37,9 @@ endif;
             <div class="row align-items-center">
                 <div class=" col-12 text-lg-start">
                     <div class="titre-a-propos ">
-                        <h1 class="titre-a-propos col-12">À propos</h1>
-                        <h3 class="texte-hero-a-propos col-12">PROMIS vient en aide aux immigrants et aux réfugiés ainsi
-                            qu'à leurs familles, dans leurs démarches d'intégration culturelle, sociale et
-                            professionnelle.
+                        <h1 class="titre-a-propos col-12"><?php the_title() ?></h1>
+                        <h3 class="texte-hero-a-propos col-12"><?php the_content() ?>
+                         
                         </h3>
                     </div>
                 </div>
@@ -48,14 +47,9 @@ endif;
             </div>
 
         </div>
-	<?php   endwhile;
-  wp_reset_postdata();
-?>
+
     </section>
-	<?php
-  $projects = new WP_Query('post_type= a-propos');
-  while ($projects->have_posts()) : $projects->the_post(); 
-?>
+
     <section class="section-a-propos">
         <div class="enveloppe a-propos">
             <div class=" container paragraphe-a-propos__titre">
