@@ -3,6 +3,7 @@
 .banniere {
     position: relative;
     width: 100vw;
+    display: none;
     background-color: colors.$orangeFonce;
     &__lienPromis {
         font-family: dosis;

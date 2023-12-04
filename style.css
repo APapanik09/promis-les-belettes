@@ -14,6 +14,7 @@
 .banniere {
   position: relative;
   width: 100vw;
+  display: none;
   background-color: #FC9478;
 }
 .banniere__lienPromis {
