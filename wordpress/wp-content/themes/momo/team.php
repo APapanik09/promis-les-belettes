@@ -13,9 +13,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
-			<h2>
-				<?php the_title(); // Titre de la page ?>
-			</h2>
+
 		<?php endif; ?>
 		
 		<?php the_content(); // Contenu principal de la page ?>
@@ -53,21 +51,29 @@ endif;
 
 </section>
 
+
 <!--fin hero equipe-->
 
 <!--début cartes equipe-->
+
+
 <section>
 <div class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
-		  <h2 class="equipe-role">Administration</h2>
+
+		<?php
+  $projects = new WP_Query('post_type= equipe');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+		  <h2 class="equipe-role"><?php the_field('catégories')?></h2>
 			<div class="card-group equipe justify-content-center">
 				<div class="card">
 				  <img class="card-img-top img-fluid" src="media/equipe/joelle.png" alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">Joëlle Léveillé</h5>
-					<h5 class="card-text">Réceptionniste</h5>
-					<h5 class="card-text"><small class="text-muted">j.leveille@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_title()?></h5>
+					<h5 class="card-text"><?php the_content()?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
 				<div class="card">
@@ -245,7 +251,11 @@ endif;
 
 </section>
 
+<?php   endwhile;
+  wp_reset_postdata();
+?>
+
 <?php
-get_sidebar(); // Affiche le contenu de sidebar.php
+
 get_footer(); // Affiche footer.php 
 ?>
