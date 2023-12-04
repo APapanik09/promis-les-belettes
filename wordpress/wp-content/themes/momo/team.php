@@ -63,7 +63,7 @@ endif;
 		<div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
 
 		<?php
-  $projects = new WP_Query('post_type= equipe');
+  $projects = new WP_Query('post_type=equipe');
   while ($projects->have_posts()) : $projects->the_post(); 
 ?>
 		  <h2 class="equipe-role"><?php the_field('catégories')?></h2>

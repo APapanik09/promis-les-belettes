@@ -7,20 +7,20 @@
 </main>
 <section class="partenaires">
 
-<!-- début partenaire -->
-<section class="part">
-	<div class="partnenaires swiper-p">
-		<div class="partenaires swiper-wrapper">
-			<div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png" alt="partenaires" class="brasseur"><img src="media/partenaires/BREBEUF_BLANC-340x78.png" alt="brebeuf" class="brebeuf"><img src="media/partenaires/centraide_blanc2-300x200.png"
-					alt="centraide" class="centraide"><img src="media/partenaires/CSS-MargueriteBourgeon.png" alt="logo CSS-Marguerite Bourgeon" class="cssmargue"><img src="media/partenaires/CSS-Montreal.png" alt="logo CSS Montreal" class="cssmontreal"></div>
-			<div class="swiper-slide"><img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir"><img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie"><img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec"
-					class="immigrationQc"><img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC" class="investissementQc"><img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot"></div>
-			<div class="swiper-slide"><img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac"><img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite" class="reseau"><img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc"
-					class="montrealblanc"><img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada" class="serviceCan"><img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state"></div>
+	<!-- début partenaire -->
+	<section class="part">
+		<div class="partnenaires swiper-p">
+			<div class="partenaires swiper-wrapper">
+				<div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png" alt="partenaires" class="brasseur"><img src="media/partenaires/BREBEUF_BLANC-340x78.png" alt="brebeuf" class="brebeuf"><img src="media/partenaires/centraide_blanc2-300x200.png"
+						alt="centraide" class="centraide"><img src="media/partenaires/CSS-MargueriteBourgeon.png" alt="logo CSS-Marguerite Bourgeon" class="cssmargue"><img src="media/partenaires/CSS-Montreal.png" alt="logo CSS Montreal" class="cssmontreal"></div>
+				<div class="swiper-slide"><img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir"><img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie"><img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec"
+						class="immigrationQc"><img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC" class="investissementQc"><img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot"></div>
+				<div class="swiper-slide"><img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac"><img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite" class="reseau"><img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc"
+						class="montrealblanc"><img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada" class="serviceCan"><img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state"></div>
 
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 </section>
 
 <!-- fin partenaire -->
@@ -35,7 +35,7 @@
 
 <div class="container-fluid d-flex justify-content-center">
 	<div class="row d-flex footerdiv align-items-center ">
-		<div class="col-lg-2 col-sm-12 text-align-center"><img class='logofooter img-fluid' src="<?php bloginfo('template_url'); ?>/images/logo_promis.svg" alt="logo promis"><br><button class="footerbtn col-5 justify-content-center">Don</button><br><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
+		<div class="col-lg-2 col-sm-12 text-align-center"><a href=""><img class='logofooter img-fluid' src="<?php bloginfo('template_url'); ?>/images/logo_promis.svg" alt="logo promis"></a><br><button class="footerbtn col-5 justify-content-center">Don</button><br><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
 		<div class="col-lg-2 col-sm-12 text-align-center"> <?php the_field('heure')?><br> <?php the_field('telephone')?> <?php the_field('telecopieur')?>
 			<br></div>
 		<div class="col-lg-2 col-sm-12 text-align-center"><a href="https://www.google.ca/maps/place/333+Chem.+de+la+C%C3%B4te-Sainte-Catherine,+Outremont,+QC/@45.5160075,-73.6057758,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91986ca96da87:0xb66160f92f082d58!8m2!3d45.5160075!4d-73.6032009?entry=ttu">
