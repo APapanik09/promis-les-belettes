@@ -62,7 +62,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js "></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js "></script>
-<script src="main.js"></script>
+
 
 <?php wp_footer(); 
 /* Espace où WordPress peut insérer des fichiers .js et autres. Par exemple pour des extensions (plugins). 
