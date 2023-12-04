@@ -778,7 +778,7 @@ Version: 1.0
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 30vh;
+  height: 40vh;
 }
 .nouvellle img {
   width: 100%;
@@ -1092,11 +1092,13 @@ p {
 }
 @media (max-width: 377px) {
   h2 {
+    font-size: 12px;
+  }
+  h2 {
     font-size: 25px;
   }
   h3 {
     font-size: 40px;
-    margin-bottom: 20px !important;
   }
   h4 {
     font-family: dm-sans !important;

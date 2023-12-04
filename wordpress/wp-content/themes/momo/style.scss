@@ -15,12 +15,9 @@ Version: 1.0
 @use "partials_scss/faq";
 @use "partials_scss/histoire";
 @use "partials_scss/quatre";
-//@use "partials/hub_service";
 @use "partials_scss/equipe";
 @use "partials_scss/nouvelles";
 @use "partials_scss/detail_nouvelle";
-//@use"partials/detail_service";
-//@use"partials/detail_nouvelle";
 html {
     overflow-x: hidden;
 }
@@ -150,11 +147,13 @@ p {
 
 @media (max-width: 377px) {
     h2 {
+        font-size: 12px;
+    }
+    h2 {
         font-size: 25px;
     }
     h3 {
         font-size: 40px;
-        margin-bottom: 20px !important;
     }
     h4 {
         font-family: dm-sans !important;
