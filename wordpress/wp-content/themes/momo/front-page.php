@@ -269,7 +269,6 @@ endif;
     <!--Pour ecran large col-12 
     ------------------------------------------------->
 </section>
-
 <section class="temoignage">
     <?php
   $projects = new WP_Query('post_type=temoignage');
@@ -307,8 +306,6 @@ endif;
 
 
 </section>
-
 <?php
-get_sidebar(); // Affiche le contenu de sidebar.php
 get_footer(); 
 ?>
