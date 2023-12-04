@@ -1,0 +1,195 @@
+@use "colors";
+@use "fonts";
+@use "mixins";
+@use "histoire";
+@use "faq";
+
+* {
+    box-sizing: border-box;
+}
+
+.nouvellle {
+    background-color: colors.$rosepale;
+    background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 30vh;
+
+    img {
+        width: 100%;
+    }
+
+    .col-12 {
+        text-align: center;
+    }
+
+    &__titre {
+        font-family: sunday;
+        position: relative;
+        top: 8px;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.7;
+        padding: 2%;
+        margin: 0px;
+        background-color: rgba($color: white, $alpha: .805);
+    }
+
+    &__date {
+        position: relative;
+        background-color: rgba($color: white, $alpha: .805);
+        width: 100%;
+        top: 8px;
+    }
+
+    &__categorie {
+        position: absolute;
+        top: 0px;
+        background-color: rgba($color: white, $alpha: .805);
+        width: 100%;
+    }
+}
+
+p .nouvellle__texte .col-12 .text-align-center {
+    font-family: dosis;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*****NOUVELLE
+************************************************/
+
+.nouvelle {
+    margin-right: 0;
+
+    &__titre {
+        @include mixins.titre;
+    }
+
+    &__sarah {
+        background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+        background-size: cover;
+        @include mixins.service;
+    }
+
+    &__demenagement {
+        background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__reseautage {
+        background-image: url(/media/nouvelles/etudier.png);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__hebergement {
+        background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__vivre-ensemble {
+        background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+        @include mixins.service;
+        background-size: 100%;
+    }
+}
+
+// Détails pour les cartes
+.nouvelle {
+    padding: 30px;
+
+    .card-body {
+        position: relative;
+        bottom: -160px;
+        height: 140px;
+        display: flex;
+        border-radius: 10px;
+        place-content: space-between space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.805);
+
+        h5 {
+            font-size: 24px;
+            padding: none;
+            position: relative;
+            top: 10px;
+            color: colors.$bleuFoncer;
+
+            .col-sm-12 {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            position: relative;
+            left: 50px;
+            top: -20px;
+            color: colors.$bleuFoncer;
+        }
+    }
+}
+
+.nouvelle-img {
+    background-image: url(../media/icone/accueil_main_transparence.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+/*
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 100%;
+    }
+    .nouvellle {
+        padding: 20px;
+        &__date {
+            text-align: center;
+        }
+    }
+}
+*/
+
+@media (max-width: 375px) {
+    .enveloppe-nouvelle {
+        padding: 0px;
+    }
+
+    img {
+        width: 59%;
+    }
+}
+
+@media (max-width: 768px) {
+    .enveloppe-nouvelle {
+        padding: 0px;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+.mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
+    background: none;
+    border: none;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}

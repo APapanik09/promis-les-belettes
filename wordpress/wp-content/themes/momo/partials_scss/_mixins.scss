@@ -1,0 +1,53 @@
+@use "colors";
+@use "fonts";
+
+@mixin card {
+  background-color: colors.$bleuFoncer;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+
+  overflow-y: hidden;
+}
+
+@mixin cardHover {
+  background-color: colors.$blanc;
+  color: colors.$bleuFoncer;
+  padding: 10px;
+  margin: 5%;
+  height: 325px;
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+
+  overflow-y: hidden;
+}
+
+@mixin service {
+  object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: colors.$bleuFoncer;
+
+}
+
+@mixin titre {
+  text-align: center;
+  margin-top: 5%;
+
+}
+
+@mixin sectionhero {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  color: colors.$bleuFoncer;
+  position: relative;
+  padding: 2%;
+  background-color: colors.$rosepale;
+}

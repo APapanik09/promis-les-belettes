@@ -1,0 +1,200 @@
+@use "fonts";
+@use "colors";
+@use "banniere";
+@use "footer";
+@use "mixins";
+
+.hero-nouvelles {
+    @include mixins.sectionhero;
+
+    .titre-nouvelles {
+        text-align: center;
+        font-family: sunday;
+
+        padding: 10px;
+    }
+
+    .texte-hero-nouvelles {
+
+        font-family: dosis;
+        padding: 3%;
+        font-weight: 300;
+
+        text-align: center;
+    }
+}
+.titre__nouvelle{
+    text-align: center;
+}
+.nouvelles {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+
+    .card-title {
+        @include mixins.titre;
+    }
+
+    &__sarah {
+        background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
+        background-size: cover;
+        @include mixins.service;
+    }
+
+    &__demenagement {
+        background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__reseautage {
+        background-image: url(../media/nouvelles/etudier.png);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__hebergement {
+        background-image: url(../media/nouvelles/hebergement_femme.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__vivre-ensemble {
+        background-image: url(../media/nouvelles/journee-vivre-ensemble.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__organisation {
+        background-image: url(../media/nouvelles/reorientation_carriere.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__temoignager {
+        background-image: url(../media/nouvelles/temoignage.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__besoins {
+        background-image: url(../media/nouvelles/assurence.jpg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__hiver {
+        background-image: url(../media/nouvelles/hiver_montreal.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__partener {
+        background-image: url(../media/nouvelles/parrainer_partenaire.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__etudier {
+        background-image: url(../media/nouvelles/etudier.png);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__citoyennete {
+        background-image: url(../media/nouvelles/citoyennete.jpg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__normes {
+        background-image: url(../media/nouvelles/norme_travail.jpeg);
+        @include mixins.service;
+        background-size: cover;
+    }
+
+    &__permis {
+        background-image: url(../media/nouvelles/assurence.jpg);
+        @include mixins.service;
+        background-size: cover;
+    }
+}
+
+.nouvelles {
+    .card-body {
+        position: relative;
+        bottom: -160px;
+        display: flex;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.805);
+
+        h5 {
+            font-size: 24px;
+            padding: none;
+            color: colors.$bleuFoncer;
+            margin: none;
+
+            .col-sm-12 {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            color: colors.$bleuFoncer;
+            width: 100%;
+            margin: none;
+        }
+    }
+}
+
+.dropdown.order {
+    width: 100%;
+    text-align: center;
+
+    .btn {
+        background-color: colors.$bleuFoncer;
+        color: colors.$blanc;
+    }
+    
+}
+
+.firstnews {
+    margin: 20px 40px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 15px auto;
+
+    .card-body {
+        max-width: 100%;
+
+    }
+
+    .card-img-top {
+        max-height: 250px;
+        object-fit: cover;
+
+    }
+
+}
+
+.firstnews.card:hover {
+    box-shadow: 10px 10px colors.$orangeFonce;
+}
+
+.plusnews {
+    background-color: colors.$bleuFoncer;
+    color: colors.$blanc;
+    max-width: 200px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+@use 'colors';
+@use 'fonts';
+
+
+footer {
+    background-color: colors.$orangeFonce;
+    font-family: 'dosis';
+    padding: 35px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.logofooter {
+    margin-bottom: 15px;
+
+}
+button.footerbtn {
+    color: white;
+    background-color: colors.$bleuFoncer;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+i {
+    margin: 10px;
+}
+
+
