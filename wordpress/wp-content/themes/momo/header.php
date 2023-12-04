@@ -39,21 +39,52 @@
 >
 
 <header>
-	<h1>
-		<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?></a>
-	</h1>
+	<div class="banniere">
+            <div class="banniere__lienPromis">
+                <p>Projet étudiant créé par Les belettes basé sur<a href="https://promis.qc.ca/fr/"> le site Promis
+                        .</a></p>
+                <div class="quitter"><img src="../media/x.png" alt="bouton x"></div>
+            </div>
+        </div>
+        <section class="barreNav">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <div class="container">
+                    <!-- Hamburger button -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-	<nav>
-		<?php 
-			// Affiche un menu si dans le tableau de bord un menu a été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-		?>
-	</nav>
-
-	<?php 
-		// Affiche la description de site se trouvant dans "General Settings" dans l'admin WordPress
-		bloginfo( 'description' ); 
-	?>
+                    <!-- Navigation -->
+                    <a class="navbar__logo navbar-brand" href="index.html"><img src="media/icone/logo_orange.png" alt=""></a>
+                    <div id="mainNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="hub_services.html" class="nav-link">Nos services</a>
+                            </li>
+                            <!--élément du menu-->
+                            <li class="nav-item">
+                                <a href="hub_nouvelle.html" class="nav-link">Nouvelles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="equipe.html" class="nav-link">Équipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="A_Propos.html" class="nav-link">À propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="histoire.html" class="nav-link">Notre histoire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq.html" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="bouton-don">  <a href="#" >Don</a></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
 </header>
 
 <main><!-- Débute le contenu principal de notre site -->

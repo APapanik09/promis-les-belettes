@@ -6,6 +6,9 @@
 get_header(); // Affiche header.php
 
 get_template_part( 'partials/404' ); // Affiche partials/404.php
-		
+
+
+get_sidebar(); // Affiche le contenu de sidebar.php		
 get_footer(); // Affiche footer.php 
 ?>
+

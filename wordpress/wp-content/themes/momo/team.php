@@ -26,10 +26,6 @@ else : // Si aucune page n'a été trouvée
 	get_template_part( 'partials/404' ); // Affiche partials/404.php
 endif; 
 ?>
-<?php
-  $projects = new WP_Query('post_type=equipe');
-  while ($projects->have_posts()) : $projects->the_post(); 
-?>
 
 <section>
 <div class="hero-equipe ">
@@ -249,9 +245,7 @@ endif;
 
 </section>
 
-
-<?
-
+<?php
 get_sidebar(); // Affiche le contenu de sidebar.php
 get_footer(); // Affiche footer.php 
 ?>
