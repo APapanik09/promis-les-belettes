@@ -164,8 +164,11 @@ gsap.to(".oiseau", {
 
 /* fin animation motion path */
 
+
+
 /* animation au click don avce timeline*/
 
+if(don != undefined) {
 don.addEventListener("click", function() {
     gsap
         .timeline()
@@ -179,12 +182,15 @@ don.addEventListener("click", function() {
             scale: 1.2,
         })
         .to(".dollar", { autoAlpha: 0, duration: 1 });
-});
+})};
 /* fin animation au click*/
 
 // Timeline anim 404
 
 //anim 404
+
+
+
 
 gsap.timeline()
 .to('.oiseauquatre', { x: '-120vw', duration: 4 })
@@ -194,4 +200,4 @@ gsap.timeline()
 
 
 // Modal Equipe
-$('#myModal').modal(options)
+//$('#myModal').modal(options)
