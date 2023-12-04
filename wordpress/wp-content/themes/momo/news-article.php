@@ -92,82 +92,34 @@ endif;
 
             <div class="swiper-wrapper ">
                 <!-- Slides -->
-
+                <?php
+                $projects = new WP_Query('post_type=nouvelle');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
                 <!--Déménagement 
           ---------------------------------------------------------->
                 <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
                     <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+                    <div style="background-image:url('<?php the_post_thumbnail_url() ?>')" >
 
                         <div class="nouvelle card-body ">
+                        
 
-                            <h3 itemprop="title" class="card-title col-12">Réussir son déménagement </h3>
+                            <h3 itemprop="title" class="card-title col-12"><?php the_title()?> </h3>
 
 
-                            <h5 itemprop="datePublished" class="card-text">1 juin 2023</h5>
+                            <h5 itemprop="datePublished" class="card-text"><?php the_field("date")?></h5>
 
                         </div>
                     </div>
                 </div>
-                <!--francisation
-          ---------------------------------------------------------->
-                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide ">
-                    <div class="card-2 nouvelle__sarah col-10 col-md-11 col-lg-6">
-                        <div class="nouvelle card-body ">
-
-                            <h3 itemprop="title" class="card-title col-12">La contribution de Sarah</h3>
-
-                            <h5 itemprop="datePublished" class="card-text">29 juin 2023</h5>
-                        </div>
-                    </div>
                 </div>
-                <!--famille
-          ---------------------------------------------------------->
-                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide ">
-                    <div class="card-3 col-md-11 col-10 col-lg-6 nouvelle__reseautage">
-                        <div class="nouvelle card-body ">
+                <?php
+  endwhile; 
+  wp_reset_postdata(); 
+?>
 
-                            <h3 itemprop="title" class="card-title col-12">La puissance du réseautage</h3>
-                            <h5 itemprop="datePublished" class="card-text">3 mai 2023</h5>
-                        </div>
-                    </div>
-                </div>
-                <!--citoyennete 
-          ---------------------------------------------------------->
-
-
-                <!--vivre ensemble
-          ---------------------------------------------------------->
-                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide ">
-                    <div class="  nouvelle__vivre-ensemble card-5 col-10 col-md-11 col-lg-6">
-                        <div class="nouvelle card-body ">
-
-                            <h3 itemprop="title" class="card-title col-12">Journée nationale du vivre-ensemble</h3>
-
-
-                            <h5 itemprop="datePublished" class="card-text"> 12 janvier 2023</h5>
-
-                        </div>
-                    </div>
-                </div>
-                <!--hebergement
-          ---------------------------------------------------------->
-
-
-                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide">
-                    <div class=" nouvelle__hebergement card-7 col-10 col-md-11 col-lg-6">
-                        <div class="nouvelle card-body ">
-
-                            <h5 itemprop="title" class="card-title col-12">Un lieu d'hébergement pour les femmes</h5>
-
-
-                            <p itemprop="datePublished" class="card-text"> 26 janvier 2021</p>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
+           
 
             <!-- scrollbar -->
             <div class="swiper-scrollbar"></div>
