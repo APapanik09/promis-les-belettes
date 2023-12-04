@@ -1,8 +1,8 @@
 <section class="quatre-contenu">
-            <img src="media/icone/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_quatre">
-            <img src="media/icone/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_trois">
-            <img src="media/icone/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_deux">
-            <img src="media/icone/oiseauquatre1.png" alt="oiseau" class="oiseauquatre">
+            <img src="<?php bloginfo('template_url'); ?>/images/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_quatre">
+            <img src="<?php bloginfo('template_url'); ?>/images/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_trois">
+            <img src="<?php bloginfo('template_url'); ?>/images/oiseauquatre1.png" alt="oiseau" class="oiseauquatre_deux">
+            <img src="<?php bloginfo('template_url'); ?>/images/oiseauquatre1.png" alt="oiseau" class="oiseauquatre">
             
             <div class="container-fluid quatre">
                 <div class="row">
