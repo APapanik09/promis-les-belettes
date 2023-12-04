@@ -182,24 +182,16 @@ don.addEventListener("click", function() {
 });
 /* fin animation au click*/
 
-// Motionpath anim 404
+// Timeline anim 404
 
-let animquatre =
+//anim 404
 
-    gsap.to('.birdfour', {
-        motionPath: {
-            path: '.volbird',
-            align: '.volbird',
-            autoRotate: true,
-            start: 0,
-            end: 0.55,
-            alignOrigin: [0.5, 0.7],
-            xPercent: 50,
-            yPercent: 90,
-        },
-        duration: 10,
-        yoyo: true,
-    });
+gsap.timeline()
+.to('.oiseauquatre', { x: '-120vw', duration: 4 })
+.to('.oiseauquatre_deux', { x: '-120vw',duration: 4 },)
+.to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
+.to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
+
 
 // Modal Equipe
 $('#myModal').modal(options)
