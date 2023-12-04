@@ -83,30 +83,29 @@ const swiperP = new Swiper(".swiper-p", {
     },
 });
 
-/* banniere x cliquable*/
+let quitter = document.querySelector(".quitter");
+let banniere = document.querySelector('.banniere');
+if (quitter) {
+    /* banniere x cliquable*/
+    if (localStorage.getItem("quitter")) {
 
 
-var quitter = document.querySelector(".quitter");
-objectJavascript = document.getElementById('.banniere');
-/*save_button.onclick = saveData;*/
-
-/*function saveData() {
-    var input = document.getElementById("saveServer");
-    localStorage.setItem("server", input.value);
-    var storedValue = localStorage.getItem("server");
-}*/
-
-localStorage.setItem("quitter", "bouton");
-
-/*quitter.onclick = function() {
-    objectJavascript.style["border-right-color"];
+    } else {
+        banniere.style.display = "block";
+    }
 
 
 
-    localStorage.getItem("quitter");
-}*/
+    quitter.addEventListener("click", myFunction);
+
+    function myFunction() {
 
 
+        localStorage.setItem("quitter", "bouton");
+        banniere.style.display = "none";
+    }
+
+}
 gsap.registerPlugin(ScrollTrigger);
 
 /* animation page histoire */
@@ -188,14 +187,10 @@ if (don) {
 //anim 404
 
 gsap.timeline()
-.to('.oiseauquatre', { x: '-120vw', duration: 4 })
-.to('.oiseauquatre_deux', { x: '-120vw',duration: 4 },)
-.to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
-.to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
+    .to('.oiseauquatre', { x: '-120vw', duration: 4 })
+    .to('.oiseauquatre_deux', { x: '-120vw', duration: 4 }, )
+    .to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
+    .to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
 
 // Modal Equipe
 //$('#myModal').modal(options)
-
-
-
-

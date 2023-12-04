@@ -97,15 +97,29 @@ objectJavascript = document.getElementById('.banniere');
     var storedValue = localStorage.getItem("server");
 }*/
 
-localStorage.setItem("quitter", "bouton");
+let quitter = document.querySelector(".quitter");
+let banniere = document.querySelector('.banniere');
+if (quitter) {
+    /* banniere x cliquable*/
+    if (localStorage.getItem("quitter")) {
 
-/*quitter.onclick = function() {
-    objectJavascript.style["border-right-color"];
+
+    } else {
+        banniere.style.display = "block";
+    }
 
 
 
-    localStorage.getItem("quitter");
-}*/
+    quitter.addEventListener("click", myFunction);
+
+    function myFunction() {
+
+
+        localStorage.setItem("quitter", "bouton");
+        banniere.style.display = "none";
+    }
+
+}
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -193,10 +207,10 @@ don.addEventListener("click", function() {
 
 
 gsap.timeline()
-.to('.oiseauquatre', { x: '-120vw', duration: 4 })
-.to('.oiseauquatre_deux', { x: '-120vw',duration: 4 },)
-.to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
-.to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
+    .to('.oiseauquatre', { x: '-120vw', duration: 4 })
+    .to('.oiseauquatre_deux', { x: '-120vw', duration: 4 }, )
+    .to('.oiseauquatre_trois', { x: '-120vw', duration: 4 }, "<-1")
+    .to('.oiseauquatre_quatre', { x: '-120vw', duration: 4 }, "<-2");
 
 
 // Modal Equipe
