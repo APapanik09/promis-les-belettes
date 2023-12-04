@@ -87,15 +87,6 @@ const swiperP = new Swiper(".swiper-p", {
 /* banniere x cliquable*/
 
 
-var quitter = document.querySelector(".quitter");
-objectJavascript = document.getElementById('.banniere');
-/*save_button.onclick = saveData;*/
-
-/*function saveData() {
-    var input = document.getElementById("saveServer");
-    localStorage.setItem("server", input.value);
-    var storedValue = localStorage.getItem("server");
-}*/
 
 let quitter = document.querySelector(".quitter");
 let banniere = document.querySelector('.banniere');
@@ -182,21 +173,22 @@ gsap.to(".oiseau", {
 
 /* animation au click don avce timeline*/
 
-if(don != undefined) {
-don.addEventListener("click", function() {
-    gsap
-        .timeline()
-        .to(".oiseau", { display: "none" })
-        .to(".dollar", { autoAlpha: 1, duration: 1 })
-        .to(".dollar", {
-            y: "-300%",
-            rotate: 360,
-            duration: 1,
-            x: "200%",
-            scale: 1.2,
-        })
-        .to(".dollar", { autoAlpha: 0, duration: 1 });
-})};
+if (don != undefined) {
+    don.addEventListener("click", function() {
+        gsap
+            .timeline()
+            .to(".oiseau", { display: "none" })
+            .to(".dollar", { autoAlpha: 1, duration: 1 })
+            .to(".dollar", {
+                y: "-300%",
+                rotate: 360,
+                duration: 1,
+                x: "200%",
+                scale: 1.2,
+            })
+            .to(".dollar", { autoAlpha: 0, duration: 1 });
+    })
+};
 /* fin animation au click*/
 
 // Timeline anim 404

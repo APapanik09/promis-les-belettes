@@ -38,9 +38,8 @@
 		 etc. */
 	?>
 >
-
 <header>
-	<div class="banniere">
+        <div class="banniere">
             <div class="banniere__lienPromis">
                 <p>Projet étudiant créé par Les belettes basé sur<a href="https://promis.qc.ca/fr/"> le site Promis
                         .</a></p>
@@ -86,6 +85,6 @@
                 </div>
             </nav>
         </section>
-</header>
 
+    </header>
 <main><!-- Débute le contenu principal de notre site -->
