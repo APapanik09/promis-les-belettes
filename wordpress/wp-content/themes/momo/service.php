@@ -22,6 +22,17 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	</article>
 <?php endwhile; // Fermeture de la boucle
 
+           $featured_posts = get_field('service');
+             if( $featured_posts ): ?>
+
+            <?php foreach( $featured_posts as $post ): 
+    
+             // Setup this post for WP functions (variable must be named $post).
+            setup_postdata($post); ?>
+			
+			
+			
+			<?php 
 else : // Si aucune page n'a été trouvée
 	get_template_part( 'partials/404' ); // Affiche partials/404.php
 endif;
