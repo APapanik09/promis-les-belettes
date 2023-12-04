@@ -14,12 +14,10 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
-			<h2>
-				<?php the_title(); // Titre de la page ?>
-			</h2>
+	
 		<?php endif; ?>
 		
-		<?php the_content(); // Contenu principal de la page ?>
+	
 	</article>
 <?php endwhile; // Fermeture de la boucle
 
@@ -39,11 +37,13 @@ endif;
 	
   <section>
   <div itemscope itemtype="article">
-        <div class="nouvellle col d-flex flex-column justify-content-end align-items-center text-align-center ">
+        <div style="background-image:url('<?php the_post_thumbnail_url() ?>')" class="nouvellle col d-flex flex-column justify-content-end align-items-center text-align-center ">
             <div class=" col-12 d-flex justify-content-end align-items-center flex-column ">
+			
 			<h3 class="nouvellle__categorie  pt-1" itemprop="genre"> <?php the_field("categorie")?></h3>
                 <h1 itemprop="titre" class="nouvellle__titre col-12 align-self-end" itemprop="title"> <?php the_title()?></h1>
                 <h3 class="nouvellle__date pb-1"><time itemprop="datePublished"> <?php the_field("date")?></time></h3>
+				
             </div>
 			</div>
         </div>

@@ -13,9 +13,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
-			<h2>
-				<?php the_title(); // Titre de la page ?>
-			</h2>
+		
 		<?php endif; ?>
 		
 		<?php the_content(); // Contenu principal de la page ?>
@@ -85,11 +83,10 @@ endif;
     <!-- Debut Section Histoire-->
     <section class="section-histoire d-flex ">
         <div class="enveloppe histoire align-items-center justify-content-center">
-            <div class="container paragraphe-histoire"
+            <div class="container paragraphe-histoire">
                 <div class="row enveloppe">
                     <h2 class="histoire col-sm-12  col-xl-12 "><?php the_field("histoire") ?></h2>
-                    <h4 class="histoire__texte col-sm-12 col-xl-12 text-align-center"><?php the_field("texte_histoire") ?>
-                </h4>
+                    <h4 class="histoire__texte col-sm-12 col-xl-12 text-align-center"><?php the_field("texte_histoire") ?></h4>
                     <h2 class="histoire__Mg   col-sm-12  col-xl-12  text-align-center" <?php the_field("residence") ?>></h2>
                     <h4 class="texte-histoire col-sm-12  col-xl-12 text-align-center"><?php the_field("residence_texte") ?></h4>
 
