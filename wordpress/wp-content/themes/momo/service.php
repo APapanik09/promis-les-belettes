@@ -1,7 +1,7 @@
 <?php 
 /**
  * 	Template Name: service
- 
+ * Template Post Type: carte-service
  * 	Identique à page, mais avec une barre latérale
  */
 

@@ -1,0 +1,15 @@
+{
+    "post_types": {
+        "accueil-hero": {},
+        "carte-service": {},
+        "equipe": {},
+        "faq": {},
+        "footer": {},
+        "histoire": {},
+        "nouvelle": {},
+        "a-propos": {},
+        "temoignage": {}
+
+
+    }
+}
