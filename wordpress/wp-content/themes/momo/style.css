@@ -22,6 +22,7 @@ Version: 1.0
   position: relative;
   width: 100vw;
   background-color: #FC9478;
+  display: none;
 }
 .banniere__lienPromis {
   font-family: dosis;
