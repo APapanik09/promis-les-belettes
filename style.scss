@@ -1,23 +1,16 @@
-/*
-Theme Name: Promis
-Author: Jolyanne Desjardins, Laurie Houde, Alexia Papanikolaou
-Author URI: https://github.com/APapanik09/promis-les-belettes
-Description: Thème de l'organisme Promis fait par des belettes
-Version: 1.0
--------------------------------------------------------------- */
+@use "partials/banniere";
+@use "partials/fonts";
+@use "partials/navbar";
+@use "partials/colors";
+@use "partials/mixins";
+@use "partials/footer";
+@use "partials/faq";
+@use "partials/histoire";
+@use "partials/quatre";
+@use "partials/equipe";
+@use "partials/nouvelles";
+@use "partials/detail_nouvelle";
 
-@use "partials_scss/banniere";
-@use "partials_scss/fonts";
-@use "partials_scss/navbar";
-@use "partials_scss/colors";
-@use "partials_scss/mixins";
-@use "partials_scss/footer";
-@use "partials_scss/faq";
-@use "partials_scss/histoire";
-@use "partials_scss/quatre";
-@use "partials_scss/equipe";
-@use "partials_scss/nouvelles";
-@use "partials_scss/detail_nouvelle";
 html {
     overflow-x: hidden;
 }
@@ -59,6 +52,7 @@ h4 {
 
 h5 {
     font-size: 20px;
+
     .col-sm-12 {
         font-size: 20px;
     }
@@ -78,17 +72,21 @@ p {
         line-height: 1.5;
         font-size: 30px;
     }
+
     h2 {
         font-size: 47px;
         object-fit: cover;
     }
+
     h3 {
         font-size: 27px;
     }
+
     h4 {
         font-family: dm-sans !important;
         font-weight: 500;
     }
+
     p {
         font-size: 30px;
     }
@@ -102,18 +100,22 @@ p {
         line-height: 1.3;
         font-size: 20px;
     }
+
     h2 {
         font-size: 47px;
         object-fit: cover;
     }
+
     h3 {
         font-size: 30px;
     }
+
     h4 {
         font-family: dm-sans !important;
         font-weight: 500;
         font-size: 20px !important;
     }
+
     p {
         font-size: 25px;
     }
@@ -127,19 +129,23 @@ p {
         line-height: 1.4;
         font-size: 25px;
     }
+
     h2 {
         font-size: 40px;
         object-fit: cover;
     }
+
     h3 {
         font-size: 40px;
     }
+
     h4 {
         font-family: dm-sans !important;
         font-weight: 500;
         font-size: 20px !important;
         padding: 30px;
     }
+
     p {
         font-size: 18px;
     }
@@ -149,12 +155,15 @@ p {
     h2 {
         font-size: 25px;
     }
+
     h2 {
         font-size: 25px;
     }
+
     h3 {
         font-size: 40px;
     }
+
     h4 {
         font-family: dm-sans !important;
         font-weight: 500;
@@ -208,6 +217,7 @@ p {
 @for $index from 0 through 7 {
     .card-#{$index} {
         @include mixins.card;
+
         .card-text {
             .btn-#{$index} {
                 .btn-#{$index} {
@@ -219,21 +229,26 @@ p {
             }
         }
     }
+
     .hero {
         padding: 30px;
         background-color: colors.$rosepale;
+
         &__question {
             font-family: dosis;
             font-weight: 700;
             text-align: center;
             padding-bottom: 20px;
         }
+
         &__option {
             font-family: dosis;
             text-align: center;
         }
     }
+
     @media (min-width: 992px) {
+
         .container,
         .container-lg,
         .container-md,
@@ -241,20 +256,24 @@ p {
             max-width: 12000px;
         }
     }
+
     /******************************** 2ème swiper*****************************/
     .rendez-vous__accueil {
         display: flex;
         justify-content: center;
         width: 100%;
+
         &--container {
             justify-content: center;
             margin: 2%;
             width: 100%;
             padding-bottom: 2%;
         }
+
         &--row {
             align-items: flex-end;
         }
+
         &--bouton {
             height: 40px;
             background-color: colors.$orangeFonce;
@@ -263,10 +282,12 @@ p {
             border-radius: 10px;
             align-items: end;
         }
+
         &--body {
             padding: 30px;
         }
     }
+
     /******************************** 3ème swiper*****************************/
     .evenement__calendrier::before {
         content: ' ';
@@ -277,6 +298,7 @@ p {
         height: 1.5em;
         margin-right: 0.5em;
     }
+
     .evenement__heure::before {
         content: ' ';
         display: inline-block;
@@ -286,6 +308,7 @@ p {
         height: 1.5em;
         margin-right: 0.5em;
     }
+
     .evenement__prix::before {
         content: ' ';
         display: inline-block;
@@ -295,6 +318,7 @@ p {
         height: 1.5em;
         margin-right: 0.5em;
     }
+
     .evenement__lieu::before {
         content: ' ';
         display: inline-block;
@@ -304,29 +328,36 @@ p {
         height: 1.5em;
         margin-right: 0.5em;
     }
+
     .image_evenement {
         width: 100%;
     }
+
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
     //Lien
     .lien {
         color: colors.$blanc;
         text-decoration: none;
+
         &-titre {
             color: colors.$orangeFonce;
             text-decoration: none;
         }
     }
+
     .carte-service:hover {
         @include mixins.cardHover;
     }
+
     .service {
         padding: 10px;
+
         &-titre {
             color: colors.$orangeFonce;
         }
     }
+
     //Swipper service
     .swiper-slide {
         width: auto;
@@ -335,16 +366,20 @@ p {
         margin-top: 20px;
         justify-content: center;
     }
+
     .swiper {
         margin: 20px;
     }
+
     // Card Service
     .service .card {
         height: 370px !important;
         width: 420px;
+
         .autres {
             height: 488px !important;
         }
+
         &__accueil {
             object-fit: contain;
             background-position: center;
@@ -353,6 +388,7 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__francisation {
             object-fit: contain;
             background-position: center;
@@ -361,6 +397,7 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__famille {
             object-fit: contain;
             background-position: center;
@@ -369,6 +406,7 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__scolaire {
             object-fit: contain;
             background-position: center;
@@ -377,6 +415,7 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__emplois {
             object-fit: contain;
             background-position: center;
@@ -385,6 +424,7 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         &__alimentation {
             object-fit: contain;
             background-position: center;
@@ -393,9 +433,11 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }
+
         .card-title {
             color: colors.$orangeFonce !important;
         }
+
         .card-text {
             margin-top: 10%;
             margin-bottom: 10%;
@@ -403,6 +445,7 @@ p {
             font-size: 20px;
         }
     }
+
     //ajuster l'écriture
     /* @media (max-width: 987px) {
         .card-text {
@@ -431,8 +474,10 @@ p {
         justify-content: center;
         padding-top: 5%;
     }
+
     // Rendre le container responsive
     @media (min-width: 1400px) {
+
         .service__container,
         .service__container-lg,
         .container-md,
@@ -442,30 +487,38 @@ p {
             max-width: 20029px;
         }
     }
+
     /*SERVICE VERSION ORDI
 ************************************************/
     .service {
         &__titre {
             @include mixins.titre;
         }
+
         &__accueil {
             @include mixins.service;
         }
+
         &__francisation {
             @include mixins.service;
         }
+
         &__famille {
             @include mixins.service;
         }
+
         &__scolaire {
             @include mixins.service;
         }
+
         &__emplois {
             @include mixins.service;
         }
+
         &__alimentaire {
             @include mixins.service;
         }
+
         .accueil::after {
             content: '';
             display: inline-block;
@@ -478,6 +531,7 @@ p {
             left: 50px;
             top: 20px;
         }
+
         .francisation::after {
             content: '';
             display: inline-block;
@@ -490,6 +544,7 @@ p {
             left: 50px;
             top: 17px;
         }
+
         .famille::after {
             content: '';
             display: inline-block;
@@ -502,6 +557,7 @@ p {
             left: 50px;
             top: 20px;
         }
+
         .scolaire::after {
             content: '';
             display: inline-block;
@@ -514,6 +570,7 @@ p {
             left: 50px;
             top: 20px;
         }
+
         .emplois::after {
             content: '';
             display: inline-block;
@@ -526,6 +583,7 @@ p {
             left: 50px;
             top: 20px;
         }
+
         .alimentaire::after {
             content: '';
             display: inline-block;
@@ -539,39 +597,47 @@ p {
             top: 20px;
         }
     }
+
     /*****NOUVELLE
 ************************************************/
     .nouvelle {
         padding: 30px;
+
         &__titre {
             @include mixins.titre;
         }
+
         &__sarah {
             background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
             background-size: cover;
             @include mixins.service;
         }
+
         &__demenagement {
             background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
             @include mixins.service;
             background-size: cover;
         }
+
         &__reseautage {
             background-image: url(/media/nouvelles/etudier.png);
             @include mixins.service;
             background-size: cover;
         }
+
         &__hebergement {
             background-image: url(/media/nouvelles/hebergement_femme.jpeg);
             @include mixins.service;
             background-size: cover;
         }
+
         &__vivre-ensemble {
             background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
             @include mixins.service;
             background-size: 100%;
         }
     }
+
     // Détails pour les cartes
     .nouvelle {
         .card-body {
@@ -586,12 +652,14 @@ p {
             align-items: flex-end;
             justify-content: space-around;
             background-color: rgba(255, 255, 255, 0.805);
+
             h5 {
                 padding: none;
                 position: relative;
                 top: 10px;
                 color: colors.$bleuFoncer;
             }
+
             p {
                 font-size: 18px;
                 position: relative;
@@ -599,11 +667,13 @@ p {
                 top: -20px;
                 color: colors.$bleuFoncer;
             }
+
             .card-title {
                 color: colors.$bleuFoncer;
             }
         }
     }
+
     // bouton autre nouvelle
     .btn-nouvelle {
         background-color: #F4E6EF;
@@ -615,15 +685,18 @@ p {
         top: 25px;
         text-decoration: none;
     }
+
     .btn-nouvelle:hover {
         background-color: colors.$bleuFoncer;
         color: colors.$blanc;
     }
+
     /*****TÉMOIGNAGE
 *****************************************/
     .temoignage {
         background-color: colors.$blanc;
         padding: 10px;
+
         &__body {
             background-image: url(/media/icone/cercle_don.png);
             z-index: 10;
@@ -634,29 +707,35 @@ p {
             border: none;
             border-radius: 10px;
         }
+
         &__container {
             justify-content: center;
         }
+
         &__image {
             border-radius: 10px;
             object-fit: cover;
             max-height: 250px !important;
         }
+
         &__card {
             background-position: center;
             display: flex;
             border: none;
         }
+
         &__citation {
             justify-content: center;
             position: relative;
             margin: 0 auto;
         }
+
         &__titre {
             @include mixins.titre;
             padding-bottom: 5% !important;
         }
     }
+
     /* DON
 ***********************************************************/
     .don {
@@ -665,6 +744,7 @@ p {
         padding: 3%;
         display: flex;
         position: relative;
+
         &__body {
             background-color: colors.$bleuFoncer;
             background-image: url(/media/icone/CERCLE\ 1.png);
@@ -672,9 +752,11 @@ p {
             border-radius: 10px;
             border: none;
         }
+
         &__container {
             justify-content: center;
         }
+
         &__bouton {
             border-radius: 10px;
             font-size: 20px;
@@ -683,6 +765,7 @@ p {
             border: none;
             margin: 0 auto;
         }
+
         &__card-text {
             margin-top: 10%;
             margin-bottom: 10%;
@@ -691,12 +774,14 @@ p {
             color: colors.$blanc;
         }
     }
+
     /*ANIMATION DON
 ***************************************************/
     .anim {
         position: relative;
         top: -90px;
     }
+
     svg .anim.oiseau {
         top: 50px;
         display: block;
@@ -707,6 +792,7 @@ p {
         width: 40px;
         height: 40px;
     }
+
     .oiseau-trace {
         display: inline-block;
         width: 30px;
@@ -714,6 +800,7 @@ p {
         padding: 0;
         position: absolute;
     }
+
     .dollar {
         position: absolute;
         text-align: center;
@@ -722,6 +809,7 @@ p {
         top: 70px;
         height: 40px;
     }
+
     /*.oiseau {
     position: absolute;
     text-align: center;
@@ -733,8 +821,10 @@ p {
     .part {
         background-color: colors.$bleuFoncer;
     }
+
     .partenaires {
         text-align: center;
+
         img {
             padding: 5px;
             max-width: 19vw;
@@ -742,6 +832,7 @@ p {
             box-sizing: border-box;
         }
     }
+
     /*HUB DE SERVICE  JOLYANNE********************************
 **********************************************************/
     .hub-services {
@@ -749,17 +840,20 @@ p {
             @include mixins.sectionhero;
             padding-bottom: 5%;
         }
+
         &__titre {
             .col-12 {
                 font-size: 40px;
                 line-height: 2;
             }
+
             text-align: center;
             font-family: sunday;
             font-size: 60px;
             padding: 10px;
             line-height: 2;
         }
+
         &__texte {
             font-family: dosis;
             padding: 3%;
@@ -768,14 +862,18 @@ p {
             font-size: 25px;
         }
     }
+
     .container-xl {
         max-width: 20000px;
     }
+
     .service {
         padding: 10px;
+
         &__container {
             margin-bottom: 5%;
         }
+
         /* &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
             object-fit: contain;
@@ -842,6 +940,7 @@ p {
             background-color: colors.$bleuFoncer;
         }*/
     }
+
     //Swipper service
     .swiper-slide {
         width: auto;
@@ -850,6 +949,7 @@ p {
         margin-top: 20px;
         justify-content: center;
     }
+
     /*.card-body {
     height: 200px;
   }*/
@@ -904,9 +1004,11 @@ p {
     .detail {
         @include mixins.sectionhero;
         line-height: 2 !important;
+
         &__hero {
             padding-bottom: 5%;
         }
+
         &__titre {
             line-height: 2;
             text-align: center;
@@ -914,6 +1016,7 @@ p {
             font-size: 55px;
             padding: 10px;
         }
+
         &__texte {
             font-family: dosis;
             padding: 3%;
@@ -922,6 +1025,7 @@ p {
             font-size: 25px;
         }
     }
+
     /* @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
@@ -957,13 +1061,16 @@ p {
     .rendez-vous {
         display: flex;
         justify-content: center;
+
         &__container {
             justify-content: center;
             margin: 2%;
         }
+
         &__row {
             align-items: flex-end;
         }
+
         &__bouton {
             height: 40px;
             background-color: colors.$orangeFonce;
@@ -971,22 +1078,27 @@ p {
             border-radius: 10px;
             align-items: end;
         }
+
         &__body {
             padding: 30px;
         }
     }
+
     /* À PROPOS LAURIE *****************************************
 ***************************************************************/
     * {
         box-sizing: border-box;
     }
+
     /*PARTENAIRES
 *******************************************************/
     .part {
         background-color: colors.$bleuFoncer;
     }
+
     .partenaires {
         text-align: center;
+
         img {
             padding: 5px;
             max-width: 19vw;
@@ -994,10 +1106,12 @@ p {
             box-sizing: border-box;
         }
     }
+
     body {
         /* couleur de fond*/
         background-color: colors.$orangePale;
     }
+
     .enveloppe {
         background-color: white;
         width: 75vw;
@@ -1007,6 +1121,7 @@ p {
         margin-bottom: 5%;
         padding: 2%;
     }
+
     /*extend de style des paragraphe*/
     /* %titre-texte-paragraphe {
         font-family: dosis;
@@ -1030,9 +1145,11 @@ p {
             font-weight: 300px;
         }*/
     }
+
     .section-a-propos {
         color: colors.$bleuFoncer;
     }
+
     .paragraphe-a-propos {
         font-family: sunday;
         width: 100%;
@@ -1040,10 +1157,12 @@ p {
         padding-top: 5%;
         line-height: 1.8 !important;
     }
+
     .tout-sous-meme-toi {
         font-family: dosis;
         margin-top: 2%;
         margin: 10px;
+
         &.liste-a-puce {
             font-size: 22px;
             padding: 20px;
@@ -1051,21 +1170,26 @@ p {
             margin-top: 15px;
         }
     }
+
     ul {
         /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
         margin-left: 2%;
     }
+
     .mission {
+
         //   @extend %titre-texte-paragraphe;
         &.text {
             font-size: 20px;
             color: colors.$bleuFoncer;
         }
     }
+
     .Vision {
         //  @extend %titre-texte-paragraphe;
         color: colors.$bleuFoncer;
     }
+
     .valeurs {
         padding-top: 50px;
         padding-bottom: 40px;
@@ -1073,46 +1197,57 @@ p {
         font-family: dosis;
         font-weight: 700;
     }
+
     .excellence {
         margin-bottom: 2%;
         width: 100%;
         margin-top: 2%;
         color: colors.$bleuFoncer;
         font-family: dosis;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .respect {
         margin-top: 2%;
         margin-bottom: 2%;
+
         // font-family: dosis;
         &__text {
             font-family: dm-sans;
         }
     }
+
     .engagement {
         margin-top: 2%;
         margin-bottom: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .inclusion {
         margin-top: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .innovation {
         margin-top: 2%;
         font-family: dm-sans;
+
         &__text {
             font-family: dm-sans;
         }
     }
+
     .servicesLangues {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -1120,17 +1255,21 @@ p {
         font-weight: 700;
         text-align: center;
         position: relative;
+
         &__texte {
             position: relative;
         }
+
         &__facebook {
             margin-bottom: 5%;
         }
     }
+
     iframe {
         aspect-ratio: 16/9;
         margin-top: 3%;
     }
+
     /* ajuster les styles selon les differents dimensions*/
     /* @media screen and (max-width: 375px) {
         body {
