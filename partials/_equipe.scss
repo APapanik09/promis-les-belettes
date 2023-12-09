@@ -7,7 +7,7 @@
 .hero-equipe {
     @include mixins.sectionhero;
 
-    .titre-equipe {
+    /* .titre-equipe {
         text-align: center;
         font-family: sunday;
 
@@ -19,7 +19,7 @@
         font-family: dosis;
         padding: 3%;
         font-weight: 300;
-    }
+    }*/
 }
 
 
@@ -37,7 +37,7 @@
 
     }
 
-    
+
 
 
 }
@@ -71,6 +71,6 @@
 
 .text-muted {
     text-align: center;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
 }
-

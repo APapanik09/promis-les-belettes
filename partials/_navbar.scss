@@ -1,5 +1,6 @@
 @use 'colors';
 @use 'fonts';
+
 .barreNav {
     display: flex;
     justify-content: center;
@@ -9,7 +10,7 @@
     background-color: colors.$bleuFoncer;
 }
 
-.container {
+/*.container {
     display: flex;
     width: 100%;
 }
@@ -66,4 +67,4 @@ p {
 .bouton-don:hover {
     color: colors.$bleuFoncer;
     box-shadow: none;
-}
+}*/
