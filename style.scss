@@ -1262,29 +1262,27 @@ p {
         }
 
         /*extend de style des paragraphe*/
-        %titre-texte-paragraphe {
-            font-family: dosis;
-            font-style: bold;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
+        /* %titre-texte-paragraphe {
+        font-family: dosis;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+*/
         .hero-a-propos {
             @include mixins.sectionhero;
-
-            .titre-a-propos {
-                text-align: center;
-                font-family: sunday;
-                font-size: 50px;
-                padding: 10px;
-            }
-
-            .texte-hero-a-propos {
-                font-size: 20px;
-                font-family: dosis;
-                padding: 3%;
-                font-weight: 300px;
-            }
+            /*.titre-a-propos {
+            text-align: center;
+            font-family: sunday;
+            font-size: 50px;
+            padding: 10px;
+        }*/
+            /*.texte-hero-a-propos {
+            font-size: 20px;
+            font-family: dosis;
+            padding: 3%;
+            font-weight: 300px;
+        }*/
         }
 
         .section-a-propos {
