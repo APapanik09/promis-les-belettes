@@ -15722,4 +15722,197 @@ h2 {
 .text-muted {
   text-align: center;
   font-size: 14px;
+}
+
+.nouvellle {
+  background-color: #F4E6EF;
+  background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 30vh;
+}
+.nouvellle img {
+  width: 100%;
+}
+.nouvellle .col-12 {
+  text-align: center;
+}
+.nouvellle__titre {
+  font-family: sunday;
+  position: relative;
+  top: 8px;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+  padding: 2%;
+  margin: 0px;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvellle__date {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.805);
+  width: 100%;
+  top: 8px;
+}
+.nouvellle__categorie {
+  position: absolute;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.805);
+  width: 100%;
+}
+
+p .nouvellle__texte .col-12 .text-align-center {
+  font-family: dosis;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*****NOUVELLE
+************************************************/
+.nouvelle {
+  margin-right: 0;
+}
+.nouvelle__titre {
+  text-align: center;
+  margin-top: 5%;
+}
+.nouvelle__sarah {
+  background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+}
+.nouvelle__demenagement {
+  background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  background-size: cover;
+}
+.nouvelle__reseautage {
+  background-image: url(/media/nouvelles/etudier.png);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  background-size: cover;
+}
+.nouvelle__hebergement {
+  background-image: url(/media/nouvelles/hebergement_femme.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  background-size: cover;
+}
+.nouvelle__vivre-ensemble {
+  background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: unset;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #223843;
+  background-size: 100%;
+}
+
+.nouvelle {
+  padding: 30px;
+}
+.nouvelle .card-body {
+  position: relative;
+  bottom: -160px;
+  height: 140px;
+  display: flex;
+  border-radius: 10px;
+  place-content: space-between space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.805);
+}
+.nouvelle .card-body h5 {
+  font-size: 24px;
+  padding: none;
+  position: relative;
+  top: 10px;
+  color: #223843;
+}
+.nouvelle .card-body h5 .col-sm-12 {
+  font-size: 30px;
+}
+.nouvelle .card-body p {
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: -20px;
+  color: #223843;
+}
+
+.nouvelle-img {
+  background-image: url(../media/icone/accueil_main_transparence.png);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 100%;
+    }
+    .nouvellle {
+        padding: 20px;
+        &__date {
+            text-align: center;
+        }
+    }
+}
+*/
+@media (max-width: 375px) {
+  .enveloppe-nouvelle {
+    padding: 0px;
+  }
+  img {
+    width: 59%;
+  }
+}
+@media (max-width: 768px) {
+  .enveloppe-nouvelle {
+    padding: 0px;
+  }
+  img {
+    width: 200px;
+  }
+}
+.mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
+  background: none;
+  border: none;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
