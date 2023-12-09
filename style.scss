@@ -4,10 +4,9 @@
 @use "partials/colors";
 @use "partials/mixins";
 @use "partials/footer";
-@use "partials/faq";
-@use "partials/histoire";
+
 @use "partials/quatre";
-@use "partials/equipe";
+
 
 
 html {
@@ -23,12 +22,13 @@ html {
     box-sizing: border-box;
 }
 
-/*h1 {
+h1 {
     font-family: sunday;
     padding-bottom: 20px;
     text-align: center;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 65px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -59,118 +59,25 @@ h5 {
 
 p {
     font-family: dm-sans;
-    font-size: 18px;
+    font-size: 20px;
     color: colors.$blanc;
 }
 
-@media (max-width: 1200px) {
-    h1 {
-        font-family: sunday;
-        padding-bottom: 20px;
-        text-align: center;
-        line-height: 1.5;
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 47px;
-        object-fit: cover;
-    }
-
-    h3 {
-        font-size: 27px;
-    }
-
-    h4 {
-        font-family: dm-sans !important;
-        font-weight: 500;
-    }
-
-    p {
-        font-size: 30px;
-    }
-}
+@media (max-width: 1200px) {}
 
 @media (max-width: 767px) {
     h1 {
-        font-family: sunday;
-        padding-bottom: 20px;
-        text-align: center;
-        line-height: 1.3;
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 47px;
-        object-fit: cover;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    h4 {
-        font-family: dm-sans !important;
-        font-weight: 500;
-        font-size: 20px !important;
-    }
-
-    p {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 447px) {
-    h1 {
-        font-family: sunday;
-        padding-bottom: 20px;
-        text-align: center;
-        line-height: 1.4;
-        font-size: 25px;
+        font-size: 45px;
     }
 
     h2 {
         font-size: 40px;
-        object-fit: cover;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    h4 {
-        font-family: dm-sans !important;
-        font-weight: 500;
-        font-size: 20px !important;
-        padding: 30px;
-    }
-
-    p {
-        font-size: 18px;
     }
 }
 
-@media (max-width: 377px) {
-    h2 {
-        font-size: 25px;
-    }
+@media (max-width: 447px) {}
 
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    h4 {
-        font-family: dm-sans !important;
-        font-weight: 500;
-        font-size: 20px !important;
-    }
-}
-*/
-
+@media (max-width: 377px) {}
 
 
 /*Navbar
@@ -1063,13 +970,13 @@ p {
                       HUB DE SERVICE JOLYANNE
 ***********************************************************************
 **********************************************************************/
-    /* .hub-services {
+    .hub-services {
         &__hero {
             @include mixins.sectionhero;
-            padding-bottom: 5%;
+
         }
 
-        &__titre {
+        /* &__titre {
             .col-12 {
                 font-size: 40px;
                 line-height: 2;
@@ -1091,18 +998,18 @@ p {
         }
     }*/
 
-    .container-xl {
-        max-width: 20000px;
-    }
-
-    .service {
-        padding: 10px;
-
-        &__container {
-            margin-bottom: 5%;
+        .container-xl {
+            max-width: 20000px;
         }
 
-        /* &__accueil {
+        .service {
+            padding: 10px;
+
+            &__container {
+                margin-bottom: 5%;
+            }
+
+            /* &__accueil {
             background-image: url(/media/icone/accueil_main_transparence.png);
             object-fit: contain;
             background-position: center;
@@ -1167,21 +1074,21 @@ p {
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
         }*/
-    }
+        }
 
-    //Swipper service
-    .swiper-slide {
-        width: auto;
-        display: flex;
-        position: relative;
-        margin-top: 20px;
-        justify-content: center;
-    }
+        //Swipper service
+        .swiper-slide {
+            width: auto;
+            display: flex;
+            position: relative;
+            margin-top: 20px;
+            justify-content: center;
+        }
 
-    /*.card-body {
+        /*.card-body {
     height: 200px;
   }*/
-    /*@media (min-width: 1400px) {
+        /*@media (min-width: 1400px) {
   .service__container,
   .service__container-lg,
   .container-md,
@@ -1231,15 +1138,15 @@ p {
              DÉTAIL DE SERVICE JOLYANNE
 ***********************************************************************
 **********************************************************************/
-    .detail {
-        @include mixins.sectionhero;
-        line-height: 2 !important;
+        .detail {
+            @include mixins.sectionhero;
+            //line-height: 2 !important;
 
-        &__hero {
-            padding-bottom: 5%;
-        }
+            &__hero {
+                padding-bottom: 5%;
+            }
 
-        /* &__titre {
+            /* &__titre {
             line-height: 2;
             text-align: center;
             font-family: sunday;
@@ -1254,9 +1161,9 @@ p {
             font-weight: 300;
             font-size: 25px;
         }*/
-    }
+        }
 
-    /* @media (max-width: 987px) {
+        /* @media (max-width: 987px) {
         .card-text {
             font-size: 18px;
         }
@@ -1288,222 +1195,224 @@ p {
             }
         }
     }*/
-    .rendez-vous {
-        display: flex;
-        justify-content: center;
-
-        &__container {
+        .rendez-vous {
+            display: flex;
             justify-content: center;
-            margin: 2%;
+
+            &__container {
+                justify-content: center;
+                margin: 2%;
+            }
+
+            &__row {
+                align-items: flex-end;
+            }
+
+            &__bouton {
+                height: 40px;
+                background-color: colors.$orangeFonce;
+                border: none;
+                border-radius: 10px;
+                align-items: end;
+            }
+
+            &__body {
+                padding: 30px;
+            }
         }
 
-        &__row {
-            align-items: flex-end;
-        }
-
-        &__bouton {
-            height: 40px;
-            background-color: colors.$orangeFonce;
-            border: none;
-            border-radius: 10px;
-            align-items: end;
-        }
-
-        &__body {
-            padding: 30px;
-        }
-    }
-
-    /**********************************************************************
+        /**********************************************************************
                       À PROPOS LAURIE
 ***********************************************************************
 **********************************************************************/
-    * {
-        box-sizing: border-box;
-    }
-
-    /*PARTENAIRES
-*******************************************************/
-    .part {
-        background-color: colors.$bleuFoncer;
-    }
-
-    .partenaires {
-        text-align: center;
-
-        img {
-            padding: 5px;
-            max-width: 19vw;
-            object-fit: contain;
+        * {
             box-sizing: border-box;
         }
-    }
 
-    body {
-        /* couleur de fond*/
-        background-color: colors.$orangePale;
-    }
-
-    .enveloppe {
-        background-color: white;
-        width: 75vw;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 2%;
-    }
-
-    /*extend de style des paragraphe*/
-    /* %titre-texte-paragraphe {
-        font-family: dosis;
-        font-style: bold;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-*/
-    .hero-a-propos {
-        @include mixins.sectionhero;
-        /*.titre-a-propos {
-            text-align: center;
-            font-family: sunday;
-            font-size: 50px;
-            padding: 10px;
-        }*/
-        /*.texte-hero-a-propos {
-            font-size: 20px;
-            font-family: dosis;
-            padding: 3%;
-            font-weight: 300px;
-        }*/
-    }
-
-    .section-a-propos {
-        color: colors.$bleuFoncer;
-    }
-
-    /* .paragraphe-a-propos {
-        font-family: sunday;
-        width: 100%;
-        text-align: center;
-        padding-top: 5%;
-        line-height: 1.8 !important;
-    }
-
-    .tout-sous-meme-toi {
-        font-family: dosis;
-        margin-top: 2%;
-        margin: 10px;
-
-        &.liste-a-puce {
-            font-size: 22px;
-            padding: 20px;
-            margin-bottom: 0px;
-            margin-top: 15px;
+        /*PARTENAIRES
+*******************************************************/
+        .part {
+            background-color: colors.$bleuFoncer;
         }
-    }*/
 
-    ul {
-        /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
-        margin-left: 2%;
-    }
+        .partenaires {
+            text-align: center;
 
-    /* .mission {
+            img {
+                padding: 5px;
+                max-width: 19vw;
+                object-fit: contain;
+                box-sizing: border-box;
+            }
+        }
 
-        //   @extend %titre-texte-paragraphe;
-        &.text {
-            font-size: 20px;
+        body {
+            /* couleur de fond*/
+            background-color: colors.$orangePale;
+        }
+
+        .enveloppe {
+            background-color: white;
+            width: 75vw;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 2%;
+        }
+
+        /*extend de style des paragraphe*/
+        %titre-texte-paragraphe {
+            font-family: dosis;
+            font-style: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .hero-a-propos {
+            @include mixins.sectionhero;
+
+            .titre-a-propos {
+                text-align: center;
+                font-family: sunday;
+                font-size: 50px;
+                padding: 10px;
+            }
+
+            .texte-hero-a-propos {
+                font-size: 20px;
+                font-family: dosis;
+                padding: 3%;
+                font-weight: 300px;
+            }
+        }
+
+        .section-a-propos {
             color: colors.$bleuFoncer;
         }
-    }
 
-    .Vision {
-        //  @extend %titre-texte-paragraphe;
-        color: colors.$bleuFoncer;
-    }
+        .paragraphe-a-propos {
+            font-family: sunday;
+            width: 100%;
+            text-align: center;
+            padding-top: 5%;
+            line-height: 1.8 !important;
+        }
 
-    .valeurs {
-        padding-top: 50px;
-        padding-bottom: 40px;
-        text-align: center;
-        font-family: dosis;
-        font-weight: 700;
-    }
+        .tout-sous-meme-toi {
+            font-family: dosis;
+            margin-top: 2%;
+            margin: 10px;
 
-    .excellence {
-        margin-bottom: 2%;
-        width: 100%;
-        margin-top: 2%;
-        color: colors.$bleuFoncer;
-        font-family: dosis;
+            &.liste-a-puce {
+                font-size: 22px;
+                padding: 20px;
+                margin-bottom: 0px;
+                margin-top: 15px;
+            }
+        }
 
-        &__text {
+        ul {
+            /* je créer de l'espace entre l'enveloppe et les points de la liste a`puce*/
+            margin-left: 2%;
+        }
+
+        .mission {
+
+            //   @extend %titre-texte-paragraphe;
+            &.text {
+                font-size: 20px;
+                color: colors.$bleuFoncer;
+            }
+        }
+
+        .Vision {
+            //  @extend %titre-texte-paragraphe;
+            color: colors.$bleuFoncer;
+        }
+
+        .valeurs {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            text-align: center;
+            font-family: dosis;
+            font-weight: 700;
+        }
+
+        .excellence {
+            margin-bottom: 2%;
+            width: 100%;
+            margin-top: 2%;
+            color: colors.$bleuFoncer;
+            font-family: dosis;
+
+            &__text {
+                font-family: dm-sans;
+            }
+        }
+
+        .respect {
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+            // font-family: dosis;
+            &__text {
+                font-family: dm-sans;
+            }
+        }
+
+        .engagement {
+            margin-top: 2%;
+            margin-bottom: 2%;
             font-family: dm-sans;
+
+            &__text {
+                font-family: dm-sans;
+            }
         }
-    }
 
-    .respect {
-        margin-top: 2%;
-        margin-bottom: 2%;
-
-        // font-family: dosis;
-        &__text {
+        .inclusion {
+            margin-top: 2%;
             font-family: dm-sans;
+
+            &__text {
+                font-family: dm-sans;
+            }
         }
-    }
 
-    .engagement {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-family: dm-sans;
-
-        &__text {
+        .innovation {
+            margin-top: 2%;
             font-family: dm-sans;
-        }
-    }
 
-    .inclusion {
-        margin-top: 2%;
-        font-family: dm-sans;
-
-        &__text {
-            font-family: dm-sans;
-        }
-    }
-
-    .innovation {
-        margin-top: 2%;
-        font-family: dm-sans;
-
-        &__text {
-            font-family: dm-sans;
-        }
-    }
-
-    .servicesLangues {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        font-family: dosis;
-        font-weight: 700;
-        text-align: center;
-        position: relative;
-
-        &__texte {
-            position: relative;
+            &__text {
+                font-family: dm-sans;
+            }
         }
 
-        &__facebook {
+        .servicesLangues {
+            margin-top: 5%;
             margin-bottom: 5%;
-        }
-    }
-*/
-    iframe {
-        aspect-ratio: 16/9;
-        margin-top: 3%;
-    }
+            font-family: dosis;
+            font-weight: 700;
+            text-align: center;
+            position: relative;
 
-    /* ajuster les styles selon les differents dimensions*/
-    /* @media screen and (max-width: 375px) {
+            &__texte {
+                position: relative;
+            }
+
+            &__facebook {
+                margin-bottom: 5%;
+            }
+        }
+
+        iframe {
+            aspect-ratio: 16/9;
+            margin-top: 3%;
+        }
+
+        /* ajuster les styles selon les differents dimensions*/
+        /* @media screen and (max-width: 375px) {
         body {
             background-color: white;
         }
@@ -1597,19 +1506,19 @@ p {
     }
 }
 */
-    /*  fin ajuster les styles selon les differents dimensions*/
-}
+        /*  fin ajuster les styles selon les differents dimensions*/
+    }
 
 
-/**********************************************************************
+    /**********************************************************************
                       HUB DE NOUVELLE RYAN
 ***********************************************************************
 **********************************************************************/
 
-.hero-nouvelles {
-    @include mixins.sectionhero;
+    .hero-nouvelles {
+        @include mixins.sectionhero;
 
-    /*.titre-nouvelles {
+        /*.titre-nouvelles {
         text-align: center;
         font-family: sunday;
 
@@ -1628,120 +1537,301 @@ p {
 .titre__nouvelle{
     text-align: center;
 }*/
-    .nouvelles {
-        display: inline-flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        max-width: 500px;
-        height: auto;
-        margin: 0 auto;
+        .nouvelles {
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            max-width: 500px;
+            height: auto;
+            margin: 0 auto;
 
-        .card-title {
+            .card-title {
+                @include mixins.titre;
+            }
+
+            &__sarah {
+                background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
+                background-size: cover;
+                @include mixins.service;
+            }
+
+            &__demenagement {
+                background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__reseautage {
+                background-image: url(../media/nouvelles/etudier.png);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__hebergement {
+                background-image: url(../media/nouvelles/hebergement_femme.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__vivre-ensemble {
+                background-image: url(../media/nouvelles/journee-vivre-ensemble.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__organisation {
+                background-image: url(../media/nouvelles/reorientation_carriere.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__temoignager {
+                background-image: url(../media/nouvelles/temoignage.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__besoins {
+                background-image: url(../media/nouvelles/assurence.jpg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__hiver {
+                background-image: url(../media/nouvelles/hiver_montreal.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__partener {
+                background-image: url(../media/nouvelles/parrainer_partenaire.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__etudier {
+                background-image: url(../media/nouvelles/etudier.png);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__citoyennete {
+                background-image: url(../media/nouvelles/citoyennete.jpg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__normes {
+                background-image: url(../media/nouvelles/norme_travail.jpeg);
+                @include mixins.service;
+                background-size: cover;
+            }
+
+            &__permis {
+                background-image: url(../media/nouvelles/assurence.jpg);
+                @include mixins.service;
+                background-size: cover;
+            }
+        }
+
+        .nouvelles {
+            .card-body {
+                position: relative;
+                bottom: -160px;
+                display: flex;
+                border-radius: 10px;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0.805);
+
+                h5 {
+                    font-size: 24px;
+                    padding: none;
+                    color: colors.$bleuFoncer;
+                    margin: none;
+
+                    .col-sm-12 {
+                        font-size: 30px;
+                    }
+                }
+
+                p {
+                    font-size: 18px;
+                    text-align: center;
+                    color: colors.$bleuFoncer;
+                    width: 100%;
+                    margin: none;
+                }
+            }
+        }
+
+        .dropdown.order {
+            width: 100%;
+            text-align: center;
+
+            .btn {
+                background-color: colors.$bleuFoncer;
+                color: colors.$blanc;
+            }
+
+        }
+
+        .firstnews {
+            margin: 20px 40px;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 15px auto;
+
+            .card-body {
+                max-width: 100%;
+
+            }
+
+            .card-img-top {
+                max-height: 250px;
+                object-fit: cover;
+
+            }
+
+        }
+
+        .firstnews.card:hover {
+            box-shadow: 10px 10px colors.$orangeFonce;
+        }
+
+        .plusnews {
+            background-color: colors.$bleuFoncer;
+            color: colors.$blanc;
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+    }
+
+    /**********************************************************************
+                      DÉTAIL DE NOUVELLE LAURIE
+***********************************************************************
+**********************************************************************/
+
+    .nouvellle {
+        background-color: colors.$rosepale;
+        background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+        background-position: 0 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 30vh;
+
+        img {
+            width: 100%;
+        }
+
+        .col-12 {
+            text-align: center;
+        }
+
+        &__titre {
+            font-family: sunday;
+            position: relative;
+            top: 8px;
+            padding-bottom: 20px;
+            text-align: center;
+            line-height: 1.7;
+            padding: 2%;
+            margin: 0px;
+            background-color: rgba($color: white, $alpha: .805);
+        }
+
+        &__date {
+            position: relative;
+            background-color: rgba($color: white, $alpha: .805);
+            width: 100%;
+            top: 8px;
+        }
+
+        &__categorie {
+            position: absolute;
+            top: 0px;
+            background-color: rgba($color: white, $alpha: .805);
+            width: 100%;
+        }
+    }
+
+    p .nouvellle__texte .col-12 .text-align-center {
+        font-family: dosis;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    /*****NOUVELLE
+************************************************/
+
+    .nouvelle {
+        margin-right: 0;
+
+        &__titre {
             @include mixins.titre;
         }
 
         &__sarah {
-            background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
+            background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
             background-size: cover;
             @include mixins.service;
         }
 
         &__demenagement {
-            background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
+            background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
             @include mixins.service;
             background-size: cover;
         }
 
         &__reseautage {
-            background-image: url(../media/nouvelles/etudier.png);
+            background-image: url(/media/nouvelles/etudier.png);
             @include mixins.service;
             background-size: cover;
         }
 
         &__hebergement {
-            background-image: url(../media/nouvelles/hebergement_femme.jpeg);
+            background-image: url(/media/nouvelles/hebergement_femme.jpeg);
             @include mixins.service;
             background-size: cover;
         }
 
         &__vivre-ensemble {
-            background-image: url(../media/nouvelles/journee-vivre-ensemble.jpeg);
+            background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
             @include mixins.service;
-            background-size: cover;
-        }
-
-        &__organisation {
-            background-image: url(../media/nouvelles/reorientation_carriere.jpeg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__temoignager {
-            background-image: url(../media/nouvelles/temoignage.jpeg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__besoins {
-            background-image: url(../media/nouvelles/assurence.jpg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__hiver {
-            background-image: url(../media/nouvelles/hiver_montreal.jpeg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__partener {
-            background-image: url(../media/nouvelles/parrainer_partenaire.jpeg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__etudier {
-            background-image: url(../media/nouvelles/etudier.png);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__citoyennete {
-            background-image: url(../media/nouvelles/citoyennete.jpg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__normes {
-            background-image: url(../media/nouvelles/norme_travail.jpeg);
-            @include mixins.service;
-            background-size: cover;
-        }
-
-        &__permis {
-            background-image: url(../media/nouvelles/assurence.jpg);
-            @include mixins.service;
-            background-size: cover;
+            background-size: 100%;
         }
     }
 
-    .nouvelles {
+    // Détails pour les cartes
+    .nouvelle {
+        padding: 30px;
+
         .card-body {
             position: relative;
             bottom: -160px;
+            height: 140px;
             display: flex;
             border-radius: 10px;
+            place-content: space-between space-around;
+            align-items: flex-start;
             flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
+            align-items: flex-end;
+            justify-content: space-around;
             background-color: rgba(255, 255, 255, 0.805);
 
             h5 {
                 font-size: 24px;
                 padding: none;
+                position: relative;
+                top: 10px;
                 color: colors.$bleuFoncer;
-                margin: none;
 
                 .col-sm-12 {
                     font-size: 30px;
@@ -1750,205 +1840,24 @@ p {
 
             p {
                 font-size: 18px;
-                text-align: center;
+                position: relative;
+                left: 50px;
+                top: -20px;
                 color: colors.$bleuFoncer;
-                width: 100%;
-                margin: none;
             }
         }
     }
 
-    .dropdown.order {
-        width: 100%;
-        text-align: center;
-
-        .btn {
-            background-color: colors.$bleuFoncer;
-            color: colors.$blanc;
-        }
-
-    }
-
-    .firstnews {
-        margin: 20px 40px;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 1000px;
-        margin: 15px auto;
-
-        .card-body {
-            max-width: 100%;
-
-        }
-
-        .card-img-top {
-            max-height: 250px;
-            object-fit: cover;
-
-        }
-
-    }
-
-    .firstnews.card:hover {
-        box-shadow: 10px 10px colors.$orangeFonce;
-    }
-
-    .plusnews {
-        background-color: colors.$bleuFoncer;
-        color: colors.$blanc;
-        max-width: 200px;
-        margin-bottom: 20px;
-    }
-}
-
-/**********************************************************************
-                      DÉTAIL DE NOUVELLE LAURIE
-***********************************************************************
-**********************************************************************/
-
-.nouvellle {
-    background-color: colors.$rosepale;
-    background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 30vh;
-
-    img {
-        width: 100%;
-    }
-
-    .col-12 {
-        text-align: center;
-    }
-
-    &__titre {
-        font-family: sunday;
-        position: relative;
-        top: 8px;
-        padding-bottom: 20px;
-        text-align: center;
-        line-height: 1.7;
-        padding: 2%;
-        margin: 0px;
-        background-color: rgba($color: white, $alpha: .805);
-    }
-
-    &__date {
-        position: relative;
-        background-color: rgba($color: white, $alpha: .805);
-        width: 100%;
-        top: 8px;
-    }
-
-    &__categorie {
-        position: absolute;
-        top: 0px;
-        background-color: rgba($color: white, $alpha: .805);
-        width: 100%;
-    }
-}
-
-p .nouvellle__texte .col-12 .text-align-center {
-    font-family: dosis;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-
-/*****NOUVELLE
-************************************************/
-
-.nouvelle {
-    margin-right: 0;
-
-    &__titre {
-        @include mixins.titre;
-    }
-
-    &__sarah {
-        background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
+    .nouvelle-img {
+        background-image: url(../media/icone/accueil_main_transparence.png);
         background-size: cover;
-        @include mixins.service;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
     }
 
-    &__demenagement {
-        background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-        @include mixins.service;
-        background-size: cover;
-    }
 
-    &__reseautage {
-        background-image: url(/media/nouvelles/etudier.png);
-        @include mixins.service;
-        background-size: cover;
-    }
-
-    &__hebergement {
-        background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-        @include mixins.service;
-        background-size: cover;
-    }
-
-    &__vivre-ensemble {
-        background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-        @include mixins.service;
-        background-size: 100%;
-    }
-}
-
-// Détails pour les cartes
-.nouvelle {
-    padding: 30px;
-
-    .card-body {
-        position: relative;
-        bottom: -160px;
-        height: 140px;
-        display: flex;
-        border-radius: 10px;
-        place-content: space-between space-around;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        align-items: flex-end;
-        justify-content: space-around;
-        background-color: rgba(255, 255, 255, 0.805);
-
-        h5 {
-            font-size: 24px;
-            padding: none;
-            position: relative;
-            top: 10px;
-            color: colors.$bleuFoncer;
-
-            .col-sm-12 {
-                font-size: 30px;
-            }
-        }
-
-        p {
-            font-size: 18px;
-            position: relative;
-            left: 50px;
-            top: -20px;
-            color: colors.$bleuFoncer;
-        }
-    }
-}
-
-.nouvelle-img {
-    background-image: url(../media/icone/accueil_main_transparence.png);
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-/*
+    /*
 @media (min-width: 992px) {
     .col-lg-6 {
         width: 100%;
@@ -1962,55 +1871,55 @@ p .nouvellle__texte .col-12 .text-align-center {
 }
 */
 
-@media (max-width: 375px) {
-    .enveloppe-nouvelle {
-        padding: 0px;
+    @media (max-width: 375px) {
+        .enveloppe-nouvelle {
+            padding: 0px;
+        }
+
+        img {
+            width: 59%;
+        }
     }
 
-    img {
-        width: 59%;
+    @media (max-width: 768px) {
+        .enveloppe-nouvelle {
+            padding: 0px;
+        }
+
+        img {
+            width: 200px;
+        }
     }
-}
 
-@media (max-width: 768px) {
-    .enveloppe-nouvelle {
-        padding: 0px;
+    .mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
+        background: none;
+        border: none;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        outline: none;
     }
 
-    img {
-        width: 200px;
-    }
-}
-
-.mejs-buzz .mejs-controls .mejs-time-rail .mejs-time-total {
-    background: none;
-    border: none;
-    height: 60px;
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-    outline: none;
-}
-
-/**********************************************************************
+    /**********************************************************************
                       HISTOIRE LAURIE
 ***********************************************************************
 **********************************************************************/
 
 
 
-body {
-    /* couleur de fond*/
-    background-color: colors.$orangePale;
-}
+    body {
+        /* couleur de fond*/
+        background-color: colors.$orangePale;
+    }
 
 
-/* section hero histoire debut*/
+    /* section hero histoire debut*/
 
-/*.hero-histoire {
-    @include mixins.sectionhero;
-    display: flex;
+    .hero-histoire {
+        @include mixins.sectionhero;
+        /*  display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -2031,16 +1940,16 @@ body {
     // padding-top: 20%;
     font-weight: 300;
     padding-top: 3%;
-}
 }*/
+    }
 
 
-/* section hero histoire  fin*/
+    /* section hero histoire  fin*/
 
 
-/* section histoire debut*/
+    /* section histoire debut*/
 
-/*.histoire {
+    /*.histoire {
        text-align: center;
     padding-top: 0%;
 
@@ -2057,106 +1966,264 @@ body {
     }
 }*/
 
-svg {
-    position: absolute;
-    top: 0;
-    display: block;
-    stroke: var(--green);
-    stroke-width: 2px;
-    width: 300px;
-}
+    svg {
+        position: absolute;
+        top: 0;
+        display: block;
+        stroke: var(--green);
+        stroke-width: 2px;
+        width: 300px;
+    }
 
-.element {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-}
+    .element {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
 
 
-/* TIMELINE
+    /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline {
-    white-space: nowrap;
-    overflow-x: hidden;
-}
+    .timeline {
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
 
-.timeline ol {
-    font-size: 0;
-    width: 100vw;
-    height: 30vh;
-    padding: 250px 0;
-    transition: all 1s;
-}
+    .timeline ol {
+        font-size: 0;
+        width: 100vw;
+        height: 30vh;
+        padding: 250px 0;
+        transition: all 1s;
+    }
 
-.timeline ol li {
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    width: 400px;
-    height: 3px;
-    background: #fff;
-    align-items: center;
-    justify-content: center;
-}
-
-.timeline ol li div {
-    position: absolute;
-    left: calc(25% + 5px);
-    width: 280px;
-    padding: 15px;
-    font-size: 1rem;
-    white-space: normal;
-    color: black;
-    background: white;
-}
-
-.timeline ol li:nth-child(odd) div {
-    top: -16px;
-    transform: translateY(-80%);
-}
-
-.timeline ol li:nth-child(even) .petitBoutonOrange {
-    top: -5% !important;
-}
-
-.petitBoutonOrange {
-    width: 5% !important;
-    height: 14% !important;
-    background-color: colors.$orangeFonce !important;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -10%;
-    left: -2% !important;
-    top: initial !important;
-    padding: 0% !important;
-    transform: translateY(0%) !important;
-}
-
-.timeline time {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-
-@media (max-width: 375px) {
-    .section-histoire * {
-        text-align: center;
+    .timeline ol li {
+        position: relative;
+        display: inline-block;
+        list-style-type: none;
+        width: 400px;
+        height: 3px;
+        background: #fff;
         align-items: center;
         justify-content: center;
     }
 
-    .timeline {
-        width: 100px;
+    .timeline ol li div {
+        position: absolute;
+        left: calc(25% + 5px);
+        width: 280px;
+        padding: 15px;
+        font-size: 1rem;
+        white-space: normal;
+        color: black;
+        background: white;
+    }
+
+    .timeline ol li:nth-child(odd) div {
+        top: -16px;
+        transform: translateY(-80%);
+    }
+
+    .timeline ol li:nth-child(even) .petitBoutonOrange {
+        top: -5% !important;
+    }
+
+    .petitBoutonOrange {
+        width: 5% !important;
+        height: 14% !important;
+        background-color: colors.$orangeFonce !important;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -10%;
+        left: -2% !important;
+        top: initial !important;
+        padding: 0% !important;
+        transform: translateY(0%) !important;
+    }
+
+    .timeline time {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    @media (max-width: 375px) {
+        .section-histoire * {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timeline {
+            width: 100px;
+            padding: 10px;
+        }
+
+        .promis {
+            width: 100px;
+        }
+    }
+
+
+    /* section histoire fin*/
+
+
+    /**********************************************************************
+                      FAQ LAURIE
+***********************************************************************
+**********************************************************************/
+
+
+
+    /* debut accodeon*/
+
+    body .questions {
+        border-radius: 10px;
+        border: none;
+        background-image: url(/media/icone/CERCLE\ 1.png), url(/media/icone/CERCLE\ 1.png);
+        background-repeat: no-repeat;
+        background-position: 10% -20%, 100% 100%;
+    }
+
+    h2 {
+        padding-bottom: 0 !important;
+    }
+
+    .hero-a-propos {
+        width: 100vw;
+        margin: 0 auto;
+        position: relative;
+        padding: 2%;
+        background-color: colors.$rosepale;
+
+        /*.titre-a-propos {
+        text-align: center;
+        font-family: sunday;
+        padding: 10px;
+        line-height: 1.7;
+    }
+
+    .texte-hero-a-propos {
+        font-size: 35px;
+        font-family: dosis;
+        padding: 10px;
+        font-weight: 300;
+        line-height: 1.7;
+    }*/
+    }
+
+    .questionsTitre {
+        font-family: dosis;
+        color: colors.$bleuFoncer;
+        margin-bottom: 4%;
+        margin-top: 6%;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .accordion {
+        margin-bottom: 10%;
+    }
+
+    .accordion-button {
+        color: colors.$bleuFoncer;
+        font-size: 30px;
+
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: colors.$bleuFoncer;
+        color: white;
+    }
+
+    .accordion-header {
+        background-color: colors.$bleuFoncer;
+    }
+
+    /*@media (max-width: 375px) {
+    h1.titre-a-propos {
+        font-size: 18px;
+    }
+}*/
+
+
+    /**********************************************************************
+                      ÉQUIPE LAURIE
+***********************************************************************
+**********************************************************************/
+
+
+    .hero-equipe {
+        @include mixins.sectionhero;
+
+        /* .titre-equipe {
+        text-align: center;
+        font-family: sunday;
+
         padding: 10px;
     }
 
-    .promis {
-        width: 100px;
+    .texte-hero-equipe {
+
+        font-family: dosis;
+        padding: 3%;
+        font-weight: 300;
+    }*/
     }
+
+
+
+
+    .equipe .card {
+        margin: 20px 40px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+
+        .card-body {
+            max-width: 100%;
+
+        }
+
+
+
+
+    }
+
+    .equipe .card:hover {
+        box-shadow: 10px 10px colors.$orangeFonce;
+
+    }
+
+    /*.texte-equipe {
+    font-family: dosis;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 10px;
 }
 
+.equipe-role {
+    font-family: dosis;
+    text-align: center;
+}
+*/
+    //utilise object-fit, ajoute max-height et object-position sur tes images de l'équipe
 
-/* section histoire fin*/
+    .equipe {
+        .card-img-top {
+            max-height: 250px;
+            object-fit: cover;
+
+        }
+    }
+
+    .text-muted {
+        text-align: center;
+        font-size: 14px;
+        ;
+    }
+}

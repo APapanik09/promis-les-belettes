@@ -38,7 +38,7 @@ const swiper = new Swiper(".swiperService", {
         },
         // when window width is >= 480px
         814: {
-            slidesPerView: 1,
+            slidesPerView: 3,
             spaceBetween: 20,
         },
         // when window width is >= 640px
