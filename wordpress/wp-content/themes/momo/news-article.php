@@ -61,7 +61,7 @@ endif;
                 <div class="row enveloppe">
                     <div itemscope>
                         
-                                <h2 class="titre__nouvelle" itemprop="about" itemprop="name"> <?php the_title()?></h2>
+                                <h3 class="titre__nouvelle" itemprop="about" itemprop="name"> <?php the_title()?></h3>
                                 <div class="nouvelle-img">
                                     <h4 class="paragraphe-nouvelle__texte">
                                         <br> <?php the_content()?> 
@@ -70,7 +70,7 @@ endif;
                                         <br> <br><br>
                                     </h4>
                                     <p>
-                                        <time itemprop="datePublished"> <?php the_field("date")?>1 juin 2023</time>
+                                        <time itemprop="datePublished"> <?php the_field("date")?></time>
                                     </p>
                                 </div>
                     </div>
