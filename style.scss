@@ -7,13 +7,10 @@
 @use "partials/faq";
 @use "partials/histoire";
 @use "partials/quatre";
-//@use "partials/hub_service";
 @use "partials/equipe";
 @use "partials/nouvelles";
 @use "partials/detail_nouvelle";
 
-//@use"partials/detail_service";
-//@use"partials/detail_nouvelle";
 html {
     overflow-x: hidden;
 }
@@ -31,40 +28,27 @@ h1 {
     font-family: sunday;
     padding-bottom: 20px;
     text-align: center;
-    line-height: 1.7;
-    font-size: 4rem;
+    line-height: 1.5;
+    font-size: 2rem;
 }
-
-
 
 h2 {
     font-weight: 300;
     font-family: dosis;
     font-weight: 600;
-
     font-size: 60px;
-
-
 }
 
 h3 {
     font-size: 30px;
     font-family: dm-sans;
-
 }
 
 h4 {
-
     font-family: dm-sans !important;
     font-weight: 500;
-
     font-size: 25px;
-
-
 }
-
-
-
 
 h5 {
     font-size: 20px;
@@ -77,16 +61,15 @@ h5 {
 p {
     font-family: dm-sans;
     font-size: 18px;
-    color: colors.$blanc;
+    // color: colors.$blanc;
 }
 
 @media (max-width: 1200px) {
-
     h1 {
         font-family: sunday;
         padding-bottom: 20px;
         text-align: center;
-        line-height: 1.7;
+        line-height: 1.5;
         font-size: 30px;
     }
 
@@ -97,36 +80,25 @@ p {
 
     h3 {
         font-size: 27px;
-        margin-bottom: 20px !important;
-
     }
 
     h4 {
-
         font-family: dm-sans !important;
         font-weight: 500;
-
-        font-size: 20px !important;
-
-
     }
 
     p {
         font-size: 30px;
     }
-
-
 }
 
-
 @media (max-width: 767px) {
-
     h1 {
         font-family: sunday;
         padding-bottom: 20px;
         text-align: center;
-        line-height: 1.7;
-        font-size: 45px;
+        line-height: 1.3;
+        font-size: 20px;
     }
 
     h2 {
@@ -136,18 +108,12 @@ p {
 
     h3 {
         font-size: 30px;
-        margin-bottom: 20px !important;
-
     }
 
     h4 {
-
         font-family: dm-sans !important;
         font-weight: 500;
-
         font-size: 20px !important;
-
-
     }
 
     p {
@@ -156,13 +122,12 @@ p {
 }
 
 @media (max-width: 447px) {
-
     h1 {
         font-family: sunday;
         padding-bottom: 20px;
         text-align: center;
-        line-height: 1.7;
-        font-size: 35px;
+        line-height: 1.4;
+        font-size: 25px;
     }
 
     h2 {
@@ -172,26 +137,18 @@ p {
 
     h3 {
         font-size: 40px;
-        margin-bottom: 20px !important;
-
     }
 
     h4 {
-
         font-family: dm-sans !important;
         font-weight: 500;
-
         font-size: 20px !important;
         padding: 30px;
-
     }
 
     p {
         font-size: 18px;
     }
-
-
-
 }
 
 @media (max-width: 377px) {
@@ -199,24 +156,21 @@ p {
         font-size: 25px;
     }
 
+    h2 {
+        font-size: 25px;
+    }
+
     h3 {
         font-size: 40px;
-        margin-bottom: 20px !important;
     }
 
     h4 {
-
         font-family: dm-sans !important;
         font-weight: 500;
-
         font-size: 20px !important;
-
-
     }
-
-
-
 }
+
 
 /* ACCUEIL JOLYANNE
 ***********************************************************************
@@ -379,9 +333,6 @@ p {
         width: 100%;
     }
 
-
-
-
     /**** SERVICE SWIPPER (POUR TABLETTE ET TÉLÉPHONE)
   *******************************************************************/
     //Lien
@@ -420,8 +371,6 @@ p {
         margin: 20px;
     }
 
-
-
     // Card Service
     .service .card {
         height: 370px !important;
@@ -432,21 +381,15 @@ p {
         }
 
         &__accueil {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
             padding: 20px;
             background-repeat: no-repeat;
             background-color: colors.$bleuFoncer;
-
-
         }
 
-
-
         &__francisation {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
@@ -456,7 +399,6 @@ p {
         }
 
         &__famille {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
@@ -466,7 +408,6 @@ p {
         }
 
         &__scolaire {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
@@ -476,7 +417,6 @@ p {
         }
 
         &__emplois {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
@@ -486,7 +426,6 @@ p {
         }
 
         &__alimentation {
-
             object-fit: contain;
             background-position: center;
             background-size: contain;
@@ -507,7 +446,6 @@ p {
         }
     }
 
-
     //ajuster l'écriture
     /* @media (max-width: 987px) {
         .card-text {
@@ -527,7 +465,6 @@ p {
             font-size: 18px;
         }
     }*/
-
     // row du service
     .row__service {
         width: 100%;
@@ -556,43 +493,30 @@ p {
     .service {
         &__titre {
             @include mixins.titre;
-
         }
 
         &__accueil {
-
-
             @include mixins.service;
         }
 
         &__francisation {
-
             @include mixins.service;
-
         }
 
         &__famille {
-
             @include mixins.service;
-
         }
 
         &__scolaire {
-
             @include mixins.service;
-
         }
 
         &__emplois {
-
             @include mixins.service;
-
         }
 
         &__alimentaire {
-
             @include mixins.service;
-
         }
 
         .accueil::after {
@@ -674,7 +598,6 @@ p {
         }
     }
 
-
     /*****NOUVELLE
 ************************************************/
     .nouvelle {
@@ -682,7 +605,6 @@ p {
 
         &__titre {
             @include mixins.titre;
-
         }
 
         &__sarah {
@@ -754,7 +676,6 @@ p {
 
     // bouton autre nouvelle
     .btn-nouvelle {
-
         background-color: #F4E6EF;
         font-size: 25px;
         margin: 50px;
@@ -768,17 +689,13 @@ p {
     .btn-nouvelle:hover {
         background-color: colors.$bleuFoncer;
         color: colors.$blanc;
-
     }
-
-
 
     /*****TÉMOIGNAGE
 *****************************************/
     .temoignage {
         background-color: colors.$blanc;
         padding: 10px;
-
 
         &__body {
             background-image: url(/media/icone/cercle_don.png);
@@ -795,13 +712,10 @@ p {
             justify-content: center;
         }
 
-
-
         &__image {
             border-radius: 10px;
             object-fit: cover;
             max-height: 250px !important;
-
         }
 
         &__card {
@@ -814,12 +728,10 @@ p {
             justify-content: center;
             position: relative;
             margin: 0 auto;
-
         }
 
         &__titre {
             @include mixins.titre;
-
             padding-bottom: 5% !important;
         }
     }
@@ -1029,8 +941,6 @@ p {
         }*/
     }
 
-
-
     //Swipper service
     .swiper-slide {
         width: auto;
@@ -1148,7 +1058,6 @@ p {
             }
         }
     }*/
-
     .rendez-vous {
         display: flex;
         justify-content: center;
@@ -1223,14 +1132,12 @@ p {
 */
     .hero-a-propos {
         @include mixins.sectionhero;
-
         /*.titre-a-propos {
             text-align: center;
             font-family: sunday;
             font-size: 50px;
             padding: 10px;
         }*/
-
         /*.texte-hero-a-propos {
             font-size: 20px;
             font-family: dosis;
@@ -1252,11 +1159,9 @@ p {
     }
 
     .tout-sous-meme-toi {
-
         font-family: dosis;
         margin-top: 2%;
         margin: 10px;
-
 
         &.liste-a-puce {
             font-size: 22px;
@@ -1272,8 +1177,8 @@ p {
     }
 
     .mission {
-        //   @extend %titre-texte-paragraphe;
 
+        //   @extend %titre-texte-paragraphe;
         &.text {
             font-size: 20px;
             color: colors.$bleuFoncer;
@@ -1460,6 +1365,5 @@ p {
     }
 }
 */
-
     /*  fin ajuster les styles selon les differents dimensions*/
 }
