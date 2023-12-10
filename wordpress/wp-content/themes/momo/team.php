@@ -54,7 +54,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $projects = new WP_Query('post_type=equipe');
   while ($projects->have_posts()) : $projects->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top img-fluid" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h5>
@@ -74,7 +74,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $integration = new WP_Query('post_type=equipe_accueil');
   while ($integration->have_posts()) : $integration->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h3>
@@ -95,7 +95,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $francisation = new WP_Query('post_type=equipe_francisation');
   while ($francisation->have_posts()) : $francisation->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h3>
@@ -117,7 +117,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $emploi = new WP_Query('post_type=equipe_emploi');
   while ($emploi->have_posts()) : $emploi->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h3>
@@ -138,7 +138,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $region = new WP_Query('post_type=equipe_region');
   while ($region->have_posts()) : $region->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h3>
@@ -161,7 +161,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   $soutien = new WP_Query('post_type=equipe_soutien');
   while ($soutien->have_posts()) : $soutien->the_post(); 
 ?>
-				<div class="card">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
 				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
 					<h3 class="card-title"><?php the_field('nom')?></h3>
@@ -177,7 +177,19 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 </section>
 
-
+    <!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plus sur nos membres</h5>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
 
 		
 	</article>
