@@ -158,7 +158,6 @@ endif;
 
                 <div class="card-1 carte-service col-10 col-md-11 col-lg-6  card__accueil ">
 
-
                     <div class="card-body ">
                         <div class="row ">
                             <a class="lien-titre" href="detail_service.html">

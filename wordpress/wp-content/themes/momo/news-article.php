@@ -100,7 +100,7 @@ endif;
           ---------------------------------------------------------->
                 <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
                     <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
-                    <div style="background-image:url('<?php the_post_thumbnail_url() ?>')" >
+                    <div style="background-image:url('<?php the_post_thumbnail_url("medium") ?>')" >
 
                         <div class="nouvelle card-body ">
                         
