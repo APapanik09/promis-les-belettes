@@ -495,7 +495,8 @@ Version: 1.0
 
 .equipe .card-img-top {
   max-height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-muted {
@@ -551,7 +552,8 @@ Version: 1.0
 .nouvelles__sarah {
   background-image: url(../media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -560,7 +562,8 @@ Version: 1.0
 }
 .nouvelles__demenagement {
   background-image: url(../media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -570,7 +573,8 @@ Version: 1.0
 }
 .nouvelles__reseautage {
   background-image: url(../media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -580,7 +584,8 @@ Version: 1.0
 }
 .nouvelles__hebergement {
   background-image: url(../media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -590,7 +595,8 @@ Version: 1.0
 }
 .nouvelles__vivre-ensemble {
   background-image: url(../media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -600,7 +606,8 @@ Version: 1.0
 }
 .nouvelles__organisation {
   background-image: url(../media/nouvelles/reorientation_carriere.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -610,7 +617,8 @@ Version: 1.0
 }
 .nouvelles__temoignager {
   background-image: url(../media/nouvelles/temoignage.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -620,7 +628,8 @@ Version: 1.0
 }
 .nouvelles__besoins {
   background-image: url(../media/nouvelles/assurence.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -630,7 +639,8 @@ Version: 1.0
 }
 .nouvelles__hiver {
   background-image: url(../media/nouvelles/hiver_montreal.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -640,7 +650,8 @@ Version: 1.0
 }
 .nouvelles__partener {
   background-image: url(../media/nouvelles/parrainer_partenaire.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -650,7 +661,8 @@ Version: 1.0
 }
 .nouvelles__etudier {
   background-image: url(../media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -660,7 +672,8 @@ Version: 1.0
 }
 .nouvelles__citoyennete {
   background-image: url(../media/nouvelles/citoyennete.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -670,7 +683,8 @@ Version: 1.0
 }
 .nouvelles__normes {
   background-image: url(../media/nouvelles/norme_travail.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -680,7 +694,8 @@ Version: 1.0
 }
 .nouvelles__permis {
   background-image: url(../media/nouvelles/assurence.jpg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -738,7 +753,8 @@ Version: 1.0
 }
 .firstnews .card-img-top {
   max-height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .firstnews.card:hover {
@@ -814,7 +830,8 @@ p .nouvellle__texte .col-12 .text-align-center {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -823,7 +840,8 @@ p .nouvellle__texte .col-12 .text-align-center {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -833,7 +851,8 @@ p .nouvellle__texte .col-12 .text-align-center {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -843,7 +862,8 @@ p .nouvellle__texte .col-12 .text-align-center {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -853,7 +873,8 @@ p .nouvellle__texte .col-12 .text-align-center {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1005,7 +1026,8 @@ p {
   }
   h2 {
     font-size: 47px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   h3 {
     font-size: 27px;
@@ -1028,7 +1050,8 @@ p {
   }
   h2 {
     font-size: 47px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   h3 {
     font-size: 30px;
@@ -1052,7 +1075,8 @@ p {
   }
   h2 {
     font-size: 40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   h3 {
     font-size: 40px;
@@ -1311,7 +1335,8 @@ p {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1319,7 +1344,8 @@ p {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1327,7 +1353,8 @@ p {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1335,7 +1362,8 @@ p {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1343,7 +1371,8 @@ p {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1351,7 +1380,8 @@ p {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -1412,7 +1442,8 @@ p {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1420,7 +1451,8 @@ p {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1428,7 +1460,8 @@ p {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1436,7 +1469,8 @@ p {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1444,7 +1478,8 @@ p {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1452,7 +1487,8 @@ p {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1544,7 +1580,8 @@ p {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1553,7 +1590,8 @@ p {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1563,7 +1601,8 @@ p {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1573,7 +1612,8 @@ p {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1583,7 +1623,8 @@ p {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -1659,7 +1700,8 @@ p {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -1766,7 +1808,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -2036,7 +2079,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -2452,7 +2496,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2460,7 +2505,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2468,7 +2514,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2476,7 +2523,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2484,7 +2532,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2492,7 +2541,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -2553,7 +2603,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2561,7 +2612,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2569,7 +2621,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2577,7 +2630,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2585,7 +2639,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2593,7 +2648,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2685,7 +2741,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2694,7 +2751,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2704,7 +2762,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2714,7 +2773,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2724,7 +2784,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -2800,7 +2861,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -2907,7 +2969,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -3177,7 +3240,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -3593,7 +3657,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3601,7 +3666,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3609,7 +3675,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3617,7 +3684,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3625,7 +3693,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3633,7 +3702,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -3694,7 +3764,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3702,7 +3773,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3710,7 +3782,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3718,7 +3791,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3726,7 +3800,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3734,7 +3809,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3826,7 +3902,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3835,7 +3912,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3845,7 +3923,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3855,7 +3934,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3865,7 +3945,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -3941,7 +4022,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -4048,7 +4130,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -4318,7 +4401,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -4734,7 +4818,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4742,7 +4827,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4750,7 +4836,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4758,7 +4845,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4766,7 +4854,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4774,7 +4863,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -4835,7 +4925,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4843,7 +4934,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4851,7 +4943,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4859,7 +4952,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4867,7 +4961,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4875,7 +4970,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4967,7 +5063,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4976,7 +5073,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4986,7 +5084,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -4996,7 +5095,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -5006,7 +5106,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -5082,7 +5183,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -5189,7 +5291,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -5459,7 +5562,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -5875,7 +5979,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5883,7 +5988,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5891,7 +5997,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5899,7 +6006,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5907,7 +6015,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5915,7 +6024,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -5976,7 +6086,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -5984,7 +6095,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -5992,7 +6104,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6000,7 +6113,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6008,7 +6122,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6016,7 +6131,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6108,7 +6224,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6117,7 +6234,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6127,7 +6245,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6137,7 +6256,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6147,7 +6267,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -6223,7 +6344,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -6330,7 +6452,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -6600,7 +6723,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -7016,7 +7140,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7024,7 +7149,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7032,7 +7158,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7040,7 +7167,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7048,7 +7176,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7056,7 +7185,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -7117,7 +7247,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7125,7 +7256,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7133,7 +7265,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7141,7 +7274,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7149,7 +7283,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7157,7 +7292,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7249,7 +7385,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7258,7 +7395,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7268,7 +7406,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7278,7 +7417,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7288,7 +7428,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -7364,7 +7505,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -7471,7 +7613,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -7741,7 +7884,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -8157,7 +8301,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8165,7 +8310,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8173,7 +8319,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8181,7 +8328,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8189,7 +8337,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8197,7 +8346,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -8258,7 +8408,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8266,7 +8417,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8274,7 +8426,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8282,7 +8435,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8290,7 +8444,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8298,7 +8453,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8390,7 +8546,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8399,7 +8556,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8409,7 +8567,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8419,7 +8578,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8429,7 +8589,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -8505,7 +8666,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -8612,7 +8774,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -8882,7 +9045,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -9298,7 +9462,8 @@ iframe {
   height: 488px !important;
 }
 .service .card__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9306,7 +9471,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9314,7 +9480,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9322,7 +9489,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9330,7 +9498,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9338,7 +9507,8 @@ iframe {
   background-color: #223843;
 }
 .service .card__alimentation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: contain;
   padding: 20px;
@@ -9399,7 +9569,8 @@ iframe {
   margin-top: 5%;
 }
 .service__accueil {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9407,7 +9578,8 @@ iframe {
   background-color: #223843;
 }
 .service__francisation {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9415,7 +9587,8 @@ iframe {
   background-color: #223843;
 }
 .service__famille {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9423,7 +9596,8 @@ iframe {
   background-color: #223843;
 }
 .service__scolaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9431,7 +9605,8 @@ iframe {
   background-color: #223843;
 }
 .service__emplois {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9439,7 +9614,8 @@ iframe {
   background-color: #223843;
 }
 .service__alimentaire {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9531,7 +9707,8 @@ iframe {
 .nouvelle__sarah {
   background-image: url(/media/nouvelles/contribution_sarah_article_1.jpg);
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9540,7 +9717,8 @@ iframe {
 }
 .nouvelle__demenagement {
   background-image: url(/media/nouvelles/reussir_demenagement_hero.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9550,7 +9728,8 @@ iframe {
 }
 .nouvelle__reseautage {
   background-image: url(/media/nouvelles/etudier.png);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9560,7 +9739,8 @@ iframe {
 }
 .nouvelle__hebergement {
   background-image: url(/media/nouvelles/hebergement_femme.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9570,7 +9750,8 @@ iframe {
 }
 .nouvelle__vivre-ensemble {
   background-image: url(/media/nouvelles/journee-vivre-ensemble.jpeg);
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: unset;
   width: 100%;
   background-position: center;
@@ -9646,7 +9827,8 @@ iframe {
 }
 .temoignage__image {
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-height: 250px !important;
 }
 .temoignage__card {
@@ -9753,7 +9935,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
@@ -10023,7 +10206,8 @@ svg .anim.oiseau {
 .partenaires img {
   padding: 5px;
   max-width: 19vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 

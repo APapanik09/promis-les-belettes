@@ -5,10 +5,51 @@
 
 // Fermeture de la zone de contenu principale ?>
 </main>
+
 <section class="partenaires">
 
     <!-- début partenaire -->
     <section class="part">
+        <div class="partnenaires swiper-p">
+            <div class="partenaires swiper-wrapper">
+                <?php
+  $projects = new WP_Query('post_type=partenaire');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+                <div class="swiper-slide">
+
+                    <a href="<?php the_fiel('lien') ?>" <?php the_post_thumbnail_url('medium') ?> alt="partenaires"
+                        class="brasseur"></a>
+
+
+                    <!-- <div class="swiper-slide">
+                    <img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir">
+                    <img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie">
+                    <img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec" class="immigrationQc">
+                    <img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC"
+                        class="investissementQc">
+                    <img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot">
+                </div>
+                <div class="swiper-slide">
+                    <img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac">
+                    <img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite"
+                        class="reseau">
+                    <img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc" class="montrealblanc">
+                    <img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada"
+                        class="serviceCan">
+                    <img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state">
+                </div>-->
+
+                </div>
+                <?php
+  endwhile; 
+  wp_reset_postdata(); 
+?>
+            </div>
+    </section>
+</section>
+<!-- début partenaire -->
+<!--  <section class="part">
         <div class="partnenaires swiper-p">
             <div class="partenaires swiper-wrapper">
                 <div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png"
@@ -33,7 +74,7 @@
             </div>
         </div>
     </section>
-</section>
+</section>-->
 
 <!-- fin partenaire -->
 
