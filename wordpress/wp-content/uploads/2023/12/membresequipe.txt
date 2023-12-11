@@ -1,0 +1,92 @@
+membres équipes + roles
+
+Administration
+
+Joëlle Léveillé
+Réceptionniste
+j.leveille@promis.qc.ca
+
+Jennifer Giguère
+Chargée de projet en communication
+jennifer.giguere@promis.qc.ca
+
+Luc Osmani
+Chargé de projet en entrepreneuriat
+luc.osmani@promis.qc.ca
+
+Accueil et Intégration
+
+ Juan-José Fernandez
+Conseiller en intégration sociale et chef d’équipe
+juan-jose.fernandez@promis.qc.ca
+
+Myrna Zogheib
+Conseillère en intégration sociale
+myrna.zogheib@promis.qc.ca
+
+Ximena Moncayo
+Conseillère en intégration sociale
+ximena.moncayo@promis.qc.ca
+
+Francisation
+ 
+Valkiria Spring
+Agente d’administration à la francisation
+valkiria.spring@promis.qc.ca
+
+Dorian Culot
+Agent d’administration à la francisation
+dorian.culot@promis.qc.ca
+
+Soraya Silva
+Agente d’administration à la francisation
+soraya.silva@promis.qc.ca
+
+utilise object-fit, ajoute max-height et object-position sur tes images de l'équipe
+
+Aide à l’emploi
+ 
+Monica Moise
+Conseillère en emploi
+monica.moise@promis.qc.ca
+
+Joyce Myers
+Conseillère en emploi
+joyce.myers@promis.qc.ca
+
+Dalia Piperni
+Conseillère en emploi
+dalia.piperni@promis.qc.ca
+
+Régionalisation
+ 
+David Rivera
+Conseiller à l’établissement en région
+david.rivera@promis.qc.ca
+
+Daniela Halter
+Conseillère en emploi axé sur les régions
+daniela.halter@promis.qc.ca
+
+Angeles Gongora
+Conseillère à l’établissement en région
+angeles.gongora@promis.qc.ca
+
+Soutien scolaire
+
+Sylvie Delgado
+Conseillère au soutien scolaire
+sylvie.delgado@promis.qc.ca
+
+Tamara Momcilovic
+Agente de liaison en milieu scolaire
+tamara.momcilovic@promis.qc.ca
+
+Vanessa Valderrama 
+Agente de liaison en milieu scolaire
+vanessa.valderrama@promis.qc.ca
+
+14 W
+4 M
+
+ 

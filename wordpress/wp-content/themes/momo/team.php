@@ -15,31 +15,15 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
 
 		<?php endif; ?>
-		
-		<?php the_content(); // Contenu principal de la page ?>
-	</article>
-<?php endwhile; // Fermeture de la boucle
-
-else : // Si aucune page n'a été trouvée
-	get_template_part( 'partials/404' ); // Affiche partials/404.php
-endif; 
-?>
-
-<section>
+		<section>
 <div class="hero-equipe ">
 	<div class="row align-items-center">
 		<div class=" col-12 text-lg-start">
-			<div class="titre-equipe">
-				<h1 class="titre-equipe col-12">Équipe</h1>
-				<h5 class="texte-hero-equipe col-12">                        PROMIS est fier de compter sur une équipe de personnes qualifiées et soucieuse de bien servir
-				  nos partenaires et clients. Pour assurer une amélioration continue, nos professionnels suivent
-				  régulièrement les séances de coaching et les formations de perfectionnement afin de demeurer à
-				  l’affût des nouveautés en immigration et les meilleurs pratiques d’intervention.
+			<div class="titre-equipe">		
+				
 
-				  Afin de bien vous servir, l’équipe de PROMIS dispose d’une équipe parlant plus de 15 langues.
-
-				  Notre équipe s’engage à offrir un suivi rapide, efficace, un service à la clientèle de haute
-				  qualité et des services personnalisés.
+				<h1 class="titre-equipe col-12"><?php the_title()?></h1>
+				<h5 class="texte-hero-equipe col-12"><?php the_content()?>
 				</h5>
 			</div>
 		</div>
@@ -62,198 +46,162 @@ endif;
 	<div class="row justify-content-center">
 		<div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
 
-		<?php
+
+		  <h2 class="equipe-role">Administration</h2>
+		  
+			<div class="card-group equipe justify-content-center">
+								<?php
   $projects = new WP_Query('post_type=equipe');
   while ($projects->have_posts()) : $projects->the_post(); 
 ?>
-		  <h2 class="equipe-role"><?php the_field('catégories')?></h2>
-			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top img-fluid" src="media/equipe/joelle.png" alt="Card image cap">
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top img-fluid" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title"><?php the_title()?></h5>
-					<h5 class="card-text"><?php the_content()?></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h5>
+					<h5 class="card-text"><?php the_field('role')?></h5>
 					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/jennifer.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Jennifer Giguère</h3>
-					<h5 class="card-text">Chargée de projet en communication</h5>
-					<h5 class="card-text"><small class="text-muted">jennifer.giguere@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/luc.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Luc Osmani</h3>
-					<h5 class="card-text">Chargé de projet en entrepreneuriat</h5>
-					<h5 class="card-text"><small class="text-muted">luc.osmani@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
 		</div>
 	</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
 		  <h2 class="equipe-role">Accueil et intégration</h2>
 			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/juan.png" alt="Card image cap">
+			<?php
+  $integration = new WP_Query('post_type=equipe_accueil');
+  while ($integration->have_posts()) : $integration->the_post(); 
+?>
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">Juan-José Fernandez</h3>
-					<h5 class="card-text">Conseiller en intégration sociale et chef d’équipe</h5>
-					<h5 class="card-text"><small class="text-muted">juan-jose.fernandez@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h3>
+					<h5 class="card-text"><?php the_field('role')?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/myrna.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Myrna Zogheib</h3>
-					<h5 class="card-text">Conseillère en intégration sociale</h5>
-					<h5 class="card-text"><small class="text-muted">myrna.zogheib@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/ximena.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Ximena Moncayo</h3>
-					<h5 class="card-text">Conseillère en intégration sociale</h5>
-					<h5 class="card-text"><small class="text-muted">ximena.moncayo@promis.qc.ca</small></h5>
-				  </div>
-				</div>
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
 
 		</div>
 	</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
 		  <h2 class="equipe-role">Francisation</h2>
 			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/valkyria.png" alt="Card image cap">
+			<?php
+  $francisation = new WP_Query('post_type=equipe_francisation');
+  while ($francisation->have_posts()) : $francisation->the_post(); 
+?>
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">Valkiria Spring</h3>
-					<h5 class="card-text">Agente d’administration à la francisation</h5>
-					<h5 class="card-text"><small class="text-muted">valkiria.spring@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h3>
+					<h5 class="card-text"><?php the_field('role')?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/dorian.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Dorian Culot</h3>
-					<h5 class="card-text">Agent d’administration à la francisation</h5>
-					<h5 class="card-text"><small class="text-muted">dorian.culot@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/soraya.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Soraya Silva</h3>
-					<h5 class="card-text">Agente d’administration à la francisation</h5>
-					<h5 class="card-text"><small class="text-muted">soraya.silva@promis.qc.ca</small></h5>
-				  </div>
-				</div>
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
+
 			  </div>
 
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
 		  <h2 class="equipe-role">Aide à l’emploi</h2>
 			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/monica.png" alt="Card image cap">
+			<?php
+  $emploi = new WP_Query('post_type=equipe_emploi');
+  while ($emploi->have_posts()) : $emploi->the_post(); 
+?>
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">Monica Moise</h3>
-					<h5 class="card-text">Conseillère en emploi</h5>
-					<h5 class="card-text aide-emploi"><small class="text-muted">monica.moise@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h3>
+					<h5 class="card-text"><?php the_field('role')?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/joyce.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Joyce Myers</h3>
-					<h5 class="card-text">Conseillère en emploi</h5>
-					<h5 class="card-text"><small class="text-muted">joyce.myers@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/dalia.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Dalia Piperni</h3>
-					<h5 class="card-text">Conseillère en emploi</h5>
-					<h5 class="card-text"><small class="text-muted">dalia.piperni@promis.qc.ca</small></h5>
-				  </div>
-				</div>
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
 			  </div>
 
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
 		  <h2 class="equipe-role">Régionalisation</h2>
 			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/david.png" alt="Card image cap">
+			<?php
+  $region = new WP_Query('post_type=equipe_region');
+  while ($region->have_posts()) : $region->the_post(); 
+?>
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">David Rivera</h3>
-					<h5 class="card-text">Conseiller à l’établissement en région</h5>
-					<h5 class="card-text"><small class="text-muted">david.rivera@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h3>
+					<h5 class="card-text"><?php the_field('role')?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/daniela.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Daniela Halter</h3>
-					<h5 class="card-text">Conseillère en emploi axé sur les régions</h5>
-					<h5 class="card-text"><small class="text-muted">daniela.halter@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/angeles.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Angeles Gongora</h5>
-					<h5 class="card-text">Conseillère à l’établissement en région</h3>
-					<h5 class="card-text"><small class="text-muted">angeles.gongora@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-			  </div>
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
 
+			  </div>
 		</div>
+
 		<div class="col-lg-12 col-md-12 col-sm-12">
 		  <h2 class="equipe-role">Soutien scolaire</h2>
 		
 			<div class="card-group equipe justify-content-center">
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/sylvie.png" alt="Card image cap">
+			<?php
+  $soutien = new WP_Query('post_type=equipe_soutien');
+  while ($soutien->have_posts()) : $soutien->the_post(); 
+?>
+				<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="card">
+				  <img class="card-img-top" src=<?php the_post_thumbnail_url() ?> alt="Card image cap">
 				  <div class="card-body">
-					<h3 class="card-title">Sylvie Delgado</h3>
-					<h5 class="card-text">Conseillère au soutien scolaire</h5>
-					<h5 class="card-text"><small class="text-muted">sylvie.delgado@promis.qc.ca</small></h5>
+					<h3 class="card-title"><?php the_field('nom')?></h3>
+					<h5 class="card-text"><?php the_field('role')?></h5>
+					<h5 class="card-text"><small class="text-muted"><?php the_field('courriel')?></small></h5>
 				  </div>
 				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/tamara.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Tamara Momcilovic</h3>
-					<h5 class="card-text">Agente de liaison en milieu scolaire</h5>
-					<h5 class="card-text"><small class="text-muted">tamara.momcilovic@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-				<div class="card">
-				  <img class="card-img-top" src="media/equipe/vanessa.png" alt="Card image cap">
-				  <div class="card-body">
-					<h3 class="card-title">Vanessa Valderrama</h3>
-					<h5 class="card-text">Agente de liaison en milieu scolaire</h5>
-					<h5 class="card-text"><small class="text-muted">vanessa.valderrama@promis.qc.ca</small></h5>
-				  </div>
-				</div>
-			  </div>
-
-		</div>
+				<?php   endwhile;
+  wp_reset_postdata();
+?>
 	</div>
 </div>
 
 </section>
 
-<?php   endwhile;
-  wp_reset_postdata();
+    <!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Plus sur nos membres</h5>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+
+		
+	</article>
+
+<?php endwhile; // Fermeture de la boucle
+
+else : // Si aucune page n'a été trouvée
+	get_template_part( 'partials/404' ); // Affiche partials/404.php
+endif; 
 ?>
+
+
 
 <?php
 
