@@ -106,7 +106,7 @@ endif;
                         <h3 class="card-title"><?php the_field("titre_sous_service_1")?></h3>
 
                     </div>
-                    <p class="card-text"><?php the_field("texte_sous_service_1")?> </p>
+                    <h4 class="card-text"><?php the_field("texte_sous_service_1")?> </h4>
 
                 </div>
             </div>
@@ -116,9 +116,9 @@ endif;
                     <h3 class="card-title">
                         <?php the_field("titre_sous_service_2")?></h3>
 
-                    <p class="card-text"><?php the_field("texte_sous_service_2")?>
+                    <h4 class="card-text"><?php the_field("texte_sous_service_2")?>
 
-                    </p>
+                    </h4>
 
                 </div>
             </div>
@@ -128,8 +128,8 @@ endif;
                 <div class="card-body ">
                     <h3 class="card-title"><?php the_field("titre_sous_service_3")?></h3>
 
-                    <p class="card-text"><?php the_field("texte_sous_service_3")?>
-                    </p>
+                    <h4 class="card-text"><?php the_field("texte_sous_service_3")?>
+                    </h4>
 
                 </div>
             </div>
@@ -139,7 +139,7 @@ endif;
                 <div class="card-body ">
                     <h3 class="card-title"><?php the_field("titre_sous_service_4")?></h3>
 
-                    <p class="card-text"><?php the_field("texte_sous_service_4")?></p>
+                    <h4 class="card-text"><?php the_field("texte_sous_service_4")?></h4>
 
                 </div>
             </div>
@@ -149,13 +149,16 @@ endif;
 <section class="surplus">
     <div class="webserie-balado d-grid">
         <div class="web-serie col-12">
-            <h2><?php the_field("titre_video")?></h2><br><br>
+
+            <h3><?php the_field("titre_video")?></h3>
+
             <div class="video col-12">
                 <iframe src="https://www.youtube.com/watch?v=lO-t5AyRoCg&t=3s" frameborder="0"></iframe>
             </div>
         </div>
         <div class="balado">
-            <h2 class="col-12"><?php the_field("titre_balados")?></h2><br><br>
+            <h3 class="col-12"><?php the_field("titre_balados")?></h3>
+
             <audio class="col-12" controls
                 src="https://www.buzzsprout.com/1979567/10626818-service-d-accueil-et-integration.mp3?client_source=small_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F1979567%2F10626818-accueil-et-integration.js%3Fcontainer_id%3Dbuzzsprout-player-10626818"></audio>
 
