@@ -60,17 +60,18 @@ endif;
             <div class="tout-sous-meme-toi container-fluid">
                 <div class="row">
                     <h4 class="tout-sous-meme-toi col-12"><?php the_field('premier_paragraphe')?><br><br>
-                            <li>Aide à l'emploi</li>
-                            <li>Régionalisation </li>
-                            <li>Soutien scolaire</li>
-                            <li> Soutien aux familles</li>
-                            <li>Action alimentaire</li>
-                            <li> Hébergement</li>
+                           <li><?php the_field('accueil')?></li> 
+                           <li> <?php the_field('famille')?></li>
+                           <li><?php the_field('scolaire')?></li>
+                            <li><?php the_field('emplois')?></li>
+                            
+                            <li><?php the_field('alimentation')?></li>
+                            <li> <?php the_field('francisation')?></li>
                             <br>
                         </ul>
                     </h4>
 
-                    <h4 class="tout-sous-meme-toi info  col-sm-12 col-xl-12 "> <?php the_field("autre_texte")?>
+                    <h4 class="tout-sous-meme-toi info  col-sm-12 col-xl-12 "> <?php the_field("deuxieme_paragraphe")?>
                      
                     </h4>
                     <div class="MISSION">
@@ -116,8 +117,8 @@ endif;
                 </div>
                 <div class="SERVICE-LANGUE">
                     <h2 class="servicesLangues"><?php the_field("service")?></h2>
-                    <p class="servicesLangues__texte col-sm-12 col-xl-12"><?php the_field("paragraphe_3")?>
-                       </p>
+                    <h5 class="servicesLangues__texte col-sm-12 col-xl-12"><?php the_field("paragraphe_3")?>
+</h5>
 
                 </div>
 
