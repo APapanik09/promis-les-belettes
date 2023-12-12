@@ -994,6 +994,7 @@ h5 .col-sm-12 {
 p {
   font-family: dm-sans;
   font-size: 18px;
+  color: #ffffff;
 }
 
 @media (max-width: 1200px) {
