@@ -20,7 +20,7 @@
         display: flex;
         .nav-link {
             justify-content: space-between;
-            color: colors.$blanc;
+            color: colors.$blanc !important;
         }
         .nav-item {
             display: flex;

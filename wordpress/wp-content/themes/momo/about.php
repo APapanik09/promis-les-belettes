@@ -53,20 +53,20 @@ endif;
             <div class=" container paragraphe-a-propos__titre">
                 <div class="row enveloppe">
 
-                    <h1 class="paragraphe-a-propos  col-12 "> <?php the_title()?></h1>
+                    <h1 class="paragraphe-a-propos  col-12 "> <?php the_field('titre')?><br></h1>
                 </div>
             </div>
 
             <div class="tout-sous-meme-toi container-fluid">
                 <div class="row">
-                    <h4 class="tout-sous-meme-toi col-12"><?php the_content()?></li>
+                    <h4 class="tout-sous-meme-toi col-12"><?php the_field('premier_paragraphe')?><br><br>
                             <li>Aide à l'emploi</li>
                             <li>Régionalisation </li>
                             <li>Soutien scolaire</li>
                             <li> Soutien aux familles</li>
                             <li>Action alimentaire</li>
                             <li> Hébergement</li>
-
+                            <br>
                         </ul>
                     </h4>
 
@@ -75,13 +75,13 @@ endif;
                     </h4>
                     <div class="MISSION">
 
-                        <h2 class="mission "><?php the_field("mission")?></h2>
+                        <h3 class="mission "><?php the_field("mission")?></h3>
                         <h5 class="mission__text col-sm-12 col-xl-12"><?php the_field("mission_texte")?>
                         </h5>
 
                     </div>
                     <div class="VISION">
-                        <h2 class="Vision "><?php the_field("vision")?></h2>
+                        <h3 class="Vision "><?php the_field("vision")?></h3>
                         <h5 class='col-sm-12 col-xl-12'><?php the_field("vision_texte")?></h5>
                     </div>
 
@@ -116,7 +116,7 @@ endif;
                 </div>
                 <div class="SERVICE-LANGUE">
                     <h2 class="servicesLangues"><?php the_field("service")?></h2>
-                    <p class="servicesLangues__texte col-sm-12 col-xl-12">><?php the_field("paragraphe_3")?>
+                    <p class="servicesLangues__texte col-sm-12 col-xl-12"><?php the_field("paragraphe_3")?>
                        </p>
 
                 </div>

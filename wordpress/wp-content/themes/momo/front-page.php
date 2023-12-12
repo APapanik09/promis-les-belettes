@@ -4,7 +4,7 @@ get_header();
 
 <?php
 if ( have_posts() ) : 
-	while ( have_posts() ) : the_post(); ?>
+    while ( have_posts() ) : the_post(); ?>
 <?php if (!is_front_page()) :  ?>
 <h2>
     <?php the_title();  ?>
@@ -15,7 +15,7 @@ if ( have_posts() ) :
 
 <?php 
 else : 
-	get_template_part( 'partials/404' ); 
+    get_template_part( 'partials/404' ); 
 endif;
 ?>
 
