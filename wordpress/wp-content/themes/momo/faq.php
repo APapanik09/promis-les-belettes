@@ -13,9 +13,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
-			<h2>
-				<?php the_title(); // Titre de la page ?>
-			</h2>
+			
 		<?php endif; ?>
 		
 		<?php the_content(); // Contenu principal de la page ?>
@@ -52,7 +50,7 @@ endif;
     <div class="row col-xm-12 col-12 jusify-content-align-items-center">
 
 
-        <h2 class="questionsTitre"><?php the_field("question_recente")?></h2>
+        <h2 class="questionsTitre"><?php the_field("question_recentes")?></h2>
 
         <!-- section  accordéon faq questions récente -->
         <div class="accordion align-items-center" id="accordionExample">

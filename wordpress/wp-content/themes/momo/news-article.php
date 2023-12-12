@@ -63,15 +63,20 @@ endif;
                         
                                 <h3 class="titre__nouvelle" itemprop="about" itemprop="name"> <?php the_title()?></h3>
                                 <div class="nouvelle-img">
-                                    <h4 class="paragraphe-nouvelle__texte">
-                                        <br> <?php the_content()?> 
+                                <style>
+  p {
+    color:#223843 ;
+  }
+</style>
+                                    <h4 class="paragraphe-nouvelle__texte"><?php the_content()?> 
+                                        <br> 
                                         <br>
                                         <br> <br>
                                         <br> <br><br>
                                     </h4>
-                                    <p>
+                                    <h4>
                                         <time itemprop="datePublished"> <?php the_field("date")?></time>
-                                    </p>
+</h4>
                                 </div>
                     </div>
                 </div>
@@ -85,7 +90,7 @@ endif;
     <!--Nouvelle
 ----------------------------------------->
     <section class="nouvelle">
-        <h2 class="nouvelle__titre">Nouvelles récentes</h2>
+        <h2 class="nouvelle__titre"><?php the_field("") ?></h2>
         <!-- Swipper service 
 -------------------------------------->
         <div class="swiper swiperNouvelle">
@@ -142,3 +147,4 @@ get_footer(); // Affiche footer.php
 
 
 
+ 

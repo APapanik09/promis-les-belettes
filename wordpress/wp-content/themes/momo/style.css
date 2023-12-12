@@ -887,11 +887,15 @@ Version: 1.0
     width: 100%;
 }
 
-p .nouvellle__texte .col-12 .text-align-center {
+.anim .col-12 .text-align-center {
     font-family: dosis;
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
+}
+
+.paragraphe-nouvelle__texte {
+    color: #223843 !important;
 }
 
 
@@ -1130,7 +1134,32 @@ p {
         font-weight: 500;
     }
     p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-family: sunday;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 1.5;
         font-size: 30px;
+    }
+    h2 {
+        font-size: 47px;
+        object-fit: cover;
+    }
+    h3 {
+        font-size: 27px;
+    }
+    h4 {
+        font-family: dm-sans !important;
+        font-weight: 500;
+    }
+    p {
+        font-size: 20px;
+        color: #fff;
     }
 }
 
@@ -1538,6 +1567,7 @@ p {
     margin-bottom: 10%;
     font-family: dm-sans;
     font-size: 20px;
+    color: white;
 }
 
 
@@ -5314,6 +5344,7 @@ iframe {
     padding: 20px;
     background-repeat: no-repeat;
     background-color: #223843;
+    color: #fff;
 }
 
 .service .card__francisation {

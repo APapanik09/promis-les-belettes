@@ -6,11 +6,9 @@ get_header();
 if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
 <?php if (!is_front_page()) :  ?>
-<h2>
-    <?php the_title();  ?>
-</h2>
+
 <?php endif; ?>
-<?php the_content();  ?>
+
 <?php endwhile; ?>
  
 <?php
@@ -104,9 +102,11 @@ endif;
                 <div class="container-fluid  ">
                     <div class="card evenement__card">
                         <div class="row">
+                        
                             <div class="  col-12 col-md-12 col-lg-6">
-                                <img class="image_evenement" src="media/evenement.png" alt="">
+                                <img class="image_evenement" src="<?php the_post_thumbnail_url("medium") ?>" alt="">
                             </div>
+                       
  
                             <div class="col-12 col-md-12 col-lg-6 d-flex">
                                 <div class="evenement__card-body d-none d-md-block d-lg-block card-body">
@@ -236,14 +236,15 @@ endif;
             <!--Déménagement
               ---------------------------------------------------------->
             <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
-                <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
- 
+                <div style="background-image:url('<?php the_post_thumbnail_url("medium") ?>')" 
+class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+
                     <div class="nouvelle card-body ">
  
                         <h3 itemprop="title" class="card-title col-12"><?php the_title() ?> </h3>
  
- 
-                        <h5 itemprop="datePublished" class="card-text"><?php the_content() ?></h5>
+
+                        <h5 itemprop="datePublished" class="card-text"><?php the_field("date") ?></h5>
  
                     </div>
                 </div>
@@ -284,7 +285,8 @@ endif;
                 <div class="row d-flex">
  
                     <img class="card-image-top temoignage__image justify-content-center col-lg-3 col-md-11 col-sm-5"
-                        src="media/temoignage.jpg" alt="">
+                        src="<?php the_post_thumbnail_url("medium") ?>" >
+
  
  
  
@@ -347,7 +349,8 @@ endif;
  
  
                         </div>
-                        <button class="don__bouton col-5 justify-content-center">Faire la différence</button>
+                       <a href="https://www.canadahelps.org/fr/organismesdebienfaisance/promis/">  <button class="don__bouton col-5 justify-content-center">Faire la différence</button></a>
+
                     </div>
                 </div>
             </div>
