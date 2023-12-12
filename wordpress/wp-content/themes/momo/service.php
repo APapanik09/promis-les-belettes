@@ -149,13 +149,13 @@ endif;
 <section class="surplus">
     <div class="webserie-balado d-grid">
         <div class="web-serie col-12">
-            <h2><?php the_field("titre_video")?></h2>
+            <h2><?php the_field("titre_video")?></h2><br><br>
             <div class="video col-12">
                 <iframe src="https://www.youtube.com/watch?v=lO-t5AyRoCg&t=3s" frameborder="0"></iframe>
             </div>
         </div>
         <div class="balado">
-            <h2 class="col-12"><?php the_field("titre_balados")?></h2>
+            <h2 class="col-12"><?php the_field("titre_balados")?></h2><br><br>
             <audio class="col-12" controls
                 src="https://www.buzzsprout.com/1979567/10626818-service-d-accueil-et-integration.mp3?client_source=small_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F1979567%2F10626818-accueil-et-integration.js%3Fcontainer_id%3Dbuzzsprout-player-10626818"></audio>
 
@@ -167,6 +167,6 @@ endif;
   wp_reset_postdata();
 ?>
 <?php
-get_sidebar(); // Affiche le contenu de sidebar.php
+
 get_footer(); // Affiche footer.php 
 ?>
