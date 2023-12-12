@@ -4,6 +4,8 @@
 @use "footer";
 @use "mixins";
 
+/* Héro nouvelles
+***********************************************/
 .hero-nouvelles {
     @include mixins.sectionhero;
 
@@ -23,9 +25,11 @@
         text-align: center;
     }
 }
-.titre__nouvelle{
+
+.titre__nouvelle {
     text-align: center;
 }
+
 .nouvelles {
     display: inline-flex;
     flex-wrap: wrap;
@@ -35,6 +39,8 @@
     height: auto;
     margin: 0 auto;
 
+    /* cartes
+***********************************************/
     .card-title {
         @include mixins.titre;
     }
@@ -164,7 +170,7 @@
         background-color: colors.$bleuFoncer;
         color: colors.$blanc;
     }
-    
+
 }
 
 .firstnews {
@@ -187,6 +193,9 @@
     }
 
 }
+
+/* nouvelle récentes
+***********************************************/
 
 .firstnews.card:hover {
     box-shadow: 10px 10px colors.$orangeFonce;

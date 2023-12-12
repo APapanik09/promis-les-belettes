@@ -3,15 +3,17 @@
 @use 'banniere';
 @use "mixins";
 
+/* Page 404 
+***********************************************/
 .quatre-contenu {
-        background-color: colors.$rosepale;
+    background-color: colors.$rosepale;
 }
 
 .quatre {
     width: 100vw;
     justify-content: center;
     text-align: center;
-    padding:15vh 0;
+    padding: 15vh 0;
 
     margin-bottom: 30px;
     margin-top: 30px;
@@ -29,13 +31,14 @@
         padding: 5px;
         color: black;
     }
-    .retour-menu {
-  
 
-        
-        @media screen and (max-width: 375px){
+    .retour-menu {
+
+
+
+        @media screen and (max-width: 375px) {
             text-align: center;
-            
+
         }
 
 
@@ -46,7 +49,7 @@
             border-radius: 10px;
             text-align: center;
 
-            
+
         }
 
     }
@@ -55,6 +58,8 @@
 
 }
 
+/* animation
+***********************************************/
 img.oiseauquatre {
     width: 100px;
     height: 100px;
@@ -86,6 +91,3 @@ img.oiseauquatre {
     }
 
 }
-
-
-

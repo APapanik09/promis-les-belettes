@@ -4,6 +4,8 @@
 @use "footer";
 @use "mixins";
 
+/* Héro de l'équipe
+************************************************/
 .hero-equipe {
     @include mixins.sectionhero;
 
@@ -23,7 +25,8 @@
 }
 
 
-
+/* card de l'équipe
+************************************************/
 
 .equipe .card {
     margin: 20px 40px;
@@ -37,7 +40,7 @@
 
     }
 
-    
+
 
 
 }
@@ -71,6 +74,6 @@
 
 .text-muted {
     text-align: center;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
 }
-

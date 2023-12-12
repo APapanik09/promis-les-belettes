@@ -1,4 +1,8 @@
 /* Wow, tellement un beau spot pour écrire du JS */
+
+
+/* Swipper carrouselle de l'héro de l'accueil
+****************************************************/
 const swiperCarrousel = new Swiper(".swiperAccueil", {
     // Optional parameters
     direction: "horizontal",
@@ -17,6 +21,8 @@ const swiperCarrousel = new Swiper(".swiperAccueil", {
     },
 
 });
+/* Swipper des services
+****************************************************/
 const swiper = new Swiper(".swiperService", {
     // Optional parameters
     direction: "horizontal",
@@ -45,7 +51,8 @@ const swiper = new Swiper(".swiperService", {
         // when window width is >= 640px
     },
 });
-
+/* Swipper des nouvelles
+****************************************************/
 const swiperNouvelle = new Swiper(".swiperNouvelle", {
     // Optional parameters
     direction: "horizontal",
@@ -144,6 +151,8 @@ gsap
     .to(".section-histoire", { autoAlpha: 1 });
 
 /* fin animation page histoire */
+
+/* animation du don*/
 gsap.registerPlugin(MotionPathPlugin);
 /* animation Don */
 let oiseau = document.querySelector(".oiseau");
