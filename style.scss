@@ -1,6 +1,6 @@
 @use "partials/banniere";
 @use "partials/fonts";
-@use "partials/navbar";
+//@use "partials/navbar";
 @use "partials/colors";
 @use "partials/mixins";
 @use "partials/footer";
@@ -10,6 +10,10 @@
 @use "partials/equipe";
 @use "partials/nouvelles";
 @use "partials/detail_nouvelle";
+
+a {
+    color: white;
+}
 
 html {
     overflow-x: hidden;

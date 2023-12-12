@@ -41,74 +41,6 @@ p {
   width: 15px;
 }
 
-.barreNav {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #223843;
-}
-
-.container {
-  display: flex;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-}
-.navbar-nav {
-  display: flex;
-}
-.navbar-nav .nav-link {
-  justify-content: space-between;
-  color: #ffffff;
-}
-.navbar-nav .nav-item {
-  display: flex;
-}
-
-a .navbar-nav:hover {
-  color: #F4E6EF;
-}
-
-#banniere {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-}
-
-.navbar-nav .nav-link {
-  justify-content: space-between;
-  color: #ffffff;
-  width: 100px;
-  text-align: center;
-}
-
-.navbar-nav:hover .nav-link:hover {
-  justify-content: space-between;
-  color: #FC9478;
-  width: 100px;
-  text-align: center;
-}
-
-.bouton-don {
-  color: #FC9478 !important;
-  background-color: #FC9478;
-  border-radius: 10px;
-  width: 100px;
-  box-shadow: none;
-}
-
-.bouton-don:hover {
-  color: #223843;
-  box-shadow: none;
-}
-
 footer {
   background-color: #FC9478;
   font-family: "dosis";
@@ -147,6 +79,8 @@ h2 {
   padding-bottom: 0 !important;
 }
 
+/* Héro faqs 
+***********************************************/
 .hero-a-propos {
   width: 100vw;
   margin: 0 auto;
@@ -169,6 +103,8 @@ h2 {
   }*/
 }
 
+/* accordéon 
+***********************************************/
 .questionsTitre {
   font-family: dosis;
   color: #223843;
@@ -350,6 +286,8 @@ svg {
   }
 }
 /* section histoire fin*/
+/* Page 404 
+***********************************************/
 .quatre-contenu {
   background-color: #F4E6EF;
 }
@@ -386,6 +324,8 @@ svg {
   text-align: center;
 }
 
+/* animation
+***********************************************/
 img.oiseauquatre {
   width: 100px;
   height: 100px;
@@ -411,6 +351,8 @@ img.oiseauquatre_quatre {
   right: -15%;
 }
 
+/* Héro de l'équipe
+************************************************/
 .hero-equipe {
   width: 100vw;
   margin: 0 auto;
@@ -431,6 +373,8 @@ img.oiseauquatre_quatre {
   font-weight: 300;
 }
 
+/* card de l'équipe
+************************************************/
 .equipe .card {
   margin: 20px 40px;
   padding: 0;
@@ -469,6 +413,8 @@ img.oiseauquatre_quatre {
   font-size: 14px;
 }
 
+/* Héro nouvelles
+***********************************************/
 .hero-nouvelles {
   width: 100vw;
   margin: 0 auto;
@@ -502,6 +448,8 @@ img.oiseauquatre_quatre {
   max-width: 500px;
   height: auto;
   margin: 0 auto;
+  /* cartes
+  ***********************************************/
 }
 .nouvelles .card-title {
   text-align: center;
@@ -715,6 +663,8 @@ img.oiseauquatre_quatre {
      object-fit: cover;
 }
 
+/* nouvelle récentes
+***********************************************/
 .firstnews.card:hover {
   box-shadow: 10px 10px #FC9478;
 }
@@ -921,6 +871,10 @@ p .nouvellle__texte .col-12 .text-align-center {
   border-radius: 0;
   box-shadow: none;
   outline: none;
+}
+
+a {
+  color: white;
 }
 
 html {

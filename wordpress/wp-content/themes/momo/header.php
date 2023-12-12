@@ -60,8 +60,8 @@
                     <a class="navbar__logo navbar-brand" href="index.html"><img src="media/icone/logo_orange.png"
                             alt=""></a>
                     <div id="mainNav" class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                            <?php
+
+                        <?php
 wp_nav_menu([
    'theme_location'=> 'main-menu',
    'menu_class'    => 'navbar-nav',
@@ -69,9 +69,9 @@ wp_nav_menu([
    'link_item_class'     => 'nav-link',
 ]);
 ?>
-                            <!--élément du menu-->
+                        <!--élément du menu-->
 
-                        </ul>
+
                     </div>
                 </div>
             </nav>
