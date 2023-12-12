@@ -1,15 +1,15 @@
 <?php 
 /**
- * 	Template Name: service
+ *  Template Name: service
  * Template Post Type: carte-service
- * 	Identique à page, mais avec une barre latérale
+ *  Identique à page, mais avec une barre latérale
  */
 
 get_header(); // Affiche header.php
 
 if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ? 
-	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
-	while ( have_posts() ) : the_post(); 
+    // Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
+    while ( have_posts() ) : the_post(); 
 ?>
 
 <article>
@@ -23,7 +23,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 <?php endwhile; // Fermeture de la boucle
 
 else : // Si aucune page n'a été trouvée
-	get_template_part( 'partials/404' ); // Affiche partials/404.php
+    get_template_part( 'partials/404' ); // Affiche partials/404.php
 endif;
 
 ?>
@@ -149,16 +149,13 @@ endif;
 <section class="surplus">
     <div class="webserie-balado d-grid">
         <div class="web-serie col-12">
-
             <h3><?php the_field("titre_video")?></h3>
-
             <div class="video col-12">
                 <iframe src="https://www.youtube.com/watch?v=lO-t5AyRoCg&t=3s" frameborder="0"></iframe>
             </div>
         </div>
         <div class="balado">
             <h3 class="col-12"><?php the_field("titre_balados")?></h3>
-
             <audio class="col-12" controls
                 src="https://www.buzzsprout.com/1979567/10626818-service-d-accueil-et-integration.mp3?client_source=small_player&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F1979567%2F10626818-accueil-et-integration.js%3Fcontainer_id%3Dbuzzsprout-player-10626818"></audio>
 
@@ -173,3 +170,5 @@ endif;
 
 get_footer(); // Affiche footer.php 
 ?>
+Réduire
+Dispose d’un menu contextuel
