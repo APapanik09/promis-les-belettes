@@ -78,7 +78,7 @@ p {
 
 .navbar-nav .nav-link {
     justify-content: space-between;
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
 .navbar-nav .nav-item {
@@ -86,7 +86,7 @@ p {
 }
 
 a .navbar-nav:hover {
-    color: #F4E6EF !important;
+    color: #F4E6EF;
 }
 
 #banniere {
@@ -1538,7 +1538,6 @@ p {
     margin-bottom: 10%;
     font-family: dm-sans;
     font-size: 20px;
-    color: white;
 }
 
 
