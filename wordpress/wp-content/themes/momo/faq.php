@@ -35,7 +35,11 @@ endif;
             <div class=" col-12 text-lg-start">
                 <div class="titre-a-propos ">
                     <h1 class="titre-a-propos col-sm-12 col-12"><?php the_title()?></h1>
-                    <h3 class="texte-hero-a-propos col-12"><?php the_content()?>
+                   <style>
+                    p{
+                        text-align:center;
+                    }
+                   </style> <h3 class="texte-hero-a-propos col-12 text-align-center"><?php the_content()?>
                     </h3>
                 </div>
             </div>
@@ -64,7 +68,7 @@ endif;
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <h5> <strong>Réponse:</strong><?php the_field("reponse_question-1")?> </h5>
+                        <h5> <strong></strong><?php the_field("reponse_question-1")?> </h5>
 
                     </div>
                 </div>
@@ -79,7 +83,7 @@ endif;
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <h5> <strong>Réponse:</strong> <?php the_field("reponse_question-2")?>
+                        <h5> <strong></strong> <?php the_field("reponse_question-2")?>
                             
                             </h5>
                     </div>
@@ -95,7 +99,7 @@ endif;
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <h5><strong>Réponse:</strong>  <?php the_field("reponse_question-3")?></h5>
+                        <h5><strong></strong>  <?php the_field("reponse_question-3")?></h5>
                     </div>
                 </div>
 
@@ -111,7 +115,7 @@ endif;
                 <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <h5><strong>Réponse : </strong> <?php the_field("reponse_question-4")?> </h5>
+                        <h5><strong></strong> <?php the_field("reponse_question-4")?> </h5>
                     </div>
                 </div>
             </div>
@@ -125,7 +129,7 @@ endif;
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                       <h5><strong>Réponse:</strong> <?php the_field("reponse_question-5")?></h5>
+                       <h5><strong></strong> <?php the_field("reponse_question-5")?></h5>
                     </div>
                 </div>
 
@@ -144,7 +148,7 @@ endif;
                     <div id="collapseSevent" class="accordion-collapse collapse show" aria-labelledby="headingSevent"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h5><strong>Réponse : </strong> <?php the_field("reponse_question-6")?></h5>
+                            <h5><strong></strong> <?php the_field("reponse_question-6")?></h5>
 
                         </div>
                     </div>
@@ -160,7 +164,7 @@ endif;
                     <div id="collapseHeight" class="accordion-collapse collapse" aria-labelledby="headingHeight"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <h5> <strong>Réponse:</strong>  <?php the_field("reponse_question-7")?></h5>
+                           <h5> <strong></strong>  <?php the_field("reponse_question-7")?></h5>
                         </div>
                     </div>
                 </div>
@@ -174,7 +178,7 @@ endif;
                     <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <h5> <strong>Réponse:</strong> <?php the_field("reponse_question-8")?>
+                           <h5> <strong></strong> <?php the_field("reponse_question-8")?>
                            </h5>
 
                         </div>
@@ -191,7 +195,7 @@ endif;
                     <div id="collapseThen" class="accordion-collapse collapse show" aria-labelledby="headingThen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <h5> <strong>Réponse : </strong>  <?php the_field("reponse_question-9")?>
+                           <h5> <strong></strong>  <?php the_field("reponse_question-9")?>
                            </h5>
                         </div>
                     </div>
@@ -206,7 +210,7 @@ endif;
                     <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <h5>  <strong>Réponse:</strong>  <?php the_field("reponse_question-10")?>
+                          <h5>  <strong></strong>  <?php the_field("reponse_question-10")?>
                             </h5>
 
                         </div>
@@ -223,7 +227,7 @@ endif;
                     <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <h5> <strong>Réponse : </strong>  <?php the_field("reponse_question-11")?></h5>
+                           <h5> <strong></strong>  <?php the_field("reponse_question-11")?></h5>
                         </div>
                     </div>
                 </div>

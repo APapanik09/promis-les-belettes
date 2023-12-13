@@ -203,8 +203,15 @@ endif;
                     <div class="row ">
                         <h3 class="card-title accueil"><?php the_title()?></h3>
  
-                    </div>
-                    <h3 class="card-text"><?php the_content()?></h3>
+                    </div><style>
+                        p{
+                            color:white;
+                            text-decoration:none !important;
+                            font-size:18px;
+                        }
+                    </style>
+
+                    <p class="card-text"><?php the_content()?></p>
     
                 </div>
 </a>
@@ -290,7 +297,11 @@ endif;
                     <img class="card-image-top temoignage__image justify-content-center col-lg-3 col-md-11 col-sm-5"
                         src="<?php the_post_thumbnail_url("medium") ?>" >
 
- 
+ <style>
+    .card-text .temoignage__card-text{
+        color:black;
+    }
+ </style>
 
  
                     <h5 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h5>
