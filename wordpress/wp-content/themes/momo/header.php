@@ -58,8 +58,8 @@
                     </button>
 
                     <!-- Navigation -->
-                    <a class="navbar__logo navbar-brand" href="index.html"><img src="media/icone/logo_orange.png"
-                            alt=""></a>
+                    <a class="navbar__logo navbar-brand" href="index.html"><img
+                            src="<?php bloginfo('template_url'); ?>/media/image/logo_orange.png" alt=""></a>
                     <div id="mainNav" class="collapse navbar-collapse">
 
                         <?php
