@@ -36,11 +36,7 @@ endif;
                 <div class=" col-12 text-lg-start">
                     <div class="titre-histoire">
                         <h1 class="titre-histoire col-12" > <?php the_title() ?> </h1>
-                        <style>
-  p {
-    color:#223843 ;
-  }
-</style>
+
                         <h3 class="texte-hero-histoire col-12" ><?php the_content() ?>
                         </h3> 
                     </div>

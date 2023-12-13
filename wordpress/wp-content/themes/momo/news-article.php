@@ -63,11 +63,8 @@ endif;
                         
                                 <h3 class="titre__nouvelle" itemprop="about" itemprop="name"> <?php the_title()?></h3>
                                 <div class="nouvelle-img">
-                                <style>
-  p {
-    color:#223843 ;
-  }
-</style>
+                                
+ 
                                     <h4 class="paragraphe-nouvelle__texte"><?php the_content()?> 
                                         <br> 
                                         <br>
