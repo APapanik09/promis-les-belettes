@@ -58,7 +58,13 @@
 <div class="container-fluid d-flex justify-content-center">
     <div class="row d-flex footerdiv align-items-center ">
         <div class="col-lg-2 col-sm-12 text-align-center">
-            <a href="index.html" class="promislink"><img class='logofooter img-fluid' src="media/logo_promis.svg" alt="logo promis"></a><br><button class="footerbtn col-5 justify-content-center">Don</button><br><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
+        <?php
+  $footer = new WP_Query('post_type=footer');
+  while ($footer->have_posts()) : $footer->the_post(); 
+?>
+            <a href="<?php the_permalink(); ?>" class="promislink"><img class='logofooter img-fluid' src=<?php the_post_thumbnail_url() ?> alt="logo promis"></a><br><button class="footerbtn col-5 justify-content-center">Don</button><br><a href=""><i class="bi bi-instagram"></i></a><a href=<?php the_field('media') ?>><i class="bi bi-facebook"></i></a><a href=""><i class="bi bi-twitter"></i></a><?php   endwhile;
+  wp_reset_postdata();
+?></div>
         <div class="col-lg-2 col-sm-12 text-align-center"> Lun - Ven: 9h à 17h<br>Téléphone: (514) 345-1615
             <br>Télécopieur: (514) 345-1088</div>
         <div class="col-lg-2 col-sm-12 text-align-center"><a href="https://www.google.ca/maps/place/333+Chem.+de+la+C%C3%B4te-Sainte-Catherine,+Outremont,+QC/@45.5160075,-73.6057758,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91986ca96da87:0xb66160f92f082d58!8m2!3d45.5160075!4d-73.6032009?entry=ttu">
