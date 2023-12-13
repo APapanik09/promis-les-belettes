@@ -93,6 +93,11 @@ endif;
                         <h3 class="card-title accueil"><?php the_title()?></h3>
 
                     </div>
+                    <style>
+  p {
+    color:white ;
+  }
+</style>
                     <p class="card-text"><?php the_content()?></p>
 
                 </div>
