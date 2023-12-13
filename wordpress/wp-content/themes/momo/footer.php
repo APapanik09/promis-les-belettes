@@ -18,7 +18,7 @@
 ?>
                 <div class="swiper-slide">
 
-                    <a href="<?php the_fiel('lien') ?>" <?php the_post_thumbnail_url('medium') ?> alt="partenaires"
+                    <a href="<?php the_field('lien') ?>" <?php the_post_thumbnail_url('medium') ?> alt="partenaires"
                         class="brasseur"></a>
 
 
