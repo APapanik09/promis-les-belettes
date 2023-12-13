@@ -6,11 +6,9 @@ get_header();
 if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
 <?php if (!is_front_page()) :  ?>
-<h2>
-    <?php the_title();  ?>
-</h2>
+
 <?php endif; ?>
-<?php the_content();  ?>
+
 <?php endwhile; ?>
  
 <?php
@@ -104,9 +102,11 @@ endif;
                 <div class="container-fluid  ">
                     <div class="card evenement__card">
                         <div class="row">
+                        
                             <div class="  col-12 col-md-12 col-lg-6">
-                                <img class="image_evenement" src="media/evenement.png" alt="">
+                                <img class="image_evenement" src="<?php the_post_thumbnail_url("medium") ?>" alt="">
                             </div>
+                       
  
                             <div class="col-12 col-md-12 col-lg-6 d-flex">
                                 <div class="evenement__card-body d-none d-md-block d-lg-block card-body">
@@ -156,21 +156,21 @@ endif;
               ---------------------------------------------------------->
             <div class="swiper-slide justify-content-centercard">
  
-                <div class="card-1 carte-service col-10 col-md-11 col-lg-6  card__accueil ">
+                <a  href="<?php the_permalink()?>" class="card-1 carte-service col-10 col-md-11 col-lg-6  card__accueil ">
  
                     <div class="card-body ">
                         <div class="row ">
-                            <a class="lien-titre" href="detail_service.html">
+                         
                                 <h3 class="card-title col-12"><?php the_title()?></h3>
-                            </a>
+                         
  
                         </div>
-                        <a href="detail_service.html" class="lien">
+              
                             <p class="card-text"><?php the_content()?></p>
-                        </a>
+                       
                     </div>
  
-                </div>
+</a>
             </div>
  
  
@@ -198,7 +198,7 @@ endif;
              $projects = new WP_Query('post_type=carte-service');
                  while ($projects->have_posts()) : $projects->the_post();
                 ?>
-            <div class="card  service__accueil d-none  m-2 col-3 d-lg-block">
+            <a class="card  service__accueil d-none  m-2 col-3 d-lg-block"  href="<?php the_permalink()?>">
                 <div class="card-body ">
                     <div class="row ">
                         <h3 class="card-title accueil"><?php the_title()?></h3>
@@ -207,7 +207,7 @@ endif;
                     <p class="card-text"><?php the_content()?></p>
  
                 </div>
-            </div>
+</a>
             <?php
   endwhile;
   wp_reset_postdata();
@@ -220,34 +220,38 @@ endif;
 </section>
  
 <!--Nouvelle
+
 ----------------------------------------->
 <section class="nouvelle">
-    <h2 class="nouvelle__titre">Nouvelles récentes</h2>
-    <!-- Swipper service
-  -------------------------------------->
-    <div class="swiper swiperNouvelle">
- 
-        <div class="swiper-wrapper ">
-            <!-- Slides -->
-            <?php
-             $projects = new WP_Query('post_type=nouvelle');
-                 while ($projects->have_posts()) : $projects->the_post();
-                ?>
-            <!--Déménagement
-              ---------------------------------------------------------->
-            <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
-                <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
- 
-                    <div class="nouvelle card-body ">
- 
-                        <h3 itemprop="title" class="card-title col-12"><?php the_title() ?> </h3>
- 
- 
-                        <h5 itemprop="datePublished" class="card-text"><?php the_content() ?></h5>
- 
+        <h2 class="nouvelle__titre"><?php the_field("") ?></h2>
+        <!-- Swipper service 
+-------------------------------------->
+        <div class="swiper swiperNouvelle">
+
+            <div class="swiper-wrapper ">
+                <!-- Slides -->
+                <?php
+                $projects = new WP_Query('post_type=nouvelle');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+                <!--Déménagement 
+          ---------------------------------------------------------->
+                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
+                    <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+                    <div style="background-image:url('<?php the_post_thumbnail_url("medium") ?>')" >
+
+                        <div class="nouvelle card-body ">
+                        
+
+                          <a href="<?php the_permalink()?>">  <h3 itemprop="title" class="card-title col-12"><?php the_title()?> </h3></a>
+
+
+                            <h5 itemprop="datePublished" class="card-text"><?php the_field("date")?></h5>
+
+                        </div>
                     </div>
                 </div>
-            </div>
+                </div>
             <?php
   endwhile;
   wp_reset_postdata();
@@ -284,11 +288,12 @@ endif;
                 <div class="row d-flex">
  
                     <img class="card-image-top temoignage__image justify-content-center col-lg-3 col-md-11 col-sm-5"
-                        src="media/temoignage.jpg" alt="">
+                        src="<?php the_post_thumbnail_url("medium") ?>" >
+
  
+
  
- 
-                    <h3 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h3>
+                    <h5 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h5>
  
  
  
@@ -347,7 +352,8 @@ endif;
  
  
                         </div>
-                        <button class="don__bouton col-5 justify-content-center">Faire la différence</button>
+                       <a href="https://www.canadahelps.org/fr/organismesdebienfaisance/promis/">  <button class="don__bouton col-5 justify-content-center">Faire la différence</button></a>
+
                     </div>
                 </div>
             </div>

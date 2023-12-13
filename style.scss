@@ -1,6 +1,6 @@
 @use "partials/banniere";
 @use "partials/fonts";
-//@use "partials/navbar";
+@use "partials/navbar";
 @use "partials/colors";
 @use "partials/mixins";
 @use "partials/footer";
@@ -65,7 +65,7 @@ h5 {
 p {
     font-family: dm-sans;
     font-size: 18px;
-    // color: colors.$blanc;
+    color: colors.$blanc;
 }
 
 @media (max-width: 1200px) {

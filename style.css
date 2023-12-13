@@ -41,6 +41,74 @@ p {
   width: 15px;
 }
 
+.barreNav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #223843;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff !important;
+}
+.navbar-nav .nav-item {
+  display: flex;
+}
+
+a .navbar-nav:hover {
+  color: #F4E6EF;
+}
+
+#banniere {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar-nav .nav-link {
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100px;
+  text-align: center;
+}
+
+.navbar-nav:hover .nav-link:hover {
+  justify-content: space-between;
+  color: #FC9478;
+  width: 100px;
+  text-align: center;
+}
+
+.bouton-don {
+  color: #FC9478 !important;
+  background-color: #FC9478;
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: none;
+}
+
+.bouton-don:hover {
+  color: #223843;
+  box-shadow: none;
+}
+
 footer {
   background-color: #FC9478;
   font-family: "dosis";
@@ -926,6 +994,7 @@ h5 .col-sm-12 {
 p {
   font-family: dm-sans;
   font-size: 18px;
+  color: #ffffff;
 }
 
 @media (max-width: 1200px) {
