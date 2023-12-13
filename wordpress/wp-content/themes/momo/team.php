@@ -20,11 +20,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	<div class="row align-items-center">
 		<div class=" col-12 text-lg-start">
 			<div class="titre-equipe">		
-				
-
 				<h1 class="titre-equipe col-12"><?php the_title()?></h1>
-				<h5 class="texte-hero-equipe col-12"><?php the_content()?>
-				</h5>
+				<p class="texte-hero-equipe col-12"><?php the_content()?>
+		</p>
 			</div>
 		</div>
 
