@@ -67,7 +67,7 @@ h5 {
 p {
     font-family: dm-sans;
     font-size: 18px;
-    // color: colors.$blanc;
+
 }
 
 @media (max-width: 1200px) {
@@ -1227,4 +1227,8 @@ p {
 }
 */
     /*  fin ajuster les styles selon les differents dimensions*/
+}
+
+.partenaires a {
+    text-align: center;
 }
