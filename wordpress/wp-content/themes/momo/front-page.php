@@ -156,21 +156,21 @@ endif;
               ---------------------------------------------------------->
             <div class="swiper-slide justify-content-centercard">
  
-                <div class="card-1 carte-service col-10 col-md-11 col-lg-6  card__accueil ">
+                <a  href="<?php the_permalink()?>" class="card-1 carte-service col-10 col-md-11 col-lg-6  card__accueil ">
  
                     <div class="card-body ">
                         <div class="row ">
-                            <a class="lien-titre" href="detail_service.html">
+                         
                                 <h3 class="card-title col-12"><?php the_title()?></h3>
-                            </a>
+                         
  
                         </div>
-                        <a href="detail_service.html" class="lien">
+              
                             <p class="card-text"><?php the_content()?></p>
-                        </a>
+                       
                     </div>
  
-                </div>
+</a>
             </div>
  
  
@@ -198,7 +198,7 @@ endif;
              $projects = new WP_Query('post_type=carte-service');
                  while ($projects->have_posts()) : $projects->the_post();
                 ?>
-            <div class="card  service__accueil d-none  m-2 col-3 d-lg-block">
+            <a class="card  service__accueil d-none  m-2 col-3 d-lg-block"  href="<?php the_permalink()?>">
                 <div class="card-body ">
                     <div class="row ">
                         <h3 class="card-title accueil"><?php the_title()?></h3>
@@ -207,7 +207,7 @@ endif;
                     <p class="card-text"><?php the_content()?></p>
  
                 </div>
-            </div>
+</a>
             <?php
   endwhile;
   wp_reset_postdata();
