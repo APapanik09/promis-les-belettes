@@ -6,7 +6,8 @@
 @use "accueil";
 @use "faq";
 
-
+/* détail de service
+***********************************************/
 
 .detail {
   @include mixins.sectionhero;
@@ -34,6 +35,8 @@
   }
 }
 
+/* media query
+***********************************************/
 @media (max-width: 987px) {
   .card-text {
     font-size: 18px;
