@@ -9,7 +9,7 @@
                     <h1 class="quatre-titre">404</h1>
                     <p class="quatre-texte">Cette page n'existe pas!</p>
                     <p class="quatre-texte">Il semblerait que vous vous êtes perdus...</p>
-                    <a href="index.html" class="retour-menu"><span class="texte-retour">Vers l'accueil</span></a>
+                    <a href="<?php echo site_url('/accueil'); ?>" class="retour-menu"><span class="texte-retour">Vers l'accueil</span></a>
                 </div>
 
             </div>
