@@ -220,35 +220,38 @@ endif;
 </section>
  
 <!--Nouvelle
+
 ----------------------------------------->
 <section class="nouvelle">
-    <h2 class="nouvelle__titre">Nouvelles récentes</h2>
-    <!-- Swipper service
-  -------------------------------------->
-    <div class="swiper swiperNouvelle">
- 
-        <div class="swiper-wrapper ">
-            <!-- Slides -->
-            <?php
-             $projects = new WP_Query('post_type=nouvelle');
-                 while ($projects->have_posts()) : $projects->the_post();
-                ?>
-            <!--Déménagement
-              ---------------------------------------------------------->
-            <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
-                <div style="background-image:url('<?php the_post_thumbnail_url("medium") ?>')" 
-class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+        <h2 class="nouvelle__titre"><?php the_field("") ?></h2>
+        <!-- Swipper service 
+-------------------------------------->
+        <div class="swiper swiperNouvelle">
 
-                    <div class="nouvelle card-body ">
- 
-                        <h3 itemprop="title" class="card-title col-12"><?php the_title() ?> </h3>
- 
+            <div class="swiper-wrapper ">
+                <!-- Slides -->
+                <?php
+                $projects = new WP_Query('post_type=nouvelle');
+  while ($projects->have_posts()) : $projects->the_post(); 
+?>
+                <!--Déménagement 
+          ---------------------------------------------------------->
+                <div itemscope itemtype="https://schema.org/Article" class="swiper-slide justify-content-centercard ">
+                    <div class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
+                    <div style="background-image:url('<?php the_post_thumbnail_url("medium") ?>')" >
 
-                        <h5 itemprop="datePublished" class="card-text"><?php the_field("date") ?></h5>
- 
+                        <div class="nouvelle card-body ">
+                        
+
+                          <a href="<?php the_permalink()?>">  <h3 itemprop="title" class="card-title col-12"><?php the_title()?> </h3></a>
+
+
+                            <h5 itemprop="datePublished" class="card-text"><?php the_field("date")?></h5>
+
+                        </div>
                     </div>
                 </div>
-            </div>
+                </div>
             <?php
   endwhile;
   wp_reset_postdata();
@@ -288,9 +291,9 @@ class="nouvelle__demenagement card-1 col-10 col-md-11 col-lg-6  ">
                         src="<?php the_post_thumbnail_url("medium") ?>" >
 
  
+
  
- 
-                    <h3 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h3>
+                    <h5 class="card-text temoignage__card-texte col-lg-7"><?php the_content() ?></h5>
  
  
  

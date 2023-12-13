@@ -110,7 +110,7 @@ endif;
                         <div class="nouvelle card-body ">
                         
 
-                            <h3 itemprop="title" class="card-title col-12"><?php the_title()?> </h3>
+                          <a href="<?php the_permalink()?>">  <h3 itemprop="title" class="card-title col-12"><?php the_title()?> </h3></a>
 
 
                             <h5 itemprop="datePublished" class="card-text"><?php the_field("date")?></h5>

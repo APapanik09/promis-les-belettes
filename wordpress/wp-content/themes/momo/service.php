@@ -40,8 +40,8 @@ endif;
 
 
                     <h1 class="titre-a-propos col-sm-12 col-12"><?php the_title()?></h1>
-                    <h3 class="texte-hero-a-propos col-12"> <?php the_content()?>
-                    </h3>
+                    <h2 class="texte-hero-a-propos col-12"> <?php the_content()?>
+                    </h2>
                 </div>
             </div>
 
