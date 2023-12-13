@@ -11,16 +11,42 @@
 <section class="part">
     <div class="partnenaires swiper-p">
         <div class="partenaires swiper-wrapper">
-            <div class="swiper-slide"><img src="media/partenaires/BRASSEUR_DU_MONDE_BLANC-180x200.png" alt="partenaires" class="brasseur"><img src="media/partenaires/BREBEUF_BLANC-340x78.png" alt="brebeuf" class="brebeuf"><img src="media/partenaires/centraide_blanc2-300x200.png"
-                    alt="centraide" class="centraide"><img src="media/partenaires/CSS-MargueriteBourgeon.png" alt="logo CSS-Marguerite Bourgeon" class="cssmargue"><img src="media/partenaires/CSS-Montreal.png" alt="logo CSS Montreal" class="cssmontreal"></div>
-            <div class="swiper-slide"><img src="media/partenaires/Fondation-Cogir-315x200.png" alt="Fondation Cogir" class="cogir"><img src="media/partenaires/Fudicie-340x81.png" alt="Fudicie" class="fudicie"><img src="media/partenaires/Immigration_Quebec.png" alt="immigration quebec"
-                    class="immigrationQc"><img src="media/partenaires/investissement_quebec_logo-340x73.png" alt="investissement QC" class="investissementQc"><img src="media/partenaires/Logo_Le-Depots.svg" alt="Le Depot" class="ledepot"></div>
-            <div class="swiper-slide"><img src="media/partenaires/Logo_MAC.svg" alt="mac" class="mac"><img src="media/partenaires/logo_reseau_reussite_mtl-340x123.png" alt="reseau reussite" class="reseau"><img src="media/partenaires/Montreal_blanc-340x73.png" alt="Montreal Blanc"
-                    class="montrealblanc"><img src="media/partenaires/service-canada_blanc-340x190.png" alt="service canada" class="serviceCan"><img src="media/partenaires/StateStreet2.png" alt="state street 2" class="state"></div>
+
+            <div class="swiper-slide">
+            <?php
+  $swipe1 = new WP_Query('post_type=partenaire');
+  while ($swipe1->have_posts()) : $swipe1->the_post(); 
+?>
+            <a href=<?php the_field('lien_part') ?>><img src=<?php the_post_thumbnail_url() ?> alt="partenaires" class="brasseur"></a>
+
+                    <?php   endwhile;
+  wp_reset_postdata();
+?>
+		
+                </div>
+            <div class="swiper-slide">            <?php
+  $swipe2 = new WP_Query('post_type=partenaire_d');
+  while ($swipe2->have_posts()) : $swipe2->the_post(); 
+?>
+            <a href=<?php the_field('lien_part') ?>><img src=<?php the_post_thumbnail_url() ?> alt="partenaires" class="brasseur"></a>
+
+                    <?php   endwhile;
+  wp_reset_postdata();
+?></div>
+            <div class="swiper-slide">            <?php
+  $swipe3 = new WP_Query('post_type=partenaire_t');
+  while ($swipe3->have_posts()) : $swipe3->the_post(); 
+?>
+            <a href=<?php the_field('lien_part') ?>><img src=<?php the_post_thumbnail_url() ?> alt="partenaires" class="brasseur"></a>
+
+                    <?php   endwhile;
+  wp_reset_postdata();
+?></div>
 
         </div>
     </div>
 </section>
+
 </section>
 
 <!-- fin partenaire -->
