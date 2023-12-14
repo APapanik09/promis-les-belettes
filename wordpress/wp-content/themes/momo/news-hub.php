@@ -151,8 +151,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                             </div>
                         </div>
 
-                    </div>
-                </div>
+                   
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card-group equipe justify-content-center">
                         <div class="card">
@@ -179,7 +178,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                                 <h5 class="card-text"><a href=""><small class="text-muted">En savoir plus ></small></a></h5>
                             </div>
                         </div>
-
+ 
                     </div>
                 </div>
                 <button class="plusnews btn">Voir plus de nouvelles</button>

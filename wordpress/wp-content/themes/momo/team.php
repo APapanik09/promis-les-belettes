@@ -42,10 +42,20 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 <section>
 <div class="container-fluid">
 	<div class="row justify-content-center">
+
+	
 		<div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
 
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
 
-		  <h2 class="equipe-role">Administration</h2>
+		  <h2 class="equipe-role"><?php the_field('titre_role1')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 		  
 			<div class="card-group equipe justify-content-center">
 								<?php
@@ -66,7 +76,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		</div>
 	</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
-		  <h2 class="equipe-role">Accueil et intégration</h2>
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
+
+		  <h2 class="equipe-role"><?php the_field('titre_role2')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 			<div class="card-group equipe justify-content-center">
 			<?php
   $integration = new WP_Query('post_type=equipe_accueil');
@@ -87,7 +106,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		</div>
 	</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
-		  <h2 class="equipe-role">Francisation</h2>
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
+
+		  <h2 class="equipe-role"><?php the_field('titre_role3')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 			<div class="card-group equipe justify-content-center">
 			<?php
   $francisation = new WP_Query('post_type=equipe_francisation');
@@ -109,7 +137,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
-		  <h2 class="equipe-role">Aide à l’emploi</h2>
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
+
+		  <h2 class="equipe-role"><?php the_field('titre_role4')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 			<div class="card-group equipe justify-content-center">
 			<?php
   $emploi = new WP_Query('post_type=equipe_emploi');
@@ -130,7 +167,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12">
-		  <h2 class="equipe-role">Régionalisation</h2>
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
+
+		  <h2 class="equipe-role"><?php the_field('titre_role5')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 			<div class="card-group equipe justify-content-center">
 			<?php
   $region = new WP_Query('post_type=equipe_region');
@@ -152,7 +198,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12">
-		  <h2 class="equipe-role">Soutien scolaire</h2>
+		<?php
+  $role = new WP_Query('post_type=titre_equipe');
+  while ($role->have_posts()) : $role->the_post(); 
+?>
+
+		  <h2 class="equipe-role"><?php the_field('titre_role6')?></h2>
+
+		  <?php   endwhile;
+  wp_reset_postdata();
+?>  
 		
 			<div class="card-group equipe justify-content-center">
 			<?php
@@ -171,6 +226,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   wp_reset_postdata();
 ?>
 	</div>
+</div>
+</div>
 </div>
 
 </section>
