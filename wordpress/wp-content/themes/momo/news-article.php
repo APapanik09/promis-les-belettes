@@ -1,6 +1,7 @@
 <?php 
 /**
  * 	Template Name: Nouvelle Article
+ *  Template Post Type: Nouvelle, nouvelle, post
  * 	Identique à page, mais avec une barre latérale
  */
 
