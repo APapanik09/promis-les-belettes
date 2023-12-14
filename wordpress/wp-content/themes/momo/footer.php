@@ -83,6 +83,7 @@
 </footer> 
 <!-- fin footer -->
 
+<!-- CECI EST LE MAIN.JS-->
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -94,12 +95,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js "></script>
 
-
 <?php wp_footer(); 
 /* Espace où WordPress peut insérer des fichiers .js et autres. Par exemple pour des extensions (plugins). 
 	 Si vous enlevez cette fonction, vous désactiverez du même coup toutes vos extensions (plugins) 🤷. 
 	 Vous pouvez la déplacer si désiré, mais garder là. */
 ?>
+<!-- LE MAIN.JS ETAIS ICI AVANT LOLOLOLOLOL-->
+
 
 </body>
 

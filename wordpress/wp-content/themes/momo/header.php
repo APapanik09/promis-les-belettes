@@ -45,7 +45,7 @@
             <div class="banniere__lienPromis">
                 <p>Projet étudiant créé par Les belettes basé sur<a href="https://promis.qc.ca/fr/"> le site Promis
                         .</a></p>
-                <div class="quitter"><img src="../media/x.png" alt="bouton x"></div>
+                <div class="quitter"><img src="" alt="bouton x"></div>
             </div>
         </div>
         <section class="barreNav">
@@ -59,7 +59,7 @@
 
                     <!-- Navigation -->
                     <a class="navbar__logo navbar-brand" href="index.html"><img
-                            src="<?php bloginfo('template_url'); ?>/media/image/logo_orange.png" alt=""></a>
+                            src="" alt=""></a>
                     <div id="mainNav" class="collapse navbar-collapse">
 
                         <?php

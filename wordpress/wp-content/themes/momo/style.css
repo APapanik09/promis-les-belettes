@@ -10280,4 +10280,8 @@ iframe {
 /*  fin ajuster les styles selon les differents dimensions*/
 .partenaires a {
   text-align: center;
+}
+
+.desactiver {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
