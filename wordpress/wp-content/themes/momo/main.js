@@ -1,291 +1,228 @@
-/* Wow, tellement un beau spot pour écrire du JS */
-
+// Hub de nouvelles FETCH API
 
 let btnPlusNews = document.querySelector(".plusnews");
- // console.log(btnPlusNews); good
-/*************************DEBUT HUB DE NOUVELLES  (FONCTIONNE UNIQUEMENT QUE SUR HUB DE NOUVELLE)**********************/
 if (document.querySelector("body").classList[1] == "page-template-news-hub") {
 
-   // console.log("bonne page");
+    let cardBox;
+    let startCard = 0;
+    let newsOrder = document.querySelector(".news_hub_order");
+    let newsGroup = document.querySelector(".news_hub_group");
 
-
-    // selection du menus déroulant
-    let menuDeroulant = document.querySelector(".news_hub_order");
-    let zoneCarte = document.querySelector(".hubNouvelleswrapup__cardWrapup");
-    let carteContainer;
-    let nbDeCartePresente = 0;
-
-    // addeventlistener qui s'active lorsque le menu deroulant de modifie
-    menuDeroulant.addEventListener("change", function () {
-        console.log("la valeur change");
-        carteContainer = "";
-        nbDeCartePresente = 0;
+    newsOrder.addEventListener("change", function () {
+        cardBox = "";
+        startCard = 0;
 
         for(let i = 0; i<btnPlusNews.classList.length;i++){
-            if(btnPlusNews.classList[i] == "desactiver"){
+            if(btnPlusNews.classList[i] == "disappear"){
                 btnPlusNews.classList.remove(btnPlusNews.classList[i]);
             }
         }
+// If + fetch API pour faire l'ordre de nouvelles old et new
 
-        // Si le menu déroulant est selectionner sur Nouvelles récentes, fetch dans l'ordre des nouvelles récentes
-        if (menuDeroulant.value == "recent") {
+        if (newsOrder.value == "new") {
             console.log("nouvelles récentes");
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=desc")
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
-                    for (let i = nbDeCartePresente; i < 6; i++) {
+                    for (let i = startCard; i < 6; i++) {
 
-                        carteContainer = carteContainer + `<div class="card">
+                        cardBox = cardBox + `<div class="card">
             <img src="https://wallpapers.com/images/hd/sleeping-cat-pictures-45sdgf4acdtd8gdo.jpg" class="card-img-top"
                 alt="image de la nouvelle 1">
             <div class="card-body">
                 <h4 class="card-title">${data[i].title.rendered}</h4>
                 <a href="${data[i].link}">
-                <button>En savoir plus</button>
+                <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                 </a>
             </div>
         </div>`;
 
-                        nbDeCartePresente++;
+                        startCard++;
 
                     }
-                    zoneCarte.innerHTML = carteContainer;
+                    newsGroup.innerHTML = cardBox;
                 });
         }
 
-
-        // Si le menu déroulant est selectionner sur Nouvelles anciennes, fetch dans l'ordre des nouvelles anciennes
-        else if (menuDeroulant.value == "anciens") {
-            console.log("nouvelles anciennes");
+        else if (newsOrder.value == "old") {
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=asc")
                 .then(response => response.json())
                 .then(data => {
-                    for (let i = nbDeCartePresente; i < 6; i++) {
+                    for (let i = startCard; i < 6; i++) {
 
-                        carteContainer = carteContainer + `<div class="card">
+                        cardBox = cardBox + `<div class="card">
             <img src="https://wallpapers.com/images/hd/sleeping-cat-pictures-45sdgf4acdtd8gdo.jpg" class="card-img-top"
                 alt="image de la nouvelle 1">
             <div class="card-body">
                 <h4 class="card-title">${data[i].title.rendered}</h4>
                 <a href="${data[i].link}">
-                <button>En savoir plus</button>
+                <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                 </a>
             </div>
         </div>`;
-                        nbDeCartePresente++;
+                        startCard++;
                     }
 
-                    zoneCarte.innerHTML = carteContainer;
+                    newsGroup.innerHTML = cardBox;
                 });
-
-
         }
 
     })
 
 
-
-
-    // FUNCTION POUR QUI FAIS AFFICHER LES NOUVELLES LORSQUE L'UTILISATEUR OUVRE LA PAGE OUVRE POUR LA PREMIERE FOI
-    /********************************Début function initialisation***************************/
-    function initialisePageHubNouvelle() {
-        carteContainer = "";
-        // Si le menu déroulant est selectionner sur Nouvelles récentes, fetch dans l'ordre des nouvelles récentes
-        if (menuDeroulant.value == "recent") {
+// "bootup" initial de la page hub de nouvelles pour les utilisateurs
+    function bootHub() {
+        cardBox = "";
+        if (newsOrder.value == "new") {
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=desc")
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
-                    for (let i = nbDeCartePresente; i < 6; i++) {
-                        carteContainer = carteContainer + `<div class="card">
+                    for (let i = startCard; i < 6; i++) {
+                        cardBox = cardBox + `<div class="card">
             <img src="https://wallpapers.com/images/hd/sleeping-cat-pictures-45sdgf4acdtd8gdo.jpg" class="card-img-top"
                 alt="image de la nouvelle 1">
             <div class="card-body">
                 <h4 class="card-title">${data[i].title.rendered}</h4>
                 <a href="${data[i].link}">
-                <button>En savoir plus</button>
+                <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                 </a>
             </div>
         </div>`;
-
-                        nbDeCartePresente++;
+                        startCard++;
                     }
-                    zoneCarte.innerHTML = carteContainer;
+                    newsGroup.innerHTML = cardBox;
                 });
         }
-
-
-        // Si le menu déroulant est selectionner sur Nouvelles anciennes, fetch dans l'ordre des nouvelles anciennes
-        else if (menuDeroulant.value == "anciens") {
+        else if (newsOrder.value == "old") {
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=asc")
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
-                    for (let i = nbDeCartePresente; i < 6; i++) {
+                    for (let i = startCard; i < 6; i++) {
 
-                        carteContainer = carteContainer + `<div class="card">
+                        cardBox = cardBox + `<div class="card">
             <img src="https://wallpapers.com/images/hd/sleeping-cat-pictures-45sdgf4acdtd8gdo.jpg" class="card-img-top"
                 alt="image de la nouvelle 1">
             <div class="card-body">
                 <h4 class="card-title">${data[i].title.rendered}</h4>
                 <a href="${data[i].link}">
-                <button>En savoir plus</button>
+                <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                 </a>
             </div>
         </div>`;
-
-                        nbDeCartePresente++;
+                        startCard++;
 
                     }
-
-                    zoneCarte.innerHTML = carteContainer;
+                    newsGroup.innerHTML = cardBox;
                 });
         }
     }
 
-    /********************************Fin function initialisation***************************/
-
-
-
-
-    /**********************************début btn qui rajoute des nouvelles*************************************/
+// Btn "Voir plus de nouvelles"
     btnPlusNews.addEventListener("click", function () {
 
-        let nbMaxDeCarte = nbDeCartePresente;
+        let maxCard = startCard;
 
-        // Si le menu déroulant est selectionner sur Nouvelles récentes, fetch dans l'ordre des nouvelles récentes
-        if (menuDeroulant.value == "recent") {
+        if (newsOrder.value == "new") {
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=desc")
                 .then(response => response.json())
                 .then(data => {
 
+  if (data.length - 6 > startCard) {
+    for (let i = startCard; i < 6; i++) {
 
-
-
-  // Si il reste plus de 6 nouvelles, affiche 6 nouvelles
-  if (data.length - 6 > nbDeCartePresente) {
-    for (let i = nbDeCartePresente; i < 6; i++) {
-
-        carteContainer = carteContainer + `<div class="card">
+        cardBox = cardBox + `<div class="card">
 <img src="https://images.axios.com/XpQ_Vg7_EzUH1kmHRwHjc07m3D4=/360x0:1440x1080/1920x1920/2023/11/06/1699311078538.jpg" class="card-img-top"
     alt="image de la nouvelle 1">
 <div class="card-body">
     <h4 class="card-title">${data[i].title.rendered}</h4>
     <a href="${data[i].link}">
-    <button>En savoir plus</button>
+    <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
     </a>
 </div>
 </div>`;
-        nbDeCartePresente++;
+        startCard++;
     }
 }
-// Si il reste moins de 6 nouvelles, calcul le nombre de nouvelles restantes et les affiches
 else {
-    for (let i = nbDeCartePresente; i < data.length; i++) {
-        nbMaxDeCarte++;
+    for (let i = startCard; i < data.length; i++) {
+        maxCard++;
     };
-    for (let i = nbDeCartePresente; i < nbMaxDeCarte; i++) {
-        carteContainer = carteContainer + `<div class="card">
+    for (let i = startCard; i < maxCard; i++) {
+        cardBox = cardBox + `<div class="card">
 <img src="https://images.axios.com/XpQ_Vg7_EzUH1kmHRwHjc07m3D4=/360x0:1440x1080/1920x1920/2023/11/06/1699311078538.jpg" class="card-img-top"
 alt="image de la nouvelle 1">
 <div class="card-body">
 <h4 class="card-title">${data[i].title.rendered}</h4>
 <a href="${data[i].link}">
-<button>En savoir plus</button>
+<h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
 </a>
 </div>
 </div>`;
-        nbDeCartePresente++;
+        startCard++;
 
 
     }
-    // rajoute un style sur le bouton qui fais disparaitre le bouton
-    btnPlusNews.classList.add("desactiver");
+// Enleve bouton avec une détection de class (coder plus haut)
+    btnPlusNews.classList.add("disappear");
 }
 
-
-
-zoneCarte.innerHTML = carteContainer;
-
-
-
+newsGroup.innerHTML = cardBox;
 
                 });
         }
 
-
-        // Si le menu déroulant est selectionner sur Nouvelles anciennes, fetch dans l'ordre des nouvelles anciennes
-        else if (menuDeroulant.value == "anciens") {
+        else if (newsOrder.value == "old") {
             fetch("http://localhost/promis-les-belettes/wordpress/wp-json/wp/v2/nouvelle?orderby=date&order=asc")
                 .then(response => response.json())
                 .then(data => {
 
-                // Si il reste plus de 6 nouvelles, affiche 6 nouvelles
-                    if (data.length - 6 > nbDeCartePresente) {
-                        for (let i = nbDeCartePresente; i < 6; i++) {
+                    if (data.length - 6 > startCard) {
+                        for (let i = startCard; i < 6; i++) {
 
-                            carteContainer = carteContainer + `<div class="card">
+                            cardBox = cardBox + `<div class="card">
                     <img src="https://images.axios.com/XpQ_Vg7_EzUH1kmHRwHjc07m3D4=/360x0:1440x1080/1920x1920/2023/11/06/1699311078538.jpg" class="card-img-top"
                         alt="image de la nouvelle 1">
                     <div class="card-body">
                         <h4 class="card-title">${data[i].title.rendered}</h4>
                         <a href="${data[i].link}">
-                        <button>En savoir plus</button>
+                        <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                         </a>
                     </div>
                 </div>`;
-                            nbDeCartePresente++;
+                            startCard++;
                         }
                     }
-                    // Si il reste moins de 6 nouvelles, calcul le nombre de nouvelles restantes et les affiches
                     else {
-                        for (let i = nbDeCartePresente; i < data.length; i++) {
-                            nbMaxDeCarte++;
+                        for (let i = startCard; i < data.length; i++) {
+                            maxCard++;
                         };
-                        for (let i = nbDeCartePresente; i < nbMaxDeCarte; i++) {
-                            carteContainer = carteContainer + `<div class="card">
+                        for (let i = startCard; i < maxCard; i++) {
+                            cardBox = cardBox + `<div class="card">
                 <img src="https://images.axios.com/XpQ_Vg7_EzUH1kmHRwHjc07m3D4=/360x0:1440x1080/1920x1920/2023/11/06/1699311078538.jpg" class="card-img-top"
                     alt="image de la nouvelle 1">
                 <div class="card-body">
                     <h4 class="card-title">${data[i].title.rendered}</h4>
                     <a href="${data[i].link}">
-                    <button>En savoir plus</button>
+                    <h5 class="card-text"><small class="text-muted">En savoir plus ></small></h5>
                     </a>
                 </div>
             </div>`;
-                            nbDeCartePresente++;
-
+                            startCard++;
 
                         }
-                        // rajoute un style sur le bouton qui fais disparaitre le bouton
-                        btnPlusNews.classList.add("desactiver");
+
+                        btnPlusNews.classList.add("disappear");
                     }
-
-
-
-                    zoneCarte.innerHTML = carteContainer;
-
+                    newsGroup.innerHTML = cardBox;
                 });
         }
     })
-    /***************************************Fin btn qui rajoute des nouvelles*********************************/
-
-
-
-
-
-
-    // fais apparaitre les nouvelles lors du chargement de la page
-    initialisePageHubNouvelle();
+    // appelle la fonction
+    bootHub();
 }
-
-/*********************************************FIN HUB DE NOUVELLES****************************************/
-
-// Modal Equipe
-//$('#myModal').modal(options)
-
-
 
 /* Swipper carrouselle de l'héro de l'accueil
 ****************************************************/

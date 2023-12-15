@@ -32,19 +32,19 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     </section>
     <!-- Fin Hero -->
     <!-- Début Cartes de nouvelles -->
-    <section class="hubNouvelles">
-            <div class="hubNouvelleswrapup">
-                <select class="news_hub_order">
-                    <option value="recent">+ récent</option>
-                    <option value="anciens">+ anciens</option>
+    <section class="container-fluid">
+                  <div class="container-fluid">
+                  <div class="row flex-wrap justify-content-center">
+                  <div class="col-lg-4 col-md-4 col-sm-12 justify-content-center">          
+                    <select class="dropdown order news_hub_order justify-content-center text-align-center">
+                    <option value="new">+ récent</option>
+                    <option value="old">+ anciens</option>
                   </select>
-                <div class="hubNouvelleswrapup__cardWrapup">
-
-                    <!-- cartes inserer grace a main.js-->
-
+                <div class="news_hub_group equipe justify-content-center d-flex flex-wrap">
                 </div>
-
                 <button class="plusnews btn">Voir plus de nouvelles</button>
+            </div>
+            </div>
             </div>
         </section>
 
